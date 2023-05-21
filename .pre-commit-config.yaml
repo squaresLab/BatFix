@@ -15,3 +15,6 @@ repos:
          name: cargo fmt
          language: system
          entry: bash -c 'cargo fmt'
+
+ci:
+  skip: [cargo-fmt]
