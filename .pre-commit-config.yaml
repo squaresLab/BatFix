@@ -9,9 +9,8 @@ repos:
     rev: 22.10.0
     hooks:
     -   id: black
-repos:
-   - repo: local
-     hooks:
+-   repo: local
+    hooks:
        - id: cargo-fmt
          name: cargo fmt
          language: system
