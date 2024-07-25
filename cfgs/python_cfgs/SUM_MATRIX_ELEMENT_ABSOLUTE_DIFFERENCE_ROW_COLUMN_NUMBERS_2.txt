@@ -1,0 +1,10 @@
+1;statement;n -= 1;statement
+2;statement;sum = 0;statement
+3;statement;sum += n * (n + 1) / 2;statement
+4;statement;sum += n * (n + 1) * (2 * n + 1) / 6;statement
+5;statement;return int(sum);statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;

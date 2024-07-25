@@ -1,0 +1,14 @@
+1;statement;i = 1;statement
+2;statement;fact = 1;statement
+3;statement;range(1, x);conditional
+4;statement;fact = fact * i;statement
+5;statement;fact % x == 0;conditional
+6;statement;return i;statement
+7;statement;return i;statement
+0;1;
+1;2;
+2;4;6;
+3;4;
+4;6;2;
+5;
+6;

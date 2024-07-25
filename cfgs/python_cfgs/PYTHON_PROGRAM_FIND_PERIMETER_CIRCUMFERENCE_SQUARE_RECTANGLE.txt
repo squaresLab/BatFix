@@ -1,0 +1,2 @@
+1;statement;return 4 * a;statement
+0;

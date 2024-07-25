@@ -1,0 +1,12 @@
+1;statement;multiTerms = n * (n + 1) // 2;statement
+2;statement;sm = multiTerms;statement
+3;statement;range(2, n + 1);conditional
+4;statement;multiTerms = multiTerms - (i - 1);statement
+5;statement;sm = sm + multiTerms * i;statement
+6;statement;return sm;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

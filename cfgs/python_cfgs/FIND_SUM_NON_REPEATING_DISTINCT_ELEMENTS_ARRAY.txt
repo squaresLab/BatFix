@@ -1,0 +1,16 @@
+1;statement;s = set();statement
+2;statement;sum = 0;statement
+3;statement;range(n);conditional
+4;statement;arr[i] not in s;conditional
+5;statement;s.add(arr[i]);statement
+6;statement;s;conditional
+7;statement;sum = sum + i;statement
+8;statement;return sum;statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;2;
+5;6;7;
+6;5;
+7;

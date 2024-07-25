@@ -1,0 +1,16 @@
+1;statement;mem = [[0 for i in range(s + 1)] for j in range(d + 1)];statement
+2;statement;mem[0][0] = 1;statement
+3;statement;range(1, d + 1);conditional
+4;statement;range(1, s + 1);conditional
+5;statement;mem[i][j] = mem[i][j - 1] + mem[i - 1][j - 1];statement
+6;statement;j - f - 1 >= 0;conditional
+7;statement;mem[i][j] -= mem[i - 1][j - f - 1];statement
+8;statement;return mem[d][s];statement
+0;1;
+1;2;
+2;3;7;
+3;5;2;
+4;5;
+5;6;3;
+6;3;
+7;

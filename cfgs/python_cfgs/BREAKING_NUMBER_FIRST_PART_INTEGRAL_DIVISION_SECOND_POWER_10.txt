@@ -1,0 +1,22 @@
+1;statement;length = len(N);statement
+2;statement;l = int(length / 2);statement
+3;statement;count = 0;statement
+4;statement;range(l + 1);conditional
+5;statement;s = N[0:0 + i];statement
+6;statement;l1 = len(s);statement
+7;statement;t = N[i:l1 + i];statement
+8;statement;s[0] == '0' or t[0] == '0';conditional
+9;statement;s == t;conditional
+10;statement;count += 1;statement
+11;statement;return count;statement
+0;1;
+1;2;
+2;3;
+3;7;10;
+4;5;
+5;6;
+6;7;
+7;8;3;
+8;3;9;3;
+9;3;
+10;

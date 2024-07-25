@@ -1,0 +1,28 @@
+1;statement;n = len(A);statement
+2;statement;pre_sum = [0] * (n + 1);statement
+3;statement;pre_sum[0] = 0;statement
+4;statement;range(n);conditional
+5;statement;pre_sum[i + 1] = pre_sum[i] + A[i];statement
+6;statement;dp = [0] * n;statement
+7;statement;sum = 0;statement
+8;statement;range(n);conditional
+9;statement;dp[i] = (pre_sum[n] - pre_sum[i]) / (n - i);statement
+10;statement;range(K - 1);conditional
+11;statement;range(n);conditional
+12;statement;range(i + 1, n);conditional
+13;statement;dp[i] = max(dp[i], (pre_sum[j] - pre_sum[i]) / (j - i) + dp[j]);statement
+14;statement;return int(dp[0]);statement
+0;1;
+1;2;
+2;3;
+3;4;6;
+4;3;
+5;6;
+6;7;
+7;8;9;
+8;7;
+9;10;13;
+10;11;9;
+11;12;10;
+12;11;
+13;

@@ -1,0 +1,6 @@
+1;statement;a == 0 or b == 0;conditional
+2;statement;return 1;statement
+3;statement;return math.floor(math.log10(abs(a)) + math.log10(abs(b))) + 1;statement
+0;1;2;
+1;
+2;

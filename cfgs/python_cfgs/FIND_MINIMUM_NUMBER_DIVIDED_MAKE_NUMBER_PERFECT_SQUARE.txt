@@ -1,0 +1,56 @@
+1;statement;count = 0;statement
+2;statement;ans = 1;statement
+3;statement;n % 2 == 0;conditional
+4;statement;count += 1;statement
+5;statement;n //= 2;statement
+6;statement;count % 2 is not 0;conditional
+7;statement;ans *= 2;statement
+8;statement;range(3, int(math.sqrt(n)) + 1, 2);conditional
+9;statement;range(3, int(math.sqrt(n)) + 1, 2);conditional
+10;statement;count = 0;statement
+11;statement;count = 0;statement
+12;statement;n % i == 0;conditional
+13;statement;n % i == 0;conditional
+14;statement;count += 1;statement
+15;statement;n //= i;statement
+16;statement;count += 1;statement
+17;statement;n //= i;statement
+18;statement;count % 2 is not 0;conditional
+19;statement;count % 2 is not 0;conditional
+20;statement;ans *= i;statement
+21;statement;ans *= i;statement
+22;statement;n > 2;conditional
+23;statement;n > 2;conditional
+24;statement;ans *= n;statement
+25;statement;ans *= n;statement
+26;statement;return ans;statement
+27;statement;return ans;statement
+28;statement;return ans;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;6;8;
+6;8;
+7;
+8;10;22;10;22;
+9;
+10;12;12;
+11;
+12;16;18;16;18;
+13;14;
+14;
+15;16;
+16;12;12;
+17;
+18;20;8;20;8;
+19;
+20;8;8;
+21;
+22;24;27;24;27;
+23;
+24;27;27;
+25;
+26;
+27;

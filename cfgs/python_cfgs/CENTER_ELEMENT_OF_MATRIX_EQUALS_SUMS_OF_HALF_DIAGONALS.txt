@@ -1,0 +1,36 @@
+1;statement;diag1_left = 0;statement
+2;statement;diag1_right = 0;statement
+3;statement;diag2_left = 0;statement
+4;statement;diag2_right = 0;statement
+5;statement;i = 0;statement
+6;statement;j = n - 1;statement
+7;statement;i < n;conditional
+8;statement;i < n // 2;conditional
+9;statement;diag1_left += mat[i][i];statement
+10;statement;diag2_left += mat[j][i];statement
+11;statement;i > n // 2;conditional
+12;statement;diag1_right += mat[i][i];statement
+13;statement;diag2_right += mat[j][i];statement
+14;statement;i += 1;statement
+15;statement;j -= 1;statement
+16;statement;i += 1;statement
+17;statement;j -= 1;statement
+18;statement;return diag1_left == diag2_right and diag2_right == diag2_left and (diag1_right == diag2_left) and (diag2_right == mat[n // 2][n // 2]);statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;17;
+7;9;10;
+8;9;
+9;16;
+10;12;16;
+11;12;
+12;16;
+13;14;
+14;
+15;16;
+16;6;6;
+17;

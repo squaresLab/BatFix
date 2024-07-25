@@ -1,0 +1,4 @@
+1;statement;fibo = 2.078087 * math.log(n) + 1.672276;statement
+2;statement;return round(fibo);statement
+0;1;
+1;

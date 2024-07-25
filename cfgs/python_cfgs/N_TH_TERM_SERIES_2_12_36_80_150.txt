@@ -1,0 +1,2 @@
+1;statement;return n * n + n * n * n;statement
+0;

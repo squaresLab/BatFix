@@ -1,0 +1,14 @@
+1;statement;a = [0 for i in range(n)];statement
+2;statement;b = [0 for i in range(n)];statement
+3;statement;a[0] = b[0] = 1;statement
+4;statement;range(1, n);conditional
+5;statement;a[i] = a[i - 1] + b[i - 1];statement
+6;statement;b[i] = a[i - 1];statement
+7;statement;return a[n - 1] + b[n - 1];statement
+0;1;
+1;2;
+2;3;
+3;5;6;
+4;5;
+5;3;
+6;

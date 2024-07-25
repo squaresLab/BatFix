@@ -1,0 +1,42 @@
+1;statement;n = len(number);statement
+2;statement;d = [0 for i in range(9)];statement
+3;statement;d[0] = 1;statement
+4;statement;result = 0;statement
+5;statement;mod_sum = 0;statement
+6;statement;continuous_zero = 0;statement
+7;statement;range(n);conditional
+8;statement;ord(number[i]) - ord('0') == 0;conditional
+9;statement;continuous_zero += 1;statement
+10;statement;continuous_zero = 0;statement
+11;statement;mod_sum += ord(number[i]) - ord('0');statement
+12;statement;mod_sum %= 9;statement
+13;statement;result += d[mod_sum];statement
+14;statement;d[mod_sum] += 1;statement
+15;statement;result -= continuous_zero;statement
+16;statement;mod_sum += ord(number[i]) - ord('0');statement
+17;statement;mod_sum %= 9;statement
+18;statement;result += d[mod_sum];statement
+19;statement;d[mod_sum] += 1;statement
+20;statement;result -= continuous_zero;statement
+21;statement;return result;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;20;
+7;8;9;
+8;19;
+9;19;
+10;11;
+11;12;
+12;13;
+13;14;
+14;
+15;16;
+16;17;
+17;18;
+18;19;
+19;6;6;
+20;

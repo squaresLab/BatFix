@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int i = 0;14;
+3;statement;int j = 0;15;
+4;statement;i = 0;16;
+5;conditional;foo_1 < foo_2;17;
+6;statement;j = 0;19;
+7;conditional;foo_1 < foo_2;20;
+8;conditional;foo_1[foo_2] == foo_3[foo_4];21;
+9;statement;break;21;
+10;statement;j++;21;
+11;conditional;foo_1 == foo_2;22;
+12;statement;return false;22;
+13;exit;;;
+14;statement;i++;18;
+15;statement;return true;24;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;15;
+5;7;
+6;8;11;
+7;9;10;
+8;11;
+9;7;
+10;12;14;
+11;13;
+12;
+13;5;
+14;13;

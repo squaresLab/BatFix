@@ -1,0 +1,4 @@
+1;statement;range(n);statement
+2;statement;arr[i] = i + 1;statement
+0;1;
+1;0;

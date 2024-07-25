@@ -1,0 +1,14 @@
+1;statement;mp = {};statement
+2;statement;maxDict = 0;statement
+3;statement;range(n);conditional
+4;statement;arr[i] not in mp.keys();conditional
+5;statement;mp[arr[i]] = i;statement
+6;statement;maxDict = max(maxDict, i - mp[arr[i]]);statement
+7;statement;return maxDict;statement
+0;1;
+1;2;
+2;3;6;
+3;4;5;
+4;2;
+5;2;
+6;

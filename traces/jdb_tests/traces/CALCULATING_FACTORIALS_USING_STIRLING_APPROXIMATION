@@ -1,0 +1,5 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'CALCULATING_FACTORIALS_USING_STIRLING_APPROXIMATION.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: if ( n == 1 ) return 1 ;
+Line: 14
+n = 1.0

@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int curr_sum = 0;14;
+3;statement;int min_len = foo_1 + 1;14;
+4;statement;int start = 0;15;
+5;statement;int end = 0;15;
+6;conditional;foo_1 < foo_2;16;
+7;conditional;(foo_1 <= foo_2) && (foo_3 < foo_4);17;
+8;statement;curr_sum += foo_1[end++];17;
+9;conditional;(foo_1 > foo_2) && (foo_3 < foo_4);18;
+10;conditional;(foo_1 - foo_2) < foo_3;19;
+11;statement;min_len = foo_1 - foo_2;19;
+12;statement;curr_sum -= foo_1[start++];20;
+13;statement;return foo_1;23;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;13;7;
+6;9;8;
+7;7;
+8;6;10;
+9;11;12;
+10;12;
+11;9;
+12;14;
+13;

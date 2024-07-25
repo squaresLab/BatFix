@@ -1,0 +1,10 @@
+1;statement;leafNodeCount = math.pow(2, l - 1);statement
+2;statement;sumLastLevel = 0;statement
+3;statement;sumLastLevel = leafNodeCount * (leafNodeCount + 1) / 2;statement
+4;statement;sum = sumLastLevel * l;statement
+5;statement;return int(sum);statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;

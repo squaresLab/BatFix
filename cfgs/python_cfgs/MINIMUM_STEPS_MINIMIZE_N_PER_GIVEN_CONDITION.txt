@@ -1,0 +1,22 @@
+1;statement;table = [0] * (n + 1);statement
+2;statement;range(n + 1);conditional
+3;statement;table[i] = n - i;statement
+4;statement;range(n, 0, -1);conditional
+5;statement;not i % 2;conditional
+6;statement;table[i // 2] = min(table[i] + 1, table[i // 2]);statement
+7;statement;not i % 3;conditional
+8;statement;not i % 3;conditional
+9;statement;table[i // 3] = min(table[i] + 1, table[i // 3]);statement
+10;statement;table[i // 3] = min(table[i] + 1, table[i // 3]);statement
+11;statement;return table[1];statement
+0;1;
+1;2;3;
+2;1;
+3;4;10;
+4;5;7;
+5;7;
+6;
+7;9;3;9;3;
+8;
+9;3;3;
+10;

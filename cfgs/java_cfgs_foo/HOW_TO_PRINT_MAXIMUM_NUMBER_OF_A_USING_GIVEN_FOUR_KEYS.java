@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 <= 6;14;
+3;statement;return foo_1;14;
+4;exit;;;
+5;statement;int[] screen = new int[foo_1];15;
+6;statement;int b;16;
+7;statement;int n;17;
+8;statement;n = 1;18;
+9;conditional;foo_1 <= 6;19;
+10;statement;foo_1[foo_2 - 1] = foo_3;20;
+11;statement;n++;20;
+12;statement;n = 7;21;
+13;conditional;foo_1 <= foo_2;22;
+14;statement;foo_1[foo_2 - 1] = fun_1(2 * foo_3[foo_4 - 4], fun_2(3 * foo_5[foo_6 - 5], 4 * foo_7[foo_8 - 6]));24;
+15;statement;n++;23;
+16;statement;return foo_1[foo_2 - 1];26;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;
+8;10;12;
+9;11;
+10;9;
+11;13;
+12;14;16;
+13;15;
+14;13;
+15;4;

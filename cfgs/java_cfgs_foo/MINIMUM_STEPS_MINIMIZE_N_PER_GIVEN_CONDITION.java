@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int[] table = new int[foo_1 + 1];14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 <= foo_2;16;
+5;statement;foo_1[foo_2] = foo_3 - foo_4;17;
+6;statement;i++;17;
+7;statement;int i = foo_1;18;
+8;conditional;foo_1 >= 1;19;
+9;conditional;!((foo_1 % 2) > 0);21;
+10;statement;foo_1[foo_2 / 2] = fun_1(foo_3[foo_4] + 1, foo_5[foo_6 / 2]);21;
+11;conditional;!((foo_1 % 3) > 0);22;
+12;statement;foo_1[foo_2 / 3] = fun_1(foo_3[foo_4] + 1, foo_5[foo_6 / 3]);22;
+13;statement;i--;20;
+14;statement;return foo_1[1];24;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;7;
+4;6;
+5;4;
+6;8;
+7;9;14;
+8;10;11;
+9;11;
+10;12;13;
+11;13;
+12;8;
+13;15;
+14;

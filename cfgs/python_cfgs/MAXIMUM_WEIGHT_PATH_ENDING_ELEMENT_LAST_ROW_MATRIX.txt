@@ -1,0 +1,24 @@
+1;statement;dp = [[0 for i in range(N)] for j in range(N)];statement
+2;statement;dp[0][0] = mat[0][0];statement
+3;statement;range(1, N);conditional
+4;statement;dp[i][0] = mat[i][0] + dp[i - 1][0];statement
+5;statement;range(1, N);conditional
+6;statement;range(1, min(i + 1, N));conditional
+7;statement;dp[i][j] = mat[i][j] + max(dp[i - 1][j - 1], dp[i - 1][j]);statement
+8;statement;result = 0;statement
+9;statement;range(N);conditional
+10;statement;result < dp[N - 1][i];conditional
+11;statement;result = dp[N - 1][i];statement
+12;statement;return result;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;7;
+5;6;4;
+6;5;
+7;8;
+8;9;11;
+9;10;8;
+10;8;
+11;

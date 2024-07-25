@@ -1,0 +1,14 @@
+1;statement;max1 = max(arr);statement
+2;statement;res = 0;statement
+3;statement;range(0, n);conditional
+4;statement;(max1 - arr[i]) % k != 0;conditional
+5;statement;return -1;statement
+6;statement;res += (max1 - arr[i]) / k;statement
+7;statement;return int(res);statement
+0;1;
+1;2;
+2;3;6;
+3;4;5;
+4;
+5;2;
+6;

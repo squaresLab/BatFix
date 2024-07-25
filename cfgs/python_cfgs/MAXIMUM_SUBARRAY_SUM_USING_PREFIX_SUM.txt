@@ -1,0 +1,20 @@
+1;statement;min_prefix_sum = 0;statement
+2;statement;res = -math.inf;statement
+3;statement;prefix_sum = [];statement
+4;statement;prefix_sum.append(arr[0]);statement
+5;statement;range(1, n);conditional
+6;statement;prefix_sum.append(prefix_sum[i - 1] + arr[i]);statement
+7;statement;range(n);conditional
+8;statement;res = max(res, prefix_sum[i] - min_prefix_sum);statement
+9;statement;min_prefix_sum = min(min_prefix_sum, prefix_sum[i]);statement
+10;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;6;
+5;4;
+6;8;9;
+7;8;
+8;6;
+9;

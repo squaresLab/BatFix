@@ -1,0 +1,18 @@
+1;statement;n <= 0;conditional
+2;statement;return 0;statement
+3;statement;fibo = [0] * (n + 1);statement
+4;statement;fibo[1] = 1;statement
+5;statement;sm = fibo[0] + fibo[1];statement
+6;statement;range(2, n + 1);conditional
+7;statement;fibo[i] = fibo[i - 1] + fibo[i - 2];statement
+8;statement;sm = sm + fibo[i];statement
+9;statement;return sm;statement
+0;1;4;
+1;
+2;3;
+3;4;
+4;5;
+5;7;8;
+6;7;
+7;5;
+8;

@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int[][] mat = new int[2][foo_1 + 1];9;
+3;statement;int i = 0;10;
+4;conditional;foo_1 < foo_2;11;
+5;statement;int j = 0;12;
+6;conditional;(foo_1 % 2) != 0;13;
+7;conditional;(++j) <= foo_1;14;
+8;conditional;foo_1[foo_2] <= foo_3;15;
+9;statement;foo_1[1][foo_2] = fun_1(foo_3[foo_4] + foo_5[0][foo_6 - foo_7[foo_8]], foo_9[0][foo_10]);16;
+10;statement;foo_1[1][foo_2] = foo_3[0][foo_4];18;
+11;conditional;(++j) <= foo_1;22;
+12;conditional;foo_1[foo_2] <= foo_3;23;
+13;statement;foo_1[0][foo_2] = fun_1(foo_3[foo_4] + foo_5[1][foo_6 - foo_7[foo_8]], foo_9[1][foo_10]);24;
+14;statement;foo_1[0][foo_2] = foo_3[1][foo_4];26;
+15;statement;i++;30;
+16;statement;return (foo_1 % 2) != 0 ? foo_2[0][foo_3] : foo_4[1][foo_5];32;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;16;5;
+4;6;
+5;7;11;
+6;15;8;
+7;9;10;
+8;7;
+9;7;
+10;15;12;
+11;13;14;
+12;11;
+13;11;
+14;4;
+15;17;
+16;

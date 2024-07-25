@@ -1,0 +1,22 @@
+1;statement;C = [[0 for x in range(n + 1)] for y in range(n + 1)];statement
+2;statement;range(0, n + 1);conditional
+3;statement;range(0, min(i, n + 1));conditional
+4;statement;j == 0 or j == i;conditional
+5;statement;C[i][j] = 1;statement
+6;statement;C[i][j] = C[i - 1][j - 1] + C[i - 1][j];statement
+7;statement;sum = 0;statement
+8;statement;range(0, n + 1);conditional
+9;statement;n % 2 == 0;conditional
+10;statement;sum = sum + C[n][i];statement
+11;statement;return sum;statement
+0;1;
+1;2;6;
+2;3;1;
+3;4;5;
+4;2;
+5;2;
+6;7;
+7;8;10;
+8;9;7;
+9;7;
+10;

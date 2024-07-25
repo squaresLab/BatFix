@@ -1,0 +1,36 @@
+1;statement;fw = [0 for k in range(n)];statement
+2;statement;bw = [0 for k in range(n)];statement
+3;statement;(cur_max, max_so_far) = (arr[0], arr[0]);statement
+4;statement;range(n);conditional
+5;statement;cur_max = max(arr[i], cur_max + arr[i]);statement
+6;statement;max_so_far = max(max_so_far, cur_max);statement
+7;statement;fw[i] = cur_max;statement
+8;statement;cur_max = max_so_far = bw[n - 1] = arr[n - 1];statement
+9;statement;i = n - 2;statement
+10;statement;i >= 0;conditional
+11;statement;cur_max = max(arr[i], cur_max + arr[i]);statement
+12;statement;max_so_far = max(max_so_far, cur_max);statement
+13;statement;bw[i] = cur_max;statement
+14;statement;i -= 1;statement
+15;statement;fans = max_so_far;statement
+16;statement;range(1, n - 1);conditional
+17;statement;fans = max(fans, fw[i - 1] + bw[i + 1]);statement
+18;statement;return fans;statement
+0;1;
+1;2;
+2;3;
+3;6;8;
+4;5;
+5;6;
+6;3;
+7;8;
+8;9;
+9;13;14;
+10;11;
+11;12;
+12;13;
+13;9;
+14;15;
+15;16;17;
+16;15;
+17;

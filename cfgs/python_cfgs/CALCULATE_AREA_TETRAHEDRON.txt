@@ -1,0 +1,4 @@
+1;statement;volume = side ** 3 / (6 * math.sqrt(2));statement
+2;statement;return round(volume, 2);statement
+0;1;
+1;

@@ -1,0 +1,16 @@
+1;statement;arr.sort();statement
+2;statement;min_xor = 999999;statement
+3;statement;val = 0;statement
+4;statement;range(0, n - 1);conditional
+5;statement;range(i + 1, n - 1);conditional
+6;statement;val = arr[i] ^ arr[j];statement
+7;statement;min_xor = min(min_xor, val);statement
+8;statement;return min_xor;statement
+0;1;
+1;2;
+2;3;
+3;4;7;
+4;6;3;
+5;6;
+6;4;
+7;

@@ -1,0 +1,14 @@
+1;statement;range(0, n, 2);statement
+2;statement;i > 0 and arr[i] < arr[i - 1];conditional
+3;statement;(arr[i], arr[i - 1]) = (arr[i - 1], arr[i]);statement
+4;statement;i < n - 1 and arr[i] < arr[i + 1];conditional
+5;statement;i < n - 1 and arr[i] < arr[i + 1];conditional
+6;statement;(arr[i], arr[i + 1]) = (arr[i + 1], arr[i]);statement
+7;statement;(arr[i], arr[i + 1]) = (arr[i + 1], arr[i]);statement
+0;1;
+1;2;4;
+2;4;
+3;
+4;6;0;6;0;
+5;
+6;0;0;

@@ -1,0 +1,18 @@
+1;statement;sum = 0;statement
+2;statement;i = 2;statement
+3;statement;i * i <= num;conditional
+4;statement;num % i == 0;conditional
+5;statement;sum += i;statement
+6;statement;num /= i;statement
+7;statement;i += 1;statement
+8;statement;sum += num;statement
+9;statement;return sum;statement
+0;1;
+1;2;
+2;3;8;
+3;5;6;
+4;5;
+5;3;
+6;2;
+7;8;
+8;

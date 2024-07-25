@@ -1,0 +1,28 @@
+1;statement;temp = n * [None];statement
+2;statement;(small, large) = (0, n - 1);statement
+3;statement;flag = True;statement
+4;statement;range(n);conditional
+5;statement;flag is True;conditional
+6;statement;temp[i] = arr[large];statement
+7;statement;large -= 1;statement
+8;statement;temp[i] = arr[small];statement
+9;statement;small += 1;statement
+10;statement;flag = bool(1 - flag);statement
+11;statement;flag = bool(1 - flag);statement
+12;statement;range(n);conditional
+13;statement;arr[i] = temp[i];statement
+14;statement;return arr;statement
+0;1;
+1;2;
+2;3;
+3;4;11;
+4;6;8;
+5;6;
+6;10;
+7;8;
+8;10;
+9;
+10;3;3;
+11;12;13;
+12;11;
+13;

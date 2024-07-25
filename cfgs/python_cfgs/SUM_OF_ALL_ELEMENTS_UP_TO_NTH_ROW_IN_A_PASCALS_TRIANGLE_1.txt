@@ -1,0 +1,6 @@
+1;statement;sum = 0;statement
+2;statement;sum = 1 << n;statement
+3;statement;return sum - 1;statement
+0;1;
+1;2;
+2;

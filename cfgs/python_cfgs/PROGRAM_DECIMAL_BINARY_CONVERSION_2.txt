@@ -1,0 +1,18 @@
+1;statement;B_Number = 0;statement
+2;statement;cnt = 0;statement
+3;statement;N != 0;conditional
+4;statement;rem = N % 2;statement
+5;statement;c = pow(10, cnt);statement
+6;statement;B_Number += rem * c;statement
+7;statement;N //= 2;statement
+8;statement;cnt += 1;statement
+9;statement;return B_Number;statement
+0;1;
+1;2;
+2;7;8;
+3;4;
+4;5;
+5;6;
+6;7;
+7;2;
+8;

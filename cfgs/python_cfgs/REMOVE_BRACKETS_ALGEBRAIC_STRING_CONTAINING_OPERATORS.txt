@@ -1,0 +1,76 @@
+1;statement;Len = len(Str);statement
+2;statement;res = [None] * Len;statement
+3;statement;index = 0;statement
+4;statement;i = 0;statement
+5;statement;s = [];statement
+6;statement;s.append(0);statement
+7;statement;i < Len;conditional
+8;statement;Str[i] == '+';conditional
+9;statement;s[-1] == 1;conditional
+10;statement;res[index] = '-';statement
+11;statement;index += 1;statement
+12;statement;s[-1] == 0;conditional
+13;statement;s[-1] == 0;conditional
+14;statement;res[index] = '+';statement
+15;statement;index += 1;statement
+16;statement;res[index] = '+';statement
+17;statement;index += 1;statement
+18;statement;Str[i] == '-';conditional
+19;statement;s[-1] == 1;conditional
+20;statement;res[index] = '+';statement
+21;statement;index += 1;statement
+22;statement;s[-1] == 0;conditional
+23;statement;res[index] = '-';statement
+24;statement;index += 1;statement
+25;statement;Str[i] == '(' and i > 0;conditional
+26;statement;Str[i - 1] == '-';conditional
+27;statement;x = 0 if s[-1] == 1 else 1;statement
+28;statement;s.append(x);statement
+29;statement;Str[i - 1] == '+';conditional
+30;statement;s.append(s[-1]);statement
+31;statement;Str[i] == ')';conditional
+32;statement;s.pop();statement
+33;statement;res[index] = Str[i];statement
+34;statement;index += 1;statement
+35;statement;i += 1;statement
+36;statement;i += 1;statement
+37;statement;i += 1;statement
+38;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;37;
+7;8;17;
+8;10;12;
+9;10;
+10;12;
+11;
+12;16;36;16;36;
+13;14;
+14;
+15;16;
+16;36;36;
+17;18;24;
+18;20;21;
+19;20;
+20;36;
+21;23;36;
+22;23;
+23;36;
+24;25;30;
+25;27;28;
+26;27;
+27;36;
+28;29;36;
+29;36;
+30;31;33;
+31;36;
+32;33;
+33;36;
+34;
+35;
+36;6;6;6;
+37;

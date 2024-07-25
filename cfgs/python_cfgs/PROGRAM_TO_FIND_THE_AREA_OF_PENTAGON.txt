@@ -1,0 +1,4 @@
+1;statement;area = sqrt(5 * (5 + 2 * sqrt(5))) * a * a / 4;statement
+2;statement;return area;statement
+0;1;
+1;

@@ -1,0 +1,26 @@
+1;statement;range(n);conditional
+2;statement;curr_sum = arr[i];statement
+3;statement;j = i + 1;statement
+4;statement;j <= n;conditional
+5;statement;curr_sum == sum;conditional
+6;statement;print('Sum found between');statement
+7;statement;print('indexes %d and %d' % (i, j - 1));statement
+8;statement;return 1;statement
+9;statement;curr_sum > sum or j == n;conditional
+10;statement;curr_sum = curr_sum + arr[j];statement
+11;statement;j += 1;statement
+12;statement;print('No subarray found');statement
+13;statement;return 0;statement
+0;2;12;
+1;2;
+2;3;
+3;4;0;
+4;7;8;
+5;6;
+6;7;
+7;
+8;10;0;
+9;10;
+10;3;
+11;12;
+12;

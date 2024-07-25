@@ -1,0 +1,36 @@
+1;statement;allocation = [-1] * n;statement
+2;statement;range(n);conditional
+3;statement;wstIdx = -1;statement
+4;statement;range(m);conditional
+5;statement;blockSize[j] >= processSize[i];conditional
+6;statement;wstIdx == -1;conditional
+7;statement;wstIdx = j;statement
+8;statement;blockSize[wstIdx] < blockSize[j];conditional
+9;statement;wstIdx = j;statement
+10;statement;wstIdx != -1;conditional
+11;statement;allocation[i] = wstIdx;statement
+12;statement;blockSize[wstIdx] -= processSize[i];statement
+13;statement;print('Process No.Process Size Block no.');statement
+14;statement;range(n);statement
+15;statement;print(i + 1, '         ', processSize[i], end='     ');statement
+16;statement;allocation[i] != -1;conditional
+17;statement;print(allocation[i] + 1);statement
+18;statement;print('Not Allocated');statement
+0;1;
+1;2;12;
+2;3;
+3;4;9;
+4;5;3;
+5;6;7;
+6;3;
+7;8;3;
+8;3;
+9;11;1;
+10;11;
+11;1;
+12;13;
+13;15;
+14;15;
+15;16;17;
+16;13;
+17;13;

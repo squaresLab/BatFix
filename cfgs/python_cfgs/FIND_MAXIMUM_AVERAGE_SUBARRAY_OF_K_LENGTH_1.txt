@@ -1,0 +1,26 @@
+1;statement;k > n;conditional
+2;statement;return -1;statement
+3;statement;sum = arr[0];statement
+4;statement;range(1, k);conditional
+5;statement;sum += arr[i];statement
+6;statement;max_sum = sum;statement
+7;statement;max_end = k - 1;statement
+8;statement;range(k, n);conditional
+9;statement;sum = sum + arr[i] - arr[i - k];statement
+10;statement;sum > max_sum;conditional
+11;statement;max_sum = sum;statement
+12;statement;max_end = i;statement
+13;statement;return max_end - k + 1;statement
+0;1;2;
+1;
+2;3;
+3;4;6;
+4;3;
+5;6;
+6;7;
+7;9;12;
+8;9;
+9;11;7;
+10;11;
+11;7;
+12;

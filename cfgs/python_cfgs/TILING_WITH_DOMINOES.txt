@@ -1,0 +1,20 @@
+1;statement;A = [0] * (n + 1);statement
+2;statement;B = [0] * (n + 1);statement
+3;statement;A[0] = 1;statement
+4;statement;A[1] = 0;statement
+5;statement;B[0] = 0;statement
+6;statement;B[1] = 1;statement
+7;statement;range(2, n + 1);conditional
+8;statement;A[i] = A[i - 2] + 2 * B[i - 1];statement
+9;statement;B[i] = A[i - 1] + B[i - 2];statement
+10;statement;return A[n];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;8;9;
+7;8;
+8;6;
+9;

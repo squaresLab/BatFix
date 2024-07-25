@@ -1,0 +1,32 @@
+1;statement;n > m;conditional
+2;statement;return True;statement
+3;statement;DP = [False for i in range(m)];statement
+4;statement;range(n);conditional
+5;statement;DP[0];conditional
+6;statement;return True;statement
+7;statement;temp = [False for i in range(m)];statement
+8;statement;range(m);conditional
+9;statement;DP[j] == True;conditional
+10;statement;DP[(j + arr[i]) % m] == False;conditional
+11;statement;temp[(j + arr[i]) % m] = True;statement
+12;statement;range(m);conditional
+13;statement;temp[j];conditional
+14;statement;DP[j] = True;statement
+15;statement;DP[arr[i] % m] = True;statement
+16;statement;return DP[0];statement
+0;1;2;
+1;
+2;3;
+3;4;15;
+4;5;6;
+5;
+6;7;
+7;8;11;
+8;9;7;
+9;10;7;
+10;7;
+11;12;14;
+12;13;11;
+13;11;
+14;3;
+15;

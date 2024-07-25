@@ -1,0 +1,18 @@
+1;statement;r <= 0;conditional
+2;statement;return 0;statement
+3;statement;result = 4;statement
+4;statement;range(1, r);conditional
+5;statement;ySquare = r * r - x * x;statement
+6;statement;y = int(math.sqrt(ySquare));statement
+7;statement;y * y == ySquare;conditional
+8;statement;result += 4;statement
+9;statement;return result;statement
+0;1;2;
+1;
+2;3;
+3;6;8;
+4;5;
+5;6;
+6;7;3;
+7;3;
+8;

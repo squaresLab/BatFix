@@ -1,0 +1,2016 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'CHECK_POSSIBLE_TRANSFORM_ONE_STRING_ANOTHER.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int n = s1 . length ( ) ;
+Line: 14
+s1 = "daBcd"
+s2 = "ABC"
+
+Statement: int m = s2 . length ( ) ;
+Line: 15
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+
+Statement: boolean dp [ ] [ ] = new boolean [ n + 1 ] [ m + 1 ] ;
+Line: 16
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+
+Statement: for ( int i = 0 ;
+Line: 17
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+
+Statement: i <= n ;
+Line: 18
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+
+Statement: for ( int j = 0 ;
+Line: 20
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 1
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 1
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 1
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 2
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 2
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 2
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 3
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 3
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 3
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 4
+
+Statement: i ++ ) {
+Line: 19
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+
+Statement: i <= n ;
+Line: 18
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+
+Statement: for ( int j = 0 ;
+Line: 20
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 1
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 1
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 1
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 2
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 2
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 2
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 3
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 3
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 3
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 4
+
+Statement: i ++ ) {
+Line: 19
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+
+Statement: i <= n ;
+Line: 18
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+
+Statement: for ( int j = 0 ;
+Line: 20
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 2
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 2
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 2
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 3
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 3
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 3
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 4
+
+Statement: i ++ ) {
+Line: 19
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+
+Statement: i <= n ;
+Line: 18
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+
+Statement: for ( int j = 0 ;
+Line: 20
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 0
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 0
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 0
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 1
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 1
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 1
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 3
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 3
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 3
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 4
+
+Statement: i ++ ) {
+Line: 19
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+
+Statement: i <= n ;
+Line: 18
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+
+Statement: for ( int j = 0 ;
+Line: 20
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 0
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 0
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 0
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 1
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 1
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 1
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 3
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 3
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 3
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+j = 4
+
+Statement: i ++ ) {
+Line: 19
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 4
+
+Statement: i <= n ;
+Line: 18
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+
+Statement: for ( int j = 0 ;
+Line: 20
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 0
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 0
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 0
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 1
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 1
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 1
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 2
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 2
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 2
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 3
+
+Statement: dp [ i ] [ j ] = false ;
+Line: 23
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 3
+
+Statement: j ++ ) {
+Line: 22
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 3
+
+Statement: j <= m ;
+Line: 21
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+j = 4
+
+Statement: i ++ ) {
+Line: 19
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 5
+
+Statement: i <= n ;
+Line: 18
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 6
+
+Statement: dp [ 0 ] [ 0 ] = true ;
+Line: 26
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+
+Statement: for ( int i = 0 ;
+Line: 27
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+
+Statement: i < s1 . length ( ) ;
+Line: 28
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+
+Statement: for ( int j = 0 ;
+Line: 30
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: if ( j < s2 . length ( ) && ( Character . toUpperCase ( s1 . charAt ( i ) ) == s2 . charAt ( j ) ) )
+Line: 34
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: if ( ! Character . isUpperCase ( s1 . charAt ( i ) ) )
+Line: 36
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: dp [ i + 1 ] [ j ] = true ;
+Line: 37
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 0
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 1
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 1
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 1
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 2
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 2
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 2
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 3
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 3
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 3
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+j = 4
+
+Statement: i ++ ) {
+Line: 29
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 0
+
+Statement: i < s1 . length ( ) ;
+Line: 28
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+
+Statement: for ( int j = 0 ;
+Line: 30
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: if ( j < s2 . length ( ) && ( Character . toUpperCase ( s1 . charAt ( i ) ) == s2 . charAt ( j ) ) )
+Line: 34
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: dp [ i + 1 ] [ j + 1 ] = true ;
+Line: 35
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: if ( ! Character . isUpperCase ( s1 . charAt ( i ) ) )
+Line: 36
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: dp [ i + 1 ] [ j ] = true ;
+Line: 37
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { false, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 0
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 1
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 1
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 1
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 2
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 2
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 2
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 3
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 3
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 3
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+j = 4
+
+Statement: i ++ ) {
+Line: 29
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 1
+
+Statement: i < s1 . length ( ) ;
+Line: 28
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+
+Statement: for ( int j = 0 ;
+Line: 30
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: if ( j < s2 . length ( ) && ( Character . toUpperCase ( s1 . charAt ( i ) ) == s2 . charAt ( j ) ) )
+Line: 34
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: if ( ! Character . isUpperCase ( s1 . charAt ( i ) ) )
+Line: 36
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 0
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: if ( j < s2 . length ( ) && ( Character . toUpperCase ( s1 . charAt ( i ) ) == s2 . charAt ( j ) ) )
+Line: 34
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: dp [ i + 1 ] [ j + 1 ] = true ;
+Line: 35
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, false, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: if ( ! Character . isUpperCase ( s1 . charAt ( i ) ) )
+Line: 36
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 1
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 2
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 2
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 2
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 3
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 3
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 3
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+j = 4
+
+Statement: i ++ ) {
+Line: 29
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 2
+
+Statement: i < s1 . length ( ) ;
+Line: 28
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+
+Statement: for ( int j = 0 ;
+Line: 30
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 0
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 0
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 0
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 1
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 1
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 1
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: if ( j < s2 . length ( ) && ( Character . toUpperCase ( s1 . charAt ( i ) ) == s2 . charAt ( j ) ) )
+Line: 34
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: dp [ i + 1 ] [ j + 1 ] = true ;
+Line: 35
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, false }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: if ( ! Character . isUpperCase ( s1 . charAt ( i ) ) )
+Line: 36
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, true }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: dp [ i + 1 ] [ j ] = true ;
+Line: 37
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, false, true }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 3
+j = 2
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 3
+j = 3
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 3
+j = 3
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 3
+j = 3
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 3
+j = 4
+
+Statement: i ++ ) {
+Line: 29
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 3
+
+Statement: i < s1 . length ( ) ;
+Line: 28
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+
+Statement: for ( int j = 0 ;
+Line: 30
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 0
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 0
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 0
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 1
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 1
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 1
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: if ( j < s2 . length ( ) && ( Character . toUpperCase ( s1 . charAt ( i ) ) == s2 . charAt ( j ) ) )
+Line: 34
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: if ( ! Character . isUpperCase ( s1 . charAt ( i ) ) )
+Line: 36
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: dp [ i + 1 ] [ j ] = true ;
+Line: 37
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, false, false }}
+i = 4
+j = 2
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, false }}
+i = 4
+j = 2
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, false }}
+i = 4
+j = 3
+
+Statement: if ( dp [ i ] [ j ] ) {
+Line: 33
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, false }}
+i = 4
+j = 3
+
+Statement: if ( j < s2 . length ( ) && ( Character . toUpperCase ( s1 . charAt ( i ) ) == s2 . charAt ( j ) ) )
+Line: 34
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, false }}
+i = 4
+j = 3
+
+Statement: if ( ! Character . isUpperCase ( s1 . charAt ( i ) ) )
+Line: 36
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, false }}
+i = 4
+j = 3
+
+Statement: dp [ i + 1 ] [ j ] = true ;
+Line: 37
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, false }}
+i = 4
+j = 3
+
+Statement: j ++ ) {
+Line: 32
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, true }}
+i = 4
+j = 3
+
+Statement: j <= s2 . length ( ) ;
+Line: 31
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, true }}
+i = 4
+j = 4
+
+Statement: i ++ ) {
+Line: 29
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, true }}
+i = 4
+
+Statement: i < s1 . length ( ) ;
+Line: 28
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, true }}
+i = 5
+
+Statement: return ( dp [ n ] [ m ] ) ;
+Line: 41
+s1 = "daBcd"
+s2 = "ABC"
+n = 5
+m = 3
+dp = { true, false, false, false }, { true, false, false, false }, { true, true, false, false }, { false, false, true, false }, { false, false, true, true }, { false, false, true, true }}

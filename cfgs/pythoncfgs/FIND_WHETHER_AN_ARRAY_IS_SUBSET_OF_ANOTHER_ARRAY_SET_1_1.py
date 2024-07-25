@@ -1,0 +1,34 @@
+Nodes
+1;statement;foo_1 = 0;8;
+2;statement;foo_1 = 0;9;
+3;conditional;foo_1 < foo_2;10;
+4;statement;fun_1();12;
+5;statement;fun_1();13;
+6;conditional;foo_1 < foo_2 and foo_3 < foo_4;14;
+7;statement;return false if foo_1 < foo_2 else true;22;
+8;conditional;foo_1[foo_2] < foo_3[foo_4];15;
+9;conditional;foo_1[foo_2] == foo_3[foo_4];17;
+10;conditional;foo_1[foo_2] > foo_3[foo_4];20;
+11;statement;return 0;21;
+12;statement;foo_1 += 1;18;
+13;statement;foo_1 += 1;19;
+14;statement;foo_1 += 1;16;
+15;statement;return 0;11;
+16;exit;;
+Edges
+0;2;
+1;3;
+2;4;15;
+3;5;
+4;6;
+5;7;8;
+6;16;
+7;9;14;
+8;10;12;
+9;6;11;
+10;16;
+11;13;
+12;6;
+13;6;
+14;16;
+15;

@@ -1,0 +1,4 @@
+1;statement;PI = 3.142;statement
+2;statement;return PI * (r * r);statement
+0;1;
+1;

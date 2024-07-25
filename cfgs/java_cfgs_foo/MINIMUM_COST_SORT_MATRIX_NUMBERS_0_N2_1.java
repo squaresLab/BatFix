@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int i_des;14;
+3;statement;int j_des;14;
+4;statement;int q;14;
+5;statement;int tot_energy = 0;15;
+6;statement;int i = 0;16;
+7;conditional;foo_1 < foo_2;17;
+8;statement;int j = 0;19;
+9;conditional;foo_1 < foo_2;20;
+10;statement;q = foo_1[foo_2][foo_3] / foo_4;22;
+11;statement;i_des = foo_1;23;
+12;statement;j_des = foo_1[foo_2][foo_3] - (foo_4 * foo_5);24;
+13;statement;tot_energy += fun_1(foo_1 - foo_2) + fun_2(foo_3 - foo_4);25;
+14;statement;j++;21;
+15;statement;i++;18;
+16;statement;return foo_1;28;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;8;16;
+7;9;
+8;10;15;
+9;11;
+10;12;
+11;13;
+12;14;
+13;9;
+14;7;
+15;17;
+16;

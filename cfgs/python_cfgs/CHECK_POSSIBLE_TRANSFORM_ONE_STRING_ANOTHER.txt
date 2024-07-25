@@ -1,0 +1,28 @@
+1;statement;n = len(s1);statement
+2;statement;m = len(s2);statement
+3;statement;dp = [[False for i in range(m + 1)] for i in range(n + 1)];statement
+4;statement;dp[0][0] = True;statement
+5;statement;range(len(s1));conditional
+6;statement;range(len(s2) + 1);conditional
+7;statement;dp[i][j];conditional
+8;statement;j < len(s2) and s1[i].upper() == s2[j];conditional
+9;statement;dp[i + 1][j + 1] = True;statement
+10;statement;s1[i].isupper() == False;conditional
+11;statement;s1[i].isupper() == False;conditional
+12;statement;dp[i + 1][j] = True;statement
+13;statement;dp[i + 1][j] = True;statement
+14;statement;return dp[n][m];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;13;
+5;6;4;
+6;7;5;
+7;8;10;
+8;10;
+9;
+10;12;5;12;5;
+11;
+12;5;5;
+13;

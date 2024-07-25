@@ -1,0 +1,12 @@
+1;statement;res = 1;statement
+2;statement;range(0, n);conditional
+3;statement;arr[i] <= res;conditional
+4;statement;res = res + arr[i];statement
+5;statement;return res;statement
+6;statement;return res;statement
+0;1;
+1;2;5;
+2;3;5;
+3;1;
+4;
+5;

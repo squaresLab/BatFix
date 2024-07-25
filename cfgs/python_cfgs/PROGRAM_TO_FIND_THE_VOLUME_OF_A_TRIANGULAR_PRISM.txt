@@ -1,0 +1,2 @@
+1;statement;return l * b * h / 2;statement
+0;

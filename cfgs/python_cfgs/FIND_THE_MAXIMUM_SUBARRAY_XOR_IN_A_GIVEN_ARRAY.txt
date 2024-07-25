@@ -1,0 +1,14 @@
+1;statement;ans = -2147483648;statement
+2;statement;range(n);conditional
+3;statement;curr_xor = 0;statement
+4;statement;range(i, n);conditional
+5;statement;curr_xor = curr_xor ^ arr[j];statement
+6;statement;ans = max(ans, curr_xor);statement
+7;statement;return ans;statement
+0;1;
+1;2;6;
+2;3;
+3;5;1;
+4;5;
+5;3;
+6;

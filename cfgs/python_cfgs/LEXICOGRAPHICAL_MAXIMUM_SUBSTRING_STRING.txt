@@ -1,0 +1,8 @@
+1;statement;mx = '';statement
+2;statement;range(len(str));conditional
+3;statement;mx = max(mx, str[i:]);statement
+4;statement;return mx;statement
+0;1;
+1;2;3;
+2;1;
+3;

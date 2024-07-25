@@ -1,0 +1,32 @@
+1;statement;result = 0;statement
+2;statement;rem = 0;statement
+3;statement;a < b;conditional
+4;statement;(a, b) = (b, a);statement
+5;statement;b > 0;conditional
+6;statement;b > 0;conditional
+7;statement;result += int(a / b);statement
+8;statement;rem = int(a % b);statement
+9;statement;a = b;statement
+10;statement;b = rem;statement
+11;statement;result += int(a / b);statement
+12;statement;rem = int(a % b);statement
+13;statement;a = b;statement
+14;statement;b = rem;statement
+15;statement;return result;statement
+16;statement;return result;statement
+0;1;
+1;2;
+2;3;5;
+3;5;
+4;
+5;13;15;13;15;
+6;7;
+7;8;
+8;9;
+9;
+10;11;
+11;12;
+12;13;
+13;5;5;
+14;
+15;

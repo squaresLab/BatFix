@@ -1,0 +1,20 @@
+1;statement;(count, l, r) = (0, 0, n - 1);statement
+2;statement;l < m and r >= 0;conditional
+3;statement;arr1[l] + arr2[r] == x;conditional
+4;statement;l += 1;statement
+5;statement;r -= 1;statement
+6;statement;count += 1;statement
+7;statement;arr1[l] + arr2[r] < x;conditional
+8;statement;l += 1;statement
+9;statement;r -= 1;statement
+10;statement;return count;statement
+0;1;
+1;2;9;
+2;5;6;
+3;4;
+4;5;
+5;1;
+6;7;8;
+7;1;
+8;1;
+9;

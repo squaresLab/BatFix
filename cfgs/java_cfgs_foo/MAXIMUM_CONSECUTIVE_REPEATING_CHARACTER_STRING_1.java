@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;int n = fun_1();14;
+3;statement;int count = 0;15;
+4;statement;char res = fun_1(0);16;
+5;statement;int cur_count = 1;17;
+6;statement;int i = 0;18;
+7;conditional;foo_1 < foo_2;19;
+8;conditional;(foo_1 < (foo_2 - 1)) && (fun_1(foo_4) == fun_2(foo_6 + 1));21;
+9;statement;cur_count++;21;
+10;conditional;foo_1 > foo_2;23;
+11;statement;count = foo_1;24;
+12;statement;res = fun_1(foo_2);25;
+13;statement;cur_count = 1;27;
+14;statement;i++;20;
+15;statement;return foo_1;30;
+16;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;8;15;
+7;9;10;
+8;14;
+9;11;13;
+10;12;
+11;13;
+12;14;
+13;7;
+14;16;
+15;

@@ -1,0 +1,14 @@
+1;statement;sm = -1000000;statement
+2;statement;range(0, n);conditional
+3;statement;range(i + 1, n);conditional
+4;statement;range(j + 1, n);conditional
+5;statement;sm < arr[i] + arr[j] + arr[k];conditional
+6;statement;sm = arr[i] + arr[j] + arr[k];statement
+7;statement;return sm;statement
+0;1;
+1;2;6;
+2;3;1;
+3;4;2;
+4;5;3;
+5;3;
+6;

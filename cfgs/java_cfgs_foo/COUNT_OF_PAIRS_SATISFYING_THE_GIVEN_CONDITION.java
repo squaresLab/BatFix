@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;String s = fun_1(foo_1);14;
+3;statement;int i;15;
+4;statement;i = 0;16;
+5;conditional;foo_1 < fun_1();17;
+6;conditional;fun_1(foo_2) != '9';19;
+7;statement;break;19;
+8;statement;i++;18;
+9;statement;int result;21;
+10;conditional;foo_1 == fun_1();22;
+11;statement;result = foo_1 * fun_1();22;
+12;statement;result = foo_1 * (fun_1() - 1);23;
+13;statement;return foo_1;24;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;9;
+5;7;8;
+6;9;
+7;5;
+8;10;
+9;11;12;
+10;13;
+11;13;
+12;14;
+13;

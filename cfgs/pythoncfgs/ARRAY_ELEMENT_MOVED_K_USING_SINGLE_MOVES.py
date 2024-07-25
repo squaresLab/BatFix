@@ -1,0 +1,30 @@
+Nodes
+1;conditional;foo_1 >= foo_2 - 1;8;
+2;statement;foo_1 = 0;10;
+3;statement;foo_1 = 0;11;
+4;conditional;fun_1(foo_1);12;
+5;statement;return foo_1;21;
+6;conditional;foo_1[foo_2] > foo_3;13;
+7;statement;foo_1 += 1;18;
+8;conditional;foo_1 >= foo_2;19;
+9;statement;return foo_1;20;
+10;statement;foo_1 = foo_2[foo_3];14;
+11;conditional;foo_1 == true;15;
+12;statement;foo_1 = 1;16;
+13;statement;return foo_1;9;
+14;exit;;
+Edges
+0;2;13;
+1;3;
+2;4;
+3;5;6;
+4;14;
+5;7;10;
+6;8;
+7;4;9;
+8;14;
+9;11;
+10;8;12;
+11;8;
+12;14;
+13;

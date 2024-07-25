@@ -1,0 +1,14 @@
+1;statement;a = sorted(a);statement
+2;statement;(num1, num2) = (0, 0);statement
+3;statement;range(n);conditional
+4;statement;i % 2 == 0;conditional
+5;statement;num1 = num1 * 10 + a[i];statement
+6;statement;num2 = num2 * 10 + a[i];statement
+7;statement;return num2 + num1;statement
+0;1;
+1;2;
+2;3;6;
+3;4;5;
+4;2;
+5;2;
+6;

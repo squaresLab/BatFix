@@ -1,0 +1,12 @@
+1;statement;max_so_far = a[0];statement
+2;statement;curr_max = a[0];statement
+3;statement;range(1, size);conditional
+4;statement;curr_max = max(a[i], curr_max + a[i]);statement
+5;statement;max_so_far = max(max_so_far, curr_max);statement
+6;statement;return max_so_far;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

@@ -1,0 +1,4 @@
+1;statement;ans = 2 * pow(3, n) - 1;statement
+2;statement;return ans;statement
+0;1;
+1;

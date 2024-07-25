@@ -1,0 +1,52 @@
+1;statement;num = list(num);statement
+2;statement;n = len(num);statement
+3;statement;rightMin = [0] * n;statement
+4;statement;right = 0;statement
+5;statement;rightMin[n - 1] = -1;statement
+6;statement;right = n - 1;statement
+7;statement;range(n - 2, 0, -1);conditional
+8;statement;num[i] > num[right];conditional
+9;statement;rightMin[i] = right;statement
+10;statement;rightMin[i] = -1;statement
+11;statement;right = i;statement
+12;statement;small = -1;statement
+13;statement;range(1, n);conditional
+14;statement;num[i] != '0';conditional
+15;statement;small == -1;conditional
+16;statement;num[i] < num[0];conditional
+17;statement;small = i;statement
+18;statement;num[i] < num[small];conditional
+19;statement;small = i;statement
+20;statement;small != -1;conditional
+21;statement;(num[0], num[small]) = (num[small], num[0]);statement
+22;statement;range(1, n);conditional
+23;statement;rightMin[i] != -1;conditional
+24;statement;(num[i], num[rightMin[i]]) = (num[rightMin[i]], num[i]);statement
+25;statement;return ''.join(num);statement
+26;statement;return ''.join(num);statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;11;
+7;8;10;
+8;6;
+9;10;
+10;6;
+11;12;
+12;13;19;
+13;14;12;
+14;15;17;
+15;16;12;
+16;12;
+17;18;12;
+18;12;
+19;20;21;
+20;25;
+21;22;25;
+22;23;21;
+23;25;
+24;
+25;

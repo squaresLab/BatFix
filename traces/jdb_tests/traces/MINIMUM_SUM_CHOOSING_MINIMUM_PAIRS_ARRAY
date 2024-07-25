@@ -1,0 +1,12 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'MINIMUM_SUM_CHOOSING_MINIMUM_PAIRS_ARRAY.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int min_val = Arrays . stream ( A ) . min ( ) . getAsInt ( ) ;
+Line: 14
+A = { 4, 9, 10, 13, 13, 15, 16, 16, 17, 18, 18, 23, 24, 24, 25, 25, 25, 32, 32, 36, 38, 39, 40, 40, 40, 41, 43, 48, 51, 56, 59, 60, 70, 72, 74, 76, 79, 83, 83, 85, 88, 90, 92, 94, 95, 95 }
+n = 26
+
+Statement: return ( min_val * ( n - 1 ) ) ;
+Line: 15
+A = { 4, 9, 10, 13, 13, 15, 16, 16, 17, 18, 18, 23, 24, 24, 25, 25, 25, 32, 32, 36, 38, 39, 40, 40, 40, 41, 43, 48, 51, 56, 59, 60, 70, 72, 74, 76, 79, 83, 83, 85, 88, 90, 92, 94, 95, 95 }
+n = 26
+min_val = 4

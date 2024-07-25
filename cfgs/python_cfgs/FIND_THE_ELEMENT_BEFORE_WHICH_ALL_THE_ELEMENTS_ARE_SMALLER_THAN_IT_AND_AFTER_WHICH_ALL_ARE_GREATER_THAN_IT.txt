@@ -1,0 +1,20 @@
+1;statement;leftMax = [None] * n;statement
+2;statement;leftMax[0] = float('-inf');statement
+3;statement;range(1, n);conditional
+4;statement;leftMax[i] = max(leftMax[i - 1], arr[i - 1]);statement
+5;statement;rightMin = float('inf');statement
+6;statement;range(n - 1, -1, -1);conditional
+7;statement;leftMax[i] < arr[i] and rightMin > arr[i];conditional
+8;statement;return i;statement
+9;statement;rightMin = min(rightMin, arr[i]);statement
+10;statement;return -1;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;
+5;6;9;
+6;7;8;
+7;
+8;5;
+9;

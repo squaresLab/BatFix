@@ -1,0 +1,10 @@
+1;statement;p = 1;statement
+2;statement;k % 2;conditional
+3;statement;p = -1;statement
+4;statement;return (pow(n - 1, k) + p * (n - 1)) / n;statement
+5;statement;return (pow(n - 1, k) + p * (n - 1)) / n;statement
+0;1;
+1;2;4;
+2;4;
+3;
+4;

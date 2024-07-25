@@ -1,0 +1,296 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'COUNT_NUMBERS_CAN_CONSTRUCTED_USING_TWO_NUMBERS.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: boolean [ ] arr = new boolean [ n + 1 ] ;
+Line: 14
+n = 23
+x = 16
+y = 16
+
+Statement: if ( x <= n ) arr [ x ] = true ;
+Line: 15
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false }
+
+Statement: if ( y <= n ) arr [ y ] = true ;
+Line: 16
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+
+Statement: int result = 0 ;
+Line: 17
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+
+Statement: for ( int i = Math . min ( x , y ) ;
+Line: 18
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 0
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 0
+i = 16
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 0
+i = 16
+
+Statement: if ( i + x <= n ) arr [ i + x ] = true ;
+Line: 22
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 0
+i = 16
+
+Statement: if ( i + y <= n ) arr [ i + y ] = true ;
+Line: 23
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 0
+i = 16
+
+Statement: result ++ ;
+Line: 24
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 0
+i = 16
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 16
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 17
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 17
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 17
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 18
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 18
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 18
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 19
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 19
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 19
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 20
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 20
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 20
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 21
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 21
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 21
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 22
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 22
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 22
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 23
+
+Statement: if ( arr [ i ] ) {
+Line: 21
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 23
+
+Statement: i ++ ) {
+Line: 20
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 23
+
+Statement: i <= n ;
+Line: 19
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1
+i = 24
+
+Statement: return result ;
+Line: 27
+n = 23
+x = 16
+y = 16
+arr = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false }
+result = 1

@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;HashMap<Integer, Integer> prevSum = new HashMap<>();14;
+3;statement;int res = 0;15;
+4;statement;int currsum = 0;16;
+5;statement;int i = 0;17;
+6;conditional;foo_1 < foo_2;18;
+7;statement;currsum += foo_1[foo_2];20;
+8;conditional;foo_1 == foo_2;21;
+9;statement;res++;21;
+10;conditional;fun_1(foo_2 - foo_3);22;
+11;statement;res += fun_1(foo_2 - foo_3);22;
+12;statement;Integer count = fun_1(foo_2);23;
+13;conditional;foo_1 == null;24;
+14;statement;fun_1(foo_2, 1);24;
+15;statement;fun_1(foo_2, foo_3 + 1);25;
+16;statement;i++;19;
+17;statement;return foo_1;27;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;17;
+6;8;
+7;9;10;
+8;10;
+9;11;12;
+10;12;
+11;13;
+12;14;15;
+13;16;
+14;16;
+15;6;
+16;18;
+17;

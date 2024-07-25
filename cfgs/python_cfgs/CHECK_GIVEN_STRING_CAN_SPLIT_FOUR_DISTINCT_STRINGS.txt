@@ -1,0 +1,24 @@
+1;statement;len(s) >= 10;conditional
+2;statement;return True;statement
+3;statement;range(1, len(s));conditional
+4;statement;range(i + 1, len(s));conditional
+5;statement;range(j + 1, len(s));conditional
+6;statement;s1 = s[0:i];statement
+7;statement;s2 = s[i:j - i];statement
+8;statement;s3 = s[j:k - j];statement
+9;statement;s4 = s[k:len(s) - k];statement
+10;statement;s1 != s2 and s1 != s3 and (s1 != s4) and (s2 != s3) and (s2 != s4) and (s3 != s4);conditional
+11;statement;return True;statement
+12;statement;return False;statement
+0;1;2;
+1;
+2;3;11;
+3;4;2;
+4;9;3;
+5;6;
+6;7;
+7;8;
+8;9;
+9;10;4;
+10;
+11;

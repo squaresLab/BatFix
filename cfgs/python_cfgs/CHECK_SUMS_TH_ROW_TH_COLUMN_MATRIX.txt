@@ -1,0 +1,22 @@
+1;statement;sum1 = 0;statement
+2;statement;sum2 = 0;statement
+3;statement;range(0, n);conditional
+4;statement;sum1 = 0;statement
+5;statement;sum2 = 0;statement
+6;statement;range(0, m);conditional
+7;statement;sum1 += a[i][j];statement
+8;statement;sum2 += a[j][i];statement
+9;statement;sum1 == sum2;conditional
+10;statement;return 1;statement
+11;statement;return 0;statement
+0;1;
+1;2;
+2;4;10;
+3;4;
+4;5;
+5;7;8;
+6;7;
+7;5;
+8;9;2;
+9;
+10;

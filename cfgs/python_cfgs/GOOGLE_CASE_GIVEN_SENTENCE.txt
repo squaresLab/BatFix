@@ -1,0 +1,24 @@
+1;statement;n = len(s);statement
+2;statement;s1 = '';statement
+3;statement;s1 = s1 + s[0].lower();statement
+4;statement;i = 1;statement
+5;statement;i < n;conditional
+6;statement;s[i] == ' ' and i <= n;conditional
+7;statement;s1 = s1 + ' ' + s[i + 1].lower();statement
+8;statement;i = i + 1;statement
+9;statement;s1 = s1 + s[i].upper();statement
+10;statement;i = i + 1;statement
+11;statement;i = i + 1;statement
+12;statement;return s1;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;11;
+5;7;8;
+6;7;
+7;10;
+8;10;
+9;
+10;4;4;
+11;

@@ -1,0 +1,22 @@
+1;statement;f1 = 0;statement
+2;statement;f2 = 1;statement
+3;statement;i = 2;statement
+4;statement;i != 0;conditional
+5;statement;f3 = f1 + f2;statement
+6;statement;f1 = f2;statement
+7;statement;f2 = f3;statement
+8;statement;f2 % k == 0;conditional
+9;statement;return n * i;statement
+10;statement;i += 1;statement
+11;statement;return;statement
+0;1;
+1;2;
+2;3;
+3;7;10;
+4;5;
+5;6;
+6;7;
+7;8;9;
+8;
+9;3;
+10;

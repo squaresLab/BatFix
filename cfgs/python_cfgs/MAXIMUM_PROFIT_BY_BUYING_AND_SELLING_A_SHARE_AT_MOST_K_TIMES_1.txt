@@ -1,0 +1,14 @@
+1;statement;profit = [[0 for i in range(n + 1)] for j in range(k + 1)];statement
+2;statement;range(1, k + 1);conditional
+3;statement;prevDiff = float('-inf');statement
+4;statement;range(1, n);conditional
+5;statement;prevDiff = max(prevDiff, profit[i - 1][j - 1] - price[j - 1]);statement
+6;statement;profit[i][j] = max(profit[i][j - 1], price[j] + prevDiff);statement
+7;statement;return profit[k][n - 1];statement
+0;1;
+1;2;6;
+2;3;
+3;5;1;
+4;5;
+5;3;
+6;

@@ -1,0 +1,1749 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'DYCK_PATH.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int res = 1 ;
+Line: 14
+n = 72
+
+Statement: for ( int i = 0 ;
+Line: 15
+n = 72
+res = 1
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 1
+i = 0
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 1
+i = 0
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 144
+i = 0
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 144
+i = 0
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 144
+i = 1
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 144
+i = 1
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 20592
+i = 1
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 10296
+i = 1
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 10296
+i = 2
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 10296
+i = 2
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1462032
+i = 2
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 487344
+i = 2
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 487344
+i = 3
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 487344
+i = 3
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 68715504
+i = 3
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 17178876
+i = 3
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 17178876
+i = 4
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 17178876
+i = 4
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1889924656
+i = 4
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -377984931
+i = 4
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -377984931
+i = 5
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -377984931
+i = 5
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1000297857
+i = 5
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -166716309
+i = 5
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -166716309
+i = 6
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -166716309
+i = 6
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1532014162
+i = 6
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -218859166
+i = 6
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -218859166
+i = 7
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -218859166
+i = 7
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 81065330
+i = 7
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 10133166
+i = 7
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 10133166
+i = 8
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 10133166
+i = 8
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1378110576
+i = 8
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 153123397
+i = 8
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 153123397
+i = 9
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 153123397
+i = 9
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -803177885
+i = 9
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -80317788
+i = 9
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -80317788
+i = 10
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -80317788
+i = 10
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 2122318296
+i = 10
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 192938026
+i = 10
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 192938026
+i = 11
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 192938026
+i = 11
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -109046318
+i = 11
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -9087193
+i = 11
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -9087193
+i = 12
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -9087193
+i = 12
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1199509476
+i = 12
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -92269959
+i = 12
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -92269959
+i = 13
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -92269959
+i = 13
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 797537259
+i = 13
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 56966947
+i = 13
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 56966947
+i = 14
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 56966947
+i = 14
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1184231482
+i = 14
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -78948765
+i = 14
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -78948765
+i = 15
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -78948765
+i = 15
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1594456093
+i = 15
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -99653505
+i = 15
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -99653505
+i = 16
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -99653505
+i = 16
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 129253248
+i = 16
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 7603132
+i = 16
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 7603132
+i = 17
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 7603132
+i = 17
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 965597764
+i = 17
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 53644320
+i = 17
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 53644320
+i = 18
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 53644320
+i = 18
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1830750272
+i = 18
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -96355277
+i = 18
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -96355277
+i = 19
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -96355277
+i = 19
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 840492263
+i = 19
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 42024613
+i = 19
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 42024613
+i = 20
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 42024613
+i = 20
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 916084716
+i = 20
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 43623081
+i = 20
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 43623081
+i = 21
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 43623081
+i = 21
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1070671667
+i = 21
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 48666893
+i = 21
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 48666893
+i = 22
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 48666893
+i = 22
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1642393650
+i = 22
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 71408419
+i = 22
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 71408419
+i = 23
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 71408419
+i = 23
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 50484107
+i = 23
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 2103504
+i = 23
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 2103504
+i = 24
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 2103504
+i = 24
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 252420480
+i = 24
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 10096819
+i = 24
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 10096819
+i = 25
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 10096819
+i = 25
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1201521461
+i = 25
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 46212363
+i = 25
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 46212363
+i = 26
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 46212363
+i = 26
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1158091538
+i = 26
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 42892279
+i = 26
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 42892279
+i = 27
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 42892279
+i = 27
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 723429347
+i = 27
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 25836762
+i = 27
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 25836762
+i = 28
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 25836762
+i = 28
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1297902904
+i = 28
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -44755272
+i = 28
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -44755272
+i = 29
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -44755272
+i = 29
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -851888984
+i = 29
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -28396299
+i = 29
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -28396299
+i = 30
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -28396299
+i = 30
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1057789210
+i = 30
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 34122232
+i = 30
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 34122232
+i = 31
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 34122232
+i = 31
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -439155080
+i = 31
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -13723596
+i = 31
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -13723596
+i = 32
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -13723596
+i = 32
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1537042752
+i = 32
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -46577053
+i = 32
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -46577053
+i = 33
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -46577053
+i = 33
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -875085587
+i = 33
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -25737811
+i = 33
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -25737811
+i = 34
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -25737811
+i = 34
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1463808086
+i = 34
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 41823088
+i = 34
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 41823088
+i = 35
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 41823088
+i = 35
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 263749296
+i = 35
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 7326369
+i = 35
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 7326369
+i = 36
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 7326369
+i = 36
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 791247852
+i = 36
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 21385077
+i = 36
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 21385077
+i = 37
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 21385077
+i = 37
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -2006764057
+i = 37
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -52809580
+i = 37
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -52809580
+i = 38
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -52809580
+i = 38
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1302848184
+i = 38
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -33406363
+i = 38
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -33406363
+i = 39
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -33406363
+i = 39
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 787299181
+i = 39
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 19682479
+i = 39
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 19682479
+i = 40
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 19682479
+i = 40
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 2046977816
+i = 40
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 49926288
+i = 40
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 49926288
+i = 41
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 49926288
+i = 41
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 847440368
+i = 41
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 20177151
+i = 41
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 20177151
+i = 42
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 20177151
+i = 42
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 2058069402
+i = 42
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 47862079
+i = 42
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 47862079
+i = 43
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 47862079
+i = 43
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 539102683
+i = 43
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 12252333
+i = 43
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 12252333
+i = 44
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 12252333
+i = 44
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1225233300
+i = 44
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 27227406
+i = 44
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 27227406
+i = 45
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 27227406
+i = 45
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1599454102
+i = 45
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -34770741
+i = 45
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -34770741
+i = 46
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -34770741
+i = 46
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 887434678
+i = 46
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 18881588
+i = 46
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 18881588
+i = 47
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 18881588
+i = 47
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1831514036
+i = 47
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 38156542
+i = 47
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 38156542
+i = 48
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 38156542
+i = 48
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -631939264
+i = 48
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -12896719
+i = 48
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -12896719
+i = 49
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -12896719
+i = 49
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1225188305
+i = 49
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -24503766
+i = 49
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -24503766
+i = 50
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -24503766
+i = 50
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1991613292
+i = 50
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 39051241
+i = 50
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 39051241
+i = 51
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 39051241
+i = 51
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -663201883
+i = 51
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -12753882
+i = 51
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -12753882
+i = 52
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -12753882
+i = 52
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1173357144
+i = 52
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -22138814
+i = 52
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -22138814
+i = 53
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -22138814
+i = 53
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -2014632074
+i = 53
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -37308001
+i = 53
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -37308001
+i = 54
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -37308001
+i = 54
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 937247206
+i = 54
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 17040858
+i = 54
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 17040858
+i = 55
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 17040858
+i = 55
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1516636362
+i = 55
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 27082792
+i = 55
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 27082792
+i = 56
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 27082792
+i = 56
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1911681600
+i = 56
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -33538273
+i = 56
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -33538273
+i = 57
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -33538273
+i = 57
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1377137545
+i = 57
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 23743750
+i = 57
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 23743750
+i = 58
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 23743750
+i = 58
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 2041962500
+i = 58
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 34609533
+i = 58
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 34609533
+i = 59
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 34609533
+i = 59
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1353156991
+i = 59
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -22552616
+i = 59
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -22552616
+i = 60
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -22552616
+i = 60
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1894419744
+i = 60
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -31056061
+i = 60
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -31056061
+i = 61
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -31056061
+i = 61
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1717314233
+i = 61
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 27698616
+i = 61
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 27698616
+i = 62
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 27698616
+i = 62
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -2023680784
+i = 62
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -32121917
+i = 62
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -32121917
+i = 63
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -32121917
+i = 63
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1693092019
+i = 63
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 26454562
+i = 63
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 26454562
+i = 64
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 26454562
+i = 64
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 2116364960
+i = 64
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 32559460
+i = 64
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 32559460
+i = 65
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 32559460
+i = 65
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -1722769956
+i = 65
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -26102575
+i = 65
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -26102575
+i = 66
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -26102575
+i = 66
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -2036000850
+i = 66
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -30388072
+i = 66
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -30388072
+i = 67
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -30388072
+i = 67
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 1955085752
+i = 67
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 28751261
+i = 67
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 28751261
+i = 68
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 28751261
+i = 68
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -2109871460
+i = 68
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -30577847
+i = 68
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -30577847
+i = 69
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = -30577847
+i = 69
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 2001628771
+i = 69
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 28594696
+i = 69
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 28594696
+i = 70
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 28594696
+i = 70
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = 2116007504
+i = 70
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = 29802922
+i = 70
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = 29802922
+i = 71
+
+Statement: res *= ( 2 * n - i ) ;
+Line: 18
+n = 72
+res = 29802922
+i = 71
+
+Statement: res /= ( i + 1 ) ;
+Line: 19
+n = 72
+res = -2119353990
+i = 71
+
+Statement: ++ i ) {
+Line: 17
+n = 72
+res = -29435472
+i = 71
+
+Statement: i < n ;
+Line: 16
+n = 72
+res = -29435472
+i = 72
+
+Statement: return res / ( n + 1 ) ;
+Line: 21
+n = 72
+res = -29435472

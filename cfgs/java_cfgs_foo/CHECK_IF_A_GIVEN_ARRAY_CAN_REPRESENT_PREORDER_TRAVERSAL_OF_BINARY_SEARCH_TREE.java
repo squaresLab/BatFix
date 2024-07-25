@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;Stack<Integer> s = new Stack<Integer>();14;
+3;statement;int root = Integer.MIN_VALUE;15;
+4;statement;int i = 0;16;
+5;conditional;foo_1 < foo_2;17;
+6;conditional;foo_1[foo_2] < foo_3;19;
+7;statement;return false;20;
+8;exit;;;
+9;conditional;(!fun_1()) && (fun_2() < foo_3[foo_4]);22;
+10;statement;root = fun_1();23;
+11;statement;fun_1();24;
+12;statement;fun_1(foo_2[foo_3]);26;
+13;statement;i++;18;
+14;statement;return true;28;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;14;
+5;7;9;
+6;8;
+7;
+8;12;10;
+9;11;
+10;9;
+11;13;
+12;5;
+13;8;

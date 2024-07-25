@@ -1,0 +1,56 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'COUNT_PALINDROMIC_SUBSEQUENCE_GIVEN_STRING.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int N = str . length ( ) ;
+Line: 14
+str = "R"
+
+Statement: int [ ] [ ] cps = new int [ N + 1 ] [ N + 1 ] ;
+Line: 15
+str = "R"
+N = 1
+
+Statement: for ( int i = 0 ;
+Line: 16
+str = "R"
+N = 1
+cps = { 0, 0 }, { 0, 0 }}
+
+Statement: i < N ;
+Line: 17
+str = "R"
+N = 1
+cps = { 0, 0 }, { 0, 0 }}
+i = 0
+
+Statement: i ++ ) cps [ i ] [ i ] = 1 ;
+Line: 18
+str = "R"
+N = 1
+cps = { 0, 0 }, { 0, 0 }}
+i = 0
+
+Statement: i < N ;
+Line: 17
+str = "R"
+N = 1
+cps = { 1, 0 }, { 0, 0 }}
+i = 1
+
+Statement: for ( int L = 2 ;
+Line: 19
+str = "R"
+N = 1
+cps = { 1, 0 }, { 0, 0 }}
+
+Statement: L <= N ;
+Line: 20
+str = "R"
+N = 1
+cps = { 1, 0 }, { 0, 0 }}
+L = 2
+
+Statement: return cps [ 0 ] [ N - 1 ] ;
+Line: 32
+str = "R"
+N = 1
+cps = { 1, 0 }, { 0, 0 }}

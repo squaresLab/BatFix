@@ -1,0 +1,30 @@
+1;statement;s = set();statement
+2;statement;sum = 0;statement
+3;statement;range(n);conditional
+4;statement;sum += arr[i];statement
+5;statement;sum % 2 != 0;conditional
+6;statement;return False;statement
+7;statement;sum = sum / 2;statement
+8;statement;range(n);statement
+9;statement;val = sum - arr[i];statement
+10;statement;arr[i] not in s;conditional
+11;statement;s.add(arr[i]);statement
+12;statement;val in s;conditional
+13;statement;val in s;conditional
+14;statement;print('Pair elements are', arr[i], 'and', int(val));statement
+15;statement;print('Pair elements are', arr[i], 'and', int(val));statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;6;
+5;
+6;7;
+7;9;
+8;9;
+9;10;12;
+10;12;
+11;
+12;14;7;14;7;
+13;
+14;7;7;

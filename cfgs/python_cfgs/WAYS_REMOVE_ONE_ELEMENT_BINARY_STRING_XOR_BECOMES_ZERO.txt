@@ -1,0 +1,20 @@
+1;statement;one_count = 0;statement
+2;statement;zero_count = 0;statement
+3;statement;n = len(str);statement
+4;statement;range(0, n, 1);conditional
+5;statement;str[i] == '1';conditional
+6;statement;one_count += 1;statement
+7;statement;zero_count += 1;statement
+8;statement;one_count % 2 == 0;conditional
+9;statement;return zero_count;statement
+10;statement;return one_count;statement
+0;1;
+1;2;
+2;3;
+3;4;7;
+4;5;6;
+5;3;
+6;3;
+7;8;9;
+8;
+9;

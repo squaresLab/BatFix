@@ -1,0 +1,40 @@
+1;statement;dp = [[0 for x in range(n)] for y in range(n)];statement
+2;statement;P = [[False for x in range(n)] for y in range(n)];statement
+3;statement;range(n);conditional
+4;statement;P[i][i] = True;statement
+5;statement;range(n - 1);conditional
+6;statement;str[i] == str[i + 1];conditional
+7;statement;P[i][i + 1] = True;statement
+8;statement;dp[i][i + 1] = 1;statement
+9;statement;range(2, n);conditional
+10;statement;range(n - gap);conditional
+11;statement;j = gap + i;statement
+12;statement;str[i] == str[j] and P[i + 1][j - 1];conditional
+13;statement;P[i][j] = True;statement
+14;statement;P[i][j] == True;conditional
+15;statement;P[i][j] == True;conditional
+16;statement;dp[i][j] = dp[i][j - 1] + dp[i + 1][j] + 1 - dp[i + 1][j - 1];statement
+17;statement;dp[i][j] = dp[i][j - 1] + dp[i + 1][j] + 1 - dp[i + 1][j - 1];statement
+18;statement;dp[i][j] = dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1];statement
+19;statement;dp[i][j] = dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1];statement
+20;statement;return dp[0][n - 1];statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;8;
+5;7;4;
+6;7;
+7;4;
+8;9;19;
+9;11;8;
+10;11;
+11;12;14;
+12;14;
+13;
+14;16;18;16;18;
+15;
+16;9;9;
+17;
+18;9;9;
+19;

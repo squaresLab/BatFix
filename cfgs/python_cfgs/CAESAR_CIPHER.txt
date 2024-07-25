@@ -1,0 +1,14 @@
+1;statement;result = '';statement
+2;statement;range(len(text));conditional
+3;statement;char = text[i];statement
+4;statement;char.isupper();conditional
+5;statement;result += chr((ord(char) + s - 65) % 26 + 65);statement
+6;statement;result += chr((ord(char) + s - 97) % 26 + 97);statement
+7;statement;return result;statement
+0;1;
+1;3;6;
+2;3;
+3;4;5;
+4;1;
+5;1;
+6;

@@ -1,0 +1,29 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'LEXICOGRAPHICALLY_NEXT_STRING.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: if ( str == "" ) return "a" ;
+Line: 15
+str = "amKIRzPiqLTIy"
+
+Statement: int i = str . length ( ) - 1 ;
+Line: 16
+str = "amKIRzPiqLTIy"
+
+Statement: while ( str . charAt ( i ) == 'z' && i >= 0 ) i -- ;
+Line: 17
+str = "amKIRzPiqLTIy"
+i = 12
+
+Statement: if ( i == - 1 ) str = str + 'a' ;
+Line: 18
+str = "amKIRzPiqLTIy"
+i = 12
+
+Statement: else str = str . substring ( 0 , i ) + ( char ) ( ( int ) ( str . charAt ( i ) ) + 1 ) + str . substring ( i + 1 ) ;
+Line: 19
+str = "amKIRzPiqLTIy"
+i = 12
+
+Statement: return str ;
+Line: 20
+str = "amKIRzPiqLTIz"
+i = 12

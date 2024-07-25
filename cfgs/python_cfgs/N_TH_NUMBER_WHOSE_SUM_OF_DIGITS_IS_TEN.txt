@@ -1,0 +1,28 @@
+1;statement;count = 0;statement
+2;statement;itertools.count();conditional
+3;statement;sum = 0;statement
+4;statement;x = curr;statement
+5;statement;x;conditional
+6;statement;sum = sum + x % 10;statement
+7;statement;x = x // 10;statement
+8;statement;sum == 10;conditional
+9;statement;count = count + 1;statement
+10;statement;count == n;conditional
+11;statement;count == n;conditional
+12;statement;return curr;statement
+13;statement;return curr;statement
+14;statement;return -1;statement
+0;1;
+1;3;13;
+2;3;
+3;4;
+4;6;7;
+5;6;
+6;4;
+7;8;10;
+8;10;
+9;
+10;12;1;12;1;
+11;
+12;
+13;

@@ -1,0 +1,4 @@
+Triplet is28, 6, -16
+Triplet is 28, 6, -16Triplet is19, 6, 4
+Triplet is 19, 6, 4Triplet is40, -76, 54
+Triplet is 40, -76, 54#Results: 10, 10

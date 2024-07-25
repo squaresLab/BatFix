@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int max_len = 0;14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;int curr_sum = 0;18;
+6;statement;int j = foo_1;19;
+7;conditional;foo_1 < foo_2;20;
+8;statement;curr_sum += foo_1[foo_2];22;
+9;conditional;foo_1 == 0;23;
+10;statement;max_len = fun_1(foo_1, (foo_2 - foo_3) + 1);23;
+11;statement;j++;21;
+12;statement;i++;17;
+13;statement;return foo_1;26;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;13;
+4;6;
+5;7;
+6;8;12;
+7;9;
+8;10;11;
+9;11;
+10;7;
+11;4;
+12;14;
+13;

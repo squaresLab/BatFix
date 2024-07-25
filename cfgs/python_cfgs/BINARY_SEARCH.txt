@@ -1,0 +1,16 @@
+1;statement;r >= l;conditional
+2;statement;mid = l + (r - l) // 2;statement
+3;statement;arr[mid] == x;conditional
+4;statement;return mid;statement
+5;statement;arr[mid] > x;conditional
+6;statement;return f_gold(arr, l, mid - 1, x);statement
+7;statement;return f_gold(arr, mid + 1, r, x);statement
+8;statement;return -1;statement
+0;2;7;
+1;2;
+2;3;4;
+3;
+4;5;6;
+5;
+6;
+7;

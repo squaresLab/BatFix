@@ -1,0 +1,24 @@
+1;statement;dict = {};statement
+2;statement;vect = [];statement
+3;statement;range(size);conditional
+4;statement;arr[i] in dict;conditional
+5;statement;dict[arr[i]] = dict[arr[i]] + 1;statement
+6;statement;dict[arr[i]] = 1;statement
+7;statement;range(size);conditional
+8;statement;dict[arr[i]] > 1;conditional
+9;statement;KthIndex = KthIndex - 1;statement
+10;statement;KthIndex == 0;conditional
+11;statement;return arr[i];statement
+12;statement;return -1;statement
+0;1;
+1;2;
+2;3;6;
+3;4;5;
+4;2;
+5;2;
+6;7;11;
+7;8;6;
+8;9;
+9;10;6;
+10;
+11;

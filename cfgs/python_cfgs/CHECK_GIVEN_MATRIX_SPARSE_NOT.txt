@@ -1,0 +1,12 @@
+1;statement;counter = 0;statement
+2;statement;range(0, m);conditional
+3;statement;range(0, n);conditional
+4;statement;array[i][j] == 0;conditional
+5;statement;counter = counter + 1;statement
+6;statement;return counter > m * n // 2;statement
+0;1;
+1;2;5;
+2;3;1;
+3;4;2;
+4;2;
+5;

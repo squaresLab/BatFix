@@ -1,0 +1,14 @@
+1;statement;tmp = str + str;statement
+2;statement;n = len(str);statement
+3;statement;range(1, n + 1);conditional
+4;statement;substring = tmp[i:i + n];statement
+5;statement;str == substring;conditional
+6;statement;return i;statement
+7;statement;return n;statement
+0;1;
+1;2;
+2;4;6;
+3;4;
+4;5;2;
+5;
+6;

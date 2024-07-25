@@ -1,0 +1,12 @@
+1;statement;max = arr[low];statement
+2;statement;i = low;statement
+3;statement;range(high + 1);conditional
+4;statement;arr[i] > max;conditional
+5;statement;max = arr[i];statement
+6;statement;return max;statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;2;
+5;

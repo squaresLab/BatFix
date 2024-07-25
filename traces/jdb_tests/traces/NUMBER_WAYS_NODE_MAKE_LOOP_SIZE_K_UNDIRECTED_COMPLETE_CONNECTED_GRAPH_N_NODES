@@ -1,0 +1,24 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'NUMBER_WAYS_NODE_MAKE_LOOP_SIZE_K_UNDIRECTED_COMPLETE_CONNECTED_GRAPH_N_NODES.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int p = 1 ;
+Line: 14
+n = 27
+k = 59
+
+Statement: if ( k % 2 != 0 )
+Line: 15
+n = 27
+k = 59
+p = 1
+
+Statement: p = - 1 ;
+Line: 16
+n = 27
+k = 59
+p = 1
+
+Statement: return ( int ) ( Math . pow ( n - 1 , k ) + p * ( n - 1 ) ) / n ;
+Line: 17
+n = 27
+k = 59
+p = -1

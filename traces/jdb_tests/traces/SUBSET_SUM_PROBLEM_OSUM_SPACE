@@ -1,0 +1,844 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'SUBSET_SUM_PROBLEM_OSUM_SPACE.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: boolean subset [ ] [ ] = new boolean [ 2 ] [ sum + 1 ] ;
+Line: 9
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+
+Statement: for ( int i = 0 ;
+Line: 10
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { false, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+
+Statement: i <= n ;
+Line: 11
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { false, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+
+Statement: for ( int j = 0 ;
+Line: 13
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { false, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { false, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 0
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { false, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 0
+
+Statement: subset [ i % 2 ] [ j ] = true ;
+Line: 17
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { false, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 0
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 0
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 1
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 1
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 1
+
+Statement: subset [ i % 2 ] [ j ] = false ;
+Line: 19
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 1
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 1
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 2
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 2
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 2
+
+Statement: subset [ i % 2 ] [ j ] = false ;
+Line: 19
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 2
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 2
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 3
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 3
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 3
+
+Statement: subset [ i % 2 ] [ j ] = false ;
+Line: 19
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 3
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 3
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 4
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 4
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 4
+
+Statement: subset [ i % 2 ] [ j ] = false ;
+Line: 19
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 4
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 4
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 5
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 5
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 5
+
+Statement: subset [ i % 2 ] [ j ] = false ;
+Line: 19
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 5
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 5
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 6
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 6
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 6
+
+Statement: subset [ i % 2 ] [ j ] = false ;
+Line: 19
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 6
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 6
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 7
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 7
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 7
+
+Statement: subset [ i % 2 ] [ j ] = false ;
+Line: 19
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 7
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 7
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+j = 8
+
+Statement: i ++ ) {
+Line: 12
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 0
+
+Statement: i <= n ;
+Line: 11
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 1
+
+Statement: for ( int j = 0 ;
+Line: 13
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 1
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 1
+j = 0
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 1
+j = 0
+
+Statement: subset [ i % 2 ] [ j ] = true ;
+Line: 17
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { false, false, false, false, false, false, false, false }}
+i = 1
+j = 0
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 0
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 1
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 1
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 1
+
+Statement: else if ( arr [ i - 1 ] <= j )
+Line: 20
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 1
+
+Statement: subset [ i % 2 ] [ j ] = subset [ ( i + 1 ) % 2 ] [j];
+Line: 23
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 1
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 1
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 2
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 2
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 2
+
+Statement: else if ( arr [ i - 1 ] <= j )
+Line: 20
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 2
+
+Statement: subset [ i % 2 ] [ j ] = subset [ ( i + 1 ) % 2 ] [j];
+Line: 23
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 2
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 2
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 3
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 3
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 3
+
+Statement: else if ( arr [ i - 1 ] <= j )
+Line: 20
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 3
+
+Statement: subset [ i % 2 ] [ j ] = subset [ ( i + 1 ) % 2 ] [j];
+Line: 23
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 3
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 3
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 4
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 4
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 4
+
+Statement: else if ( arr [ i - 1 ] <= j )
+Line: 20
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 4
+
+Statement: subset[i % 2][j] = subset[(i + 1) % 2][j - arr[i - 1]] || subset[(i + 1) % 2][j];
+Line: 21
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, false, false, false, false }}
+i = 1
+j = 4
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 4
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 5
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 5
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 5
+
+Statement: else if ( arr [ i - 1 ] <= j )
+Line: 20
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 5
+
+Statement: subset[i % 2][j] = subset[(i + 1) % 2][j - arr[i - 1]] || subset[(i + 1) % 2][j];
+Line: 21
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 5
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 5
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 6
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 6
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 6
+
+Statement: else if ( arr [ i - 1 ] <= j )
+Line: 20
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 6
+
+Statement: subset[i % 2][j] = subset[(i + 1) % 2][j - arr[i - 1]] || subset[(i + 1) % 2][j];
+Line: 21
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 6
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 6
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 7
+
+Statement: if ( j == 0 )
+Line: 16
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 7
+
+Statement: else if ( i == 0 )
+Line: 18
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 7
+
+Statement: else if ( arr [ i - 1 ] <= j )
+Line: 20
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 7
+
+Statement: subset[i % 2][j] = subset[(i + 1) % 2][j - arr[i - 1]] || subset[(i + 1) % 2][j];
+Line: 21
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 7
+
+Statement: j ++ ) {
+Line: 15
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 7
+
+Statement: j <= sum ;
+Line: 14
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = { true, false, false, false, false, false, false, false }, { true, false, false, false, true, false, false, false }}
+i = 1
+j = 8
+
+Statement: i ++ ) {
+Line: 12
+arr = { 4, 6, 7, 9, 11, 23, 25, 33, 55, 81, 82, 90, 93, 98 }
+n = 10
+sum = 7
+subset = 

@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 <= 4;14;
+3;statement;return fun_3(foo_1).fun_2().fun_1();14;
+4;exit;;;
+5;statement;int[] sum = new int[foo_1];15;
+6;statement;foo_1[0] = foo_2[0];16;
+7;statement;foo_1[1] = foo_2[1];17;
+8;statement;foo_1[2] = foo_2[2];18;
+9;statement;foo_1[3] = foo_2[3];19;
+10;statement;int i = 4;20;
+11;conditional;foo_1 < foo_2;21;
+12;statement;foo_1[foo_2] = foo_3[foo_4] + fun_3(fun_4(foo_5, foo_6 - 4, foo_7)).fun_2().fun_1();22;
+13;statement;i++;22;
+14;statement;return fun_3(fun_4(foo_1, foo_2 - 4, foo_3)).fun_2().fun_1();23;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;
+8;10;
+9;11;
+10;12;14;
+11;13;
+12;11;
+13;4;

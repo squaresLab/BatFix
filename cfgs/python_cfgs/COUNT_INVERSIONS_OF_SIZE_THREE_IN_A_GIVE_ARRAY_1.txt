@@ -1,0 +1,27 @@
+Nodes
+1;statement;invcount = 0;
+2;conditional;range(1, n - 1);
+3;statement;small = 0;
+4;conditional;range(i + 1, n);
+5;conditional;arr[i] > arr[j];
+6;statement;small += 1;
+7;statement;great = 0;
+8;conditional;range(i - 1, -1, -1);
+9;conditional;arr[i] < arr[j];
+10;statement;great += 1;
+11;statement;invcount += great * small;
+12;statement;return invcount;
+13;exit;;
+Edges
+0;2;
+1;3;12;
+2;4;
+3;5;7;
+4;6;4;
+5;4;
+6;8;
+7;9;11;
+8;10;8;
+9;8;
+10;2;
+11;13;

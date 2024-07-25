@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int n = fun_1();34;
+3;conditional;foo_1 >= 9;35;
+4;statement;return "-1";36;
+5;exit;;;
+6;statement;char[] result = new char[foo_1 + 1];37;
+7;statement;int count = 1;38;
+8;statement;int i = 0;39;
+9;conditional;foo_1 <= foo_2;40;
+10;conditional;(foo_1 == foo_2) || (fun_1(foo_4) == 'I');42;
+11;statement;int j = foo_1 - 1;43;
+12;conditional;foo_1 >= (-1);44;
+13;statement;foo_1[foo_2 + 1] = ((char) (((int) ('0')) + (count++)));46;
+14;conditional;(foo_1 >= 0) && (fun_1(foo_3) == 'I');47;
+15;statement;break;48;
+16;statement;j--;45;
+17;statement;i++;41;
+18;statement;return new String(foo_1);52;
+Edges
+0;2;
+1;3;
+2;4;6;
+3;5;
+4;
+5;7;
+6;8;
+7;9;
+8;10;18;
+9;11;17;
+10;12;
+11;13;17;
+12;14;
+13;15;16;
+14;17;
+15;12;
+16;9;
+17;5;

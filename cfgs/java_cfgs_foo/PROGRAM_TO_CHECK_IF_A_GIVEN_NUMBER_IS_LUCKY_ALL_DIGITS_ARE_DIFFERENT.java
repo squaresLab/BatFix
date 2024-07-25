@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;boolean[] arr = new boolean[10];14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < 10;16;
+5;statement;foo_1[foo_2] = false;17;
+6;statement;i++;17;
+7;conditional;foo_1 > 0;18;
+8;statement;int digit = foo_1 % 10;19;
+9;conditional;foo_1[foo_2];20;
+10;statement;return false;20;
+11;exit;;;
+12;statement;foo_1[foo_2] = true;21;
+13;statement;n = foo_1 / 10;22;
+14;statement;return true;24;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;7;
+4;6;
+5;4;
+6;14;8;
+7;9;
+8;10;12;
+9;11;
+10;
+11;13;
+12;7;
+13;11;

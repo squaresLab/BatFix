@@ -1,0 +1,14 @@
+1;statement;arr.sort();statement
+2;statement;minXor = int(sys.float_info.max);statement
+3;statement;val = 0;statement
+4;statement;range(0, n - 1);conditional
+5;statement;val = arr[i] ^ arr[i + 1];statement
+6;statement;minXor = min(minXor, val);statement
+7;statement;return minXor;statement
+0;1;
+1;2;
+2;3;
+3;5;6;
+4;5;
+5;3;
+6;

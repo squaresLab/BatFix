@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int l = 0;14;
+3;statement;int sum = 0;14;
+4;statement;int ans = 360;14;
+5;statement;int i = 0;15;
+6;conditional;foo_1 < foo_2;16;
+7;statement;sum += foo_1[foo_2];18;
+8;conditional;foo_1 >= 180;19;
+9;statement;ans = fun_1(foo_1, 2 * fun_2(180 - foo_2));20;
+10;statement;sum -= foo_1[foo_2];21;
+11;statement;l++;22;
+12;statement;ans = fun_1(foo_1, 2 * fun_2(180 - foo_2));24;
+13;statement;i++;17;
+14;statement;return foo_1;26;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;14;
+6;8;
+7;12;9;
+8;10;
+9;11;
+10;8;
+11;13;
+12;6;
+13;15;
+14;

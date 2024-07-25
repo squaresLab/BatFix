@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 <= 0;14;
+3;statement;return 0;14;
+4;exit;;;
+5;statement;int[] fibo = new int[foo_1 + 1];15;
+6;statement;foo_1[0] = 0;16;
+7;statement;foo_1[1] = 1;17;
+8;statement;int sum = foo_1[0] + foo_2[1];18;
+9;statement;int i = 2;19;
+10;conditional;foo_1 <= foo_2;20;
+11;statement;foo_1[foo_2] = foo_3[foo_4 - 1] + foo_5[foo_6 - 2];22;
+12;statement;sum += foo_1[foo_2];23;
+13;statement;i++;21;
+14;statement;return foo_1;25;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;
+8;10;
+9;11;14;
+10;12;
+11;13;
+12;10;
+13;4;

@@ -1,0 +1,32 @@
+Nodes
+1;statement;foo_1 = fun_1(foo_2);8;
+2;statement;foo_1 = [0] * foo_2;9;
+3;conditional;fun_1(foo_1 - 1, -1, -1);10;
+4;statement;return foo_1[foo_2 - 1];22;
+5;statement;foo_1 = 0;11;
+6;conditional;foo < foo;12;
+7;conditional;foo_1 == foo_2;13;
+8;conditional;foo_1[foo_2] == foo_3[foo_4];15;
+9;statement;foo_1 = foo_2[foo_3];20;
+10;statement;foo_1[foo_2] = fun_1(foo_3[foo_4 - 1], foo_5[foo_6]);21;
+11;statement;foo_1 = foo_2[foo_3];16;
+12;statement;foo_1[foo_2] = foo_3 + 2;17;
+13;statement;foo_1 = foo_2;18;
+14;statement;foo_1[foo_2] = 1;14;
+15;exit;;
+Edges
+0;2;
+1;3;
+2;4;5;
+3;15;
+4;6;
+5;3;7;
+6;8;14;
+7;9;11;
+8;10;
+9;6;
+10;12;
+11;13;
+12;6;
+13;6;
+14;

@@ -1,0 +1,16 @@
+1;statement;range(0, n);conditional
+2;statement;sum = 0;statement
+3;statement;range(0, n);conditional
+4;statement;sum = sum + abs(m[i][j]);statement
+5;statement;sum = sum - abs(m[i][i]);statement
+6;statement;abs(m[i][i]) < sum;conditional
+7;statement;return False;statement
+8;statement;return True;statement
+0;1;7;
+1;2;
+2;3;5;
+3;2;
+4;5;
+5;6;0;
+6;
+7;

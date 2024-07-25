@@ -1,0 +1,8 @@
+1;statement;s1 = s;statement
+2;statement;range(1, n);conditional
+3;statement;s += s1;statement
+4;statement;return s;statement
+0;1;
+1;2;3;
+2;1;
+3;

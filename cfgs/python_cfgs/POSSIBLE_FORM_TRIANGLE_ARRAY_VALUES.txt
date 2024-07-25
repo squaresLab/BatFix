@@ -1,0 +1,12 @@
+1;statement;N < 3;conditional
+2;statement;return False;statement
+3;statement;arr.sort();statement
+4;statement;range(N - 2);statement
+5;statement;arr[i] + arr[i + 1] > arr[i + 2];conditional
+6;statement;return True;statement
+0;1;2;
+1;
+2;3;
+3;4;
+4;5;3;
+5;

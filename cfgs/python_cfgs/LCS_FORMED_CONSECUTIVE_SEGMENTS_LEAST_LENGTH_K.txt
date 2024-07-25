@@ -1,0 +1,32 @@
+1;statement;n = len(s1);statement
+2;statement;m = len(s2);statement
+3;statement;lcs = [[0 for x in range(m + 1)] for y in range(n + 1)];statement
+4;statement;cnt = [[0 for x in range(m + 1)] for y in range(n + 1)];statement
+5;statement;range(1, n + 1);conditional
+6;statement;range(1, m + 1);conditional
+7;statement;lcs[i][j] = max(lcs[i - 1][j], lcs[i][j - 1]);statement
+8;statement;s1[i - 1] == s2[j - 1];conditional
+9;statement;cnt[i][j] = cnt[i - 1][j - 1] + 1;statement
+10;statement;cnt[i][j] >= k;conditional
+11;statement;cnt[i][j] >= k;conditional
+12;statement;range(k, cnt[i][j] + 1);conditional
+13;statement;range(k, cnt[i][j] + 1);conditional
+14;statement;lcs[i][j] = max(lcs[i][j], lcs[i - a][j - a] + a);statement
+15;statement;lcs[i][j] = max(lcs[i][j], lcs[i - a][j - a] + a);statement
+16;statement;return lcs[n][m];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;15;
+5;7;4;
+6;7;
+7;8;10;
+8;10;
+9;
+10;12;5;12;5;
+11;
+12;14;5;14;5;
+13;
+14;12;12;
+15;

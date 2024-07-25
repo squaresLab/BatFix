@@ -1,0 +1,12 @@
+1;statement;dp = [0] * (n + 1);statement
+2;statement;dp[0] = 0;statement
+3;statement;dp[1] = 1;statement
+4;statement;range(2, n + 1);conditional
+5;statement;dp[i] = max(dp[int(i / 2)] + dp[int(i / 3)] + dp[int(i / 4)], i);statement
+6;statement;return dp[n];statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;

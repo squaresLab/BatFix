@@ -1,0 +1,14 @@
+1;statement;x = n;statement
+2;statement;y = 1;statement
+3;statement;e = 1e-06;statement
+4;statement;x - y > e;conditional
+5;statement;x = (x + y) / 2;statement
+6;statement;y = n / x;statement
+7;statement;return x;statement
+0;1;
+1;2;
+2;3;
+3;5;6;
+4;5;
+5;3;
+6;

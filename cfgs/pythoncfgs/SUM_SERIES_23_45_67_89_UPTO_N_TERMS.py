@@ -1,0 +1,30 @@
+Nodes
+1;statement;foo_1 = 1;8;
+2;statement;foo_1 = 0.0;9;
+3;statement;foo_1 = true;10;
+4;conditional;foo_1 > 0;11;
+5;statement;return foo_1;21;
+6;statement;foo_1 = foo_2 - 1;12;
+7;conditional;foo_1;13;
+8;statement;foo_1 = true;18;
+9;statement;foo_1 = foo_2 - (foo_3 + 1) / (foo_4 + 2);19;
+10;statement;foo_1 = foo_2 + 2;20;
+11;statement;foo_1 = false;14;
+12;statement;foo_1 = foo_2 + (foo_3 + 1) / (foo_4 + 2);15;
+13;statement;foo_1 = foo_2 + 2;16;
+14;exit;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;6;
+4;14;
+5;7;
+6;8;11;
+7;9;
+8;10;
+9;4;
+10;12;
+11;13;
+12;4;
+13;

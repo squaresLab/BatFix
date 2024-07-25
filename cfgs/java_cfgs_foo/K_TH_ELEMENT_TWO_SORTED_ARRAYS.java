@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int[] sorted1 = new int[foo_1 + foo_2];14;
+3;statement;int i = 0;15;
+4;statement;int j = 0;15;
+5;statement;int d = 0;15;
+6;conditional;(foo_1 < foo_2) && (foo_3 < foo_4);16;
+7;conditional;foo_1[foo_2] < foo_3[foo_4];17;
+8;statement;foo_1[d++] = foo_2[i++];17;
+9;statement;foo_1[d++] = foo_2[j++];18;
+10;conditional;foo_1 < foo_2;20;
+11;statement;foo_1[d++] = foo_2[i++];20;
+12;conditional;foo_1 < foo_2;21;
+13;statement;foo_1[d++] = foo_2[j++];21;
+14;statement;return foo_1[foo_2 - 1];22;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;10;7;
+6;8;9;
+7;6;
+8;6;
+9;12;11;
+10;10;
+11;14;13;
+12;12;
+13;15;
+14;

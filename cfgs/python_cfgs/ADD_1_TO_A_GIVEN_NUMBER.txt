@@ -1,0 +1,12 @@
+1;statement;m = 1;statement
+2;statement;x & m;conditional
+3;statement;x = x ^ m;statement
+4;statement;m <<= 1;statement
+5;statement;x = x ^ m;statement
+6;statement;return x;statement
+0;1;
+1;3;5;
+2;3;
+3;1;
+4;5;
+5;

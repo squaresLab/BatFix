@@ -1,0 +1,4 @@
+1;statement;dis = int(math.sqrt(x1 * x1 + y1 * y1));statement
+2;statement;return dis - r1 >= R and dis + r1 <= r;statement
+0;1;
+1;

@@ -1,0 +1,8 @@
+1;statement;range(n - 1, 0, -1);conditional
+2;statement;j = random.randint(0, i + 1);statement
+3;statement;(arr[i], arr[j]) = (arr[j], arr[i]);statement
+4;statement;return arr;statement
+0;2;3;
+1;2;
+2;0;
+3;

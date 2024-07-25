@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;HashSet<Integer> s = new HashSet<Integer>();14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;fun_1(foo_2[foo_3]);18;
+6;statement;i++;17;
+7;statement;ArrayList<Integer> al = new ArrayList<>(foo_1);20;
+8;statement;int i = 0;21;
+9;conditional;foo_1 < foo_2;22;
+10;statement;int j = 0;24;
+11;conditional;foo_1 < foo_2;25;
+12;conditional;fun_1((foo_2 - foo_3[foo_4]) - foo_5[foo_6]) & (fun_2((foo_8 - foo_9[foo_10]) - foo_11[foo_12]) != fun_3(fun_4() - 1));27;
+13;statement;return true;28;
+14;exit;;;
+15;statement;j++;26;
+16;statement;i++;23;
+17;statement;return false;32;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;7;
+4;6;
+5;4;
+6;8;
+7;9;
+8;10;17;
+9;11;
+10;12;16;
+11;13;15;
+12;14;
+13;
+14;11;
+15;9;
+16;14;

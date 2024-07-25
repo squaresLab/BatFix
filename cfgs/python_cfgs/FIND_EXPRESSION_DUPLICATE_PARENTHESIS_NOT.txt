@@ -1,0 +1,24 @@
+1;statement;Stack = [];statement
+2;statement;string;conditional
+3;statement;ch == ')';conditional
+4;statement;top = Stack.pop();statement
+5;statement;elementsInside = 0;statement
+6;statement;top != '(';conditional
+7;statement;elementsInside += 1;statement
+8;statement;top = Stack.pop();statement
+9;statement;elementsInside < 1;conditional
+10;statement;return True;statement
+11;statement;Stack.append(ch);statement
+12;statement;return False;statement
+0;1;
+1;2;11;
+2;4;10;
+3;4;
+4;5;
+5;7;8;
+6;7;
+7;5;
+8;9;1;
+9;
+10;1;
+11;

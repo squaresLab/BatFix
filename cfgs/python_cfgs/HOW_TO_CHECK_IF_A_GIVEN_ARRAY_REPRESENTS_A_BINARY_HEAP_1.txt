@@ -1,0 +1,12 @@
+1;statement;range(int((n - 2) / 2) + 1);conditional
+2;statement;arr[2 * i + 1] > arr[i];conditional
+3;statement;return False;statement
+4;statement;2 * i + 2 < n and arr[2 * i + 2] > arr[i];conditional
+5;statement;return False;statement
+6;statement;return True;statement
+0;1;5;
+1;2;3;
+2;
+3;4;0;
+4;
+5;

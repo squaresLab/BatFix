@@ -1,0 +1,8 @@
+1;statement;s2[index] = s1[index];statement
+2;statement;index == len(s1) - 1;conditional
+3;statement;return;statement
+4;statement;f_gold(s1, s2, index + 1);statement
+0;1;
+1;2;3;
+2;
+3;

@@ -1,0 +1,24 @@
+1;statement;range(n - 1);statement
+2;statement;pos = i;statement
+3;statement;range(i + 1, n);conditional
+4;statement;j - i > k;conditional
+5;statement;arr[j] < arr[pos];conditional
+6;statement;pos = j;statement
+7;statement;range(pos, i, -1);conditional
+8;statement;range(pos, i, -1);conditional
+9;statement;(arr[j], arr[j - 1]) = (arr[j - 1], arr[j]);statement
+10;statement;(arr[j], arr[j - 1]) = (arr[j - 1], arr[j]);statement
+11;statement;k -= pos - i;statement
+12;statement;k -= pos - i;statement
+0;1;
+1;2;
+2;3;7;
+3;4;7;
+4;5;2;
+5;2;
+6;
+7;9;11;9;11;
+8;
+9;7;7;
+10;
+11;0;0;

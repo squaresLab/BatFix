@@ -1,0 +1,18 @@
+1;statement;k = n;statement
+2;statement;imin = 1;statement
+3;statement;ans = 0;statement
+4;statement;imin <= n;conditional
+5;statement;imax = n / k;statement
+6;statement;ans += k * (imax - imin + 1);statement
+7;statement;imin = imax + 1;statement
+8;statement;k = n / imin;statement
+9;statement;return ans;statement
+0;1;
+1;2;
+2;3;
+3;7;8;
+4;5;
+5;6;
+6;7;
+7;3;
+8;

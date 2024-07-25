@@ -1,0 +1,187 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'LEXICOGRAPHICALLY_MINIMUM_STRING_ROTATION.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int n = str . length ( ) ;
+Line: 14
+str = "onWEchl"
+
+Statement: String arr [ ] = new String [ n ] ;
+Line: 15
+str = "onWEchl"
+n = 7
+
+Statement: String concat = str + str ;
+Line: 16
+str = "onWEchl"
+n = 7
+
+Statement: for ( int i = 0 ;
+Line: 17
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 0
+
+Statement: arr [ i ] = concat . substring ( i , i + n ) ;
+Line: 20
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 0
+
+Statement: i ++ ) {
+Line: 19
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 0
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 1
+
+Statement: arr [ i ] = concat . substring ( i , i + n ) ;
+Line: 20
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 1
+
+Statement: i ++ ) {
+Line: 19
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 1
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 2
+
+Statement: arr [ i ] = concat . substring ( i , i + n ) ;
+Line: 20
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 2
+
+Statement: i ++ ) {
+Line: 19
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 2
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 3
+
+Statement: arr [ i ] = concat . substring ( i , i + n ) ;
+Line: 20
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 3
+
+Statement: i ++ ) {
+Line: 19
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 3
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 4
+
+Statement: arr [ i ] = concat . substring ( i , i + n ) ;
+Line: 20
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 4
+
+Statement: i ++ ) {
+Line: 19
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 4
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 5
+
+Statement: arr [ i ] = concat . substring ( i , i + n ) ;
+Line: 20
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 5
+
+Statement: i ++ ) {
+Line: 19
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 5
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 6
+
+Statement: arr [ i ] = concat . substring ( i , i + n ) ;
+Line: 20
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 6
+
+Statement: i ++ ) {
+Line: 19
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 6
+
+Statement: i < n ;
+Line: 18
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+i = 7
+
+Statement: Arrays . sort ( arr ) ;
+Line: 22
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"
+
+Statement: return arr [ 0 ] ;
+Line: 23
+str = "onWEchl"
+n = 7
+concat = "onWEchlonWEchl"

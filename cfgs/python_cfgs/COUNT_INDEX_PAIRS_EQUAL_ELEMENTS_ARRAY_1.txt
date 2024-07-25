@@ -1,0 +1,20 @@
+1;statement;mp = dict();statement
+2;statement;range(n);conditional
+3;statement;arr[i] in mp.keys();conditional
+4;statement;mp[arr[i]] += 1;statement
+5;statement;mp[arr[i]] = 1;statement
+6;statement;ans = 0;statement
+7;statement;mp;conditional
+8;statement;count = mp[it];statement
+9;statement;ans += count * (count - 1) // 2;statement
+10;statement;return ans;statement
+0;1;
+1;2;5;
+2;3;4;
+3;1;
+4;1;
+5;6;
+6;8;9;
+7;8;
+8;6;
+9;

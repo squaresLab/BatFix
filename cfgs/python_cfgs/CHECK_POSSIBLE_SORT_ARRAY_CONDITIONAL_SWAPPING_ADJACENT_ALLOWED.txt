@@ -1,0 +1,12 @@
+1;statement;range(0, n - 1);conditional
+2;statement;arr[i] > arr[i + 1];conditional
+3;statement;arr[i] - arr[i + 1] == 1;conditional
+4;statement;(arr[i], arr[i + 1]) = (arr[i + 1], arr[i]);statement
+5;statement;return False;statement
+6;statement;return True;statement
+0;1;5;
+1;2;0;
+2;3;4;
+3;0;
+4;
+5;

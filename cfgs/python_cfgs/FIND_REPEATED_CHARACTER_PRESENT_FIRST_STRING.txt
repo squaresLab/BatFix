@@ -1,0 +1,14 @@
+1;statement;p = -1;statement
+2;statement;range(len(s));conditional
+3;statement;range(i + 1, len(s));conditional
+4;statement;s[i] == s[j];conditional
+5;statement;p = i;statement
+6;statement;p != -1;conditional
+7;statement;return p;statement
+0;1;
+1;2;6;
+2;3;5;
+3;4;2;
+4;5;
+5;6;1;
+6;

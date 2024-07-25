@@ -1,0 +1,12 @@
+1;statement;sorted(A);statement
+2;statement;sorted(B);statement
+3;statement;result = 0;statement
+4;statement;range(n);conditional
+5;statement;result += A[i] * B[n - i - 1];statement
+6;statement;return result;statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;

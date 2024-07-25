@@ -1,0 +1,28 @@
+1;statement;k < 0;conditional
+2;statement;return -10 ** 7;statement
+3;statement;n < 0 or m < 0;conditional
+4;statement;return 0;statement
+5;statement;ans = dp[n][m][k];statement
+6;statement;ans != -1;conditional
+7;statement;return ans;statement
+8;statement;ans = max(f_gold(dp, arr1, n - 1, arr2, m, k), f_gold(dp, arr1, n, arr2, m - 1, k));statement
+9;statement;arr1[n - 1] == arr2[m - 1];conditional
+10;statement;ans = max(ans, 1 + f_gold(dp, arr1, n - 1, arr2, m - 1, k));statement
+11;statement;ans = max(ans, f_gold(dp, arr1, n - 1, arr2, m - 1, k - 1));statement
+12;statement;return ans;statement
+13;statement;ans = max(ans, f_gold(dp, arr1, n - 1, arr2, m - 1, k - 1));statement
+14;statement;return ans;statement
+0;1;2;
+1;
+2;3;5;
+3;
+4;5;
+5;6;8;
+6;
+7;8;
+8;9;13;
+9;13;
+10;11;
+11;
+12;13;
+13;

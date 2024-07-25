@@ -1,0 +1,10 @@
+1;statement;arr.sort();statement
+2;statement;sum = 0;statement
+3;statement;range(n);conditional
+4;statement;sum += arr[i] * i;statement
+5;statement;return sum;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;

@@ -1,0 +1,20 @@
+1;statement;n1 = len(str1);statement
+2;statement;n2 = len(str2);statement
+3;statement;n1 != n2;conditional
+4;statement;return 0;statement
+5;statement;str1 = sorted(str1);statement
+6;statement;str2 = sorted(str2);statement
+7;statement;range(0, n1);conditional
+8;statement;str1[i] != str2[i];conditional
+9;statement;return 0;statement
+10;statement;return 1;statement
+0;1;
+1;2;
+2;3;5;
+3;
+4;5;
+5;6;
+6;7;9;
+7;8;6;
+8;
+9;

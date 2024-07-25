@@ -1,0 +1,22 @@
+1;statement;d1 = 0;statement
+2;statement;d2 = 0;statement
+3;statement;range(0, n);conditional
+4;statement;range(0, n);conditional
+5;statement;i == j;conditional
+6;statement;d1 += arr[i][j];statement
+7;statement;i == n - j - 1;conditional
+8;statement;i == n - j - 1;conditional
+9;statement;d2 += arr[i][j];statement
+10;statement;d2 += arr[i][j];statement
+11;statement;return abs(d1 - d2);statement
+0;1;
+1;2;
+2;3;10;
+3;4;2;
+4;5;7;
+5;7;
+6;
+7;9;3;9;3;
+8;
+9;3;3;
+10;

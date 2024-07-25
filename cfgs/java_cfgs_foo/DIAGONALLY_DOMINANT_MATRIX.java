@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int i = 0;14;
+3;conditional;foo_1 < foo_2;15;
+4;statement;int sum = 0;17;
+5;statement;int j = 0;18;
+6;conditional;foo_1 < foo_2;19;
+7;statement;sum += fun_1(foo_1[foo_2][foo_3]);20;
+8;statement;j++;20;
+9;statement;sum -= fun_1(foo_1[foo_2][foo_3]);21;
+10;conditional;fun_1(foo_1[foo_2][foo_3]) < foo_4;22;
+11;statement;return false;22;
+12;exit;;;
+13;statement;i++;16;
+14;statement;return true;24;
+Edges
+0;2;
+1;3;
+2;4;14;
+3;5;
+4;6;
+5;7;9;
+6;8;
+7;6;
+8;10;
+9;11;13;
+10;12;
+11;
+12;3;
+13;12;

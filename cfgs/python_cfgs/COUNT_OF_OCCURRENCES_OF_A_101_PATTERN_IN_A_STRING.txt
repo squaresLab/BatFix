@@ -1,0 +1,36 @@
+1;statement;length = len(s);statement
+2;statement;oneSeen = False;statement
+3;statement;count = 0;statement
+4;statement;range(length);conditional
+5;statement;s[i] == '1' and oneSeen;conditional
+6;statement;s[i - 1] == '0';conditional
+7;statement;count += 1;statement
+8;statement;s[i] == '1' and oneSeen == 0;conditional
+9;statement;s[i] == '1' and oneSeen == 0;conditional
+10;statement;oneSeen = True;statement
+11;statement;oneSeen = True;statement
+12;statement;s[i] != '0' and s[i] != '1';conditional
+13;statement;s[i] != '0' and s[i] != '1';conditional
+14;statement;s[i] != '0' and s[i] != '1';conditional
+15;statement;oneSeen = False;statement
+16;statement;oneSeen = False;statement
+17;statement;oneSeen = False;statement
+18;statement;return count;statement
+0;1;
+1;2;
+2;3;
+3;4;17;
+4;5;8;
+5;6;8;
+6;8;
+7;
+8;10;13;10;13;
+9;
+10;13;13;
+11;
+12;
+13;16;3;16;3;16;3;
+14;
+15;
+16;3;3;3;
+17;

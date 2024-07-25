@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int one_count = 0;14;
+3;statement;int zero_count = 0;14;
+4;statement;char[] str = fun_1();15;
+5;statement;int n = foo_1.length;16;
+6;statement;int i = 0;17;
+7;conditional;foo_1 < foo_2;18;
+8;conditional;foo_1[foo_2] == '1';19;
+9;statement;one_count++;19;
+10;statement;zero_count++;20;
+11;statement;i++;19;
+12;conditional;(foo_1 % 2) == 0;21;
+13;statement;return foo_1;21;
+14;exit;;;
+15;statement;return foo_1;22;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;8;12;
+7;9;10;
+8;11;
+9;11;
+10;7;
+11;13;15;
+12;14;
+13;
+14;14;

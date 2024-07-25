@@ -1,0 +1,4 @@
+1;statement;arr.sort();statement
+2;statement;return arr[n - 1] + arr[n - 2] + arr[n - 3];statement
+0;1;
+1;

@@ -1,0 +1,20 @@
+1;statement;N == 0;conditional
+2;statement;return 0;statement
+3;statement;N == 1;conditional
+4;statement;return insrt;statement
+5;statement;dp = [0] * (N + 1);statement
+6;statement;range(1, N + 1);conditional
+7;statement;i % 2 == 0;conditional
+8;statement;dp[i] = min(dp[i - 1] + insrt, dp[i // 2] + cpy);statement
+9;statement;dp[i] = min(dp[i - 1] + insrt, dp[(i + 1) // 2] + cpy + remov);statement
+10;statement;return dp[N];statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;
+5;6;9;
+6;7;8;
+7;5;
+8;5;
+9;

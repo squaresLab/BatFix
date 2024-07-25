@@ -1,0 +1,44 @@
+1;statement;i = 0;statement
+2;statement;l = 0;statement
+3;statement;r = 0;statement
+4;statement;res = 0;statement
+5;statement;thi = [];statement
+6;statement;pol = [];statement
+7;statement;i < n;conditional
+8;statement;arr[i] == 'P';conditional
+9;statement;pol.append(i);statement
+10;statement;arr[i] == 'T';conditional
+11;statement;thi.append(i);statement
+12;statement;i += 1;statement
+13;statement;i += 1;statement
+14;statement;l < len(thi) and r < len(pol);conditional
+15;statement;abs(thi[l] - pol[r]) <= k;conditional
+16;statement;res += 1;statement
+17;statement;l += 1;statement
+18;statement;r += 1;statement
+19;statement;thi[l] < pol[r];conditional
+20;statement;l += 1;statement
+21;statement;r += 1;statement
+22;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;13;
+7;8;9;
+8;12;
+9;10;12;
+10;12;
+11;
+12;6;6;
+13;14;21;
+14;17;18;
+15;16;
+16;17;
+17;13;
+18;19;20;
+19;13;
+20;13;
+21;

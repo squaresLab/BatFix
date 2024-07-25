@@ -1,0 +1,46 @@
+1;statement;l = len(s);statement
+2;statement;s1 = '';statement
+3;statement;l % 2 == 0;conditional
+4;statement;isEven = True;statement
+5;statement;isEven = False;statement
+6;statement;range(0, l, 2);conditional
+7;statement;range(0, l, 2);conditional
+8;statement;isEven;conditional
+9;statement;isEven;conditional
+10;statement;s1 = s[i] + s1;statement
+11;statement;s1 += s[i + 1];statement
+12;statement;s1 = s[i] + s1;statement
+13;statement;s1 += s[i + 1];statement
+14;statement;l - i > 1;conditional
+15;statement;l - i > 1;conditional
+16;statement;s1 += s[i];statement
+17;statement;s1 = s[i + 1] + s1;statement
+18;statement;s1 += s[i];statement
+19;statement;s1 = s[i + 1] + s1;statement
+20;statement;s1 += s[i];statement
+21;statement;s1 += s[i];statement
+22;statement;return s1;statement
+23;statement;return s1;statement
+0;1;
+1;2;
+2;3;4;
+3;6;
+4;6;
+5;
+6;8;22;8;22;
+7;
+8;12;14;12;14;
+9;10;
+10;
+11;12;
+12;6;6;
+13;
+14;18;20;18;20;
+15;16;
+16;
+17;18;
+18;6;6;
+19;
+20;6;6;
+21;
+22;

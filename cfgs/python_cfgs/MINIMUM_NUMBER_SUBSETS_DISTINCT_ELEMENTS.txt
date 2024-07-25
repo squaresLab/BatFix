@@ -1,0 +1,20 @@
+1;statement;res = 0;statement
+2;statement;ar.sort();statement
+3;statement;range(0, n);conditional
+4;statement;count = 1;statement
+5;statement;range(n - 1);conditional
+6;statement;ar[i] == ar[i + 1];conditional
+7;statement;count += 1;statement
+8;statement;res = max(res, count);statement
+9;statement;res = max(res, count);statement
+10;statement;return res;statement
+0;1;
+1;2;
+2;3;9;
+3;4;
+4;5;8;
+5;6;8;
+6;4;
+7;
+8;2;2;
+9;

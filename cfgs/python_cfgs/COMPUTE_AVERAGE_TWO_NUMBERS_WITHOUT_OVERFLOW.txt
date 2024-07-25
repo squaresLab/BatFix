@@ -1,0 +1,2 @@
+1;statement;return floor((a + b) / 2);statement
+0;

@@ -1,0 +1,16 @@
+1;statement;n = len(str);statement
+2;statement;dp = [[0] * (n + 1)] * (n + 1);statement
+3;statement;range(1, n + 1);conditional
+4;statement;range(1, n + 1);conditional
+5;statement;str[i - 1] == str[j - 1] and i != j;conditional
+6;statement;dp[i][j] = 1 + dp[i - 1][j - 1];statement
+7;statement;dp[i][j] = max(dp[i][j - 1], dp[i - 1][j]);statement
+8;statement;return dp[n][n];statement
+0;1;
+1;2;
+2;3;7;
+3;4;2;
+4;5;6;
+5;3;
+6;3;
+7;

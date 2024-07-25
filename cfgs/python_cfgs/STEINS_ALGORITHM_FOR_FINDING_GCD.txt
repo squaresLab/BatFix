@@ -1,0 +1,42 @@
+1;statement;a == 0;conditional
+2;statement;return b;statement
+3;statement;b == 0;conditional
+4;statement;return a;statement
+5;statement;k = 0;statement
+6;statement;(a | b) & 1 == 0;conditional
+7;statement;a = a >> 1;statement
+8;statement;b = b >> 1;statement
+9;statement;k = k + 1;statement
+10;statement;a & 1 == 0;conditional
+11;statement;a = a >> 1;statement
+12;statement;b != 0;conditional
+13;statement;b & 1 == 0;conditional
+14;statement;b = b >> 1;statement
+15;statement;a > b;conditional
+16;statement;temp = a;statement
+17;statement;a = b;statement
+18;statement;b = temp;statement
+19;statement;b = b - a;statement
+20;statement;b = b - a;statement
+21;statement;return a << k;statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;
+5;8;9;
+6;7;
+7;8;
+8;5;
+9;10;11;
+10;9;
+11;12;20;
+12;13;14;
+13;12;
+14;17;19;
+15;16;
+16;17;
+17;19;
+18;
+19;11;11;
+20;

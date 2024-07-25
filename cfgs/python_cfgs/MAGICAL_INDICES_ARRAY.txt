@@ -1,0 +1,36 @@
+1;statement;cnt = 0;statement
+2;statement;parent = [None] * (n + 1);statement
+3;statement;vis = [None] * (n + 1);statement
+4;statement;range(0, n + 1);conditional
+5;statement;parent[i] = -1;statement
+6;statement;vis[i] = 0;statement
+7;statement;range(0, n);conditional
+8;statement;j = i;statement
+9;statement;parent[j] == -1;conditional
+10;statement;parent[j] == -1;conditional
+11;statement;parent[j] = i;statement
+12;statement;j = (j + A[j] + 1) % n;statement
+13;statement;parent[j] == i;conditional
+14;statement;vis[j] == 0;conditional
+15;statement;vis[j] = 1;statement
+16;statement;cnt = cnt + 1;statement
+17;statement;j = (j + A[j] + 1) % n;statement
+18;statement;return cnt;statement
+0;1;
+1;2;
+2;3;
+3;5;6;
+4;5;
+5;3;
+6;8;17;
+7;8;
+8;9;6;
+9;11;12;
+10;11;
+11;9;
+12;13;6;
+13;16;6;
+14;15;
+15;16;
+16;13;
+17;

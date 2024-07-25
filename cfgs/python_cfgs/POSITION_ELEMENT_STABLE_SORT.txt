@@ -1,0 +1,18 @@
+1;statement;result = 0;statement
+2;statement;range(n);conditional
+3;statement;arr[i] < arr[idx];conditional
+4;statement;result += 1;statement
+5;statement;arr[i] == arr[idx] and i < idx;conditional
+6;statement;arr[i] == arr[idx] and i < idx;conditional
+7;statement;result += 1;statement
+8;statement;result += 1;statement
+9;statement;return result;statement
+0;1;
+1;2;8;
+2;3;5;
+3;5;
+4;
+5;7;1;7;1;
+6;
+7;1;1;
+8;

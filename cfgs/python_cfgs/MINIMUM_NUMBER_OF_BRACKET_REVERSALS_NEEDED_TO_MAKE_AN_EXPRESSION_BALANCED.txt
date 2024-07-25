@@ -1,0 +1,32 @@
+1;statement;lenn = len(expr);statement
+2;statement;lenn % 2;conditional
+3;statement;return -1;statement
+4;statement;s = [];statement
+5;statement;range(lenn);conditional
+6;statement;expr[i] == '' and len(s);conditional
+7;statement;s[0] == '';conditional
+8;statement;s.pop(0);statement
+9;statement;s.insert(0, expr[i]);statement
+10;statement;s.insert(0, expr[i]);statement
+11;statement;red_len = len(s);statement
+12;statement;n = 0;statement
+13;statement;len(s) and s[0] == '';conditional
+14;statement;s.pop(0);statement
+15;statement;n += 1;statement
+16;statement;return red_len // 2 + n % 2;statement
+0;1;
+1;2;3;
+2;
+3;4;
+4;5;11;
+5;6;9;
+6;7;8;
+7;4;
+8;4;
+9;4;
+10;11;
+11;12;
+12;14;15;
+13;14;
+14;12;
+15;

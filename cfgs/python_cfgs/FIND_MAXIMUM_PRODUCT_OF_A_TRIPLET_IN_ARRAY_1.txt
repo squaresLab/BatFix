@@ -1,0 +1,8 @@
+1;statement;n < 3;conditional
+2;statement;return -1;statement
+3;statement;arr.sort();statement
+4;statement;return max(arr[0] * arr[1] * arr[n - 1], arr[n - 1] * arr[n - 2] * arr[n - 3]);statement
+0;1;3;
+1;
+2;3;
+3;

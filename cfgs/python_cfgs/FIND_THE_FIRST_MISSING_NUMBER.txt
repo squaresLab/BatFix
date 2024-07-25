@@ -1,0 +1,16 @@
+1;statement;start > end;conditional
+2;statement;return end + 1;statement
+3;statement;start != array[start];conditional
+4;statement;return start;statement
+5;statement;mid = int((start + end) / 2);statement
+6;statement;array[mid] == mid;conditional
+7;statement;return f_gold(array, mid + 1, end);statement
+8;statement;return f_gold(array, start, mid);statement
+0;1;2;
+1;
+2;3;5;
+3;
+4;5;
+5;6;7;
+6;
+7;

@@ -1,0 +1,18 @@
+1;statement;total = k;statement
+2;statement;mod = 1000000007;statement
+3;statement;(same, diff) = (0, k);statement
+4;statement;range(2, n + 1);conditional
+5;statement;same = diff;statement
+6;statement;diff = total * (k - 1);statement
+7;statement;diff = diff % mod;statement
+8;statement;total = (same + diff) % mod;statement
+9;statement;return total;statement
+0;1;
+1;2;
+2;3;
+3;7;8;
+4;5;
+5;6;
+6;7;
+7;3;
+8;

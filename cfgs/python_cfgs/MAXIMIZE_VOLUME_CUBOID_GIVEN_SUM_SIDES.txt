@@ -1,0 +1,16 @@
+1;statement;maxvalue = 0;statement
+2;statement;i = 1;statement
+3;statement;range(s - 1);conditional
+4;statement;j = 1;statement
+5;statement;range(s);conditional
+6;statement;k = s - i - j;statement
+7;statement;maxvalue = max(maxvalue, i * j * k);statement
+8;statement;return maxvalue;statement
+0;1;
+1;2;
+2;3;7;
+3;4;
+4;6;2;
+5;6;
+6;4;
+7;

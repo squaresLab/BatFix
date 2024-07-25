@@ -1,0 +1,14 @@
+1;statement;n = len(str_);statement
+2;statement;arr = [0] * n;statement
+3;statement;concat = str_ + str_;statement
+4;statement;range(n);conditional
+5;statement;arr[i] = concat[i:n + i];statement
+6;statement;arr.sort();statement
+7;statement;return arr[0];statement
+0;1;
+1;2;
+2;3;
+3;4;6;
+4;3;
+5;6;
+6;

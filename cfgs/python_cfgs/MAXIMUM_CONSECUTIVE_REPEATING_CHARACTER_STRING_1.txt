@@ -1,0 +1,26 @@
+1;statement;n = len(str);statement
+2;statement;count = 0;statement
+3;statement;res = str[0];statement
+4;statement;cur_count = 1;statement
+5;statement;range(n);conditional
+6;statement;i < n - 1 and str[i] == str[i + 1];conditional
+7;statement;cur_count += 1;statement
+8;statement;cur_count > count;conditional
+9;statement;count = cur_count;statement
+10;statement;res = str[i];statement
+11;statement;cur_count = 1;statement
+12;statement;cur_count = 1;statement
+13;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;12;
+5;6;7;
+6;4;
+7;9;11;
+8;9;
+9;11;
+10;
+11;4;4;
+12;

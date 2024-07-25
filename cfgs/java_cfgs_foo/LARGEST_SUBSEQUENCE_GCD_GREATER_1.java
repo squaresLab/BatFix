@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int ans = 0;14;
+3;statement;int maxele = fun_1(foo_1, foo_2);15;
+4;statement;int i = 2;17;
+5;conditional;foo_1 <= foo_2;18;
+6;statement;int count = 0;20;
+7;statement;int j = 0;21;
+8;conditional;foo_1 < foo_2;22;
+9;conditional;(foo_1[foo_2] % foo_3) == 0;24;
+10;statement;++count;24;
+11;statement;++j;23;
+12;statement;ans = fun_1(foo_1, foo_2);26;
+13;statement;++i;19;
+14;statement;return foo_1;28;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;14;
+5;7;
+6;8;
+7;9;12;
+8;10;11;
+9;11;
+10;8;
+11;13;
+12;5;
+13;15;
+14;

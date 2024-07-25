@@ -1,0 +1,18 @@
+1;statement;l = len(s);statement
+2;statement;i = 0;statement
+3;statement;j = l - 1;statement
+4;statement;i <= j;conditional
+5;statement;s[i] != s[j];conditional
+6;statement;return False;statement
+7;statement;i += 1;statement
+8;statement;j -= 1;statement
+9;statement;return True;statement
+0;1;
+1;2;
+2;3;
+3;4;8;
+4;5;7;
+5;
+6;7;
+7;3;
+8;

@@ -1,0 +1,34 @@
+1;statement;curr_sum = arr[0];statement
+2;statement;start = 0;statement
+3;statement;i = 1;statement
+4;statement;i <= n;conditional
+5;statement;curr_sum > sum and start < i - 1;conditional
+6;statement;curr_sum = curr_sum - arr[start];statement
+7;statement;start += 1;statement
+8;statement;curr_sum == sum;conditional
+9;statement;print('Sum found between indexes');statement
+10;statement;print('%d and %d' % (start, i - 1));statement
+11;statement;return 1;statement
+12;statement;i < n;conditional
+13;statement;curr_sum = curr_sum + arr[i];statement
+14;statement;i += 1;statement
+15;statement;i += 1;statement
+16;statement;print('No subarray found');statement
+17;statement;return 0;statement
+0;1;
+1;2;
+2;3;
+3;4;16;
+4;6;7;
+5;6;
+6;4;
+7;10;11;
+8;9;
+9;10;
+10;
+11;12;14;
+12;14;
+13;
+14;3;3;
+15;16;
+16;

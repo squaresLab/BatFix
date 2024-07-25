@@ -1,0 +1,28 @@
+1;statement;(um, curr_rem, maxSum) = ({}, 0, 0);statement
+2;statement;sm = [0] * n;statement
+3;statement;sm[0] = arr[0];statement
+4;statement;range(1, n);conditional
+5;statement;sm[i] = sm[i - 1] + arr[i];statement
+6;statement;range(n);conditional
+7;statement;curr_rem = sm[i] % k;statement
+8;statement;not curr_rem and maxSum < sm[i];conditional
+9;statement;maxSum = sm[i];statement
+10;statement;not curr_rem in um;conditional
+11;statement;um[curr_rem] = i;statement
+12;statement;maxSum < sm[i] - sm[um[curr_rem]];conditional
+13;statement;maxSum = sm[i] - sm[um[curr_rem]];statement
+14;statement;return maxSum // k;statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;7;13;
+6;7;
+7;8;9;
+8;5;
+9;10;11;
+10;5;
+11;12;5;
+12;5;
+13;

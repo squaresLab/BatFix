@@ -1,0 +1,28 @@
+1;statement;s = dict();statement
+2;statement;(count, maxm, minm) = (0, -10 ** 9, 10 ** 9);statement
+3;statement;range(n);conditional
+4;statement;s[arr[i]] = 1;statement
+5;statement;arr[i] < minm;conditional
+6;statement;minm = arr[i];statement
+7;statement;arr[i] > maxm;conditional
+8;statement;arr[i] > maxm;conditional
+9;statement;maxm = arr[i];statement
+10;statement;maxm = arr[i];statement
+11;statement;range(minm, maxm + 1);conditional
+12;statement;i not in s.keys();conditional
+13;statement;count += 1;statement
+14;statement;return count;statement
+0;1;
+1;2;
+2;4;10;
+3;4;
+4;5;7;
+5;7;
+6;
+7;9;2;9;2;
+8;
+9;2;2;
+10;11;13;
+11;12;10;
+12;10;
+13;

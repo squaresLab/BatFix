@@ -1,0 +1,28 @@
+1;statement;i = 0;statement
+2;statement;j = len(n);statement
+3;statement;pos = 0;statement
+4;statement;i < j;conditional
+5;statement;n[i] == '4';conditional
+6;statement;pos = pos * 2 + 1;statement
+7;statement;n[i] == '7';conditional
+8;statement;n[i] == '7';conditional
+9;statement;pos = pos * 2 + 2;statement
+10;statement;pos = pos * 2 + 2;statement
+11;statement;i = i + 1;statement
+12;statement;i = i + 1;statement
+13;statement;i = i + 1;statement
+14;statement;return pos;statement
+0;1;
+1;2;
+2;3;
+3;4;13;
+4;5;7;
+5;7;
+6;
+7;9;12;9;12;
+8;
+9;12;12;
+10;
+11;
+12;3;3;3;
+13;

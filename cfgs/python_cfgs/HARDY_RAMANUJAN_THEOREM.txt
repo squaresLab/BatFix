@@ -1,0 +1,32 @@
+1;statement;count = 0;statement
+2;statement;n % 2 == 0;conditional
+3;statement;count = count + 1;statement
+4;statement;n % 2 == 0;conditional
+5;statement;n = int(n / 2);statement
+6;statement;i = 3;statement
+7;statement;i <= int(math.sqrt(n));conditional
+8;statement;n % i == 0;conditional
+9;statement;count = count + 1;statement
+10;statement;n % i == 0;conditional
+11;statement;n = int(n / i);statement
+12;statement;i = i + 2;statement
+13;statement;n > 2;conditional
+14;statement;count = count + 1;statement
+15;statement;return count;statement
+16;statement;return count;statement
+0;1;
+1;2;5;
+2;3;
+3;4;5;
+4;3;
+5;6;
+6;7;12;
+7;8;11;
+8;9;
+9;10;11;
+10;9;
+11;6;
+12;13;15;
+13;15;
+14;
+15;

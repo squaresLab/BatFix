@@ -1,0 +1,8 @@
+1;statement;res = n;statement
+2;statement;range(len(n) - 1, -1, -1);conditional
+3;statement;res += n[j];statement
+4;statement;return res;statement
+0;1;
+1;2;3;
+2;1;
+3;

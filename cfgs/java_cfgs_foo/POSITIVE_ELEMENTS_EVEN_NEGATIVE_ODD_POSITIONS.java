@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int positive = 0;14;
+3;statement;int negative = 1;14;
+4;statement;int temp;14;
+5;conditional;true;15;
+6;conditional;(foo_1 < foo_2) && (foo_3[foo_4] >= 0);16;
+7;statement;positive += 2;16;
+8;conditional;(foo_1 < foo_2) && (foo_3[foo_4] <= 0);17;
+9;statement;negative += 2;17;
+10;conditional;(foo_1 < foo_2) && (foo_3 < foo_4);18;
+11;statement;temp = foo_1[foo_2];19;
+12;statement;foo_1[foo_2] = foo_3[foo_4];20;
+13;statement;foo_1[foo_2] = foo_3;21;
+14;statement;break;23;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;15;6;
+5;8;7;
+6;6;
+7;10;9;
+8;8;
+9;11;14;
+10;12;
+11;13;
+12;5;
+13;15;
+14;

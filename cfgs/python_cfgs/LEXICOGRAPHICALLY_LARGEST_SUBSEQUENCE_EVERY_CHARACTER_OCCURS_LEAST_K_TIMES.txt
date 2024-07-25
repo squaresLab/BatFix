@@ -1,0 +1,34 @@
+1;statement;last = 0;statement
+2;statement;cnt = 0;statement
+3;statement;new_last = 0;statement
+4;statement;size = 0;statement
+5;statement;string = 'zyxwvutsrqponmlkjihgfedcba';statement
+6;statement;string;statement
+7;statement;cnt = 0;statement
+8;statement;range(last, n);conditional
+9;statement;s[i] == ch;conditional
+10;statement;cnt += 1;statement
+11;statement;cnt >= k;conditional
+12;statement;range(last, n);conditional
+13;statement;s[i] == ch;conditional
+14;statement;t[size] = ch;statement
+15;statement;new_last = i;statement
+16;statement;size += 1;statement
+17;statement;last = new_last;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;
+7;8;10;
+8;9;7;
+9;7;
+10;11;5;
+11;12;16;
+12;15;11;
+13;14;
+14;15;
+15;11;
+16;5;

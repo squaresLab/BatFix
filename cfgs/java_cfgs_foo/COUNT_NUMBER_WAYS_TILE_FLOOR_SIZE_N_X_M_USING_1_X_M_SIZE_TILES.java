@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int[] count = new int[foo_1 + 1];14;
+3;statement;foo_1[0] = 0;15;
+4;statement;int i;16;
+5;statement;i = 1;17;
+6;conditional;foo_1 <= foo_2;18;
+7;conditional;foo_1 > foo_2;20;
+8;statement;foo_1[foo_2] = foo_3[foo_4 - 1] + foo_5[foo_6 - foo_7];20;
+9;conditional;foo_1 < foo_2;21;
+10;statement;foo_1[foo_2] = 1;21;
+11;statement;foo_1[foo_2] = 2;22;
+12;statement;i++;19;
+13;statement;return foo_1[foo_2];24;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;13;
+6;8;9;
+7;12;
+8;10;11;
+9;12;
+10;12;
+11;6;
+12;14;
+13;

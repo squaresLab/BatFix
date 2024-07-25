@@ -1,0 +1,46 @@
+1;statement;n <= 2;conditional
+2;statement;return n;statement
+3;statement;L = [[0 for x in range(n)] for y in range(n)];statement
+4;statement;llap = 2;statement
+5;statement;range(n);conditional
+6;statement;L[i][n - 1] = 2;statement
+7;statement;range(n - 2, 0, -1);conditional
+8;statement;i = j - 1;statement
+9;statement;k = j + 1;statement
+10;statement;i >= 0 and k <= n - 1;conditional
+11;statement;set[i] + set[k] < 2 * set[j];conditional
+12;statement;k += 1;statement
+13;statement;set[i] + set[k] > 2 * set[j];conditional
+14;statement;L[i][j] = 2;statement
+15;statement;i -= 1;statement
+16;statement;L[i][j] = L[j][k] + 1;statement
+17;statement;llap = max(llap, L[i][j]);statement
+18;statement;i -= 1;statement
+19;statement;k += 1;statement
+20;statement;i >= 0;conditional
+21;statement;L[i][j] = 2;statement
+22;statement;i -= 1;statement
+23;statement;return llap;statement
+0;1;3;
+1;
+2;3;
+3;4;
+4;5;6;
+5;4;
+6;8;22;
+7;8;
+8;9;
+9;10;6;
+10;11;12;
+11;9;
+12;14;18;
+13;14;
+14;9;
+15;16;
+16;17;
+17;18;
+18;19;
+19;21;9;
+20;21;
+21;19;
+22;

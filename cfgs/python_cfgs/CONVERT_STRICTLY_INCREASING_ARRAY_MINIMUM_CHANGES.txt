@@ -1,0 +1,20 @@
+1;statement;LIS = [0 for i in range(n)];statement
+2;statement;len = 0;statement
+3;statement;range(n);conditional
+4;statement;LIS[i] = 1;statement
+5;statement;range(1, n);conditional
+6;statement;range(i);conditional
+7;statement;arr[i] > arr[j] and i - j <= arr[i] - arr[j];conditional
+8;statement;LIS[i] = max(LIS[i], LIS[j] + 1);statement
+9;statement;len = max(len, LIS[i]);statement
+10;statement;return n - len;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;9;
+5;6;8;
+6;7;5;
+7;5;
+8;4;
+9;

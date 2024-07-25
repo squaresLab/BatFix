@@ -1,0 +1,18 @@
+1;statement;a.sort(reverse=False);statement
+2;statement;b.sort(reverse=False);statement
+3;statement;result = 0;statement
+4;statement;range(0, n, 1);conditional
+5;statement;a[i] > b[i];conditional
+6;statement;result = result + abs(a[i] - b[i]);statement
+7;statement;a[i] < b[i];conditional
+8;statement;result = result + abs(a[i] - b[i]);statement
+9;statement;return result;statement
+0;1;
+1;2;
+2;3;
+3;4;8;
+4;5;6;
+5;3;
+6;7;3;
+7;3;
+8;

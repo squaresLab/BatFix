@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;modulo = ((foo_1 % foo_2) + foo_3) % foo_4;14;
+3;conditional;foo_1 == foo_2;15;
+4;conditional;foo_1 == 0;16;
+5;statement;return 1;17;
+6;exit;;;
+7;statement;return 0;19;
+8;conditional;foo_1[foo_2][foo_3] != (-1);21;
+9;statement;return foo_1[foo_2][foo_3];22;
+10;statement;int placeAdd = fun_1(foo_1, foo_2 + 1, foo_3 + foo_4[foo_5], foo_6, foo_7, foo_8);24;
+11;statement;int placeMinus = fun_1(foo_1, foo_2 + 1, foo_3 - foo_4[foo_5], foo_6, foo_7, foo_8);25;
+12;statement;int res = foo_1;26;
+13;statement;foo_1[foo_2][foo_3] = foo_4;27;
+14;statement;return foo_1;28;
+Edges
+0;2;
+1;3;
+2;4;8;
+3;5;7;
+4;6;
+5;
+6;6;
+7;9;10;
+8;6;
+9;11;
+10;12;
+11;13;
+12;14;
+13;6;

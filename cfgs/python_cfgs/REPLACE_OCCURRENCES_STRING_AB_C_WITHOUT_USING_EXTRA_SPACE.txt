@@ -1,0 +1,14 @@
+1;statement;range(1, len(st));conditional
+2;statement;st[i - 1] == 'A' and st[i] == 'B';conditional
+3;statement;st[i - 1] = 'C';statement
+4;statement;range(i, len(st) - 1);conditional
+5;statement;st[j] = st[j + 1];statement
+6;statement;st[len(st) - 1] = ' ';statement
+7;statement;return;statement
+0;1;6;
+1;2;0;
+2;3;
+3;4;5;
+4;3;
+5;0;
+6;

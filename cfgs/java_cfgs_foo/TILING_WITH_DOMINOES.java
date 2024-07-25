@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int[] A = new int[foo_1 + 1];14;
+3;statement;int[] B = new int[foo_1 + 1];15;
+4;statement;foo_1[0] = 1;16;
+5;statement;foo_1[1] = 0;17;
+6;statement;foo_1[0] = 0;18;
+7;statement;foo_1[1] = 1;19;
+8;statement;int i = 2;20;
+9;conditional;foo_1 <= foo_2;21;
+10;statement;foo_1[foo_2] = foo_3[foo_4 - 2] + (2 * foo_5[foo_6 - 1]);23;
+11;statement;foo_1[foo_2] = foo_3[foo_4 - 1] + foo_5[foo_6 - 2];24;
+12;statement;i++;22;
+13;statement;return foo_1[foo_2];26;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;8;
+7;9;
+8;10;13;
+9;11;
+10;12;
+11;9;
+12;14;
+13;

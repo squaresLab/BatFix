@@ -1,0 +1,16 @@
+1;statement;dp = list();statement
+2;statement;dp.append(0);statement
+3;statement;dp.append(1);statement
+4;statement;i = 2;statement
+5;statement;i < n;conditional
+6;statement;dp.append((k - 2) * dp[i - 1] + (k - 1) * dp[i - 2]);statement
+7;statement;i = i + 1;statement
+8;statement;return (k - 1) * dp[n - 2] if x == 1 else dp[n - 1];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;6;7;
+5;6;
+6;4;
+7;

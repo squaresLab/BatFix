@@ -1,0 +1,18 @@
+1;statement;n <= 1;conditional
+2;statement;return;statement
+3;statement;f_gold(arr, n - 1);statement
+4;statement;last = arr[n - 1];statement
+5;statement;j = n - 2;statement
+6;statement;j >= 0 and arr[j] > last;conditional
+7;statement;arr[j + 1] = arr[j];statement
+8;statement;j = j - 1;statement
+9;statement;arr[j + 1] = last;statement
+0;1;4;
+1;
+2;3;
+3;4;
+4;5;
+5;7;8;
+6;7;
+7;5;
+8;

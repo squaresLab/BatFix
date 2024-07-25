@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 <= 1;14;
+3;statement;System.fun_1("False");14;
+4;conditional;foo_1 <= 3;15;
+5;statement;System.fun_1("False");15;
+6;conditional;((foo_1 % 2) == 0) || ((foo_2 % 3) == 0);16;
+7;statement;return true;16;
+8;exit;;;
+9;statement;int i = 5;17;
+10;conditional;(foo_1 * foo_2) <= foo_3;18;
+11;conditional;((foo_1 % foo_2) == 0) || ((foo_3 % (foo_4 + 2)) == 0);19;
+12;statement;return true;19;
+13;statement;i = foo_1 + 6;19;
+14;statement;return false;20;
+Edges
+0;2;
+1;3;4;
+2;4;
+3;5;6;
+4;6;
+5;7;9;
+6;8;
+7;
+8;10;
+9;11;14;
+10;12;13;
+11;8;
+12;10;
+13;8;

@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;HashMap<Integer, Integer> hm = new HashMap<>();34;
+3;statement;int i = 0;35;
+4;conditional;foo_1 < foo_2;36;
+5;conditional;fun_1(foo_2[foo_3]);38;
+6;statement;fun_1(foo_2[foo_3], fun_2(foo_5[foo_6]) + 1);39;
+7;statement;fun_1(foo_2[foo_3], 1);40;
+8;statement;i++;37;
+9;statement;int ans = 0;42;
+10;statement;Map.Entry<Integer, Integer> it;43;
+11;conditional;fun_1();43;
+12;statement;int count = fun_1();44;
+13;statement;ans += (foo_1 * (foo_2 - 1)) / 2;45;
+14;statement;return foo_1;47;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;9;
+4;6;7;
+5;8;
+6;8;
+7;4;
+8;10;
+9;11;
+10;12;14;
+11;13;
+12;11;
+13;15;
+14;

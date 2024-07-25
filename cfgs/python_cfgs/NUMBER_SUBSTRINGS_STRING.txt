@@ -1,0 +1,4 @@
+1;statement;n = len(str);statement
+2;statement;return int(n * (n + 1) / 2);statement
+0;1;
+1;

@@ -1,0 +1,19 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'CHECK_IF_A_NUMBER_IS_POWER_OF_ANOTHER_NUMBER_1.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int res1 = ( int ) Math . log ( y ) / ( int ) Math . log ( x ) ;
+Line: 14
+x = 57
+y = 1
+
+Statement: double res2 = Math . log ( y ) / Math . log ( x ) ;
+Line: 15
+x = 57
+y = 1
+res1 = 0
+
+Statement: return ( res1 == res2 ) ;
+Line: 16
+x = 57
+y = 1
+res1 = 0
+res2 = 0.0

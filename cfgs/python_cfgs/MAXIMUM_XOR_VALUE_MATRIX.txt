@@ -1,0 +1,20 @@
+1;statement;max_xor = 0;statement
+2;statement;range(N);conditional
+3;statement;r_xor = 0;statement
+4;statement;c_xor = 0;statement
+5;statement;range(N);conditional
+6;statement;r_xor = r_xor ^ mat[i][j];statement
+7;statement;c_xor = c_xor ^ mat[j][i];statement
+8;statement;max_xor < max(r_xor, c_xor);conditional
+9;statement;max_xor = max(r_xor, c_xor);statement
+10;statement;return max_xor;statement
+0;1;
+1;3;9;
+2;3;
+3;4;
+4;6;7;
+5;6;
+6;4;
+7;8;1;
+8;1;
+9;

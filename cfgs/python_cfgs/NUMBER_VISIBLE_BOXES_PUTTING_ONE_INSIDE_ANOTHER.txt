@@ -1,0 +1,20 @@
+1;statement;q = collections.deque([]);statement
+2;statement;arr.sort();statement
+3;statement;q.append(arr[0]);statement
+4;statement;range(1, n);conditional
+5;statement;now = q[0];statement
+6;statement;arr[i] >= 2 * now;conditional
+7;statement;q.popleft();statement
+8;statement;q.append(arr[i]);statement
+9;statement;q.append(arr[i]);statement
+10;statement;return len(q);statement
+0;1;
+1;2;
+2;3;
+3;5;9;
+4;5;
+5;6;8;
+6;8;
+7;
+8;3;3;
+9;

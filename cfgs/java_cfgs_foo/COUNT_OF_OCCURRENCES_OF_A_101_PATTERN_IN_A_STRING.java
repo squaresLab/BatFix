@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int len = fun_1();14;
+3;statement;boolean oneSeen = false;15;
+4;statement;int count = 0;16;
+5;statement;int i = 0;17;
+6;conditional;foo_1 < foo_2;18;
+7;statement;char getChar = fun_1(foo_2);20;
+8;conditional;(foo_1 == '1') && (foo_2 == true);21;
+9;conditional;fun_1(foo_2 - 1) == '0';22;
+10;statement;count++;22;
+11;conditional;(foo_1 == '1') && (foo_2 == false);24;
+12;statement;oneSeen = true;24;
+13;conditional;(foo_1 != '0') && (fun_1(foo_3) != '1');25;
+14;statement;oneSeen = false;25;
+15;statement;i++;19;
+16;statement;return foo_1;27;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;16;
+6;8;
+7;9;11;
+8;10;11;
+9;11;
+10;12;13;
+11;13;
+12;14;15;
+13;15;
+14;6;
+15;17;
+16;

@@ -1,0 +1,2 @@
+1;statement;return y % pow(2, x);statement
+0;

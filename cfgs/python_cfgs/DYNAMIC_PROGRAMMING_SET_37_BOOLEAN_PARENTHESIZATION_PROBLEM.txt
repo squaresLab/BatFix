@@ -1,0 +1,80 @@
+1;statement;F = [[0 for i in range(n + 1)] for i in range(n + 1)];statement
+2;statement;T = [[0 for i in range(n + 1)] for i in range(n + 1)];statement
+3;statement;range(n);conditional
+4;statement;symb[i] == 'F';conditional
+5;statement;F[i][i] = 1;statement
+6;statement;F[i][i] = 0;statement
+7;statement;symb[i] == 'T';conditional
+8;statement;symb[i] == 'T';conditional
+9;statement;T[i][i] = 1;statement
+10;statement;T[i][i] = 1;statement
+11;statement;T[i][i] = 0;statement
+12;statement;T[i][i] = 0;statement
+13;statement;range(1, n);conditional
+14;statement;i = 0;statement
+15;statement;range(gap, n);conditional
+16;statement;T[i][j] = F[i][j] = 0;statement
+17;statement;range(gap);conditional
+18;statement;k = i + g;statement
+19;statement;tik = T[i][k] + F[i][k];statement
+20;statement;tkj = T[k + 1][j] + F[k + 1][j];statement
+21;statement;oper[k] == '&';conditional
+22;statement;T[i][j] += T[i][k] * T[k + 1][j];statement
+23;statement;F[i][j] += tik * tkj - T[i][k] * T[k + 1][j];statement
+24;statement;oper[k] == '|';conditional
+25;statement;oper[k] == '|';conditional
+26;statement;F[i][j] += F[i][k] * F[k + 1][j];statement
+27;statement;T[i][j] += tik * tkj - F[i][k] * F[k + 1][j];statement
+28;statement;F[i][j] += F[i][k] * F[k + 1][j];statement
+29;statement;T[i][j] += tik * tkj - F[i][k] * F[k + 1][j];statement
+30;statement;oper[k] == '^';conditional
+31;statement;oper[k] == '^';conditional
+32;statement;oper[k] == '^';conditional
+33;statement;T[i][j] += F[i][k] * T[k + 1][j] + T[i][k] * F[k + 1][j];statement
+34;statement;F[i][j] += T[i][k] * T[k + 1][j] + F[i][k] * F[k + 1][j];statement
+35;statement;T[i][j] += F[i][k] * T[k + 1][j] + T[i][k] * F[k + 1][j];statement
+36;statement;F[i][j] += T[i][k] * T[k + 1][j] + F[i][k] * F[k + 1][j];statement
+37;statement;T[i][j] += F[i][k] * T[k + 1][j] + T[i][k] * F[k + 1][j];statement
+38;statement;F[i][j] += T[i][k] * T[k + 1][j] + F[i][k] * F[k + 1][j];statement
+39;statement;i += 1;statement
+40;statement;return T[0][n - 1];statement
+0;1;
+1;2;
+2;3;12;
+3;4;5;
+4;7;
+5;7;
+6;
+7;9;11;9;11;
+8;
+9;2;2;
+10;
+11;2;2;
+12;13;39;
+13;14;
+14;15;12;
+15;16;
+16;20;38;
+17;18;
+18;19;
+19;20;
+20;22;24;
+21;22;
+22;24;
+23;
+24;28;31;28;31;
+25;26;
+26;
+27;28;
+28;31;31;
+29;
+30;
+31;37;16;37;16;37;16;
+32;33;
+33;
+34;35;
+35;
+36;37;
+37;16;16;16;
+38;14;
+39;

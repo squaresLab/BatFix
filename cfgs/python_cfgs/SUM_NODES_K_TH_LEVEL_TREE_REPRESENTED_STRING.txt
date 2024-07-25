@@ -1,0 +1,22 @@
+1;statement;level = -1;statement
+2;statement;sum = 0;statement
+3;statement;n = len(tree);statement
+4;statement;range(n);conditional
+5;statement;tree[i] == '(';conditional
+6;statement;level += 1;statement
+7;statement;tree[i] == ')';conditional
+8;statement;level -= 1;statement
+9;statement;level == k;conditional
+10;statement;sum += ord(tree[i]) - ord('0');statement
+11;statement;return sum;statement
+0;1;
+1;2;
+2;3;
+3;4;10;
+4;5;6;
+5;3;
+6;7;8;
+7;3;
+8;9;3;
+9;3;
+10;

@@ -1,0 +1,52 @@
+1;statement;n = len(str);statement
+2;statement;C = [[0 for i in range(n)] for i in range(n)];statement
+3;statement;P = [[False for i in range(n)] for i in range(n)];statement
+4;statement;j = 0;statement
+5;statement;k = 0;statement
+6;statement;L = 0;statement
+7;statement;range(n);conditional
+8;statement;P[i][i] = True;statement
+9;statement;C[i][i] = 0;statement
+10;statement;range(2, n + 1);conditional
+11;statement;range(n - L + 1);conditional
+12;statement;j = i + L - 1;statement
+13;statement;L == 2;conditional
+14;statement;P[i][j] = str[i] == str[j];statement
+15;statement;P[i][j] = str[i] == str[j] and P[i + 1][j - 1];statement
+16;statement;P[i][j] == True;conditional
+17;statement;P[i][j] == True;conditional
+18;statement;C[i][j] = 0;statement
+19;statement;C[i][j] = 0;statement
+20;statement;C[i][j] = 100000000;statement
+21;statement;C[i][j] = 100000000;statement
+22;statement;range(i, j);conditional
+23;statement;range(i, j);conditional
+24;statement;C[i][j] = min(C[i][j], C[i][k] + C[k + 1][j] + 1);statement
+25;statement;C[i][j] = min(C[i][j], C[i][k] + C[k + 1][j] + 1);statement
+26;statement;return C[0][n - 1];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;8;9;
+7;8;
+8;6;
+9;10;25;
+10;12;9;
+11;12;
+12;13;14;
+13;16;
+14;16;
+15;
+16;18;20;18;20;
+17;
+18;10;10;
+19;
+20;22;22;
+21;
+22;24;10;24;10;
+23;
+24;22;22;
+25;

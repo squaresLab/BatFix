@@ -1,0 +1,16 @@
+1;statement;count = 0;statement
+2;statement;p = abs(a * b);statement
+3;statement;p == 0;conditional
+4;statement;return 1;statement
+5;statement;p > 0;conditional
+6;statement;count = count + 1;statement
+7;statement;p = p // 10;statement
+8;statement;return count;statement
+0;1;
+1;2;
+2;3;4;
+3;
+4;6;7;
+5;6;
+6;4;
+7;

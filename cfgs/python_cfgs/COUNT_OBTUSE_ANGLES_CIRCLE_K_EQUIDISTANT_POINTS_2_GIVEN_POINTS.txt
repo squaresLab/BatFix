@@ -1,0 +1,10 @@
+1;statement;c1 = b - a - 1;statement
+2;statement;c2 = k - b + (a - 1);statement
+3;statement;c1 == c2;conditional
+4;statement;return 0;statement
+5;statement;return min(c1, c2);statement
+0;1;
+1;2;
+2;3;4;
+3;
+4;

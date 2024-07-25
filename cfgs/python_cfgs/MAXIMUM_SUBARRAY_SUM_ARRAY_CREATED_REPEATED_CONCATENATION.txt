@@ -1,0 +1,22 @@
+1;statement;max_so_far = -2147483648;statement
+2;statement;max_ending_here = 0;statement
+3;statement;range(n * k);conditional
+4;statement;max_ending_here = max_ending_here + a[i % n];statement
+5;statement;max_so_far < max_ending_here;conditional
+6;statement;max_so_far = max_ending_here;statement
+7;statement;max_ending_here < 0;conditional
+8;statement;max_ending_here < 0;conditional
+9;statement;max_ending_here = 0;statement
+10;statement;max_ending_here = 0;statement
+11;statement;return max_so_far;statement
+0;1;
+1;2;
+2;4;10;
+3;4;
+4;5;7;
+5;7;
+6;
+7;9;2;9;2;
+8;
+9;2;2;
+10;

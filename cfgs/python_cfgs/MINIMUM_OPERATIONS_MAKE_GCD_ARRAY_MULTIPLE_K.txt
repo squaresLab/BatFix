@@ -1,0 +1,12 @@
+1;statement;result = 0;statement
+2;statement;range(n);conditional
+3;statement;a[i] != 1 and a[i] > k;conditional
+4;statement;result = result + min(a[i] % k, k - a[i] % k);statement
+5;statement;result = result + k - a[i];statement
+6;statement;return result;statement
+0;1;
+1;2;5;
+2;3;4;
+3;1;
+4;1;
+5;

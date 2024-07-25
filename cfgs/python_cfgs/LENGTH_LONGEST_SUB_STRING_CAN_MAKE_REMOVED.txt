@@ -1,0 +1,24 @@
+1;statement;arr = [];statement
+2;statement;arr.append(['@', -1]);statement
+3;statement;maxlen = 0;statement
+4;statement;range(len(S));conditional
+5;statement;arr.append([S[i], i]);statement
+6;statement;len(arr) >= 3 and arr[len(arr) - 3][0] == '1' and (arr[len(arr) - 2][0] == '0') and (arr[len(arr) - 1][0] == '0');conditional
+7;statement;arr.pop();statement
+8;statement;arr.pop();statement
+9;statement;arr.pop();statement
+10;statement;tmp = arr[-1];statement
+11;statement;maxlen = max(maxlen, i - tmp[1]);statement
+12;statement;return maxlen;statement
+0;1;
+1;2;
+2;3;
+3;4;11;
+4;5;
+5;8;10;
+6;7;
+7;8;
+8;5;
+9;10;
+10;3;
+11;

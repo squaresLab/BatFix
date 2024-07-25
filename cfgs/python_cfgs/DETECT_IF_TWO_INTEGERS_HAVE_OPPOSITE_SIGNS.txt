@@ -1,0 +1,2 @@
+1;statement;return x ^ y < 0;statement
+0;

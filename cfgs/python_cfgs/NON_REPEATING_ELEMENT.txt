@@ -1,0 +1,20 @@
+1;statement;range(n);conditional
+2;statement;j = 0;statement
+3;statement;j < n;conditional
+4;statement;i != j and arr[i] == arr[j];conditional
+5;statement;j += 1;statement
+6;statement;j == n;conditional
+7;statement;j == n;conditional
+8;statement;return arr[i];statement
+9;statement;return arr[i];statement
+10;statement;return -1;statement
+0;1;9;
+1;2;
+2;3;6;
+3;4;6;
+4;2;
+5;
+6;8;0;8;0;
+7;
+8;
+9;

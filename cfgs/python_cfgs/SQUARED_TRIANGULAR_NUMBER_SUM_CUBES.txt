@@ -1,0 +1,18 @@
+1;statement;_sum = 0;statement
+2;statement;n = 1;statement
+3;statement;_sum < s;conditional
+4;statement;_sum += n * n * n;statement
+5;statement;n += 1;statement
+6;statement;n -= 1;statement
+7;statement;_sum == s;conditional
+8;statement;return n;statement
+9;statement;return -1;statement
+0;1;
+1;2;
+2;4;6;
+3;4;
+4;2;
+5;6;
+6;7;8;
+7;
+8;

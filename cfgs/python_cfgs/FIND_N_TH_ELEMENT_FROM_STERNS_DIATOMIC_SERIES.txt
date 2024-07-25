@@ -1,0 +1,16 @@
+1;statement;DP = [0] * (n + 1);statement
+2;statement;DP[0] = 0;statement
+3;statement;DP[1] = 1;statement
+4;statement;range(2, n + 1);conditional
+5;statement;int(i % 2) == 0;conditional
+6;statement;DP[i] = DP[int(i / 2)];statement
+7;statement;DP[i] = DP[int((i - 1) / 2)] + DP[int((i + 1) / 2)];statement
+8;statement;return DP[n];statement
+0;1;
+1;2;
+2;3;
+3;4;7;
+4;5;6;
+5;3;
+6;3;
+7;

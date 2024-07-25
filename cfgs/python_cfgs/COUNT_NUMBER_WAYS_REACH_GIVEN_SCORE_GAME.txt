@@ -1,0 +1,18 @@
+1;statement;table = [0 for i in range(n + 1)];statement
+2;statement;table[0] = 1;statement
+3;statement;range(3, n + 1);conditional
+4;statement;table[i] += table[i - 3];statement
+5;statement;range(5, n + 1);conditional
+6;statement;table[i] += table[i - 5];statement
+7;statement;range(10, n + 1);conditional
+8;statement;table[i] += table[i - 10];statement
+9;statement;return table[n];statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;6;
+5;4;
+6;7;8;
+7;6;
+8;

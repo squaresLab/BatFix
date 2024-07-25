@@ -1,0 +1,12 @@
+1;statement;set1 = x >> p1 & (1 << n) - 1;statement
+2;statement;set2 = x >> p2 & (1 << n) - 1;statement
+3;statement;xor = set1 ^ set2;statement
+4;statement;xor = xor << p1 | xor << p2;statement
+5;statement;result = x ^ xor;statement
+6;statement;return result;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;

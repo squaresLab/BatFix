@@ -1,0 +1,6 @@
+1;statement;a + b <= c or a + c <= b or b + c <= a;conditional
+2;statement;return False;statement
+3;statement;return True;statement
+0;1;2;
+1;
+2;

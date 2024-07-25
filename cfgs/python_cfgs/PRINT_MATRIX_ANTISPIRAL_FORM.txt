@@ -1,0 +1,42 @@
+1;statement;k = 0;statement
+2;statement;l = 0;statement
+3;statement;stk = [];statement
+4;statement;k <= m and l <= n;conditional
+5;statement;range(l, n + 1);conditional
+6;statement;stk.append(a[k][i]);statement
+7;statement;k += 1;statement
+8;statement;range(k, m + 1);conditional
+9;statement;stk.append(a[i][n]);statement
+10;statement;n -= 1;statement
+11;statement;k <= m;conditional
+12;statement;range(n, l - 1, -1);conditional
+13;statement;stk.append(a[m][i]);statement
+14;statement;m -= 1;statement
+15;statement;l <= n;conditional
+16;statement;range(m, k - 1, -1);conditional
+17;statement;stk.append(a[i][l]);statement
+18;statement;l += 1;statement
+19;statement;len(stk) != 0;statement
+20;statement;print(str(stk[-1]), end=' ');statement
+21;statement;stk.pop();statement
+0;1;
+1;2;
+2;3;
+3;4;18;
+4;5;6;
+5;4;
+6;7;
+7;8;10;
+8;7;
+9;10;
+10;11;14;
+11;12;13;
+12;11;
+13;14;
+14;15;3;
+15;16;17;
+16;15;
+17;3;
+18;20;
+19;20;
+20;18;

@@ -1,0 +1,16 @@
+Nodes
+1;special;;
+2;statement;path = 1;
+3;conditional;range ( n , ( m + n - 1 ) );
+4;statement;path *= i
+5;statement;path //= ( i - n + 1 )
+6;statement;return path;
+7;exit;;
+Edges
+0;2;
+1;3;
+2;4;6;
+3;5;
+4;3;
+5;7;
+6;

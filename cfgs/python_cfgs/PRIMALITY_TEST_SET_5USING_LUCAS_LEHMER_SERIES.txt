@@ -1,0 +1,14 @@
+1;statement;checkNumber = 2 ** p - 1;statement
+2;statement;nextval = 4 % checkNumber;statement
+3;statement;range(1, p - 1);conditional
+4;statement;nextval = (nextval * nextval - 2) % checkNumber;statement
+5;statement;nextval == 0;conditional
+6;statement;return True;statement
+7;statement;return False;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;6;
+5;
+6;

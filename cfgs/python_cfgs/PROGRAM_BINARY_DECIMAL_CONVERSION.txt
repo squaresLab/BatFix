@@ -1,0 +1,20 @@
+1;statement;num = n;statement
+2;statement;dec_value = 0;statement
+3;statement;base = 1;statement
+4;statement;temp = num;statement
+5;statement;temp;conditional
+6;statement;last_digit = temp % 10;statement
+7;statement;temp = int(temp / 10);statement
+8;statement;dec_value += last_digit * base;statement
+9;statement;base = base * 2;statement
+10;statement;return dec_value;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;8;9;
+5;6;
+6;7;
+7;8;
+8;4;
+9;

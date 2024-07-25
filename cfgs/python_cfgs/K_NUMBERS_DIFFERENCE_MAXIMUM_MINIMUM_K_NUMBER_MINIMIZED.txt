@@ -1,0 +1,10 @@
+1;statement;result = +2147483647;statement
+2;statement;arr.sort();statement
+3;statement;range(n - k + 1);conditional
+4;statement;result = int(min(result, arr[i + k - 1] - arr[i]));statement
+5;statement;return result;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;

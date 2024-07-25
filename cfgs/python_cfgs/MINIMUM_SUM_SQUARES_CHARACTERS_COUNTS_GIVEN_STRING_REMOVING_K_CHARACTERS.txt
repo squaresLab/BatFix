@@ -1,0 +1,40 @@
+1;statement;l = len(str);statement
+2;statement;k >= l;conditional
+3;statement;return 0;statement
+4;statement;frequency = [0] * MAX_CHAR;statement
+5;statement;range(0, l);conditional
+6;statement;frequency[ord(str[i]) - 97] += 1;statement
+7;statement;q = PriorityQueue();statement
+8;statement;range(0, MAX_CHAR);conditional
+9;statement;q.put(-frequency[i]);statement
+10;statement;k > 0;conditional
+11;statement;temp = q.get();statement
+12;statement;temp = temp + 1;statement
+13;statement;q.put(temp, temp);statement
+14;statement;k = k - 1;statement
+15;statement;result = 0;statement
+16;statement;not q.empty();conditional
+17;statement;temp = q.get();statement
+18;statement;temp = temp * -1;statement
+19;statement;result += temp * temp;statement
+20;statement;return result;statement
+0;1;
+1;2;3;
+2;
+3;4;
+4;5;6;
+5;4;
+6;7;
+7;8;9;
+8;7;
+9;13;14;
+10;11;
+11;12;
+12;13;
+13;9;
+14;15;
+15;18;19;
+16;17;
+17;18;
+18;15;
+19;

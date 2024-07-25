@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 == 0;14;
+3;statement;System.fun_1("Error: divisor " + "can\'t be zero \n");15;
+4;statement;return -1;16;
+5;exit;;;
+6;conditional;foo_1 < 0;18;
+7;statement;divisor = -foo_1;18;
+8;conditional;foo_1 < 0;19;
+9;statement;num = -foo_1;19;
+10;statement;int i = 1;20;
+11;statement;int product = 0;21;
+12;conditional;foo_1 <= foo_2;22;
+13;statement;product = foo_1 * foo_2;23;
+14;statement;i++;24;
+15;statement;return foo_1 - (foo_2 - foo_3);26;
+Edges
+0;2;
+1;3;6;
+2;4;
+3;5;
+4;
+5;7;8;
+6;8;
+7;9;10;
+8;10;
+9;11;
+10;12;
+11;15;13;
+12;14;
+13;12;
+14;5;

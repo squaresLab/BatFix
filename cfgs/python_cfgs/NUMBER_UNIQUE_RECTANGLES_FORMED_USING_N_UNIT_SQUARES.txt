@@ -1,0 +1,14 @@
+1;statement;ans = 0;statement
+2;statement;range(1, int(math.sqrt(n)) + 1);conditional
+3;statement;height = length;statement
+4;statement;height * length <= n;conditional
+5;statement;ans += 1;statement
+6;statement;height += 1;statement
+7;statement;return ans;statement
+0;1;
+1;2;6;
+2;3;
+3;5;1;
+4;5;
+5;3;
+6;

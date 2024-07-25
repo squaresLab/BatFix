@@ -1,0 +1,16 @@
+1;statement;i = 1;statement
+2;statement;the_sum = 0;statement
+3;statement;the_sum < n;conditional
+4;statement;the_sum += i;statement
+5;statement;the_sum == n;conditional
+6;statement;return True;statement
+7;statement;i += 2;statement
+8;statement;return False;statement
+0;1;
+1;2;
+2;4;7;
+3;4;
+4;5;6;
+5;
+6;2;
+7;

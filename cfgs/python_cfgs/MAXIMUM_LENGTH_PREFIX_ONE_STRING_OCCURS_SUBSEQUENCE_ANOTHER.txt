@@ -1,0 +1,14 @@
+1;statement;count = 0;statement
+2;statement;range(0, len(t));conditional
+3;statement;count == len(s);conditional
+4;statement;t[i] == s[count];conditional
+5;statement;count = count + 1;statement
+6;statement;return count;statement
+7;statement;return count;statement
+0;1;
+1;2;6;
+2;3;6;
+3;4;1;
+4;1;
+5;
+6;

@@ -1,0 +1,12 @@
+1;statement;mn = sys.maxsize;statement
+2;statement;sum = 0;statement
+3;statement;range(n);conditional
+4;statement;mn = min(a[i], mn);statement
+5;statement;sum += a[i];statement
+6;statement;return mn * (sum - mn);statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

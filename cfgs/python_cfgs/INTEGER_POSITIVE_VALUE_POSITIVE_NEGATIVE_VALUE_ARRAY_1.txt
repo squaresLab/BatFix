@@ -1,0 +1,18 @@
+1;statement;neg = 0;statement
+2;statement;pos = 0;statement
+3;statement;sum = 0;statement
+4;statement;range(0, n);conditional
+5;statement;sum += arr[i];statement
+6;statement;arr[i] < 0;conditional
+7;statement;neg += 1;statement
+8;statement;pos += 1;statement
+9;statement;return sum / abs(neg - pos);statement
+0;1;
+1;2;
+2;3;
+3;5;8;
+4;5;
+5;6;7;
+6;3;
+7;3;
+8;

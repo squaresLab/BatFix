@@ -1,0 +1,20 @@
+1;statement;arr.sort();statement
+2;statement;dp = [0] * N;statement
+3;statement;dp[0] = 0;statement
+4;statement;range(1, N);conditional
+5;statement;dp[i] = dp[i - 1];statement
+6;statement;arr[i] - arr[i - 1] < K;conditional
+7;statement;i >= 2;conditional
+8;statement;dp[i] = max(dp[i], dp[i - 2] + arr[i] + arr[i - 1]);statement
+9;statement;dp[i] = max(dp[i], arr[i] + arr[i - 1]);statement
+10;statement;return dp[N - 1];statement
+0;1;
+1;2;
+2;3;
+3;5;9;
+4;5;
+5;6;3;
+6;7;8;
+7;3;
+8;3;
+9;

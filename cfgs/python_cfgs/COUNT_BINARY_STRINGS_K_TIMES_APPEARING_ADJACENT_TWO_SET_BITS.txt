@@ -1,0 +1,20 @@
+1;statement;dp = [[[0, 0] for __ in range(k + 1)] for _ in range(n + 1)];statement
+2;statement;dp[1][0][0] = 1;statement
+3;statement;dp[1][0][1] = 1;statement
+4;statement;range(2, n + 1);conditional
+5;statement;range(k + 1);conditional
+6;statement;dp[i][j][0] = dp[i - 1][j][0] + dp[i - 1][j][1];statement
+7;statement;dp[i][j][1] = dp[i - 1][j][0];statement
+8;statement;j >= 1;conditional
+9;statement;dp[i][j][1] += dp[i - 1][j - 1][1];statement
+10;statement;return dp[n][k][0] + dp[n][k][1];statement
+0;1;
+1;2;
+2;3;
+3;4;9;
+4;7;3;
+5;6;
+6;7;
+7;8;4;
+8;4;
+9;

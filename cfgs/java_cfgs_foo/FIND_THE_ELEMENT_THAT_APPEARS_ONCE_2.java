@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;HashSet<Integer> s = new HashSet<Integer>();14;
+3;statement;int i;15;
+4;conditional;foo_1;15;
+5;statement;fun_1(foo_2);16;
+6;statement;int arr_sum = 0;18;
+7;statement;int i;19;
+8;conditional;foo_1;19;
+9;statement;arr_sum += foo_1;20;
+10;statement;int set_sum = 0;22;
+11;statement;int i;23;
+12;conditional;foo_1;23;
+13;statement;set_sum += foo_1;24;
+14;statement;return ((3 * foo_1) - foo_2) / 2;26;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;6;
+4;4;
+5;7;
+6;8;
+7;9;10;
+8;8;
+9;11;
+10;12;
+11;13;14;
+12;12;
+13;15;
+14;

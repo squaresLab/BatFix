@@ -1,0 +1,32 @@
+1;statement;dp = [[0 for x in range(10)] for y in range(n + 1)];statement
+2;statement;n == 1;conditional
+3;statement;return 10;statement
+4;statement;range(10);conditional
+5;statement;dp[1][j] = 1;statement
+6;statement;range(2, n + 1);conditional
+7;statement;range(10);conditional
+8;statement;j == 0;conditional
+9;statement;dp[i][j] = dp[i - 1][j + 1];statement
+10;statement;j == 9;conditional
+11;statement;dp[i][j] = dp[i - 1][j - 1];statement
+12;statement;dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j + 1];statement
+13;statement;sum = 0;statement
+14;statement;range(1, 10);conditional
+15;statement;sum = sum + dp[n][j];statement
+16;statement;return sum;statement
+0;1;
+1;2;3;
+2;
+3;4;5;
+4;3;
+5;6;12;
+6;7;5;
+7;8;9;
+8;6;
+9;10;11;
+10;6;
+11;6;
+12;13;
+13;14;15;
+14;13;
+15;

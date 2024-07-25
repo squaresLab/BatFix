@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 < 10;14;
+3;statement;return (foo_1 * (foo_2 + 1)) / 2;14;
+4;exit;;;
+5;statement;int d = ((int) (fun_1(foo_1)));15;
+6;statement;int[] a = new int[foo_1 + 1];16;
+7;statement;foo_1[0] = 0;17;
+8;statement;foo_1[1] = 45;18;
+9;statement;int i = 2;19;
+10;conditional;foo_1 <= foo_2;20;
+11;statement;foo_1[foo_2] = (foo_3[foo_4 - 1] * 10) + (45 * ((int) (fun_1(fun_2(10, foo_5 - 1)))));21;
+12;statement;i++;21;
+13;statement;int p = ((int) (fun_1(fun_2(10, foo_1))));22;
+14;statement;int msd = foo_1 / foo_2;23;
+15;statement;return (((foo_1 * foo_2[foo_3]) + (((foo_4 * (foo_5 - 1)) / 2) * foo_6)) + (foo_7 * (1 + (foo_8 % foo_9)))) + fun_1(foo_10 % foo_11);24;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;
+8;10;
+9;11;13;
+10;12;
+11;10;
+12;14;
+13;15;
+14;4;

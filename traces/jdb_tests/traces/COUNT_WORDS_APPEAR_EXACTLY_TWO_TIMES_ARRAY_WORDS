@@ -1,0 +1,321 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'COUNT_WORDS_APPEAR_EXACTLY_TWO_TIMES_ARRAY_WORDS.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: HashMap < String, Integer > m = new HashMap < > ( );
+Line: 36
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+
+Statement: for ( int i = 0;
+Line: 37
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = {  }
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = {  }
+i = 0
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = {  }
+i = 0
+
+Statement: m . put ( str [ i ], 1 );
+Line: 45
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = {  }
+i = 0
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = { hate=1 }
+i = 0
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = { hate=1 }
+i = 1
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{hate=1}"
+i = 1
+
+Statement: m . put ( str [ i ], 1 );
+Line: 45
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{hate=1}"
+i = 1
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, hate=1}"
+i = 1
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, hate=1}"
+i = 2
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, hate=1}"
+i = 2
+
+Statement: m . put ( str [ i ], 1 );
+Line: 45
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, hate=1}"
+i = 2
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, peace=1, hate=1}"
+i = 2
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, peace=1, hate=1}"
+i = 3
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, peace=1, hate=1}"
+i = 3
+
+Statement: int get = m . get ( str [ i ] );
+Line: 41
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, peace=1, hate=1}"
+i = 3
+
+Statement: m . put ( str [ i ], get + 1 );
+Line: 42
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=1, peace=1, hate=1}"
+i = 3
+get = 1
+
+Statement: }
+Line: 43
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=1, hate=1}"
+i = 3
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=1, hate=1}"
+i = 3
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=1, hate=1}"
+i = 4
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=1, hate=1}"
+i = 4
+
+Statement: int get = m . get ( str [ i ] );
+Line: 41
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=1, hate=1}"
+i = 4
+
+Statement: m . put ( str [ i ], get + 1 );
+Line: 42
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=1, hate=1}"
+i = 4
+get = 1
+
+Statement: }
+Line: 43
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=1}"
+i = 4
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=1}"
+i = 4
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=1}"
+i = 5
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=1}"
+i = 5
+
+Statement: int get = m . get ( str [ i ] );
+Line: 41
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=1}"
+i = 5
+
+Statement: m . put ( str [ i ], get + 1 );
+Line: 42
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=1}"
+i = 5
+get = 1
+
+Statement: }
+Line: 43
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=2}"
+i = 5
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=2}"
+i = 5
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=2}"
+i = 6
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=2}"
+i = 6
+
+Statement: int get = m . get ( str [ i ] );
+Line: 41
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=2}"
+i = 6
+
+Statement: m . put ( str [ i ], get + 1 );
+Line: 42
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=2, peace=2, hate=2}"
+i = 6
+get = 2
+
+Statement: }
+Line: 43
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=2, hate=2}"
+i = 6
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=2, hate=2}"
+i = 6
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=2, hate=2}"
+i = 7
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=2, hate=2}"
+i = 7
+
+Statement: int get = m . get ( str [ i ] );
+Line: 41
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=2, hate=2}"
+i = 7
+
+Statement: m . put ( str [ i ], get + 1 );
+Line: 42
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=2, hate=2}"
+i = 7
+get = 2
+
+Statement: }
+Line: 43
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=3, hate=2}"
+i = 7
+
+Statement: i ++ ) {
+Line: 39
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=3, hate=2}"
+i = 7
+
+Statement: i < n;
+Line: 38
+str = { "hate", "love", "peace", "love", "peace", "hate", "love", "peace", "love", "peace" }
+n = 10
+m = "{love=3, peace=3, hate=2}"
+i = 8
+
+Statement: if ( m . containsKey ( str [ i ] ) ) {
+Line: 40

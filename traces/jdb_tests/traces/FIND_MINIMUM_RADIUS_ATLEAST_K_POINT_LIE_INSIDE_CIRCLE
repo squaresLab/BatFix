@@ -1,0 +1,68 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'FIND_MINIMUM_RADIUS_ATLEAST_K_POINT_LIE_INSIDE_CIRCLE.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int [ ] dis = new int [ n ];
+Line: 26
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+
+Statement: for ( int i = 0;
+Line: 27
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+dis = { 0 }
+
+Statement: i < n;
+Line: 28
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+dis = { 0 }
+i = 0
+
+Statement: dis [ i ] = x [ i ] * x [ i ] + y [ i ] * y [ i ];
+Line: 30
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+dis = { 0 }
+i = 0
+
+Statement: i ++ )
+Line: 29
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+dis = { 274 }
+i = 0
+
+Statement: i < n;
+Line: 28
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+dis = { 274 }
+i = 1
+
+Statement: Arrays . sort ( dis );
+Line: 31
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+dis = { 274 }
+
+Statement: return dis [ k - 1 ];
+Line: 32
+k = 1
+x = { 7, 91 }
+y = { 15, 83 }
+n = 1
+dis = { 274 }

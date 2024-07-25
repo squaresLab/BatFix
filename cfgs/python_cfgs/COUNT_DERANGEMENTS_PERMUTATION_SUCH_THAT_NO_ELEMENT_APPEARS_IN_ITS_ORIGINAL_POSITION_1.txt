@@ -1,0 +1,14 @@
+1;statement;der = [0 for i in range(n + 1)];statement
+2;statement;der[0] = 1;statement
+3;statement;der[1] = 0;statement
+4;statement;der[2] = 1;statement
+5;statement;range(3, n + 1);conditional
+6;statement;der[i] = (i - 1) * (der[i - 1] + der[i - 2]);statement
+7;statement;return der[n];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;6;
+5;4;
+6;

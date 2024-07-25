@@ -1,0 +1,34 @@
+1;statement;s = set();statement
+2;statement;indexes = Queue();statement
+3;statement;page_faults = 0;statement
+4;statement;range(n);conditional
+5;statement;len(s) < capacity;conditional
+6;statement;pages[i] not in s;conditional
+7;statement;s.add(pages[i]);statement
+8;statement;page_faults += 1;statement
+9;statement;indexes.put(pages[i]);statement
+10;statement;pages[i] not in s;conditional
+11;statement;val = indexes.queue[0];statement
+12;statement;indexes.get();statement
+13;statement;s.remove(val);statement
+14;statement;s.add(pages[i]);statement
+15;statement;indexes.put(pages[i]);statement
+16;statement;page_faults += 1;statement
+17;statement;return page_faults;statement
+0;1;
+1;2;
+2;3;
+3;4;16;
+4;5;9;
+5;8;3;
+6;7;
+7;8;
+8;3;
+9;15;3;
+10;11;
+11;12;
+12;13;
+13;14;
+14;15;
+15;3;
+16;

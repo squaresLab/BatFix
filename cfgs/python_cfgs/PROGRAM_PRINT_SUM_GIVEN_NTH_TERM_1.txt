@@ -1,0 +1,2 @@
+1;statement;return math.pow(n, 2);statement
+0;

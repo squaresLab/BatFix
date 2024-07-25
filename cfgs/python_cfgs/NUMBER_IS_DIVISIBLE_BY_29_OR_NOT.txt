@@ -1,0 +1,10 @@
+1;statement;int(n / 100);conditional
+2;statement;last_digit = int(n % 10);statement
+3;statement;n = int(n / 10);statement
+4;statement;n += last_digit * 3;statement
+5;statement;return n % 29 == 0;statement
+0;3;4;
+1;2;
+2;3;
+3;0;
+4;

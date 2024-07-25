@@ -1,0 +1,6 @@
+1;statement;n == 0;conditional
+2;statement;return 1;statement
+3;statement;return n * f_gold(n - 1);statement
+0;1;2;
+1;
+2;

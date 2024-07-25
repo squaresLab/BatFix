@@ -1,0 +1,22 @@
+1;statement;max_idx = n - 1;statement
+2;statement;min_idx = 0;statement
+3;statement;max_elem = arr[n - 1] + 1;statement
+4;statement;range(0, n);conditional
+5;statement;i % 2 == 0;conditional
+6;statement;arr[i] += arr[max_idx] % max_elem * max_elem;statement
+7;statement;max_idx -= 1;statement
+8;statement;arr[i] += arr[min_idx] % max_elem * max_elem;statement
+9;statement;min_idx += 1;statement
+10;statement;range(0, n);statement
+11;statement;arr[i] = arr[i] / max_elem;statement
+0;1;
+1;2;
+2;3;
+3;4;9;
+4;6;8;
+5;6;
+6;3;
+7;8;
+8;3;
+9;10;
+10;9;

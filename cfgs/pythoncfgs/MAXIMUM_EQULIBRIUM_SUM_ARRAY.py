@@ -1,0 +1,30 @@
+Nodes
+1;statement;foo_1 = -foo_2.maxsize - 1;10;
+2;conditional;fun_1(foo_1);11;
+3;statement;return foo_1;22;
+4;statement;foo_1 = foo_2[foo_3];12;
+5;conditional;fun_1(foo_1);13;
+6;statement;foo_1 = foo_2[foo_3];15;
+7;statement;foo_1 = foo_2 - 1;16;
+8;conditional;foo_1 > foo_2;17;
+9;conditional;foo_1 == foo_2;20;
+10;statement;foo_1 = fun_1(foo_2, foo_3);21;
+11;statement;foo_1 += foo_2[foo_3];18;
+12;statement;foo_1 -= 1;19;
+13;statement;foo_1 += foo_2[foo_3];14;
+14;exit;;
+Edges
+0;2;
+1;3;4;
+2;14;
+3;5;
+4;6;13;
+5;7;
+6;8;
+7;9;11;
+8;2;10;
+9;2;
+10;12;
+11;8;
+12;5;
+13;

@@ -1,0 +1,38 @@
+1;statement;(inc, dcr) = (dict(), dict());statement
+2;statement;(len_inc, len_dcr) = ([0] * n, [0] * n);statement
+3;statement;longLen = 0;statement
+4;statement;range(n);conditional
+5;statement;len = 0;statement
+6;statement;inc.get(arr[i] - 1) in inc.values();conditional
+7;statement;len = inc.get(arr[i] - 1);statement
+8;statement;inc[arr[i]] = len_inc[i] = len + 1;statement
+9;statement;inc[arr[i]] = len_inc[i] = len + 1;statement
+10;statement;range(n - 1, -1, -1);conditional
+11;statement;len = 0;statement
+12;statement;dcr.get(arr[i] - 1) in dcr.values();conditional
+13;statement;len = dcr.get(arr[i] - 1);statement
+14;statement;dcr[arr[i]] = len_dcr[i] = len + 1;statement
+15;statement;dcr[arr[i]] = len_dcr[i] = len + 1;statement
+16;statement;range(n);conditional
+17;statement;longLen < len_inc[i] + len_dcr[i] - 1;conditional
+18;statement;longLen = len_inc[i] + len_dcr[i] - 1;statement
+19;statement;return longLen;statement
+0;1;
+1;2;
+2;3;
+3;5;9;
+4;5;
+5;6;8;
+6;8;
+7;
+8;3;3;
+9;11;15;
+10;11;
+11;12;14;
+12;14;
+13;
+14;9;9;
+15;16;18;
+16;17;15;
+17;15;
+18;

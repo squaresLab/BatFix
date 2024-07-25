@@ -1,0 +1,20 @@
+1;statement;n = len(s);statement
+2;statement;count = 0;statement
+3;statement;range(0, n, 1);conditional
+4;statement;s[i] == '4' or s[i] == '8' or s[i] == '0';conditional
+5;statement;count += 1;statement
+6;statement;range(0, n - 1, 1);conditional
+7;statement;h = (ord(s[i]) - ord('0')) * 10 + (ord(s[i + 1]) - ord('0'));statement
+8;statement;h % 4 == 0;conditional
+9;statement;count = count + i + 1;statement
+10;statement;return count;statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;2;
+5;7;9;
+6;7;
+7;8;5;
+8;5;
+9;

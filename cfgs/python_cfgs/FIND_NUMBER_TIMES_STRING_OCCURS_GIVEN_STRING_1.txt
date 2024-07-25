@@ -1,0 +1,26 @@
+1;statement;m = len(a);statement
+2;statement;n = len(b);statement
+3;statement;lookup = [[0] * (n + 1) for i in range(m + 1)];statement
+4;statement;range(n + 1);conditional
+5;statement;lookup[0][i] = 0;statement
+6;statement;range(m + 1);conditional
+7;statement;lookup[i][0] = 1;statement
+8;statement;range(1, m + 1);conditional
+9;statement;range(1, n + 1);conditional
+10;statement;a[i - 1] == b[j - 1];conditional
+11;statement;lookup[i][j] = lookup[i - 1][j - 1] + lookup[i - 1][j];statement
+12;statement;lookup[i][j] = lookup[i - 1][j];statement
+13;statement;return lookup[m][n];statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;6;7;
+6;5;
+7;8;12;
+8;9;7;
+9;10;11;
+10;8;
+11;8;
+12;

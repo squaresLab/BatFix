@@ -1,0 +1,18 @@
+1;statement;ones = 0;statement
+2;statement;twos = 0;statement
+3;statement;range(n);conditional
+4;statement;twos = twos | ones & arr[i];statement
+5;statement;ones = ones ^ arr[i];statement
+6;statement;common_bit_mask = ~(ones & twos);statement
+7;statement;ones &= common_bit_mask;statement
+8;statement;twos &= common_bit_mask;statement
+9;statement;return ones;statement
+0;1;
+1;2;
+2;7;8;
+3;4;
+4;5;
+5;6;
+6;7;
+7;2;
+8;

@@ -1,0 +1,2 @@
+1;statement;return math.factorial(min(m, n));statement
+0;

@@ -1,0 +1,298 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'CHECK_ARRAY_CONTAINS_CONTIGUOUS_INTEGERS_DUPLICATES_ALLOWED.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int max = Integer . MIN_VALUE ;
+Line: 14
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+
+Statement: int min = Integer . MAX_VALUE ;
+Line: 15
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = -2147483648
+
+Statement: for ( int i = 0 ;
+Line: 16
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = -2147483648
+min = 2147483647
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = -2147483648
+min = 2147483647
+i = 0
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = -2147483648
+min = 2147483647
+i = 0
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 2
+min = 2147483647
+i = 0
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 2
+min = 2
+i = 0
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 2
+min = 2
+i = 1
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 2
+min = 2
+i = 1
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 4
+min = 2
+i = 1
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 4
+min = 2
+i = 1
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 4
+min = 2
+i = 2
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 4
+min = 2
+i = 2
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 19
+min = 2
+i = 2
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 19
+min = 2
+i = 2
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 19
+min = 2
+i = 3
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 19
+min = 2
+i = 3
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 25
+min = 2
+i = 3
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 25
+min = 2
+i = 3
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 25
+min = 2
+i = 4
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 25
+min = 2
+i = 4
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 65
+min = 2
+i = 4
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 65
+min = 2
+i = 4
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 65
+min = 2
+i = 5
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 65
+min = 2
+i = 5
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 72
+min = 2
+i = 5
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 72
+min = 2
+i = 5
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 72
+min = 2
+i = 6
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 72
+min = 2
+i = 6
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 75
+min = 2
+i = 6
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 75
+min = 2
+i = 6
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 75
+min = 2
+i = 7
+
+Statement: max = Math . max ( max , arr [ i ] ) ;
+Line: 19
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 75
+min = 2
+i = 7
+
+Statement: min = Math . min ( min , arr [ i ] ) ;
+Line: 20
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 83
+min = 2
+i = 7
+
+Statement: i ++ ) {
+Line: 18
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 83
+min = 2
+i = 7
+
+Statement: i < n ;
+Line: 17
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 83
+min = 2
+i = 8
+
+Statement: int m = max - min + 1 ;
+Line: 22
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 83
+min = 2
+
+Statement: if ( m > n ) return false ;
+Line: 23
+arr = { 2, 4, 19, 25, 65, 72, 75, 83, 90, 92 }
+n = 8
+max = 83
+min = 2
+m = 82

@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int n = fun_1();14;
+3;conditional;foo_1 != 10;15;
+4;statement;return false;15;
+5;exit;;;
+6;statement;int sum = 0;16;
+7;statement;int i = 0;17;
+8;conditional;foo_1 < 9;18;
+9;statement;int digit = fun_1(foo_2) - '0';20;
+10;conditional;(0 > foo_1) || (9 < foo_2);21;
+11;statement;return false;21;
+12;statement;sum += foo_1 * (10 - foo_2);22;
+13;statement;i++;19;
+14;statement;char last = fun_1(9);24;
+15;conditional;(foo_1 != 'X') && ((foo_2 < '0') || (foo_3 > '9'));25;
+16;statement;return false;25;
+17;statement;sum += (foo_1 == 'X') ? 10 : foo_2 - '0';26;
+18;statement;return (foo_1 % 11) == 0;27;
+Edges
+0;2;
+1;3;
+2;4;6;
+3;5;
+4;
+5;7;
+6;8;
+7;9;14;
+8;10;
+9;11;12;
+10;5;
+11;13;
+12;8;
+13;15;
+14;16;17;
+15;5;
+16;18;
+17;5;

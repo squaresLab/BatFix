@@ -1,0 +1,34 @@
+1;statement;dp = [-1] * (n + 10);statement
+2;statement;dp[0] = 0;statement
+3;statement;range(0, n);conditional
+4;statement;dp[i] != -1;conditional
+5;statement;i + a <= n;conditional
+6;statement;dp[i + a] = max(dp[i] + 1, dp[i + a]);statement
+7;statement;i + b <= n;conditional
+8;statement;i + b <= n;conditional
+9;statement;dp[i + b] = max(dp[i] + 1, dp[i + b]);statement
+10;statement;dp[i + b] = max(dp[i] + 1, dp[i + b]);statement
+11;statement;i + c <= n;conditional
+12;statement;i + c <= n;conditional
+13;statement;i + c <= n;conditional
+14;statement;dp[i + c] = max(dp[i] + 1, dp[i + c]);statement
+15;statement;dp[i + c] = max(dp[i] + 1, dp[i + c]);statement
+16;statement;dp[i + c] = max(dp[i] + 1, dp[i + c]);statement
+17;statement;return dp[n];statement
+0;1;
+1;2;
+2;3;16;
+3;4;2;
+4;5;7;
+5;7;
+6;
+7;9;12;9;12;
+8;
+9;12;12;
+10;
+11;
+12;15;2;15;2;15;2;
+13;
+14;
+15;2;2;2;
+16;

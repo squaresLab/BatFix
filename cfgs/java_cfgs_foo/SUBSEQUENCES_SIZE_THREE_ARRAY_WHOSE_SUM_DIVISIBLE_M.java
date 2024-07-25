@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int sum = 0;14;
+3;statement;int ans = 0;15;
+4;statement;int i = 0;16;
+5;conditional;foo_1 < foo_2;17;
+6;statement;int j = foo_1 + 1;19;
+7;conditional;foo_1 < foo_2;20;
+8;statement;int k = foo_1 + 1;22;
+9;conditional;foo_1 < foo_2;23;
+10;statement;sum = (foo_1[foo_2] + foo_3[foo_4]) + foo_5[foo_6];25;
+11;conditional;(foo_1 % foo_2) == 0;26;
+12;statement;ans++;26;
+13;statement;k++;24;
+14;statement;j++;21;
+15;statement;i++;18;
+16;statement;return foo_1;30;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;16;
+5;7;
+6;8;15;
+7;9;
+8;10;14;
+9;11;
+10;12;13;
+11;13;
+12;9;
+13;7;
+14;5;
+15;17;
+16;

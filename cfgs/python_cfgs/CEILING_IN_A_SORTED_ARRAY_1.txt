@@ -1,0 +1,28 @@
+1;statement;x <= arr[low];conditional
+2;statement;return low;statement
+3;statement;x > arr[high];conditional
+4;statement;return -1;statement
+5;statement;mid = (low + high) / 2;statement
+6;statement;arr[mid] == x;conditional
+7;statement;return mid;statement
+8;statement;arr[mid] < x;conditional
+9;statement;mid + 1 <= high and x <= arr[mid + 1];conditional
+10;statement;return mid + 1;statement
+11;statement;return f_gold(arr, mid + 1, high, x);statement
+12;statement;mid - 1 >= low and x > arr[mid - 1];conditional
+13;statement;return mid;statement
+14;statement;return f_gold(arr, low, mid - 1, x);statement
+0;1;2;
+1;
+2;3;5;
+3;
+4;5;
+5;6;7;
+6;
+7;8;11;
+8;9;10;
+9;
+10;
+11;12;13;
+12;
+13;

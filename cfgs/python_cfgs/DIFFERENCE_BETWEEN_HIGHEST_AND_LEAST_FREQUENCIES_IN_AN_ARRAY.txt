@@ -1,0 +1,22 @@
+1;statement;arr.sort();statement
+2;statement;count = 0;statement
+3;statement;max_count = 0;statement
+4;statement;min_count = n;statement
+5;statement;range(0, n - 1);conditional
+6;statement;arr[i] == arr[i + 1];conditional
+7;statement;count += 1;statement
+8;statement;max_count = max(max_count, count);statement
+9;statement;min_count = min(min_count, count);statement
+10;statement;count = 0;statement
+11;statement;return max_count - min_count;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;10;
+5;6;9;
+6;4;
+7;8;
+8;9;
+9;4;
+10;

@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;long[][] table = new long[foo_1 + 1][foo_2 + 1];14;
+3;statement;int j = 1;15;
+4;conditional;(foo_1 <= foo_2) && (foo_3 <= foo_4);16;
+5;statement;foo_1[1][foo_2] = 1;17;
+6;statement;j++;17;
+7;statement;int i = 2;18;
+8;conditional;foo_1 <= foo_2;19;
+9;statement;int j = 1;21;
+10;conditional;foo_1 <= foo_2;22;
+11;statement;int k = 1;24;
+12;conditional;(foo_1 < foo_2) && (foo_3 <= foo_4);25;
+13;statement;foo_1[foo_2][foo_3] += foo_4[foo_5 - 1][foo_6 - foo_7];26;
+14;statement;k++;26;
+15;statement;j++;23;
+16;statement;i++;20;
+17;statement;return foo_1[foo_2][foo_3];29;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;7;
+4;6;
+5;4;
+6;8;
+7;9;17;
+8;10;
+9;11;16;
+10;12;
+11;13;15;
+12;14;
+13;12;
+14;10;
+15;8;
+16;18;
+17;

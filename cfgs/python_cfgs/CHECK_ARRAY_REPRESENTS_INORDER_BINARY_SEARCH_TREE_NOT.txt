@@ -1,0 +1,12 @@
+1;statement;n == 0 or n == 1;conditional
+2;statement;return True;statement
+3;statement;range(1, n, 1);conditional
+4;statement;arr[i - 1] > arr[i];conditional
+5;statement;return False;statement
+6;statement;return True;statement
+0;1;2;
+1;
+2;3;5;
+3;4;2;
+4;
+5;

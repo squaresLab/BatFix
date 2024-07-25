@@ -1,0 +1,12 @@
+1;statement;dp = [];statement
+2;statement;dp.append(1);statement
+3;statement;dp.append(1);statement
+4;statement;range(2, n + 1);conditional
+5;statement;dp.append(dp[i - 1] + dp[i - 2] + 1);statement
+6;statement;return dp[n];statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;

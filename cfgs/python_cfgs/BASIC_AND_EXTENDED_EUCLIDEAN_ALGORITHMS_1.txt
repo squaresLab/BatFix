@@ -1,0 +1,20 @@
+1;statement;a == 0;conditional
+2;statement;x = 0;statement
+3;statement;y = 1;statement
+4;statement;return b;statement
+5;statement;x1 = 1;statement
+6;statement;y1 = 1;statement
+7;statement;gcd = f_gold(b % a, a, x1, y1);statement
+8;statement;x = y1 - b / a * x1;statement
+9;statement;y = x1;statement
+10;statement;return gcd;statement
+0;3;9;
+1;2;
+2;3;
+3;
+4;5;
+5;6;
+6;7;
+7;8;
+8;9;
+9;

@@ -1,0 +1,42 @@
+1;statement;val = 1;statement
+2;statement;(k, l) = (0, 0);statement
+3;statement;k < m and l < n;statement
+4;statement;range(l, n);conditional
+5;statement;a[k][i] = val;statement
+6;statement;val += 1;statement
+7;statement;k += 1;statement
+8;statement;range(k, m);conditional
+9;statement;a[i][n - 1] = val;statement
+10;statement;val += 1;statement
+11;statement;n -= 1;statement
+12;statement;k < m;conditional
+13;statement;range(n - 1, l - 1, -1);conditional
+14;statement;a[m - 1][i] = val;statement
+15;statement;val += 1;statement
+16;statement;m -= 1;statement
+17;statement;l < n;conditional
+18;statement;range(m - 1, k - 1, -1);conditional
+19;statement;a[i][l] = val;statement
+20;statement;val += 1;statement
+21;statement;l += 1;statement
+0;1;
+1;2;
+2;3;
+3;5;6;
+4;5;
+5;3;
+6;7;
+7;9;11;
+8;9;
+9;7;
+10;11;
+11;12;16;
+12;14;15;
+13;14;
+14;12;
+15;16;
+16;17;2;
+17;19;20;
+18;19;
+19;17;
+20;2;

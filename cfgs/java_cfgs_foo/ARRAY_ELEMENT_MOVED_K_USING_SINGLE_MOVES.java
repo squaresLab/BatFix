@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 >= (foo_2 - 1);14;
+3;statement;return foo_1;14;
+4;exit;;;
+5;statement;int best = 0;15;
+6;statement;int times = 0;15;
+7;statement;int i = 0;16;
+8;conditional;foo_1 < foo_2;17;
+9;conditional;foo_1[foo_2] > foo_3;19;
+10;statement;best = foo_1[foo_2];20;
+11;conditional;foo_1 == 1;21;
+12;statement;times = 1;21;
+13;statement;times += 1;23;
+14;conditional;foo_1 >= foo_2;24;
+15;statement;return foo_1;24;
+16;statement;i++;18;
+17;statement;return foo_1;26;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;17;
+8;10;13;
+9;11;
+10;12;14;
+11;14;
+12;14;
+13;15;16;
+14;4;
+15;8;
+16;4;

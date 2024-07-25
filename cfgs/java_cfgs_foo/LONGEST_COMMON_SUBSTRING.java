@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int[][] LCStuff = new int[foo_1 + 1][foo_2 + 1];14;
+3;statement;int result = 0;15;
+4;statement;int i = 0;16;
+5;conditional;foo_1 <= foo_2;17;
+6;statement;int j = 0;19;
+7;conditional;foo_1 <= foo_2;20;
+8;conditional;(foo_1 == 0) || (foo_2 == 0);22;
+9;statement;foo_1[foo_2][foo_3] = 0;22;
+10;conditional;foo_1[foo_2 - 1] == foo_3[foo_4 - 1];23;
+11;statement;foo_1[foo_2][foo_3] = foo_4[foo_5 - 1][foo_6 - 1] + 1;24;
+12;statement;result = fun_1(foo_1, foo_2[foo_3][foo_4]);25;
+13;statement;foo_1[foo_2][foo_3] = 0;27;
+14;statement;j++;21;
+15;statement;i++;18;
+16;statement;return foo_1;30;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;16;
+5;7;
+6;8;15;
+7;9;10;
+8;14;
+9;11;13;
+10;12;
+11;14;
+12;14;
+13;7;
+14;5;
+15;17;
+16;

@@ -1,0 +1,16 @@
+1;statement;n == 0 or n == 1;conditional
+2;statement;return n;statement
+3;statement;(f1, f2, f3) = (0, 1, 1);statement
+4;statement;f3 <= n;conditional
+5;statement;f1 = f2;statement
+6;statement;f2 = f3;statement
+7;statement;f3 = f1 + f2;statement
+8;statement;return f2;statement
+0;1;2;
+1;
+2;3;
+3;6;7;
+4;5;
+5;6;
+6;3;
+7;

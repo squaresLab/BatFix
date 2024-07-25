@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int odd_count = 0;14;
+3;statement;int even_count = 0;15;
+4;conditional;foo_1 < 0;16;
+5;statement;n = -foo_1;16;
+6;conditional;foo_1 == 0;17;
+7;statement;return 1;17;
+8;exit;;;
+9;conditional;foo_1 == 1;18;
+10;statement;return 0;18;
+11;conditional;foo_1 != 0;19;
+12;conditional;(foo_1 & 1) != 0;20;
+13;statement;odd_count++;20;
+14;conditional;(foo_1 & 2) != 0;21;
+15;statement;even_count++;21;
+16;statement;n = foo_1 >> 2;22;
+17;statement;return fun_1(fun_2(foo_1 - foo_2));24;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;6;
+4;6;
+5;7;9;
+6;8;
+7;
+8;10;11;
+9;8;
+10;17;12;
+11;13;14;
+12;14;
+13;15;16;
+14;16;
+15;11;
+16;8;

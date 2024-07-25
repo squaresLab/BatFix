@@ -1,0 +1,8 @@
+1;statement;remainder = 0;statement
+2;statement;range(0, n);conditional
+3;statement;remainder = (remainder + arr[i]) % 3;statement
+4;statement;return remainder == 0;statement
+0;1;
+1;2;3;
+2;1;
+3;

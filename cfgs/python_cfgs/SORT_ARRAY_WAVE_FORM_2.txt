@@ -1,0 +1,6 @@
+1;statement;arr.sort();statement
+2;statement;range(0, n - 1, 2);statement
+3;statement;(arr[i], arr[i + 1]) = (arr[i + 1], arr[i]);statement
+0;1;
+1;2;
+2;1;

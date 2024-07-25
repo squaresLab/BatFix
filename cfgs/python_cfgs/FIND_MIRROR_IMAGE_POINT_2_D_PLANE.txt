@@ -1,0 +1,8 @@
+1;statement;temp = -2 * (a * x1 + b * y1 + c) / (a * a + b * b);statement
+2;statement;x = temp * a + x1;statement
+3;statement;y = temp * b + y1;statement
+4;statement;return (x, y);statement
+0;1;
+1;2;
+2;3;
+3;

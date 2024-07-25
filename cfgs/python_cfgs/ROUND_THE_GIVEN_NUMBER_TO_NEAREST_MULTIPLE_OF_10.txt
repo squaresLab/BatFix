@@ -1,0 +1,6 @@
+1;statement;a = n // 10 * 10;statement
+2;statement;b = a + 10;statement
+3;statement;return b if n - a > b - n else a;statement
+0;1;
+1;2;
+2;

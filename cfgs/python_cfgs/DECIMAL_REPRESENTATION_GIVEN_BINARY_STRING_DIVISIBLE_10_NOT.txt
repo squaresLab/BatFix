@@ -1,0 +1,40 @@
+1;statement;n = len(bin);statement
+2;statement;bin[n - 1] == '1';conditional
+3;statement;return False;statement
+4;statement;sum = 0;statement
+5;statement;i = n - 2;statement
+6;statement;i >= 0;conditional
+7;statement;bin[i] == '1';conditional
+8;statement;posFromRight = n - i - 1;statement
+9;statement;posFromRight % 4 == 1;conditional
+10;statement;sum = sum + 2;statement
+11;statement;posFromRight % 4 == 2;conditional
+12;statement;sum = sum + 4;statement
+13;statement;posFromRight % 4 == 3;conditional
+14;statement;sum = sum + 8;statement
+15;statement;posFromRight % 4 == 0;conditional
+16;statement;sum = sum + 6;statement
+17;statement;i = i - 1;statement
+18;statement;sum % 10 == 0;conditional
+19;statement;return True;statement
+20;statement;return False;statement
+0;1;
+1;2;4;
+2;
+3;4;
+4;5;
+5;6;17;
+6;8;16;
+7;8;
+8;9;10;
+9;16;
+10;11;12;
+11;16;
+12;13;14;
+13;16;
+14;15;16;
+15;16;
+16;5;
+17;18;19;
+18;
+19;

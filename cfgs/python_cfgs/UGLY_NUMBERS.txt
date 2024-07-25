@@ -1,0 +1,54 @@
+1;statement;ugly = [0] * n;statement
+2;statement;ugly[0] = 1;statement
+3;statement;i2 = i3 = i5 = 0;statement
+4;statement;next_multiple_of_2 = 2;statement
+5;statement;next_multiple_of_3 = 3;statement
+6;statement;next_multiple_of_5 = 5;statement
+7;statement;range(1, n);conditional
+8;statement;ugly[l] = min(next_multiple_of_2, next_multiple_of_3, next_multiple_of_5);statement
+9;statement;ugly[l] == next_multiple_of_2;conditional
+10;statement;i2 += 1;statement
+11;statement;next_multiple_of_2 = ugly[i2] * 2;statement
+12;statement;ugly[l] == next_multiple_of_3;conditional
+13;statement;ugly[l] == next_multiple_of_3;conditional
+14;statement;i3 += 1;statement
+15;statement;next_multiple_of_3 = ugly[i3] * 3;statement
+16;statement;i3 += 1;statement
+17;statement;next_multiple_of_3 = ugly[i3] * 3;statement
+18;statement;ugly[l] == next_multiple_of_5;conditional
+19;statement;ugly[l] == next_multiple_of_5;conditional
+20;statement;ugly[l] == next_multiple_of_5;conditional
+21;statement;i5 += 1;statement
+22;statement;next_multiple_of_5 = ugly[i5] * 5;statement
+23;statement;i5 += 1;statement
+24;statement;next_multiple_of_5 = ugly[i5] * 5;statement
+25;statement;i5 += 1;statement
+26;statement;next_multiple_of_5 = ugly[i5] * 5;statement
+27;statement;return ugly[-1];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;8;26;
+7;8;
+8;10;12;
+9;10;
+10;12;
+11;
+12;16;19;16;19;
+13;14;
+14;
+15;16;
+16;19;19;
+17;
+18;
+19;25;6;25;6;25;6;
+20;21;
+21;
+22;23;
+23;
+24;25;
+25;6;6;6;
+26;

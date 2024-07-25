@@ -1,0 +1,12 @@
+1;statement;nCr = 1;statement
+2;statement;res = 1;statement
+3;statement;range(1, n + 1);conditional
+4;statement;nCr = nCr * (n + 1 - r) / r;statement
+5;statement;res += nCr * nCr;statement
+6;statement;return res;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

@@ -1,0 +1,24 @@
+1;statement;modulo = (modulo % M + M) % M;statement
+2;statement;index == n;conditional
+3;statement;modulo == 0;conditional
+4;statement;return 1;statement
+5;statement;return 0;statement
+6;statement;dp[index][modulo] != -1;conditional
+7;statement;return dp[index][modulo];statement
+8;statement;placeAdd = f_gold(n, index + 1, modulo + arr[index], M, arr, dp);statement
+9;statement;placeMinus = f_gold(n, index + 1, modulo - arr[index], M, arr, dp);statement
+10;statement;res = bool(placeAdd or placeMinus);statement
+11;statement;dp[index][modulo] = res;statement
+12;statement;return res;statement
+0;1;
+1;2;5;
+2;3;4;
+3;
+4;
+5;6;11;
+6;
+7;8;
+8;9;
+9;10;
+10;11;
+11;

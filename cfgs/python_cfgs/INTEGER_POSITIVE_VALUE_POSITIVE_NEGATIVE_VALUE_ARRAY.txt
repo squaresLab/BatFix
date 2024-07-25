@@ -1,0 +1,24 @@
+1;statement;hash = dict();statement
+2;statement;maximum = 0;statement
+3;statement;arr;conditional
+4;statement;i < 0;conditional
+5;statement;abs(i) not in hash.keys();conditional
+6;statement;hash[abs(i)] = -1;statement
+7;statement;hash[abs(i)] -= 1;statement
+8;statement;hash[i] = hash.get(i, 0) + 1;statement
+9;statement;arr;conditional
+10;statement;i in hash.keys() and hash[i] > 0;conditional
+11;statement;return i;statement
+12;statement;return -1;statement
+0;1;
+1;2;
+2;3;8;
+3;4;7;
+4;5;6;
+5;2;
+6;2;
+7;2;
+8;9;11;
+9;10;8;
+10;
+11;

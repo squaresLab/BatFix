@@ -1,0 +1,12 @@
+1;statement;flip = 0;statement
+2;statement;range(n);conditional
+3;statement;range(i);conditional
+4;statement;mat[i][j] != mat[j][i];conditional
+5;statement;flip += 1;statement
+6;statement;return flip;statement
+0;1;
+1;2;5;
+2;3;1;
+3;4;2;
+4;2;
+5;

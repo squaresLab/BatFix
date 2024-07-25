@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int x = 0;14;
+3;statement;int yCount;14;
+4;statement;int res = 0;14;
+5;statement;yCount = 0;15;
+6;conditional;(foo_1 * foo_2) < foo_3;16;
+7;statement;yCount++;17;
+8;conditional;foo_1 != 0;18;
+9;statement;res += foo_1;19;
+10;statement;x++;20;
+11;conditional;(foo_1 != 0) && (((foo_2 * foo_3) + ((foo_4 - 1) * (foo_5 - 1))) >= foo_6);21;
+12;statement;yCount--;21;
+13;statement;return foo_1;23;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;8;
+6;6;
+7;13;9;
+8;10;
+9;11;
+10;8;12;
+11;11;
+12;14;
+13;

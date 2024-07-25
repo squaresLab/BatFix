@@ -1,0 +1,24 @@
+1;statement;n = len(seq);statement
+2;statement;n >= 9;conditional
+3;statement;return '-1';statement
+4;statement;result = [None] * (n + 1);statement
+5;statement;count = 1;statement
+6;statement;range(n + 1);conditional
+7;statement;i == n or seq[i] == 'I';conditional
+8;statement;range(i - 1, -2, -1);conditional
+9;statement;result[j + 1] = int('0' + str(count));statement
+10;statement;count += 1;statement
+11;statement;j >= 0 and seq[j] == 'I';conditional
+12;statement;return result;statement
+0;1;
+1;2;4;
+2;
+3;4;
+4;5;
+5;6;11;
+6;7;5;
+7;10;5;
+8;9;
+9;10;
+10;5;7;
+11;

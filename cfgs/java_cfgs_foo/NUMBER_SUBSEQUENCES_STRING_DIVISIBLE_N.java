@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int len = fun_1();14;
+3;statement;int[][] dp = new int[foo_1][foo_2];15;
+4;statement;foo_1[0][(fun_1(0) - '0') % foo_3]++;16;
+5;statement;int i = 1;17;
+6;conditional;foo_1 < foo_2;18;
+7;statement;foo_1[foo_2][(fun_1(foo_4) - '0') % foo_5]++;20;
+8;statement;int j = 0;21;
+9;conditional;foo_1 < foo_2;22;
+10;statement;foo_1[foo_2][foo_3] += foo_4[foo_5 - 1][foo_6];24;
+11;statement;foo_1[foo_2][((foo_3 * 10) + (fun_1(foo_5) - '0')) % foo_6] += foo_7[foo_8 - 1][foo_9];25;
+12;statement;j++;23;
+13;statement;i++;19;
+14;statement;return foo_1[foo_2 - 1][0];28;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;14;
+6;8;
+7;9;
+8;10;13;
+9;11;
+10;12;
+11;9;
+12;6;
+13;15;
+14;

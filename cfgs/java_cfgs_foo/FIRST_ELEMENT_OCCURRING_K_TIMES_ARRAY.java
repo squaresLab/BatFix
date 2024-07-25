@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;HashMap<Integer, Integer> count_map = new HashMap<>();14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;int a = 0;18;
+6;conditional;fun_1(foo_2[foo_3]) != null;19;
+7;statement;a = fun_1(foo_2[foo_3]);20;
+8;statement;fun_1(foo_2[foo_3], foo_4 + 1);22;
+9;statement;i++;17;
+10;statement;int i = 0;24;
+11;conditional;foo_1 < foo_2;25;
+12;conditional;fun_1(foo_2[foo_3]) == foo_4;27;
+13;statement;return foo_1[foo_2];28;
+14;exit;;;
+15;statement;i++;26;
+16;statement;return -1;31;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;10;
+4;6;
+5;7;8;
+6;8;
+7;9;
+8;4;
+9;11;
+10;12;16;
+11;13;15;
+12;14;
+13;
+14;11;
+15;14;

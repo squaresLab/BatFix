@@ -1,0 +1,86 @@
+1;statement;not keypad or n <= 0;conditional
+2;statement;return 0;statement
+3;statement;n == 1;conditional
+4;statement;return 10;statement
+5;statement;odd = [0] * 10;statement
+6;statement;even = [0] * 10;statement
+7;statement;i = 0;statement
+8;statement;j = 0;statement
+9;statement;useOdd = 0;statement
+10;statement;totalCount = 0;statement
+11;statement;range(10);conditional
+12;statement;odd[i] = 1;statement
+13;statement;range(2, n + 1);conditional
+14;statement;useOdd = 1 - useOdd;statement
+15;statement;useOdd == 1;conditional
+16;statement;even[0] = odd[0] + odd[8];statement
+17;statement;even[1] = odd[1] + odd[2] + odd[4];statement
+18;statement;even[2] = odd[2] + odd[1] + odd[3] + odd[5];statement
+19;statement;even[3] = odd[3] + odd[2] + odd[6];statement
+20;statement;even[4] = odd[4] + odd[1] + odd[5] + odd[7];statement
+21;statement;even[5] = odd[5] + odd[2] + odd[4] + odd[8] + odd[6];statement
+22;statement;even[6] = odd[6] + odd[3] + odd[5] + odd[9];statement
+23;statement;even[7] = odd[7] + odd[4] + odd[8];statement
+24;statement;even[8] = odd[8] + odd[0] + odd[5] + odd[7] + odd[9];statement
+25;statement;even[9] = odd[9] + odd[6] + odd[8];statement
+26;statement;odd[0] = even[0] + even[8];statement
+27;statement;odd[1] = even[1] + even[2] + even[4];statement
+28;statement;odd[2] = even[2] + even[1] + even[3] + even[5];statement
+29;statement;odd[3] = even[3] + even[2] + even[6];statement
+30;statement;odd[4] = even[4] + even[1] + even[5] + even[7];statement
+31;statement;odd[5] = even[5] + even[2] + even[4] + even[8] + even[6];statement
+32;statement;odd[6] = even[6] + even[3] + even[5] + even[9];statement
+33;statement;odd[7] = even[7] + even[4] + even[8];statement
+34;statement;odd[8] = even[8] + even[0] + even[5] + even[7] + even[9];statement
+35;statement;odd[9] = even[9] + even[6] + even[8];statement
+36;statement;totalCount = 0;statement
+37;statement;useOdd == 1;conditional
+38;statement;range(10);conditional
+39;statement;totalCount += even[i];statement
+40;statement;range(10);conditional
+41;statement;totalCount += odd[i];statement
+42;statement;return totalCount;statement
+43;statement;return totalCount;statement
+0;1;2;
+1;
+2;3;9;
+3;
+4;5;
+5;6;
+6;7;
+7;8;
+8;9;
+9;10;
+10;11;12;
+11;10;
+12;14;36;
+13;14;
+14;24;34;
+15;16;
+16;17;
+17;18;
+18;19;
+19;20;
+20;21;
+21;22;
+22;23;
+23;24;
+24;12;
+25;26;
+26;27;
+27;28;
+28;29;
+29;30;
+30;31;
+31;32;
+32;33;
+33;34;
+34;12;
+35;36;
+36;37;39;
+37;38;42;
+38;37;
+39;40;42;
+40;39;
+41;
+42;

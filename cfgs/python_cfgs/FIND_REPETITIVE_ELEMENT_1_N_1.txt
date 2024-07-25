@@ -1,0 +1,2 @@
+1;statement;return sum(arr) - (n - 1) * n // 2;statement
+0;

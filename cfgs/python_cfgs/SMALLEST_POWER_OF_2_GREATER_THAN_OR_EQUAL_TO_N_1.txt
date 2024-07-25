@@ -1,0 +1,12 @@
+1;statement;p = 1;statement
+2;statement;n and (not n & n - 1);conditional
+3;statement;return n;statement
+4;statement;p < n;conditional
+5;statement;p <<= 1;statement
+6;statement;return p;statement
+0;1;
+1;2;3;
+2;
+3;4;5;
+4;3;
+5;

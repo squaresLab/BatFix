@@ -1,0 +1,30 @@
+1;statement;i = 0;statement
+2;statement;j = 0;statement
+3;statement;m < n;conditional
+4;statement;return 0;statement
+5;statement;arr1.sort();statement
+6;statement;arr2.sort();statement
+7;statement;i < n and j < m;conditional
+8;statement;arr1[j] < arr2[i];conditional
+9;statement;j += 1;statement
+10;statement;arr1[j] == arr2[i];conditional
+11;statement;j += 1;statement
+12;statement;i += 1;statement
+13;statement;arr1[j] > arr2[i];conditional
+14;statement;return 0;statement
+15;statement;return False if i < n else True;statement
+0;1;
+1;2;
+2;3;5;
+3;
+4;5;
+5;6;
+6;7;14;
+7;8;9;
+8;6;
+9;11;12;
+10;11;
+11;6;
+12;13;6;
+13;
+14;

@@ -1,0 +1,30 @@
+Nodes
+1;conditional;fun_1(foo_1);8;
+2;statement;fun_1('No subarray found');20;
+3;statement;return 0;21;
+4;statement;foo_1 = foo_2[foo_3];9;
+5;statement;foo_1 = foo_2 + 1;10;
+6;conditional;foo_1 <= foo_2;11;
+7;conditional;foo_1 == foo_2;12;
+8;conditional;foo_1 > foo_2 or foo_3 == foo_4;16;
+9;statement;foo_1 = foo_2 + foo_3[foo_4];18;
+10;statement;foo_1 += 1;19;
+11;statement;fun_1('Sum found between');13;
+12;statement;fun_1('indexes %d and %d' % (foo_1, foo_2 - 1));14;
+13;statement;return 1;15;
+14;exit;;
+Edges
+0;2;4;
+1;3;
+2;14;
+3;5;
+4;6;
+5;1;7;
+6;8;11;
+7;1;9;
+8;10;
+9;6;
+10;12;
+11;13;
+12;14;
+13;

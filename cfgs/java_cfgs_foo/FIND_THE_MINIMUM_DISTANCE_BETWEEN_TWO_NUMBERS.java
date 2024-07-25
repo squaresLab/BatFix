@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int i;14;
+3;statement;int j;14;
+4;statement;int min_dist = Integer.MAX_VALUE;15;
+5;statement;i = 0;16;
+6;conditional;foo_1 < foo_2;17;
+7;statement;j = foo_1 + 1;19;
+8;conditional;foo_1 < foo_2;20;
+9;conditional;(((foo_1 == foo_2[foo_3]) && (foo_4 == foo_5[foo_6])) || ((foo_7 == foo_8[foo_9]) && (foo_10 == foo_11[foo_12]))) && (foo_13 > fun_1(foo_14 - foo_15));22;
+10;statement;min_dist = fun_1(foo_1 - foo_2);22;
+11;statement;j++;21;
+12;statement;i++;18;
+13;statement;return foo_1;25;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;13;
+6;8;
+7;9;12;
+8;10;11;
+9;11;
+10;8;
+11;6;
+12;14;
+13;

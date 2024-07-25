@@ -1,0 +1,24 @@
+1;statement;high < low;conditional
+2;statement;return arr[0];statement
+3;statement;high == low;conditional
+4;statement;return arr[low];statement
+5;statement;mid = int((low + high) / 2);statement
+6;statement;mid < high and arr[mid + 1] < arr[mid];conditional
+7;statement;return arr[mid + 1];statement
+8;statement;mid > low and arr[mid] < arr[mid - 1];conditional
+9;statement;return arr[mid];statement
+10;statement;arr[high] > arr[mid];conditional
+11;statement;return f_gold(arr, low, mid - 1);statement
+12;statement;return f_gold(arr, mid + 1, high);statement
+0;1;2;
+1;
+2;3;5;
+3;
+4;5;
+5;6;7;
+6;
+7;8;9;
+8;
+9;10;11;
+10;
+11;

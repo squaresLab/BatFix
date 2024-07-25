@@ -1,0 +1,12 @@
+1;statement;DP = [0 for i in range(0, n + 1)];statement
+2;statement;DP[0] = DP[1] = DP[2] = 1;statement
+3;statement;DP[3] = 2;statement
+4;statement;range(4, n + 1);conditional
+5;statement;DP[i] = DP[i - 1] + DP[i - 3] + DP[i - 4];statement
+6;statement;return DP[n];statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;

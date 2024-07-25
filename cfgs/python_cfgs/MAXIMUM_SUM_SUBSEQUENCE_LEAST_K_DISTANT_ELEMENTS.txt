@@ -1,0 +1,14 @@
+1;statement;MS = [0 for i in range(N)];statement
+2;statement;MS[N - 1] = arr[N - 1];statement
+3;statement;range(N - 2, -1, -1);conditional
+4;statement;i + k + 1 >= N;conditional
+5;statement;MS[i] = max(arr[i], MS[i + 1]);statement
+6;statement;MS[i] = max(arr[i] + MS[i + k + 1], MS[i + 1]);statement
+7;statement;return MS[0];statement
+0;1;
+1;2;
+2;3;6;
+3;4;5;
+4;2;
+5;2;
+6;

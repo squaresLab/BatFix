@@ -1,0 +1,4 @@
+1;statement;area = side * side;statement
+2;statement;return area;statement
+0;1;
+1;

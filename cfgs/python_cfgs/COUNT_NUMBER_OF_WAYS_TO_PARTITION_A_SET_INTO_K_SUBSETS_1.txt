@@ -1,0 +1,22 @@
+1;statement;dp = [[0 for i in range(k + 1)] for j in range(n + 1)];statement
+2;statement;range(n + 1);conditional
+3;statement;dp[i][0] = 0;statement
+4;statement;range(k + 1);conditional
+5;statement;dp[0][k] = 0;statement
+6;statement;range(1, n + 1);conditional
+7;statement;range(1, k + 1);conditional
+8;statement;j == 1 or i == j;conditional
+9;statement;dp[i][j] = 1;statement
+10;statement;dp[i][j] = j * dp[i - 1][j] + dp[i - 1][j - 1];statement
+11;statement;return dp[n][k];statement
+0;1;
+1;2;3;
+2;1;
+3;4;5;
+4;3;
+5;6;10;
+6;7;5;
+7;8;9;
+8;6;
+9;6;
+10;

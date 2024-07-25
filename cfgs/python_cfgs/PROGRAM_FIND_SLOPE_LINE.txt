@@ -1,0 +1,2 @@
+1;statement;return float(y2 - y1) / (x2 - x1);statement
+0;

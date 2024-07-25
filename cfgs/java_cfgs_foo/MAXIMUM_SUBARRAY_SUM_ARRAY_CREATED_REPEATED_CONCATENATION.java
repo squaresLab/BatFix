@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int max_so_far = 0;14;
+3;statement;int INT_MIN;15;
+4;statement;int max_ending_here = 0;15;
+5;statement;int i = 0;16;
+6;conditional;foo_1 < (foo_2 * foo_3);17;
+7;statement;max_ending_here = foo_1 + foo_2[foo_3 % foo_4];19;
+8;conditional;foo_1 < foo_2;20;
+9;statement;max_so_far = foo_1;20;
+10;conditional;foo_1 < 0;21;
+11;statement;max_ending_here = 0;21;
+12;statement;i++;18;
+13;statement;return foo_1;23;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;13;
+6;8;
+7;9;10;
+8;10;
+9;11;12;
+10;12;
+11;6;
+12;14;
+13;

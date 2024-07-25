@@ -1,0 +1,48 @@
+1;statement;n == 1;conditional
+2;statement;return 0;statement
+3;statement;arr.sort();statement
+4;statement;ans = arr[n - 1] - arr[0];statement
+5;statement;small = arr[0] + k;statement
+6;statement;big = arr[n - 1] - k;statement
+7;statement;small > big;conditional
+8;statement;(small, big) = (big, small);statement
+9;statement;range(1, n - 1);conditional
+10;statement;range(1, n - 1);conditional
+11;statement;subtract = arr[i] - k;statement
+12;statement;add = arr[i] + k;statement
+13;statement;subtract >= small or add <= big;conditional
+14;statement;subtract = arr[i] - k;statement
+15;statement;add = arr[i] + k;statement
+16;statement;subtract >= small or add <= big;conditional
+17;statement;big - subtract <= add - small;conditional
+18;statement;big - subtract <= add - small;conditional
+19;statement;small = subtract;statement
+20;statement;small = subtract;statement
+21;statement;big = add;statement
+22;statement;big = add;statement
+23;statement;return min(ans, big - small);statement
+24;statement;return min(ans, big - small);statement
+0;1;6;
+1;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;9;
+7;9;
+8;
+9;15;23;15;23;
+10;11;
+11;12;
+12;
+13;14;
+14;15;
+15;17;9;17;9;
+16;
+17;19;21;19;21;
+18;
+19;9;9;
+20;
+21;9;9;
+22;
+23;

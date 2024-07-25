@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int count = 0;14;
+3;statement;fun_1(foo_1);15;
+4;statement;int l = 0;16;
+5;statement;int r = 0;17;
+6;conditional;foo_1 < foo_2;18;
+7;conditional;(foo_1[foo_2] - foo_3[foo_4]) == foo_5;19;
+8;statement;count++;20;
+9;statement;l++;21;
+10;statement;r++;22;
+11;conditional;(foo_1[foo_2] - foo_3[foo_4]) > foo_5;24;
+12;statement;l++;24;
+13;statement;r++;25;
+14;statement;return foo_1;27;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;14;7;
+6;8;11;
+7;9;
+8;10;
+9;6;
+10;12;13;
+11;6;
+12;6;
+13;15;
+14;

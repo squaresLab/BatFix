@@ -1,0 +1,19 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'FUNCTION_COPY_STRING_ITERATIVE_RECURSIVE_1.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: s2 [ index ] = s1 [ index ];
+Line: 10
+s1 = { v }
+s2 = { Z }
+index = 0
+
+Statement: if ( index == s1 . length - 1 ) {
+Line: 11
+s1 = { v }
+s2 = { v }
+index = 0
+
+Statement: return;
+Line: 12
+s1 = { v }
+s2 = { v }
+index = 0

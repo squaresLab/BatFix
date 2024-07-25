@@ -1,0 +1,16 @@
+1;statement;n < 3;conditional
+2;statement;return -1;statement
+3;statement;max_product = -(sys.maxsize - 1);statement
+4;statement;range(0, n - 2);conditional
+5;statement;range(i + 1, n - 1);conditional
+6;statement;range(j + 1, n);conditional
+7;statement;max_product = max(max_product, arr[i] * arr[j] * arr[k]);statement
+8;statement;return max_product;statement
+0;1;2;
+1;
+2;3;
+3;4;7;
+4;5;3;
+5;6;4;
+6;5;
+7;

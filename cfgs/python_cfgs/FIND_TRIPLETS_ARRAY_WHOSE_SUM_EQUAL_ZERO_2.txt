@@ -1,0 +1,34 @@
+1;statement;found = False;statement
+2;statement;arr.sort();statement
+3;statement;range(0, n - 1);conditional
+4;statement;l = i + 1;statement
+5;statement;r = n - 1;statement
+6;statement;x = arr[i];statement
+7;statement;l < r;conditional
+8;statement;x + arr[l] + arr[r] == 0;conditional
+9;statement;print(x, arr[l], arr[r]);statement
+10;statement;l += 1;statement
+11;statement;r -= 1;statement
+12;statement;found = True;statement
+13;statement;x + arr[l] + arr[r] < 0;conditional
+14;statement;l += 1;statement
+15;statement;r -= 1;statement
+16;statement;found == False;statement
+17;statement;print(' No Triplet Found');statement
+0;1;
+1;2;
+2;5;15;
+3;4;
+4;5;
+5;6;
+6;7;2;
+7;11;12;
+8;9;
+9;10;
+10;11;
+11;6;
+12;13;14;
+13;6;
+14;6;
+15;16;
+16;

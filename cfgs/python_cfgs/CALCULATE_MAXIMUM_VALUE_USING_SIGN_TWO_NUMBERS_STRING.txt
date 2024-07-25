@@ -1,0 +1,12 @@
+1;statement;res = ord(str[0]) - 48;statement
+2;statement;range(1, len(str));conditional
+3;statement;str[i] == '0' or str[i] == '1' or res < 2;conditional
+4;statement;res += ord(str[i]) - 48;statement
+5;statement;res *= ord(str[i]) - 48;statement
+6;statement;return res;statement
+0;1;
+1;2;5;
+2;3;4;
+3;1;
+4;1;
+5;

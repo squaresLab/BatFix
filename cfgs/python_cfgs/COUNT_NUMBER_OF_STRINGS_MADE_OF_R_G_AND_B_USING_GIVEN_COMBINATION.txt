@@ -1,0 +1,22 @@
+1;statement;fact = [0 for i in range(n + 1)];statement
+2;statement;fact[0] = 1;statement
+3;statement;range(1, n + 1, 1);conditional
+4;statement;fact[i] = fact[i - 1] * i;statement
+5;statement;left = n - (r + g + b);statement
+6;statement;sum = 0;statement
+7;statement;range(0, left + 1, 1);conditional
+8;statement;range(0, left - i + 1, 1);conditional
+9;statement;k = left - (i + j);statement
+10;statement;sum = sum + fact[n] / (fact[i + r] * fact[j + b] * fact[k + g]);statement
+11;statement;return sum;statement
+0;1;
+1;2;
+2;3;5;
+3;2;
+4;5;
+5;6;
+6;7;10;
+7;9;6;
+8;9;
+9;7;
+10;

@@ -1,0 +1,18 @@
+1;statement;ans = 0;statement
+2;statement;range(1, p);conditional
+3;statement;x * x % p == 1;conditional
+4;statement;last = x + p * (n / p);statement
+5;statement;last > n;conditional
+6;statement;last -= p;statement
+7;statement;ans += (last - x) / p + 1;statement
+8;statement;ans += (last - x) / p + 1;statement
+9;statement;return int(ans);statement
+0;1;
+1;2;8;
+2;4;1;
+3;4;
+4;5;7;
+5;7;
+6;
+7;1;1;
+8;

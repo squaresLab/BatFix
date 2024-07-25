@@ -1,0 +1,12 @@
+1;statement;min_dist = 99999999;statement
+2;statement;range(n);statement
+3;statement;range(i + 1, n);conditional
+4;statement;(x == arr[i] and y == arr[j] or (y == arr[i] and x == arr[j])) and min_dist > abs(i - j);conditional
+5;statement;min_dist = abs(i - j);statement
+6;statement;return min_dist;statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;2;
+5;

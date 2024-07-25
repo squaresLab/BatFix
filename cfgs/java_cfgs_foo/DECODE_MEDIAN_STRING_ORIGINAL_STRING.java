@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int l = fun_1();14;
+3;statement;String s1 = "";15;
+4;conditional;boolean isEven = ((foo_1 % 2) == 0) ? true : false;16;
+5;statement;true;16;
+6;statement;false;16;
+7;statement;int i = 0;17;
+8;conditional;foo_1 < foo_2;18;
+9;conditional;foo_1;20;
+10;statement;s1 = fun_1(foo_2) + foo_3;21;
+11;statement;s1 += fun_1(foo_2 + 1);22;
+12;conditional;(foo_1 - foo_2) > 1;25;
+13;statement;s1 += fun_1(foo_2);26;
+14;statement;s1 = fun_1(foo_2 + 1) + foo_3;27;
+15;statement;s1 += fun_1(foo_2);30;
+16;statement;i += 2;19;
+17;statement;return foo_1;34;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;6;
+4;7;
+5;7;
+6;8;
+7;9;17;
+8;10;12;
+9;11;
+10;16;
+11;13;15;
+12;14;
+13;16;
+14;16;
+15;8;
+16;18;
+17;

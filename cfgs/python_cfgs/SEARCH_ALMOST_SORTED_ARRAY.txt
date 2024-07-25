@@ -1,0 +1,24 @@
+1;statement;r >= l;conditional
+2;statement;mid = int(l + (r - l) / 2);statement
+3;statement;arr[mid] == x;conditional
+4;statement;return mid;statement
+5;statement;mid > l and arr[mid - 1] == x;conditional
+6;statement;return mid - 1;statement
+7;statement;mid < r and arr[mid + 1] == x;conditional
+8;statement;return mid + 1;statement
+9;statement;arr[mid] > x;conditional
+10;statement;return f_gold(arr, l, mid - 2, x);statement
+11;statement;return f_gold(arr, mid + 2, r, x);statement
+12;statement;return -1;statement
+0;2;11;
+1;2;
+2;3;4;
+3;
+4;5;6;
+5;
+6;7;8;
+7;
+8;9;10;
+9;
+10;
+11;

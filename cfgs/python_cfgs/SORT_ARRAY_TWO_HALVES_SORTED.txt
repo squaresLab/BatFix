@@ -1,0 +1,2 @@
+1;statement;A.sort();statement
+0;

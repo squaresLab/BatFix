@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;Queue<Integer> q = new LinkedList<>();14;
+3;statement;fun_1(1);15;
+4;statement;int cnt = 0;16;
+5;statement;int t;17;
+6;conditional;fun_1() > 0;18;
+7;statement;t = fun_1();19;
+8;statement;fun_1();20;
+9;conditional;foo_1 <= foo_2;21;
+10;statement;cnt++;22;
+11;statement;fun_1(foo_2 * 10);23;
+12;statement;fun_1((foo_2 * 10) + 1);24;
+13;statement;return foo_1;27;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;13;7;
+6;8;
+7;9;
+8;10;6;
+9;11;
+10;12;
+11;6;
+12;14;
+13;

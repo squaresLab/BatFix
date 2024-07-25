@@ -1,0 +1,16 @@
+1;statement;n = 2 * A;statement
+2;statement;dpArray = [0] * (n + 1);statement
+3;statement;dpArray[0] = 1;statement
+4;statement;dpArray[2] = 1;statement
+5;statement;range(4, n + 1, 2);conditional
+6;statement;range(0, i - 1, 2);conditional
+7;statement;dpArray[i] += dpArray[j] * dpArray[i - 2 - j];statement
+8;statement;return int(dpArray[n]);statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;7;
+5;6;4;
+6;5;
+7;

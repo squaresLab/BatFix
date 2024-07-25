@@ -1,0 +1,32 @@
+1;statement;dp = [0] * n;statement
+2;statement;n == 1;conditional
+3;statement;return arr[0];statement
+4;statement;n == 2;conditional
+5;statement;return min(arr[0], arr[1]);statement
+6;statement;n == 3;conditional
+7;statement;return min(arr[0], min(arr[1], arr[2]));statement
+8;statement;n == 4;conditional
+9;statement;return min(min(arr[0], arr[1]), min(arr[2], arr[3]));statement
+10;statement;dp[0] = arr[0];statement
+11;statement;dp[1] = arr[1];statement
+12;statement;dp[2] = arr[2];statement
+13;statement;dp[3] = arr[3];statement
+14;statement;range(4, n);conditional
+15;statement;dp[i] = arr[i] + min(min(dp[i - 1], dp[i - 2]), min(dp[i - 3], dp[i - 4]));statement
+16;statement;return min(min(dp[n - 1], dp[n - 2]), min(dp[n - 4], dp[n - 3]));statement
+0;1;
+1;2;3;
+2;
+3;4;5;
+4;
+5;6;7;
+6;
+7;8;12;
+8;
+9;10;
+10;11;
+11;12;
+12;13;
+13;14;15;
+14;13;
+15;

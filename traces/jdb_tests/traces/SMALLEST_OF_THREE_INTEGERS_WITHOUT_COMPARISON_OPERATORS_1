@@ -1,0 +1,13 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'SMALLEST_OF_THREE_INTEGERS_WITHOUT_COMPARISON_OPERATORS_1.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: if ( ( y / x ) != 1 ) return ( ( y / z ) != 1 ) ? y : z ;
+Line: 14
+x = 48
+y = 63
+z = 56
+
+Statement: return ( ( x / z ) != 1 ) ? x : z ;
+Line: 15
+x = 48
+y = 63
+z = 56

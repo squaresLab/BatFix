@@ -1,0 +1,42 @@
+1;statement;curr_sum = 0;statement
+2;statement;min_len = n + 1;statement
+3;statement;start = 0;statement
+4;statement;end = 0;statement
+5;statement;end < n;conditional
+6;statement;curr_sum <= x and end < n;conditional
+7;statement;curr_sum <= 0 and x > 0;conditional
+8;statement;start = end;statement
+9;statement;curr_sum = 0;statement
+10;statement;curr_sum += arr[end];statement
+11;statement;end += 1;statement
+12;statement;curr_sum += arr[end];statement
+13;statement;end += 1;statement
+14;statement;curr_sum > x and start < n;conditional
+15;statement;end - start < min_len;conditional
+16;statement;min_len = end - start;statement
+17;statement;curr_sum -= arr[start];statement
+18;statement;start += 1;statement
+19;statement;curr_sum -= arr[start];statement
+20;statement;start += 1;statement
+21;statement;return min_len;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;20;
+5;6;13;
+6;8;12;
+7;8;
+8;12;
+9;10;
+10;
+11;12;
+12;5;5;
+13;14;4;
+14;15;19;
+15;19;
+16;17;
+17;
+18;19;
+19;13;13;
+20;

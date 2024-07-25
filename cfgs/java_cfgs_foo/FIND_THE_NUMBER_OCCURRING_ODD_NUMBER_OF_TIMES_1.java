@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;HashMap<Integer, Integer> hmap = new HashMap<>();14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;conditional;fun_1(foo_2[foo_3]);18;
+6;statement;int val = fun_1(foo_2[foo_3]);19;
+7;statement;fun_1(foo_2[foo_3], foo_4 + 1);20;
+8;statement;fun_1(foo_2[foo_3], 1);22;
+9;statement;i++;17;
+10;statement;Integer a;24;
+11;conditional;fun_1();24;
+12;conditional;(fun_1(foo_2) % 2) != 0;25;
+13;statement;return foo_1;25;
+14;exit;;;
+15;statement;return -1;27;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;10;
+4;6;8;
+5;7;
+6;9;
+7;9;
+8;4;
+9;11;
+10;12;15;
+11;13;11;
+12;14;
+13;
+14;14;

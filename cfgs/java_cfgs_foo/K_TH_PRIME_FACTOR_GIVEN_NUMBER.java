@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;conditional;(foo_1 % 2) == 0;14;
+3;statement;k--;15;
+4;statement;n = foo_1 / 2;16;
+5;conditional;foo_1 == 0;17;
+6;statement;return 2;17;
+7;exit;;;
+8;statement;int i = 3;19;
+9;conditional;foo_1 <= fun_1(foo_2);20;
+10;conditional;(foo_1 % foo_2) == 0;22;
+11;conditional;foo_1 == 1;23;
+12;statement;return foo_1;23;
+13;statement;k--;24;
+14;statement;n = foo_1 / foo_2;25;
+15;statement;i = foo_1 + 2;21;
+16;conditional;(foo_1 > 2) && (foo_2 == 1);28;
+17;statement;return foo_1;28;
+18;statement;return -1;29;
+Edges
+0;2;
+1;8;3;
+2;4;
+3;5;
+4;6;2;
+5;7;
+6;
+7;9;
+8;10;16;
+9;15;11;
+10;12;13;
+11;7;
+12;14;
+13;10;
+14;9;
+15;17;18;
+16;7;
+17;7;

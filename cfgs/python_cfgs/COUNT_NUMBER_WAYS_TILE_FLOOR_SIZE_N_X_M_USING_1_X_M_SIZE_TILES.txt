@@ -1,0 +1,22 @@
+1;statement;count = [];statement
+2;statement;range(n + 2);conditional
+3;statement;count.append(0);statement
+4;statement;count[0] = 0;statement
+5;statement;range(1, n + 1);conditional
+6;statement;i > m;conditional
+7;statement;count[i] = count[i - 1] + count[i - m];statement
+8;statement;i < m;conditional
+9;statement;count[i] = 1;statement
+10;statement;count[i] = 2;statement
+11;statement;return count[n];statement
+0;1;
+1;2;3;
+2;1;
+3;4;
+4;5;10;
+5;6;7;
+6;4;
+7;8;9;
+8;4;
+9;4;
+10;

@@ -1,0 +1,34 @@
+1;statement;msis = [None] * n;statement
+2;statement;msds = [None] * n;statement
+3;statement;max_sum = 0;statement
+4;statement;msis[0] = arr[0];statement
+5;statement;range(1, n);conditional
+6;statement;arr[i] > arr[i - 1];conditional
+7;statement;msis[i] = msis[i - 1] + arr[i];statement
+8;statement;msis[i] = arr[i];statement
+9;statement;msds[n - 1] = arr[n - 1];statement
+10;statement;range(n - 2, -1, -1);conditional
+11;statement;arr[i] > arr[i + 1];conditional
+12;statement;msds[i] = msds[i + 1] + arr[i];statement
+13;statement;msds[i] = arr[i];statement
+14;statement;range(n);conditional
+15;statement;max_sum < msis[i] + msds[i] - arr[i];conditional
+16;statement;max_sum = msis[i] + msds[i] - arr[i];statement
+17;statement;return max_sum;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;8;
+5;6;7;
+6;4;
+7;4;
+8;9;
+9;10;13;
+10;11;12;
+11;9;
+12;9;
+13;14;16;
+14;15;13;
+15;13;
+16;

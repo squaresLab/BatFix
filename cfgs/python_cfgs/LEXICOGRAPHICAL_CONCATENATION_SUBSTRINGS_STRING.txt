@@ -1,0 +1,26 @@
+1;statement;n = len(s);statement
+2;statement;sub_count = n * (n + 1) // 2;statement
+3;statement;arr = [0] * sub_count;statement
+4;statement;index = 0;statement
+5;statement;range(n);conditional
+6;statement;range(1, n - i + 1);conditional
+7;statement;arr[index] = s[i:i + j];statement
+8;statement;index += 1;statement
+9;statement;arr.sort();statement
+10;statement;res = '';statement
+11;statement;range(sub_count);conditional
+12;statement;res += arr[i];statement
+13;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;9;
+5;7;4;
+6;7;
+7;5;
+8;9;
+9;10;
+10;11;12;
+11;10;
+12;

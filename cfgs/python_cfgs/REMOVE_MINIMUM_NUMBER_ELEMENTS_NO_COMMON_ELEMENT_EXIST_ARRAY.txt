@@ -1,0 +1,22 @@
+1;statement;countA = dict();statement
+2;statement;countB = dict();statement
+3;statement;range(n);conditional
+4;statement;countA[a[i]] = countA.get(a[i], 0) + 1;statement
+5;statement;range(n);conditional
+6;statement;countB[b[i]] = countB.get(b[i], 0) + 1;statement
+7;statement;res = 0;statement
+8;statement;countA;conditional
+9;statement;x in countB.keys();conditional
+10;statement;res += min(countA[x], countB[x]);statement
+11;statement;return res;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;6;
+5;4;
+6;7;
+7;8;10;
+8;9;7;
+9;7;
+10;

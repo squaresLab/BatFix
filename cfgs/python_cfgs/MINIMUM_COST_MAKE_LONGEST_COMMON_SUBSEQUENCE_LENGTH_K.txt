@@ -1,0 +1,18 @@
+1;statement;k == 0;conditional
+2;statement;return 0;statement
+3;statement;l < 0 or r < 0;conditional
+4;statement;return 1000000000;statement
+5;statement;dp[l][r][k] != -1;conditional
+6;statement;return dp[l][r][k];statement
+7;statement;cost = ord(X[l]) - ord('a') ^ ord(Y[r]) - ord('a');statement
+8;statement;dp[l][r][k] = min([cost + f_gold(X, Y, l - 1, r - 1, k - 1, dp), f_gold(X, Y, l - 1, r, k, dp), f_gold(X, Y, l, r - 1, k, dp)]);statement
+9;statement;return dp[l][r][k];statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;8;
+5;
+6;7;
+7;8;
+8;

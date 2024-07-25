@@ -1,0 +1,32 @@
+1;statement;n % 2 == 0;conditional
+2;statement;k = k - 1;statement
+3;statement;n = n / 2;statement
+4;statement;k == 0;conditional
+5;statement;return 2;statement
+6;statement;i = 3;statement
+7;statement;i <= math.sqrt(n);conditional
+8;statement;n % i == 0;conditional
+9;statement;k == 1;conditional
+10;statement;return i;statement
+11;statement;k = k - 1;statement
+12;statement;n = n / i;statement
+13;statement;i = i + 2;statement
+14;statement;n > 2 and k == 1;conditional
+15;statement;return n;statement
+16;statement;return -1;statement
+0;3;5;
+1;2;
+2;3;
+3;4;0;
+4;
+5;6;
+6;7;13;
+7;8;12;
+8;9;11;
+9;
+10;11;
+11;7;
+12;6;
+13;14;15;
+14;
+15;

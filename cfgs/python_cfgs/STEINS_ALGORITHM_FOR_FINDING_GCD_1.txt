@@ -1,0 +1,30 @@
+1;statement;a == b;conditional
+2;statement;return a;statement
+3;statement;a == 0;conditional
+4;statement;return b;statement
+5;statement;b == 0;conditional
+6;statement;return a;statement
+7;statement;~a & 1 == 1;conditional
+8;statement;b & 1 == 1;conditional
+9;statement;return f_gold(a >> 1, b);statement
+10;statement;return f_gold(a >> 1, b >> 1) << 1;statement
+11;statement;~b & 1 == 1;conditional
+12;statement;return f_gold(a, b >> 1);statement
+13;statement;a > b;conditional
+14;statement;return f_gold(a - b >> 1, b);statement
+15;statement;return f_gold(b - a >> 1, a);statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;6;
+5;
+6;7;10;
+7;8;9;
+8;
+9;
+10;11;12;
+11;
+12;13;14;
+13;
+14;

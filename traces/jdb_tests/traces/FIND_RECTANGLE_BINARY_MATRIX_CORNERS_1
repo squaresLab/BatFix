@@ -1,0 +1,548 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'FIND_RECTANGLE_BINARY_MATRIX_CORNERS_1.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int rows = m . length ;
+Line: 9
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+
+Statement: if ( rows == 0 )
+Line: 10
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+
+Statement: int columns = m [ 0 ] . length ;
+Line: 12
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+
+Statement: for ( int y1 = 0 ;
+Line: 13
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+
+Statement: y1 < rows ;
+Line: 14
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+
+Statement: for ( int x1 = 0 ;
+Line: 16
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+
+Statement: for ( int y2 = y1 + 1 ;
+Line: 20
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+
+Statement: y2 < rows ;
+Line: 21
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+
+Statement: for ( int x2 = x1 + 1 ;
+Line: 23
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+
+Statement: x2 < columns ;
+Line: 24
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+x2 = 1
+
+Statement: if (m[y1][x2] == 1 && m[y2][x1] == 1 && m[y2][x2] == 1)
+Line: 26
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+x2 = 1
+
+Statement: x2 ++ )
+Line: 25
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+x2 = 1
+
+Statement: x2 < columns ;
+Line: 24
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+x2 = 2
+
+Statement: if (m[y1][x2] == 1 && m[y2][x1] == 1 && m[y2][x2] == 1)
+Line: 26
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+x2 = 2
+
+Statement: x2 ++ )
+Line: 25
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+x2 = 2
+
+Statement: x2 < columns ;
+Line: 24
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+x2 = 3
+
+Statement: y2 ++ )
+Line: 22
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 1
+
+Statement: y2 < rows ;
+Line: 21
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+
+Statement: for ( int x2 = x1 + 1 ;
+Line: 23
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+
+Statement: x2 < columns ;
+Line: 24
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+x2 = 1
+
+Statement: if (m[y1][x2] == 1 && m[y2][x1] == 1 && m[y2][x2] == 1)
+Line: 26
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+x2 = 1
+
+Statement: x2 ++ )
+Line: 25
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+x2 = 1
+
+Statement: x2 < columns ;
+Line: 24
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+x2 = 2
+
+Statement: if (m[y1][x2] == 1 && m[y2][x1] == 1 && m[y2][x2] == 1)
+Line: 26
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+x2 = 2
+
+Statement: x2 ++ )
+Line: 25
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+x2 = 2
+
+Statement: x2 < columns ;
+Line: 24
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+x2 = 3
+
+Statement: y2 ++ )
+Line: 22
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 2
+
+Statement: y2 < rows ;
+Line: 21
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+y2 = 3
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 0
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 1
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 1
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 1
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 2
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 2
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 2
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+x1 = 3
+
+Statement: y1 ++ )
+Line: 15
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 0
+
+Statement: y1 < rows ;
+Line: 14
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+
+Statement: for ( int x1 = 0 ;
+Line: 16
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 0
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 0
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 0
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 1
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 1
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 1
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 2
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 2
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 2
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+x1 = 3
+
+Statement: y1 ++ )
+Line: 15
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 1
+
+Statement: y1 < rows ;
+Line: 14
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+
+Statement: for ( int x1 = 0 ;
+Line: 16
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 0
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 0
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 0
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 1
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 1
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 1
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 2
+
+Statement: if ( m [ y1 ] [ x1 ] == 1 )
+Line: 19
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 2
+
+Statement: x1 ++ )
+Line: 18
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 2
+
+Statement: x1 < columns ;
+Line: 17
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+x1 = 3
+
+Statement: y1 ++ )
+Line: 15
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 2
+
+Statement: y1 < rows ;
+Line: 14
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3
+y1 = 3
+
+Statement: return false ;
+Line: 28
+m = { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }}
+rows = 3
+columns = 3

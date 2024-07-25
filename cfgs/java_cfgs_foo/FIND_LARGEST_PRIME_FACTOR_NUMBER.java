@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;long maxPrime = -1;14;
+3;conditional;(foo_1 % 2) == 0;15;
+4;statement;maxPrime = 2;16;
+5;statement;n >>= 1;17;
+6;statement;int i = 3;19;
+7;conditional;foo_1 <= fun_1(foo_2);20;
+8;conditional;(foo_1 % foo_2) == 0;22;
+9;statement;maxPrime = foo_1;23;
+10;statement;n = foo_1 / foo_2;24;
+11;statement;i += 2;21;
+12;conditional;foo_1 > 2;27;
+13;statement;maxPrime = foo_1;27;
+14;statement;return foo_1;28;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;6;4;
+3;5;
+4;3;
+5;7;
+6;8;12;
+7;11;9;
+8;10;
+9;8;
+10;7;
+11;13;14;
+12;14;
+13;15;
+14;

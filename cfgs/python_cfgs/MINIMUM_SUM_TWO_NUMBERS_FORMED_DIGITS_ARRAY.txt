@@ -1,0 +1,16 @@
+1;statement;arr.sort();statement
+2;statement;a = 0;statement
+3;statement;b = 0;statement
+4;statement;range(n);conditional
+5;statement;i % 2 != 0;conditional
+6;statement;a = a * 10 + arr[i];statement
+7;statement;b = b * 10 + arr[i];statement
+8;statement;return a + b;statement
+0;1;
+1;2;
+2;3;
+3;4;7;
+4;5;6;
+5;3;
+6;3;
+7;

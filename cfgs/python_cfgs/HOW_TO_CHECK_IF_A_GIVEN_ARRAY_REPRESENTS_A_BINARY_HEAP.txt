@@ -1,0 +1,10 @@
+1;statement;i > int((n - 2) / 2);conditional
+2;statement;return True;statement
+3;statement;arr[i] >= arr[2 * i + 1] and arr[i] >= arr[2 * i + 2] and f_gold(arr, 2 * i + 1, n) and f_gold(arr, 2 * i + 2, n);conditional
+4;statement;return True;statement
+5;statement;return False;statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;

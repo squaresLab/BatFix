@@ -1,0 +1,42 @@
+1;statement;sorted1 = [0] * (m + n);statement
+2;statement;i = 0;statement
+3;statement;j = 0;statement
+4;statement;d = 0;statement
+5;statement;i < m and j < n;conditional
+6;statement;arr1[i] < arr2[j];conditional
+7;statement;sorted1[d] = arr1[i];statement
+8;statement;i += 1;statement
+9;statement;sorted1[d] = arr2[j];statement
+10;statement;j += 1;statement
+11;statement;d += 1;statement
+12;statement;d += 1;statement
+13;statement;i < m;conditional
+14;statement;sorted1[d] = arr1[i];statement
+15;statement;d += 1;statement
+16;statement;i += 1;statement
+17;statement;j < n;conditional
+18;statement;sorted1[d] = arr2[j];statement
+19;statement;d += 1;statement
+20;statement;j += 1;statement
+21;statement;return sorted1[k - 1];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;12;
+5;7;9;
+6;7;
+7;11;
+8;9;
+9;11;
+10;
+11;4;4;
+12;15;16;
+13;14;
+14;15;
+15;12;
+16;19;20;
+17;18;
+18;19;
+19;16;
+20;

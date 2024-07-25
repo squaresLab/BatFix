@@ -1,0 +1,36 @@
+Nodes
+1;statement;foo_1 = [[0 for foo_2 in fun_1(10)] for foo_3 in fun_2(foo_4 + 1)];8;
+2;conditional;foo_1 == 1;9;
+3;conditional;fun_1(10);11;
+4;conditional;foo < foo;13;
+5;statement;foo_1 = 0;21;
+6;conditional;foo < foo;22;
+7;statement;return foo_1;24;
+8;statement;foo_1 = foo_2 + foo_3[foo_4][foo_5];23;
+9;conditional;fun_1(10);14;
+10;conditional;foo_1 == 0;15;
+11;conditional;foo_1 == 9;17;
+12;statement;foo_1[foo_2][foo_3] = foo_4[foo_5 - 1][foo_6 - 1] + foo_7[foo_8 - 1][foo_9 + 1];20;
+13;statement;foo_1[foo_2][foo_3] = foo_4[foo_5 - 1][foo_6 - 1];18;
+14;statement;foo_1[foo_2][foo_3] = foo_4[foo_5 - 1][foo_6 + 1];16;
+15;statement;foo_1[1][foo_2] = 1;12;
+16;statement;return 10;10;
+17;exit;;
+Edges
+0;2;
+1;3;16;
+2;4;15;
+3;5;9;
+4;6;
+5;7;8;
+6;17;
+7;6;
+8;4;10;
+9;11;14;
+10;12;13;
+11;9;
+12;9;
+13;9;
+14;3;
+15;17;
+16;

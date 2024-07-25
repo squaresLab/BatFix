@@ -1,0 +1,22 @@
+1;statement;l = 0;statement
+2;statement;_sum = 0;statement
+3;statement;ans = 360;statement
+4;statement;range(n);conditional
+5;statement;_sum += arr[i];statement
+6;statement;_sum >= 180;conditional
+7;statement;ans = min(ans, 2 * abs(180 - _sum));statement
+8;statement;_sum -= arr[l];statement
+9;statement;l += 1;statement
+10;statement;ans = min(ans, 2 * abs(180 - _sum));statement
+11;statement;return ans;statement
+0;1;
+1;2;
+2;3;
+3;4;10;
+4;5;
+5;8;9;
+6;7;
+7;8;
+8;5;
+9;3;
+10;

@@ -1,0 +1,12 @@
+1;statement;x = sorted(arr);statement
+2;statement;count = 1;statement
+3;statement;range(0, n - 1);conditional
+4;statement;x[i] + 1 != x[i + 1];conditional
+5;statement;count = count + 1;statement
+6;statement;return count;statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;2;
+5;

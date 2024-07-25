@@ -1,0 +1,14 @@
+1;statement;dp = [[0] * (n + 1) for i in range(2)];statement
+2;statement;dp[0][1] = 1;statement
+3;statement;dp[1][1] = 2;statement
+4;statement;range(2, n + 1);conditional
+5;statement;dp[0][i] = dp[0][i - 1] + dp[1][i - 1];statement
+6;statement;dp[1][i] = dp[0][i - 1] * 2 + dp[1][i - 1];statement
+7;statement;return dp[0][n] + dp[1][n];statement
+0;1;
+1;2;
+2;3;
+3;5;6;
+4;5;
+5;3;
+6;

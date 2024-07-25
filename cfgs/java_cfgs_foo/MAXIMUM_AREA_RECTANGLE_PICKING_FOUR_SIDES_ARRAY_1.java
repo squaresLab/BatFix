@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;Set<Integer> s = new HashSet<>();14;
+3;statement;int first = 0;15;
+4;statement;int second = 0;15;
+5;statement;int i = 0;16;
+6;conditional;foo_1 < foo_2;17;
+7;conditional;!fun_1(foo_2[foo_3]);19;
+8;statement;fun_1(foo_2[foo_3]);20;
+9;statement;continue;21;
+10;conditional;foo_1[foo_2] > foo_3;23;
+11;statement;second = foo_1;24;
+12;statement;first = foo_1[foo_2];25;
+13;conditional;foo_1[foo_2] > foo_3;27;
+14;statement;second = foo_1[foo_2];27;
+15;statement;i++;18;
+16;statement;return foo_1 * foo_2;29;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;16;
+6;8;10;
+7;9;
+8;6;
+9;11;13;
+10;12;
+11;15;
+12;14;15;
+13;15;
+14;6;
+15;17;
+16;

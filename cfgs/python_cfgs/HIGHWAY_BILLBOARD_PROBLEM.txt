@@ -1,0 +1,26 @@
+1;statement;maxRev = [0] * (m + 1);statement
+2;statement;nxtbb = 0;statement
+3;statement;range(1, m + 1);conditional
+4;statement;nxtbb < n;conditional
+5;statement;x[nxtbb] != i;conditional
+6;statement;maxRev[i] = maxRev[i - 1];statement
+7;statement;i <= t;conditional
+8;statement;maxRev[i] = max(maxRev[i - 1], revenue[nxtbb]);statement
+9;statement;maxRev[i] = max(maxRev[i - t - 1] + revenue[nxtbb], maxRev[i - 1]);statement
+10;statement;nxtbb += 1;statement
+11;statement;nxtbb += 1;statement
+12;statement;maxRev[i] = maxRev[i - 1];statement
+13;statement;return maxRev[m];statement
+0;1;
+1;2;
+2;3;12;
+3;4;11;
+4;5;6;
+5;2;
+6;7;8;
+7;10;
+8;10;
+9;
+10;2;2;
+11;2;
+12;

@@ -1,0 +1,6 @@
+1;statement;minResources = 0;statement
+2;statement;minResources = process * (need - 1) + 1;statement
+3;statement;return minResources;statement
+0;1;
+1;2;
+2;

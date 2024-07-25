@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int i = fun_1() - 1;14;
+3;statement;int start;15;
+4;statement;int end = foo_1 + 1;15;
+5;statement;String result = "";16;
+6;conditional;foo_1 >= 0;17;
+7;conditional;fun_1(foo_2) == ' ';18;
+8;statement;start = foo_1 + 1;19;
+9;conditional;foo_1 != foo_2;20;
+10;statement;result += fun_1(start++);20;
+11;statement;result += ' ';21;
+12;statement;end = foo_1;22;
+13;statement;i--;24;
+14;statement;start = 0;26;
+15;conditional;foo_1 != foo_2;27;
+16;statement;result += fun_1(start++);27;
+17;statement;return foo_1;28;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;14;7;
+6;8;13;
+7;9;
+8;11;10;
+9;9;
+10;12;
+11;13;
+12;6;
+13;15;
+14;17;16;
+15;15;
+16;18;
+17;

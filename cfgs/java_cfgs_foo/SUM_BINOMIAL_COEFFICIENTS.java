@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int[][] C = new int[foo_1 + 1][foo_2 + 1];14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 <= foo_2;16;
+5;statement;int j = 0;18;
+6;conditional;foo_1 <= fun_1(foo_2, foo_3);19;
+7;conditional;(foo_1 == 0) || (foo_2 == foo_3);21;
+8;statement;foo_1[foo_2][foo_3] = 1;21;
+9;statement;foo_1[foo_2][foo_3] = foo_4[foo_5 - 1][foo_6 - 1] + foo_7[foo_8 - 1][foo_9];22;
+10;statement;j++;20;
+11;statement;i++;17;
+12;statement;int sum = 0;25;
+13;statement;int i = 0;26;
+14;conditional;foo_1 <= foo_2;27;
+15;statement;sum += foo_1[foo_2][foo_3];28;
+16;statement;i++;28;
+17;statement;return foo_1;29;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;12;
+4;6;
+5;7;11;
+6;8;9;
+7;10;
+8;10;
+9;6;
+10;4;
+11;13;
+12;14;
+13;15;17;
+14;16;
+15;14;
+16;18;
+17;

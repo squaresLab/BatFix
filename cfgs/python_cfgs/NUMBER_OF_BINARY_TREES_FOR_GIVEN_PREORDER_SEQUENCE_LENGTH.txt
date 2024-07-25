@@ -1,0 +1,12 @@
+1;statement;BT = [0] * (n + 1);statement
+2;statement;BT[0] = BT[1] = 1;statement
+3;statement;range(2, n + 1);conditional
+4;statement;range(i);conditional
+5;statement;BT[i] += BT[j] * BT[i - j - 1];statement
+6;statement;return BT[n];statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;3;
+5;

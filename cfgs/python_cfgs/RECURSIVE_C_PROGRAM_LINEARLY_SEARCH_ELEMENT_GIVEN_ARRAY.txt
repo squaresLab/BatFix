@@ -1,0 +1,14 @@
+1;statement;r < l;conditional
+2;statement;return -1;statement
+3;statement;arr[l] == x;conditional
+4;statement;return l;statement
+5;statement;arr[r] == x;conditional
+6;statement;return r;statement
+7;statement;return f_gold(arr, l + 1, r - 1, x);statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;6;
+5;
+6;

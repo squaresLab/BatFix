@@ -1,0 +1,20 @@
+1;statement;next = 0;statement
+2;statement;x;conditional
+3;statement;rightOne = x & -x;statement
+4;statement;nextHigherOneBit = x + int(rightOne);statement
+5;statement;rightOnesPattern = x ^ int(nextHigherOneBit);statement
+6;statement;rightOnesPattern = int(rightOnesPattern) / int(rightOne);statement
+7;statement;rightOnesPattern = int(rightOnesPattern) >> 2;statement
+8;statement;next = nextHigherOneBit | rightOnesPattern;statement
+9;statement;return next;statement
+10;statement;return next;statement
+0;1;
+1;7;9;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;
+7;9;
+8;
+9;

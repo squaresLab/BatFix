@@ -1,0 +1,14 @@
+1;statement;range(N);conditional
+2;statement;range(N);conditional
+3;statement;row == col and mat[row][col] != 1;conditional
+4;statement;return False;statement
+5;statement;row != col and mat[row][col] != 0;conditional
+6;statement;return False;statement
+7;statement;return True;statement
+0;1;6;
+1;2;0;
+2;3;4;
+3;
+4;5;1;
+5;
+6;

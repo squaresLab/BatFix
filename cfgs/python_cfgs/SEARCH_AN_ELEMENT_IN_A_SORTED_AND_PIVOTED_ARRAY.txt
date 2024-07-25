@@ -1,0 +1,24 @@
+1;statement;l > h;conditional
+2;statement;return -1;statement
+3;statement;mid = (l + h) // 2;statement
+4;statement;arr[mid] == key;conditional
+5;statement;return mid;statement
+6;statement;arr[l] <= arr[mid];conditional
+7;statement;key >= arr[l] and key <= arr[mid];conditional
+8;statement;return f_gold(arr, l, mid - 1, key);statement
+9;statement;return f_gold(arr, mid + 1, h, key);statement
+10;statement;key >= arr[mid] and key <= arr[h];conditional
+11;statement;return f_gold(a, mid + 1, h, key);statement
+12;statement;return f_gold(arr, l, mid - 1, key);statement
+0;1;3;
+1;
+2;3;
+3;4;5;
+4;
+5;6;9;
+6;7;8;
+7;
+8;
+9;10;11;
+10;
+11;

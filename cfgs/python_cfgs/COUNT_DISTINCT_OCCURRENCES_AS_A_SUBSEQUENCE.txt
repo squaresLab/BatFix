@@ -1,0 +1,30 @@
+1;statement;m = len(T);statement
+2;statement;n = len(S);statement
+3;statement;m > n;conditional
+4;statement;return 0;statement
+5;statement;mat = [[0 for _ in range(n + 1)] for __ in range(m + 1)];statement
+6;statement;range(1, m + 1);conditional
+7;statement;mat[i][0] = 0;statement
+8;statement;range(n + 1);conditional
+9;statement;mat[0][j] = 1;statement
+10;statement;range(1, m + 1);conditional
+11;statement;range(1, n + 1);conditional
+12;statement;T[i - 1] != S[j - 1];conditional
+13;statement;mat[i][j] = mat[i][j - 1];statement
+14;statement;mat[i][j] = mat[i][j - 1] + mat[i - 1][j - 1];statement
+15;statement;return mat[m][n];statement
+0;1;
+1;2;
+2;3;4;
+3;
+4;5;
+5;6;7;
+6;5;
+7;8;9;
+8;7;
+9;10;14;
+10;11;9;
+11;12;13;
+12;10;
+13;10;
+14;

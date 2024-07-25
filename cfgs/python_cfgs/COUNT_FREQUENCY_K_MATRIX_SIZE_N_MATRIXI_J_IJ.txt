@@ -1,0 +1,6 @@
+1;statement;n + 1 >= k;conditional
+2;statement;return k - 1;statement
+3;statement;return 2 * n + 1 - k;statement
+0;1;2;
+1;
+2;

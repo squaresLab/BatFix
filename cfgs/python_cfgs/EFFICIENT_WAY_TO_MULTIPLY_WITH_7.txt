@@ -1,0 +1,2 @@
+1;statement;return (n << 3) - n;statement
+0;

@@ -1,0 +1,14 @@
+1;statement;MOD = 1000000007;statement
+2;statement;dp = [0 for i in range(h + 1)];statement
+3;statement;dp[0] = 1;statement
+4;statement;dp[1] = 1;statement
+5;statement;range(2, h + 1);conditional
+6;statement;dp[i] = dp[i - 1] * (2 * dp[i - 2] % MOD + dp[i - 1]) % MOD % MOD;statement
+7;statement;return dp[h];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;6;
+5;4;
+6;

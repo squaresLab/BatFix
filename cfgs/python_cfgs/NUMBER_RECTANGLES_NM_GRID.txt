@@ -1,0 +1,2 @@
+1;statement;return m * n * (n + 1) * (m + 1) // 4;statement
+0;

@@ -1,0 +1,14 @@
+1;statement;result = 0;statement
+2;statement;n = len(str1);statement
+3;statement;range(0, n);conditional
+4;statement;range(i + 1, n);conditional
+5;statement;abs(ord(str1[i]) - ord(str1[j])) == abs(i - j);conditional
+6;statement;result += 1;statement
+7;statement;return result;statement
+0;1;
+1;2;
+2;3;6;
+3;4;2;
+4;5;3;
+5;3;
+6;

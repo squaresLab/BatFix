@@ -1,0 +1,69 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'COUNT_OF_PAIRS_SATISFYING_THE_GIVEN_CONDITION.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: String s = String . valueOf ( b ) ;
+Line: 14
+a = 31
+b = 91
+
+Statement: for ( i = 0 ;
+Line: 16
+a = 31
+b = 91
+s = "91"
+
+Statement: i < s . length ( ) ;
+Line: 17
+a = 31
+b = 91
+s = "91"
+i = 0
+
+Statement: if ( s . charAt ( i ) != '9' ) break ;
+Line: 19
+a = 31
+b = 91
+s = "91"
+i = 0
+
+Statement: i ++ ) {
+Line: 18
+a = 31
+b = 91
+s = "91"
+i = 0
+
+Statement: i < s . length ( ) ;
+Line: 17
+a = 31
+b = 91
+s = "91"
+i = 1
+
+Statement: if ( s . charAt ( i ) != '9' ) break ;
+Line: 19
+a = 31
+b = 91
+s = "91"
+i = 1
+
+Statement: if ( i == s . length ( ) ) result = a * s . length ( ) ;
+Line: 22
+a = 31
+b = 91
+s = "91"
+i = 1
+
+Statement: else result = a * ( s . length ( ) - 1 ) ;
+Line: 23
+a = 31
+b = 91
+s = "91"
+i = 1
+
+Statement: return result ;
+Line: 24
+a = 31
+b = 91
+s = "91"
+i = 1
+result = 31

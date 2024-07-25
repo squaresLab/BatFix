@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int n = fun_1();9;
+3;statement;int res = 0;10;
+4;statement;int[] count = new int[26];11;
+5;statement;int i = 0;12;
+6;conditional;foo_1 < foo_2;13;
+7;statement;fun_1(foo_3) - 'a']++;15;
+8;statement;i++;14;
+9;statement;int i = 0;16;
+10;conditional;foo_1 < 26;17;
+11;conditional;(foo_1[foo_2] % 2) == 1;19;
+12;statement;res++;20;
+13;statement;i++;18;
+14;statement;return foo_1 == 0 ? 0 : foo_2 - 1;22;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;9;
+6;8;
+7;6;
+8;10;
+9;11;14;
+10;12;13;
+11;13;
+12;10;
+13;15;
+14;

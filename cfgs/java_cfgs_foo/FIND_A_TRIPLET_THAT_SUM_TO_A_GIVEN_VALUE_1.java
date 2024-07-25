@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int l;12;
+3;statement;int r;12;
+4;statement;fun_1(foo_1, 0, foo_2 - 1);14;
+5;statement;int i = 0;17;
+6;conditional;foo_1 < (foo_2 - 2);17;
+7;statement;l = foo_1 + 1;19;
+8;statement;r = foo_1 - 1;20;
+9;conditional;foo_1 < foo_2;21;
+10;conditional;((foo_1[foo_2] + foo_3[foo_4]) + foo_5[foo_6]) == foo_7;22;
+11;statement;System.fun_1((((("Triplet is " + foo_1[foo_2]) + ", ") + foo_3[foo_4]) + ", ") + foo_5[foo_6]);23;
+12;statement;return true;24;
+13;exit;;;
+14;conditional;((foo_1[foo_2] + foo_3[foo_4]) + foo_5[foo_6]) < foo_7;25;
+15;statement;l++;26;
+16;statement;r--;28;
+17;statement;i++;17;
+18;statement;return false;32;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;18;
+6;8;
+7;9;
+8;17;10;
+9;11;14;
+10;12;
+11;13;
+12;
+13;15;16;
+14;9;
+15;9;
+16;6;
+17;13;

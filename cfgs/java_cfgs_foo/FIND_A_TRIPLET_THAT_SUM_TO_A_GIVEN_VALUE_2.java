@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int i = 0;14;
+3;conditional;foo_1 < (foo_2 - 2);15;
+4;statement;HashSet<Integer> s = new HashSet<Integer>();17;
+5;statement;int curr_sum = foo_1 - foo_2[foo_3];18;
+6;statement;int j = foo_1 + 1;19;
+7;conditional;foo_1 < foo_2;20;
+8;conditional;fun_1(foo_1) && foo_2 - foo_3 != (int) (fun_2() - 1);22;
+9;statement;System.fun_1("Triplet is %d, %d, %d", foo_1[foo_2], foo_3[foo_4], foo_5 - foo_6[foo_7]);23;
+10;statement;return true;24;
+11;exit;;;
+12;statement;fun_1(foo_2[foo_3]);26;
+13;statement;j++;21;
+14;statement;i++;16;
+15;statement;return false;29;
+Edges
+0;2;
+1;3;
+2;4;15;
+3;5;
+4;6;
+5;7;
+6;8;14;
+7;9;12;
+8;10;
+9;11;
+10;
+11;13;
+12;7;
+13;3;
+14;11;

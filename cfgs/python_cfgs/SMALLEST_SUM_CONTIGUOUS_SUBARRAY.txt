@@ -1,0 +1,18 @@
+1;statement;min_ending_here = sys.maxsize;statement
+2;statement;min_so_far = sys.maxsize;statement
+3;statement;range(n);conditional
+4;statement;min_ending_here > 0;conditional
+5;statement;min_ending_here = arr[i];statement
+6;statement;min_ending_here += arr[i];statement
+7;statement;min_so_far = min(min_so_far, min_ending_here);statement
+8;statement;min_so_far = min(min_so_far, min_ending_here);statement
+9;statement;return min_so_far;statement
+0;1;
+1;2;
+2;3;8;
+3;4;5;
+4;7;
+5;7;
+6;
+7;2;2;
+8;

@@ -1,0 +1,34 @@
+1;statement;fiveCount = 0;statement
+2;statement;tenCount = 0;statement
+3;statement;range(n);conditional
+4;statement;notes[i] == 5;conditional
+5;statement;fiveCount += 1;statement
+6;statement;notes[i] == 10;conditional
+7;statement;fiveCount > 0;conditional
+8;statement;fiveCount -= 1;statement
+9;statement;tenCount += 1;statement
+10;statement;return 0;statement
+11;statement;fiveCount > 0 and tenCount > 0;conditional
+12;statement;fiveCount -= 1;statement
+13;statement;tenCount -= 1;statement
+14;statement;fiveCount >= 3;conditional
+15;statement;fiveCount -= 3;statement
+16;statement;return 0;statement
+17;statement;return 1;statement
+0;1;
+1;2;
+2;3;16;
+3;4;5;
+4;2;
+5;6;10;
+6;8;9;
+7;8;
+8;2;
+9;
+10;12;13;
+11;12;
+12;2;
+13;14;15;
+14;2;
+15;
+16;

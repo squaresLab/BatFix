@@ -1,0 +1,24 @@
+1;statement;lo = 0;statement
+2;statement;hi = arr_size - 1;statement
+3;statement;mid = 0;statement
+4;statement;mid <= hi;statement
+5;statement;a[mid] == 0;conditional
+6;statement;(a[lo], a[mid]) = (a[mid], a[lo]);statement
+7;statement;lo = lo + 1;statement
+8;statement;mid = mid + 1;statement
+9;statement;a[mid] == 1;conditional
+10;statement;mid = mid + 1;statement
+11;statement;(a[mid], a[hi]) = (a[hi], a[mid]);statement
+12;statement;hi = hi - 1;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;7;8;
+5;6;
+6;7;
+7;3;
+8;9;11;
+9;3;
+10;11;
+11;3;

@@ -1,0 +1,2 @@
+1;statement;return (b / m - 1) * (b / m) / 2;statement
+0;

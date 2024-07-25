@@ -1,0 +1,18 @@
+1;statement;result = 0;statement
+2;statement;i = 2;statement
+3;statement;i <= math.sqrt(num);conditional
+4;statement;num % i == 0;conditional
+5;statement;i == num / i;conditional
+6;statement;result = result + i;statement
+7;statement;result = result + (i + num / i);statement
+8;statement;i = i + 1;statement
+9;statement;return result + 1;statement
+0;1;
+1;2;
+2;3;8;
+3;4;7;
+4;5;6;
+5;7;
+6;7;
+7;2;
+8;

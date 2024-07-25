@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;fun_1(foo_1);14;
+3;statement;fun_1(foo_1);15;
+4;statement;int a = 0;16;
+5;statement;int b = 0;16;
+6;statement;int result = Integer.MAX_VALUE;17;
+7;conditional;(foo_1 < foo_2) && (foo_3 < foo_4);18;
+8;conditional;fun_1(foo_1[foo_2] - foo_3[foo_4]) < foo_5;19;
+9;statement;result = fun_1(foo_1[foo_2] - foo_3[foo_4]);19;
+10;conditional;foo_1[foo_2] < foo_3[foo_4];20;
+11;statement;a++;20;
+12;statement;b++;21;
+13;statement;return foo_1;23;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;13;8;
+7;9;10;
+8;10;
+9;11;12;
+10;7;
+11;7;
+12;14;
+13;

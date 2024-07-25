@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int r_xor;14;
+3;statement;int c_xor;14;
+4;statement;int max_xor = 0;15;
+5;statement;int i = 0;16;
+6;conditional;foo_1 < foo_2;17;
+7;statement;r_xor = 0;19;
+8;statement;c_xor = 0;20;
+9;statement;int j = 0;21;
+10;conditional;foo_1 < foo_2;22;
+11;statement;r_xor = foo_1 ^ foo_2[foo_3][foo_4];24;
+12;statement;c_xor = foo_1 ^ foo_2[foo_3][foo_4];25;
+13;statement;j++;23;
+14;conditional;foo_1 < fun_1(foo_2, foo_3);27;
+15;statement;max_xor = fun_1(foo_1, foo_2);27;
+16;statement;i++;18;
+17;statement;return foo_1;29;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;17;
+6;8;
+7;9;
+8;10;
+9;11;14;
+10;12;
+11;13;
+12;10;
+13;15;16;
+14;16;
+15;6;
+16;18;
+17;

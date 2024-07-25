@@ -1,0 +1,14 @@
+1;statement;n == 0;conditional
+2;statement;return False;statement
+3;statement;n != 1;conditional
+4;statement;n % 4 != 0;conditional
+5;statement;return False;statement
+6;statement;n = n // 4;statement
+7;statement;return True;statement
+0;1;2;
+1;
+2;3;6;
+3;4;5;
+4;
+5;2;
+6;

@@ -1,0 +1,20 @@
+1;statement;l = len(num);statement
+2;statement;count_zero = 0;statement
+3;statement;i = 1;statement
+4;statement;i < l;conditional
+5;statement;ch = num[i];statement
+6;statement;ch == '0';conditional
+7;statement;count_zero = count_zero + 1;statement
+8;statement;i = i + 1;statement
+9;statement;i = i + 1;statement
+10;statement;return count_zero;statement
+0;1;
+1;2;
+2;3;
+3;5;9;
+4;5;
+5;6;8;
+6;8;
+7;
+8;3;3;
+9;

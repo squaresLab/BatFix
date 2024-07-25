@@ -1,0 +1,24 @@
+1;statement;arr.sort(reverse=True);statement
+2;statement;dimension = [0, 0];statement
+3;statement;i = 0;statement
+4;statement;j = 0;statement
+5;statement;i < n - 1 and j < 2;conditional
+6;statement;arr[i] == arr[i + 1];conditional
+7;statement;dimension[j] = arr[i];statement
+8;statement;j += 1;statement
+9;statement;i += 1;statement
+10;statement;i += 1;statement
+11;statement;i += 1;statement
+12;statement;return dimension[0] * dimension[1];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;11;
+5;8;10;
+6;7;
+7;8;
+8;10;
+9;
+10;4;4;
+11;

@@ -1,0 +1,378 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'MAKE_LARGEST_PALINDROME_CHANGING_K_DIGITS.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: char palin [ ] = str . toCharArray ( ) ;
+Line: 14
+str = "wUJmbRlwogtFv"
+k = 5
+
+Statement: String ans = "" ;
+Line: 15
+str = "wUJmbRlwogtFv"
+k = 5
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, v }
+
+Statement: int l = 0 ;
+Line: 16
+str = "wUJmbRlwogtFv"
+k = 5
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, v }
+ans = ""
+
+Statement: int r = str . length ( ) - 1 ;
+Line: 17
+str = "wUJmbRlwogtFv"
+k = 5
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, v }
+ans = ""
+l = 0
+
+Statement: while ( l < r ) {
+Line: 18
+str = "wUJmbRlwogtFv"
+k = 5
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, v }
+ans = ""
+l = 0
+r = 12
+
+Statement: if ( str . charAt ( l ) != str . charAt ( r ) ) {
+Line: 19
+str = "wUJmbRlwogtFv"
+k = 5
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, v }
+ans = ""
+l = 0
+r = 12
+
+Statement: palin [ l ] = palin [ r ] = ( char ) Math . max ( str . charAt ( l ) , str . charAt ( r ) ) ;
+Line: 20
+str = "wUJmbRlwogtFv"
+k = 5
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, v }
+ans = ""
+l = 0
+r = 12
+
+Statement: k -- ;
+Line: 21
+str = "wUJmbRlwogtFv"
+k = 5
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, w }
+ans = ""
+l = 0
+r = 12
+
+Statement: l ++ ;
+Line: 23
+str = "wUJmbRlwogtFv"
+k = 4
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, w }
+ans = ""
+l = 0
+r = 12
+
+Statement: r -- ;
+Line: 24
+str = "wUJmbRlwogtFv"
+k = 4
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, w }
+ans = ""
+l = 1
+r = 12
+
+Statement: while ( l < r ) {
+Line: 18
+str = "wUJmbRlwogtFv"
+k = 4
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, w }
+ans = ""
+l = 1
+r = 11
+
+Statement: if ( str . charAt ( l ) != str . charAt ( r ) ) {
+Line: 19
+str = "wUJmbRlwogtFv"
+k = 4
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, w }
+ans = ""
+l = 1
+r = 11
+
+Statement: palin [ l ] = palin [ r ] = ( char ) Math . max ( str . charAt ( l ) , str . charAt ( r ) ) ;
+Line: 20
+str = "wUJmbRlwogtFv"
+k = 4
+palin = { w, U, J, m, b, R, l, w, o, g, t, F, w }
+ans = ""
+l = 1
+r = 11
+
+Statement: k -- ;
+Line: 21
+str = "wUJmbRlwogtFv"
+k = 4
+palin = { w, U, J, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 1
+r = 11
+
+Statement: l ++ ;
+Line: 23
+str = "wUJmbRlwogtFv"
+k = 3
+palin = { w, U, J, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 1
+r = 11
+
+Statement: r -- ;
+Line: 24
+str = "wUJmbRlwogtFv"
+k = 3
+palin = { w, U, J, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 2
+r = 11
+
+Statement: while ( l < r ) {
+Line: 18
+str = "wUJmbRlwogtFv"
+k = 3
+palin = { w, U, J, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 2
+r = 10
+
+Statement: if ( str . charAt ( l ) != str . charAt ( r ) ) {
+Line: 19
+str = "wUJmbRlwogtFv"
+k = 3
+palin = { w, U, J, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 2
+r = 10
+
+Statement: palin [ l ] = palin [ r ] = ( char ) Math . max ( str . charAt ( l ) , str . charAt ( r ) ) ;
+Line: 20
+str = "wUJmbRlwogtFv"
+k = 3
+palin = { w, U, J, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 2
+r = 10
+
+Statement: k -- ;
+Line: 21
+str = "wUJmbRlwogtFv"
+k = 3
+palin = { w, U, t, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 2
+r = 10
+
+Statement: l ++ ;
+Line: 23
+str = "wUJmbRlwogtFv"
+k = 2
+palin = { w, U, t, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 2
+r = 10
+
+Statement: r -- ;
+Line: 24
+str = "wUJmbRlwogtFv"
+k = 2
+palin = { w, U, t, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 3
+r = 10
+
+Statement: while ( l < r ) {
+Line: 18
+str = "wUJmbRlwogtFv"
+k = 2
+palin = { w, U, t, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 3
+r = 9
+
+Statement: if ( str . charAt ( l ) != str . charAt ( r ) ) {
+Line: 19
+str = "wUJmbRlwogtFv"
+k = 2
+palin = { w, U, t, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 3
+r = 9
+
+Statement: palin [ l ] = palin [ r ] = ( char ) Math . max ( str . charAt ( l ) , str . charAt ( r ) ) ;
+Line: 20
+str = "wUJmbRlwogtFv"
+k = 2
+palin = { w, U, t, m, b, R, l, w, o, g, t, U, w }
+ans = ""
+l = 3
+r = 9
+
+Statement: k -- ;
+Line: 21
+str = "wUJmbRlwogtFv"
+k = 2
+palin = { w, U, t, m, b, R, l, w, o, m, t, U, w }
+ans = ""
+l = 3
+r = 9
+
+Statement: l ++ ;
+Line: 23
+str = "wUJmbRlwogtFv"
+k = 1
+palin = { w, U, t, m, b, R, l, w, o, m, t, U, w }
+ans = ""
+l = 3
+r = 9
+
+Statement: r -- ;
+Line: 24
+str = "wUJmbRlwogtFv"
+k = 1
+palin = { w, U, t, m, b, R, l, w, o, m, t, U, w }
+ans = ""
+l = 4
+r = 9
+
+Statement: while ( l < r ) {
+Line: 18
+str = "wUJmbRlwogtFv"
+k = 1
+palin = { w, U, t, m, b, R, l, w, o, m, t, U, w }
+ans = ""
+l = 4
+r = 8
+
+Statement: if ( str . charAt ( l ) != str . charAt ( r ) ) {
+Line: 19
+str = "wUJmbRlwogtFv"
+k = 1
+palin = { w, U, t, m, b, R, l, w, o, m, t, U, w }
+ans = ""
+l = 4
+r = 8
+
+Statement: palin [ l ] = palin [ r ] = ( char ) Math . max ( str . charAt ( l ) , str . charAt ( r ) ) ;
+Line: 20
+str = "wUJmbRlwogtFv"
+k = 1
+palin = { w, U, t, m, b, R, l, w, o, m, t, U, w }
+ans = ""
+l = 4
+r = 8
+
+Statement: k -- ;
+Line: 21
+str = "wUJmbRlwogtFv"
+k = 1
+palin = { w, U, t, m, o, R, l, w, o, m, t, U, w }
+ans = ""
+l = 4
+r = 8
+
+Statement: l ++ ;
+Line: 23
+str = "wUJmbRlwogtFv"
+k = 0
+palin = { w, U, t, m, o, R, l, w, o, m, t, U, w }
+ans = ""
+l = 4
+r = 8
+
+Statement: r -- ;
+Line: 24
+str = "wUJmbRlwogtFv"
+k = 0
+palin = { w, U, t, m, o, R, l, w, o, m, t, U, w }
+ans = ""
+l = 5
+r = 8
+
+Statement: while ( l < r ) {
+Line: 18
+str = "wUJmbRlwogtFv"
+k = 0
+palin = { w, U, t, m, o, R, l, w, o, m, t, U, w }
+ans = ""
+l = 5
+r = 7
+
+Statement: if ( str . charAt ( l ) != str . charAt ( r ) ) {
+Line: 19
+str = "wUJmbRlwogtFv"
+k = 0
+palin = { w, U, t, m, o, R, l, w, o, m, t, U, w }
+ans = ""
+l = 5
+r = 7
+
+Statement: palin [ l ] = palin [ r ] = ( char ) Math . max ( str . charAt ( l ) , str . charAt ( r ) ) ;
+Line: 20
+str = "wUJmbRlwogtFv"
+k = 0
+palin = { w, U, t, m, o, R, l, w, o, m, t, U, w }
+ans = ""
+l = 5
+r = 7
+
+Statement: k -- ;
+Line: 21
+str = "wUJmbRlwogtFv"
+k = 0
+palin = { w, U, t, m, o, w, l, w, o, m, t, U, w }
+ans = ""
+l = 5
+r = 7
+
+Statement: l ++ ;
+Line: 23
+str = "wUJmbRlwogtFv"
+k = -1
+palin = { w, U, t, m, o, w, l, w, o, m, t, U, w }
+ans = ""
+l = 5
+r = 7
+
+Statement: r -- ;
+Line: 24
+str = "wUJmbRlwogtFv"
+k = -1
+palin = { w, U, t, m, o, w, l, w, o, m, t, U, w }
+ans = ""
+l = 6
+r = 7
+
+Statement: while ( l < r ) {
+Line: 18
+str = "wUJmbRlwogtFv"
+k = -1
+palin = { w, U, t, m, o, w, l, w, o, m, t, U, w }
+ans = ""
+l = 6
+r = 6
+
+Statement: if ( k < 0 ) {
+Line: 26
+str = "wUJmbRlwogtFv"
+k = -1
+palin = { w, U, t, m, o, w, l, w, o, m, t, U, w }
+ans = ""
+l = 6
+r = 6
+
+Statement: return "Not possible" ;
+Line: 27
+str = "wUJmbRlwogtFv"
+k = -1
+palin = { w, U, t, m, o, w, l, w, o, m, t, U, w }
+ans = ""
+l = 6
+r = 6

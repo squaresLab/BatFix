@@ -1,0 +1,2 @@
+1;statement;return max(arr);statement
+0;

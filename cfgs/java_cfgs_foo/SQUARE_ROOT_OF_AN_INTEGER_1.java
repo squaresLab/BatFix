@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;conditional;(foo_1 == 0) || (foo_2 == 1);14;
+3;statement;return foo_1;14;
+4;exit;;;
+5;statement;int start = 1;15;
+6;statement;int end = foo_1;15;
+7;statement;int ans = 0;15;
+8;conditional;foo_1 <= foo_2;16;
+9;statement;int mid = (foo_1 + foo_2) / 2;17;
+10;conditional;(foo_1 * foo_2) == foo_3;18;
+11;statement;return foo_1;18;
+12;conditional;(foo_1 * foo_2) < foo_3;19;
+13;statement;start = foo_1 + 1;20;
+14;statement;ans = foo_1;21;
+15;statement;end = foo_1 - 1;23;
+16;statement;return foo_1;25;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;16;9;
+8;10;
+9;11;12;
+10;4;
+11;13;15;
+12;14;
+13;8;
+14;8;
+15;4;

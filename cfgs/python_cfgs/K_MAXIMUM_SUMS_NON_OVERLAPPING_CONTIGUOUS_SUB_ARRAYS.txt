@@ -1,0 +1,44 @@
+1;statement;range(k);conditional
+2;statement;max_so_far = -float('inf');statement
+3;statement;max_here = 0;statement
+4;statement;start = 0;statement
+5;statement;end = 0;statement
+6;statement;s = 0;statement
+7;statement;range(n);conditional
+8;statement;max_here += arr[i];statement
+9;statement;max_so_far < max_here;conditional
+10;statement;max_so_far = max_here;statement
+11;statement;start = s;statement
+12;statement;end = i;statement
+13;statement;max_here < 0;conditional
+14;statement;max_here < 0;conditional
+15;statement;max_here = 0;statement
+16;statement;s = i + 1;statement
+17;statement;max_here = 0;statement
+18;statement;s = i + 1;statement
+19;statement;print('Maximum non-overlapping sub-array sum', c + 1, ': ', max_so_far, ', starting index: ', start, ', ending index: ', end, '.', sep='');statement
+20;statement;range(start, end + 1);conditional
+21;statement;arr[l] = -float('inf');statement
+22;statement;print();statement
+0;5;21;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;8;18;
+7;8;
+8;11;13;
+9;10;
+10;11;
+11;13;
+12;
+13;17;6;17;6;
+14;15;
+15;
+16;17;
+17;6;6;
+18;19;
+19;20;0;
+20;19;
+21;

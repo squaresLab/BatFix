@@ -1,0 +1,20 @@
+1;statement;dp = [1 for i in range(n)];statement
+2;statement;range(n);conditional
+3;statement;range(i);conditional
+4;statement;arr[i] == arr[j] + 1 or arr[i] == arr[j] - 1;conditional
+5;statement;dp[i] = max(dp[i], dp[j] + 1);statement
+6;statement;result = 1;statement
+7;statement;range(n);conditional
+8;statement;result < dp[i];conditional
+9;statement;result = dp[i];statement
+10;statement;return result;statement
+0;1;
+1;2;5;
+2;3;1;
+3;4;2;
+4;2;
+5;6;
+6;7;9;
+7;8;6;
+8;6;
+9;

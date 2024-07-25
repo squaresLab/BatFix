@@ -1,0 +1,20 @@
+1;statement;first = 1;statement
+2;statement;second = 1;statement
+3;statement;number = 2;statement
+4;statement;next = 1;statement
+5;statement;next;conditional
+6;statement;next = (first + second) % p;statement
+7;statement;first = second;statement
+8;statement;second = next;statement
+9;statement;number = number + 1;statement
+10;statement;return number;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;8;9;
+5;6;
+6;7;
+7;8;
+8;4;
+9;

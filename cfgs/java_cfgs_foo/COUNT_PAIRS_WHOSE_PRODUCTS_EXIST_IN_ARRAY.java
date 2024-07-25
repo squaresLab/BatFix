@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int result = 0;14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;int j = foo_1 + 1;18;
+6;conditional;foo_1 < foo_2;19;
+7;statement;int product = foo_1[foo_2] * foo_3[foo_4];21;
+8;statement;int k = 0;22;
+9;conditional;foo_1 < foo_2;23;
+10;conditional;foo_1[foo_2] == foo_3;25;
+11;statement;result++;26;
+12;statement;break;27;
+13;statement;k++;24;
+14;statement;j++;20;
+15;statement;i++;17;
+16;statement;return foo_1;32;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;16;
+4;6;
+5;7;15;
+6;8;
+7;9;
+8;10;14;
+9;11;13;
+10;12;
+11;14;
+12;9;
+13;6;
+14;4;
+15;17;
+16;

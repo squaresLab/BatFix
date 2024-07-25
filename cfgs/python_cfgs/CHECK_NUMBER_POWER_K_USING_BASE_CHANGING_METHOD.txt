@@ -1,0 +1,22 @@
+1;statement;oneSeen = False;statement
+2;statement;n > 0;conditional
+3;statement;digit = n % k;statement
+4;statement;digit > 1;conditional
+5;statement;return False;statement
+6;statement;digit == 1;conditional
+7;statement;oneSeen;conditional
+8;statement;return False;statement
+9;statement;oneSeen = True;statement
+10;statement;n //= k;statement
+11;statement;return True;statement
+0;1;
+1;3;10;
+2;3;
+3;4;5;
+4;
+5;6;9;
+6;7;8;
+7;
+8;9;
+9;1;
+10;

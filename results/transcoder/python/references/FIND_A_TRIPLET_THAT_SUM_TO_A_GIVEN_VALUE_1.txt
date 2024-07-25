@@ -1,0 +1,2 @@
+Triplet is -90, 18, 96Triplet is11129661129620
+Triplet is 1, 6, 20#Results: 9, 10

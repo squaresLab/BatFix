@@ -1,0 +1,16 @@
+1;statement;m = dict();statement
+2;statement;range(n);conditional
+3;statement;m[stri[i]] = m.get(stri[i], 0) + 1;statement
+4;statement;res = 0;statement
+5;statement;m.values();conditional
+6;statement;i == 2;conditional
+7;statement;res += 1;statement
+8;statement;return res;statement
+0;1;
+1;2;3;
+2;1;
+3;4;
+4;5;7;
+5;6;4;
+6;4;
+7;

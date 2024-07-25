@@ -1,0 +1,16 @@
+1;statement;count = 0;statement
+2;statement;cummulative_sum = 0;statement
+3;statement;arr.sort();statement
+4;statement;range(n);conditional
+5;statement;arr[i] >= cummulative_sum;conditional
+6;statement;count += 1;statement
+7;statement;cummulative_sum += arr[i];statement
+8;statement;return count;statement
+0;1;
+1;2;
+2;3;
+3;4;7;
+4;6;3;
+5;6;
+6;3;
+7;

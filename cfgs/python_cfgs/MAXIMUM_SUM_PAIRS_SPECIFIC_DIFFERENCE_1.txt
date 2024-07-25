@@ -1,0 +1,22 @@
+1;statement;maxSum = 0;statement
+2;statement;arr.sort();statement
+3;statement;i = N - 1;statement
+4;statement;i >= 0;conditional
+5;statement;arr[i] - arr[i - 1] < k;conditional
+6;statement;maxSum += arr[i];statement
+7;statement;maxSum += arr[i - 1];statement
+8;statement;i -= 1;statement
+9;statement;i -= 1;statement
+10;statement;i -= 1;statement
+11;statement;return maxSum;statement
+0;1;
+1;2;
+2;3;
+3;4;10;
+4;7;9;
+5;6;
+6;7;
+7;9;
+8;
+9;3;3;
+10;

@@ -1,0 +1,155 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'PRIMALITY_TEST_SET_5USING_LUCAS_LEHMER_SERIES.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: double checkNumber = Math . pow ( 2 , p ) - 1 ;
+Line: 14
+p = 11
+
+Statement: double nextval = 4 % checkNumber ;
+Line: 15
+p = 11
+checkNumber = 2047.0
+
+Statement: for ( int i = 1 ;
+Line: 16
+p = 11
+checkNumber = 2047.0
+nextval = 4.0
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 4.0
+i = 1
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 4.0
+i = 1
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 14.0
+i = 2
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 14.0
+i = 2
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 194.0
+i = 3
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 194.0
+i = 3
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 788.0
+i = 4
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 788.0
+i = 4
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 701.0
+i = 5
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 701.0
+i = 5
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 119.0
+i = 6
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 119.0
+i = 6
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 1877.0
+i = 7
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 1877.0
+i = 7
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 240.0
+i = 8
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 240.0
+i = 8
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 282.0
+i = 9
+
+Statement: i ++ ) nextval = ( nextval * nextval - 2 ) % checkNumber ;
+Line: 18
+p = 11
+checkNumber = 2047.0
+nextval = 282.0
+i = 9
+
+Statement: i < p - 1 ;
+Line: 17
+p = 11
+checkNumber = 2047.0
+nextval = 1736.0
+i = 10
+
+Statement: return ( nextval == 0 ) ;
+Line: 19
+p = 11
+checkNumber = 2047.0
+nextval = 1736.0

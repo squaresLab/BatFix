@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int mid;14;
+3;conditional;foo_1 <= foo_2[foo_3];15;
+4;statement;return foo_1;15;
+5;exit;;;
+6;conditional;foo_1 > foo_2[foo_3];16;
+7;statement;return -1;16;
+8;statement;mid = (foo_1 + foo_2) / 2;17;
+9;conditional;foo_1[foo_2] == foo_3;18;
+10;statement;return foo_1;18;
+11;conditional;foo_1[foo_2] < foo_3;19;
+12;conditional;((foo_1 + 1) <= foo_2) && (foo_3 <= foo_4[foo_5 + 1]);20;
+13;statement;return foo_1 + 1;20;
+14;statement;return fun_1(foo_1, foo_2 + 1, foo_3, foo_4);21;
+15;conditional;((foo_1 - 1) >= foo_2) && (foo_3 > foo_4[foo_5 - 1]);24;
+16;statement;return foo_1;24;
+17;statement;return fun_1(foo_1, foo_2, foo_3 - 1, foo_4);25;
+Edges
+0;2;
+1;3;
+2;4;6;
+3;5;
+4;
+5;7;8;
+6;5;
+7;9;
+8;10;11;
+9;5;
+10;12;15;
+11;13;14;
+12;5;
+13;5;
+14;16;17;
+15;5;
+16;5;

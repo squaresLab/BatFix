@@ -1,0 +1,22 @@
+1;statement;index == n;conditional
+2;statement;Sum % M == 0;conditional
+3;statement;return True;statement
+4;statement;return False;statement
+5;statement;dp[index][Sum] != -1;conditional
+6;statement;return dp[index][Sum];statement
+7;statement;placeAdd = f_gold(n, index + 1, Sum + arr[index], M, arr, dp);statement
+8;statement;placeMinus = f_gold(n, index + 1, Sum - arr[index], M, arr, dp);statement
+9;statement;res = placeAdd or placeMinus;statement
+10;statement;dp[index][Sum] = res;statement
+11;statement;return res;statement
+0;1;4;
+1;2;3;
+2;
+3;
+4;5;10;
+5;
+6;7;
+7;8;
+8;9;
+9;10;
+10;

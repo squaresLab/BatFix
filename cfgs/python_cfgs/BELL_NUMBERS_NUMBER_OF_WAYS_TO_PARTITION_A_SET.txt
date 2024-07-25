@@ -1,0 +1,14 @@
+1;statement;bell = [[0 for i in range(n + 1)] for j in range(n + 1)];statement
+2;statement;bell[0][0] = 1;statement
+3;statement;range(1, n + 1);conditional
+4;statement;bell[i][0] = bell[i - 1][i - 1];statement
+5;statement;range(1, i + 1);conditional
+6;statement;bell[i][j] = bell[i - 1][j - 1] + bell[i][j - 1];statement
+7;statement;return bell[n][0];statement
+0;1;
+1;2;
+2;3;6;
+3;4;
+4;5;2;
+5;4;
+6;

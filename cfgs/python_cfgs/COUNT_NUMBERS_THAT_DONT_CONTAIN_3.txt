@@ -1,0 +1,22 @@
+1;statement;n < 3;conditional
+2;statement;return n;statement
+3;statement;n >= 3 and n < 10;conditional
+4;statement;return n - 1;statement
+5;statement;po = 1;statement
+6;statement;n / po > 9;conditional
+7;statement;po = po * 10;statement
+8;statement;msd = n / po;statement
+9;statement;msd != 3;conditional
+10;statement;return f_gold(msd) * f_gold(po - 1) + f_gold(msd) + f_gold(n % po);statement
+11;statement;return f_gold(msd * po - 1);statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;
+5;6;8;
+6;5;
+7;8;
+8;9;10;
+9;
+10;

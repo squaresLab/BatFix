@@ -1,0 +1,14 @@
+1;statement;n == 2 or n == 3;conditional
+2;statement;return n - 1;statement
+3;statement;res = 1;statement
+4;statement;n > 4;conditional
+5;statement;n -= 3;statement
+6;statement;res *= 3;statement
+7;statement;return n * res;statement
+0;1;2;
+1;
+2;3;
+3;5;6;
+4;5;
+5;3;
+6;

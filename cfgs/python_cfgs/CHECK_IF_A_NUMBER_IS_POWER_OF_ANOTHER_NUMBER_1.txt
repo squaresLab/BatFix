@@ -1,0 +1,6 @@
+1;statement;res1 = math.log(y) / math.log(x);statement
+2;statement;res2 = math.log(y) / math.log(x);statement
+3;statement;return 1 if res1 == res2 else 0;statement
+0;1;
+1;2;
+2;

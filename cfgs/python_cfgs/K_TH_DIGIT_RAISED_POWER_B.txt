@@ -1,0 +1,16 @@
+1;statement;p = a ** b;statement
+2;statement;count = 0;statement
+3;statement;p > 0 and count < k;statement
+4;statement;rem = p % 10;statement
+5;statement;count = count + 1;statement
+6;statement;count == k;conditional
+7;statement;return rem;statement
+8;statement;p = p / 10;statement
+0;1;
+1;2;
+2;5;
+3;4;
+4;5;
+5;6;7;
+6;
+7;2;

@@ -1,0 +1,18 @@
+1;statement;l > h;conditional
+2;statement;return sys.maxsize;statement
+3;statement;l == h;conditional
+4;statement;return 0;statement
+5;statement;l == h - 1;conditional
+6;statement;return 0 if str[l] == str[h] else 1;statement
+7;statement;str[l] == str[h];conditional
+8;statement;return f_gold(str, l + 1, h - 1);statement
+9;statement;return min(f_gold(str, l, h - 1), f_gold(str, l + 1, h)) + 1;statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;6;
+5;
+6;7;8;
+7;
+8;

@@ -1,0 +1,14 @@
+1;statement;distSq = (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2);statement
+2;statement;radSumSq = (r1 + r2) * (r1 + r2);statement
+3;statement;distSq == radSumSq;conditional
+4;statement;return 1;statement
+5;statement;distSq > radSumSq;conditional
+6;statement;return -1;statement
+7;statement;return 0;statement
+0;1;
+1;2;
+2;3;4;
+3;
+4;5;6;
+5;
+6;

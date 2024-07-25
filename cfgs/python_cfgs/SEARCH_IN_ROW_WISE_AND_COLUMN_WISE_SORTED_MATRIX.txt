@@ -1,0 +1,22 @@
+1;statement;i = 0;statement
+2;statement;j = n - 1;statement
+3;statement;i < n and j >= 0;conditional
+4;statement;mat[i][j] == x;conditional
+5;statement;print('n Found at ', i, ', ', j);statement
+6;statement;return 1;statement
+7;statement;mat[i][j] > x;conditional
+8;statement;j -= 1;statement
+9;statement;i += 1;statement
+10;statement;print('Element not found');statement
+11;statement;return 0;statement
+0;1;
+1;2;
+2;3;10;
+3;5;6;
+4;5;
+5;
+6;7;8;
+7;2;
+8;2;
+9;10;
+10;

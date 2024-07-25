@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 < 2;14;
+3;statement;return 0;14;
+4;exit;;;
+5;statement;long ef1 = 0;15;
+6;statement;long ef2 = 2;15;
+7;statement;long sum = foo_1 + foo_2;16;
+8;conditional;foo_1 <= foo_2;17;
+9;statement;long ef3 = (4 * foo_1) + foo_2;18;
+10;conditional;foo_1 > foo_2;19;
+11;statement;break;19;
+12;statement;ef1 = foo_1;20;
+13;statement;ef2 = foo_1;21;
+14;statement;sum += foo_1;22;
+15;statement;return ((int) (foo_1));24;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;15;9;
+8;10;
+9;11;12;
+10;15;
+11;13;
+12;14;
+13;8;
+14;4;

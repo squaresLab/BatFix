@@ -1,0 +1,20 @@
+1;statement;l = math.sqrt(n);statement
+2;statement;sq = l * l;statement
+3;statement;sq == n;conditional
+4;statement;return l * 4;statement
+5;statement;row = n / l;statement
+6;statement;perimeter = 2 * (l + row);statement
+7;statement;n % l != 0;conditional
+8;statement;perimeter += 2;statement
+9;statement;return perimeter;statement
+10;statement;return perimeter;statement
+0;1;
+1;2;
+2;3;6;
+3;
+4;5;
+5;6;
+6;7;9;
+7;9;
+8;
+9;

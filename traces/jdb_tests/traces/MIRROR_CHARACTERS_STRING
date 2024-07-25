@@ -1,0 +1,169 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'MIRROR_CHARACTERS_STRING.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: String reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba" ;
+Line: 9
+str = "oncl"
+n = 4
+
+Statement: int l = str . length ( ) ;
+Line: 10
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+
+Statement: String answer = "" ;
+Line: 11
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+
+Statement: for ( int i = 0 ;
+Line: 12
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = ""
+
+Statement: i < n ;
+Line: 13
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = ""
+i = 0
+
+Statement: answer = answer + str . charAt ( i ) ;
+Line: 15
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = ""
+i = 0
+
+Statement: i ++ )
+Line: 14
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "o"
+i = 0
+
+Statement: i < n ;
+Line: 13
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "o"
+i = 1
+
+Statement: answer = answer + str . charAt ( i ) ;
+Line: 15
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "o"
+i = 1
+
+Statement: i ++ )
+Line: 14
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "on"
+i = 1
+
+Statement: i < n ;
+Line: 13
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "on"
+i = 2
+
+Statement: answer = answer + str . charAt ( i ) ;
+Line: 15
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "on"
+i = 2
+
+Statement: i ++ )
+Line: 14
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "onc"
+i = 2
+
+Statement: i < n ;
+Line: 13
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "onc"
+i = 3
+
+Statement: answer = answer + str . charAt ( i ) ;
+Line: 15
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "onc"
+i = 3
+
+Statement: i ++ )
+Line: 14
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "oncl"
+i = 3
+
+Statement: i < n ;
+Line: 13
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "oncl"
+i = 4
+
+Statement: for ( int i = n ;
+Line: 16
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "oncl"
+
+Statement: i < l ;
+Line: 17
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "oncl"
+i = 4
+
+Statement: return answer ;
+Line: 20
+str = "oncl"
+n = 4
+reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba"
+l = 4
+answer = "oncl"

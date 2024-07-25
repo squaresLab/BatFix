@@ -1,0 +1,10 @@
+1;statement;y != 0;conditional
+2;statement;carry = x & y;statement
+3;statement;x = x ^ y;statement
+4;statement;y = carry << 1;statement
+5;statement;return x;statement
+0;3;4;
+1;2;
+2;3;
+3;0;
+4;

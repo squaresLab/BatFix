@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int pPrevPrev = 1;14;
+3;statement;int pPrev = 1;14;
+4;statement;int pCurr = 1;14;
+5;statement;int pNext = 1;14;
+6;statement;int i = 3;15;
+7;conditional;foo_1 <= foo_2;16;
+8;statement;pNext = foo_1 + foo_2;18;
+9;statement;pPrevPrev = foo_1;19;
+10;statement;pPrev = foo_1;20;
+11;statement;pCurr = foo_1;21;
+12;statement;i++;17;
+13;statement;return foo_1;23;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;8;13;
+7;9;
+8;10;
+9;11;
+10;12;
+11;7;
+12;14;
+13;

@@ -1,0 +1,14 @@
+1;statement;range(0, len(m));conditional
+2;statement;sm = 0;statement
+3;statement;range(0, len(m[i]));conditional
+4;statement;sm = sm + m[i][j];statement
+5;statement;sm != 1;conditional
+6;statement;return False;statement
+7;statement;return True;statement
+0;1;6;
+1;2;
+2;3;4;
+3;2;
+4;5;0;
+5;
+6;

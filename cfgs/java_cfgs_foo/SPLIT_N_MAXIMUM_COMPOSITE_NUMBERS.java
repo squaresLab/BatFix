@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 < 4;14;
+3;statement;return -1;14;
+4;exit;;;
+5;statement;int rem = foo_1 % 4;15;
+6;conditional;foo_1 == 0;16;
+7;statement;return foo_1 / 4;16;
+8;conditional;foo_1 == 1;17;
+9;conditional;foo_1 < 9;18;
+10;statement;return -1;18;
+11;statement;return ((foo_1 - 9) / 4) + 1;19;
+12;conditional;foo_1 == 2;21;
+13;statement;return ((foo_1 - 6) / 4) + 1;21;
+14;conditional;foo_1 == 3;22;
+15;conditional;foo_1 < 15;23;
+16;statement;return -1;23;
+17;statement;return ((foo_1 - 15) / 4) + 2;24;
+18;statement;return 0;26;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;8;
+6;4;
+7;9;12;
+8;10;11;
+9;4;
+10;4;
+11;13;14;
+12;4;
+13;15;18;
+14;16;17;
+15;4;
+16;4;
+17;4;

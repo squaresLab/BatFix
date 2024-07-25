@@ -1,0 +1,28 @@
+1;statement;maxA = -100000000;statement
+2;statement;maxB = -100000000;statement
+3;statement;maxC = -100000000;statement
+4;statement;range(0, n);conditional
+5;statement;arr[i] > maxA;conditional
+6;statement;maxC = maxB;statement
+7;statement;maxB = maxA;statement
+8;statement;maxA = arr[i];statement
+9;statement;arr[i] > maxB;conditional
+10;statement;maxC = maxB;statement
+11;statement;maxB = arr[i];statement
+12;statement;arr[i] > maxC;conditional
+13;statement;maxC = arr[i];statement
+14;statement;return maxA + maxB + maxC;statement
+0;1;
+1;2;
+2;3;
+3;4;13;
+4;7;8;
+5;6;
+6;7;
+7;3;
+8;10;11;
+9;10;
+10;3;
+11;12;3;
+12;3;
+13;

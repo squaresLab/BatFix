@@ -1,0 +1,10 @@
+1;statement;range(0, k);statement
+2;statement;x = arr[0];statement
+3;statement;range(0, n - 1);conditional
+4;statement;arr[j] = arr[j + 1];statement
+5;statement;arr[n - 1] = x;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;0;

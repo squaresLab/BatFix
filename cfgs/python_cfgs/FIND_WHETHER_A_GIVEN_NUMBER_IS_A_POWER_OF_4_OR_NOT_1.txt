@@ -1,0 +1,16 @@
+1;statement;count = 0;statement
+2;statement;n and (not n & n - 1);statement
+3;statement;n > 1;conditional
+4;statement;n >>= 1;statement
+5;statement;count += 1;statement
+6;statement;count % 2 == 0;conditional
+7;statement;return True;statement
+8;statement;return False;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;6;7;
+6;
+7;

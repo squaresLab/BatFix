@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 <= 0;14;
+3;statement;return 0;14;
+4;exit;;;
+5;statement;int incl = foo_1[0];15;
+6;statement;int excl = 0;16;
+7;statement;int i = 1;17;
+8;conditional;foo_1 < foo_2;18;
+9;statement;int incl_new = foo_1[foo_2] + fun_1(foo_3, foo_4);20;
+10;statement;int excl_new = foo_1;21;
+11;statement;incl = foo_1;22;
+12;statement;excl = foo_1;23;
+13;statement;i++;19;
+14;statement;return fun_1(foo_1, foo_2);25;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;14;
+8;10;
+9;11;
+10;12;
+11;13;
+12;8;
+13;4;

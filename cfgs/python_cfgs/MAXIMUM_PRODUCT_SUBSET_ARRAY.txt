@@ -1,0 +1,42 @@
+1;statement;n == 1;conditional
+2;statement;return a[0];statement
+3;statement;max_neg = -999999999999;statement
+4;statement;count_neg = 0;statement
+5;statement;count_zero = 0;statement
+6;statement;prod = 1;statement
+7;statement;range(n);conditional
+8;statement;a[i] == 0;conditional
+9;statement;count_zero += 1;statement
+10;statement;a[i] < 0;conditional
+11;statement;count_neg += 1;statement
+12;statement;max_neg = max(max_neg, a[i]);statement
+13;statement;prod = prod * a[i];statement
+14;statement;prod = prod * a[i];statement
+15;statement;count_zero == n;conditional
+16;statement;return 0;statement
+17;statement;count_neg & 1;conditional
+18;statement;count_neg == 1 and count_zero > 0 and (count_zero + count_neg == n);conditional
+19;statement;return 0;statement
+20;statement;prod = int(prod / max_neg);statement
+21;statement;return prod;statement
+0;1;5;
+1;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;14;
+7;8;9;
+8;6;
+9;11;13;
+10;11;
+11;13;
+12;
+13;6;6;
+14;15;16;
+15;
+16;17;20;
+17;18;19;
+18;
+19;20;
+20;

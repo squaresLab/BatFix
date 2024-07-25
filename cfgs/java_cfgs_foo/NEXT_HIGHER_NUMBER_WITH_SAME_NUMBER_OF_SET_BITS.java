@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int rightOne;14;
+3;statement;int nextHigherOneBit;14;
+4;statement;int rightOnesPattern;14;
+5;statement;int next = 0;14;
+6;conditional;foo_1 > 0;15;
+7;statement;rightOne = foo_1 & (-foo_2);16;
+8;statement;nextHigherOneBit = foo_1 + foo_2;17;
+9;statement;rightOnesPattern = foo_1 ^ foo_2;18;
+10;statement;rightOnesPattern = foo_1 / foo_2;19;
+11;statement;rightOnesPattern >>= 2;20;
+12;statement;next = foo_1 | foo_2;21;
+13;statement;return foo_1;23;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;13;
+6;8;
+7;9;
+8;10;
+9;11;
+10;12;
+11;13;
+12;14;
+13;

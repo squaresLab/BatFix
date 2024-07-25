@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;PriorityQueue<Integer> pq = new PriorityQueue<>();14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;fun_1(foo_2[foo_3]);17;
+6;statement;i++;17;
+7;statement;int count = 0;18;
+8;statement;int ans = 1;18;
+9;conditional;(fun_1() == false) && (foo_2 < foo_3);19;
+10;statement;ans = foo_1 * fun_1();20;
+11;statement;fun_1();21;
+12;statement;count++;22;
+13;statement;return foo_1;24;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;7;
+4;6;
+5;4;
+6;8;
+7;9;
+8;13;10;
+9;11;
+10;12;
+11;9;
+12;14;
+13;

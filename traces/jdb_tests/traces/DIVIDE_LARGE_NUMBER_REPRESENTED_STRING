@@ -1,0 +1,369 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'DIVIDE_LARGE_NUMBER_REPRESENTED_STRING.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: String ans = "";
+Line: 15
+number = "92733233370448"
+divisor = 96
+
+Statement: int idx = 0;
+Line: 16
+number = "92733233370448"
+divisor = 96
+ans = ""
+
+Statement: char [ ] num = number . toCharArray ( );
+Line: 17
+number = "92733233370448"
+divisor = 96
+ans = ""
+idx = 0
+
+Statement: int temp = num [ idx ] - '0';
+Line: 18
+number = "92733233370448"
+divisor = 96
+ans = ""
+idx = 0
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+
+Statement: while ( temp < divisor ) temp = temp * 10 + ( num [ ++ idx ] - '0' );
+Line: 19
+number = "92733233370448"
+divisor = 96
+ans = ""
+idx = 0
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 9
+
+Statement: idx += 1;
+Line: 20
+number = "92733233370448"
+divisor = 96
+ans = ""
+idx = 2
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 927
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = ""
+idx = 3
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 927
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = ""
+idx = 3
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 927
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "9"
+idx = 3
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 927
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "9"
+idx = 4
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 633
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "9"
+idx = 4
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 633
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "96"
+idx = 4
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 633
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "96"
+idx = 5
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 573
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "96"
+idx = 5
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 573
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "965"
+idx = 5
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 573
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "965"
+idx = 6
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 932
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "965"
+idx = 6
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 932
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "9659"
+idx = 6
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 932
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "9659"
+idx = 7
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 683
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "9659"
+idx = 7
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 683
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "96597"
+idx = 7
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 683
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "96597"
+idx = 8
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 113
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "96597"
+idx = 8
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 113
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "965971"
+idx = 8
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 113
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "965971"
+idx = 9
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 173
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "965971"
+idx = 9
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 173
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "9659711"
+idx = 9
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 173
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "9659711"
+idx = 10
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 777
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "9659711"
+idx = 10
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 777
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "96597118"
+idx = 10
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 777
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "96597118"
+idx = 11
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 90
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "96597118"
+idx = 11
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 90
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "965971180"
+idx = 11
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 90
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "965971180"
+idx = 12
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 904
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "965971180"
+idx = 12
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 904
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "9659711809"
+idx = 12
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 904
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "9659711809"
+idx = 13
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 404
+
+Statement: ans += ( temp / divisor );
+Line: 22
+number = "92733233370448"
+divisor = 96
+ans = "9659711809"
+idx = 13
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 404
+
+Statement: temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0';
+Line: 23
+number = "92733233370448"
+divisor = 96
+ans = "96597118094"
+idx = 13
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 404
+
+Statement: while ( num . length > idx ) {
+Line: 21
+number = "92733233370448"
+divisor = 96
+ans = "96597118094"
+idx = 14
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 208
+
+Statement: if ( ans . length ( ) == 0 ) return "0";
+Line: 25
+number = "92733233370448"
+divisor = 96
+ans = "96597118094"
+idx = 14
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 208
+
+Statement: return ans;
+Line: 26
+number = "92733233370448"
+divisor = 96
+ans = "96597118094"
+idx = 14
+num = { 9, 2, 7, 3, 3, 2, 3, 3, 3, 7, 0, 4, 4, 8 }
+temp = 208

@@ -1,0 +1,12 @@
+1;statement;y == 0;conditional
+2;statement;return 0;statement
+3;statement;y > 0;conditional
+4;statement;return x + f_gold(x, y - 1);statement
+5;statement;y < 0;statement
+6;statement;return -f_gold(x, -y);statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;
+5;

@@ -1,0 +1,10 @@
+1;statement;res = 1;statement
+2;statement;range(n, -1, -2);statement
+3;statement;i == 0 or i == 1;conditional
+4;statement;return res;statement
+5;statement;res *= i;statement
+0;1;
+1;2;
+2;3;4;
+3;
+4;1;

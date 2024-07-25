@@ -1,0 +1,32 @@
+1;statement;l >= h;conditional
+2;statement;return;statement
+3;statement;arr[l] > arr[h];conditional
+4;statement;t = arr[l];statement
+5;statement;arr[l] = arr[h];statement
+6;statement;arr[h] = t;statement
+7;statement;h - l + 1 > 2;statement
+8;statement;h - l + 1 > 2;statement
+9;statement;t = int((h - l + 1) / 3);statement
+10;statement;f_gold(arr, l, h - t);statement
+11;statement;f_gold(arr, l + t, h);statement
+12;statement;f_gold(arr, l, h - t);statement
+13;statement;t = int((h - l + 1) / 3);statement
+14;statement;f_gold(arr, l, h - t);statement
+15;statement;f_gold(arr, l + t, h);statement
+16;statement;f_gold(arr, l, h - t);statement
+0;1;2;
+1;
+2;5;7;
+3;4;
+4;5;
+5;7;
+6;
+7;15;15;
+8;9;
+9;10;
+10;11;
+11;
+12;13;
+13;14;
+14;15;
+15;

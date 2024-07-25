@@ -1,0 +1,213 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'DOUBLE_FACTORIAL.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 52
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 52
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 50
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 50
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 48
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 48
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 46
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 46
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 44
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 44
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 42
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 42
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 40
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 40
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 38
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 38
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 36
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 36
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 34
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 34
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 32
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 32
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 30
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 30
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 28
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 28
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 26
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 26
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 24
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 24
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 22
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 22
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 20
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 20
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 18
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 18
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 16
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 16
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 14
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 14
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 12
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 12
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 10
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 10
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 8
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 8
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 6
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 6
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 4
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 4
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 2
+
+Statement: return n * f_gold ( n - 2 ) ;
+Line: 15
+n = 2
+
+Statement: if ( n == 0 || n == 1 ) return 1 ;
+Line: 14
+n = 0

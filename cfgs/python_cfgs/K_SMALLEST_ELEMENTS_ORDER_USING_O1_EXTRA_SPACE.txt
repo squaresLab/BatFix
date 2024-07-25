@@ -1,0 +1,30 @@
+1;statement;range(k, n);conditional
+2;statement;max_var = arr[k - 1];statement
+3;statement;pos = k - 1;statement
+4;statement;range(k - 2, -1, -1);conditional
+5;statement;arr[j] > max_var;conditional
+6;statement;max_var = arr[j];statement
+7;statement;pos = j;statement
+8;statement;max_var > arr[i];conditional
+9;statement;j = pos;statement
+10;statement;j < k - 1;conditional
+11;statement;arr[j] = arr[j + 1];statement
+12;statement;j += 1;statement
+13;statement;arr[k - 1] = arr[i];statement
+14;statement;range(0, k);statement
+15;statement;print(arr[i], end=' ');statement
+0;2;13;
+1;2;
+2;3;
+3;4;7;
+4;6;3;
+5;6;
+6;3;
+7;8;0;
+8;9;
+9;11;12;
+10;11;
+11;9;
+12;0;
+13;14;
+14;13;

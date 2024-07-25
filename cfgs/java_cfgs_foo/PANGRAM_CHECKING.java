@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;boolean[] mark = new boolean[26];14;
+3;statement;int index = 0;15;
+4;statement;int i = 0;16;
+5;conditional;foo_1 < fun_1();17;
+6;conditional;('A' <= fun_1(foo_2)) && (fun_2(foo_4) <= 'Z');19;
+7;statement;index = fun_1(foo_2) - 'A';19;
+8;conditional;('a' <= fun_1(foo_2)) && (fun_2(foo_4) <= 'z');20;
+9;statement;index = fun_1(foo_2) - 'a';20;
+10;statement;foo_1[foo_2] = true;21;
+11;statement;i++;18;
+12;statement;int i = 0;23;
+13;conditional;foo_1 <= 25;24;
+14;conditional;foo_1[foo_2] == false;25;
+15;statement;return false;25;
+16;exit;;;
+17;statement;i++;25;
+18;statement;return true;26;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;12;
+5;7;8;
+6;10;
+7;9;10;
+8;10;
+9;11;
+10;5;
+11;13;
+12;14;18;
+13;15;17;
+14;16;
+15;
+16;13;
+17;16;

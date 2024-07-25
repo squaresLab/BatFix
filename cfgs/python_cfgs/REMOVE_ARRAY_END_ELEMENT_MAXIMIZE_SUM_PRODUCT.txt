@@ -1,0 +1,12 @@
+1;statement;low == high;conditional
+2;statement;return a[low] * turn;statement
+3;statement;dp[low][high] != 0;conditional
+4;statement;return dp[low][high];statement
+5;statement;dp[low][high] = max(a[low] * turn + f_gold(dp, a, low + 1, high, turn + 1), a[high] * turn + f_gold(dp, a, low, high - 1, turn + 1));statement
+6;statement;return dp[low][high];statement
+0;1;2;
+1;
+2;3;5;
+3;
+4;5;
+5;

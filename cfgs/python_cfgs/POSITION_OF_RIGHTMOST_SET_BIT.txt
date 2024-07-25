@@ -1,0 +1,2 @@
+1;statement;return math.log2(n & -n) + 1;statement
+0;

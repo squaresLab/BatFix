@@ -1,0 +1,381 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'CHECK_EXIST_TWO_ELEMENTS_ARRAY_WHOSE_SUM_EQUAL_SUM_REST_ARRAY.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int sum = 0 ;
+Line: 14
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+
+Statement: for ( int i = 0 ;
+Line: 15
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 0
+
+Statement: i < n ;
+Line: 16
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 0
+i = 0
+
+Statement: sum += arr [ i ] ;
+Line: 18
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 0
+i = 0
+
+Statement: i ++ ) {
+Line: 17
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 2
+i = 0
+
+Statement: i < n ;
+Line: 16
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 2
+i = 1
+
+Statement: sum += arr [ i ] ;
+Line: 18
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 2
+i = 1
+
+Statement: i ++ ) {
+Line: 17
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 13
+i = 1
+
+Statement: i < n ;
+Line: 16
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 13
+i = 2
+
+Statement: sum += arr [ i ] ;
+Line: 18
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 13
+i = 2
+
+Statement: i ++ ) {
+Line: 17
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 18
+i = 2
+
+Statement: i < n ;
+Line: 16
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 18
+i = 3
+
+Statement: sum += arr [ i ] ;
+Line: 18
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 18
+i = 3
+
+Statement: i ++ ) {
+Line: 17
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 19
+i = 3
+
+Statement: i < n ;
+Line: 16
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 19
+i = 4
+
+Statement: sum += arr [ i ] ;
+Line: 18
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 19
+i = 4
+
+Statement: i ++ ) {
+Line: 17
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 23
+i = 4
+
+Statement: i < n ;
+Line: 16
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 23
+i = 5
+
+Statement: sum += arr [ i ] ;
+Line: 18
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 23
+i = 5
+
+Statement: i ++ ) {
+Line: 17
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 30
+i = 5
+
+Statement: i < n ;
+Line: 16
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 30
+i = 6
+
+Statement: if ( sum % 2 != 0 ) {
+Line: 20
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 30
+
+Statement: sum = sum / 2 ;
+Line: 23
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 30
+
+Statement: HashSet < Integer > s = new HashSet < Integer > ( ) ;
+Line: 24
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+
+Statement: for ( int i = 0 ;
+Line: 25
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+
+Statement: i < n ;
+Line: 26
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 0
+
+Statement: int val = sum - arr [ i ] ;
+Line: 28
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 0
+
+Statement: if ( s . contains ( val ) && val == ( int ) s . toArray ( ) [ s . size ( ) - 1 ] ) {
+Line: 29
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 0
+val = 13
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 33
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 0
+val = 13
+
+Statement: i ++ ) {
+Line: 27
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 0
+
+Statement: i < n ;
+Line: 26
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 1
+
+Statement: int val = sum - arr [ i ] ;
+Line: 28
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 1
+
+Statement: if ( s . contains ( val ) && val == ( int ) s . toArray ( ) [ s . size ( ) - 1 ] ) {
+Line: 29
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 1
+val = 4
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 33
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 1
+val = 4
+
+Statement: i ++ ) {
+Line: 27
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 1
+
+Statement: i < n ;
+Line: 26
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 2
+
+Statement: int val = sum - arr [ i ] ;
+Line: 28
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 2
+
+Statement: if ( s . contains ( val ) && val == ( int ) s . toArray ( ) [ s . size ( ) - 1 ] ) {
+Line: 29
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 2
+val = 10
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 33
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 2
+val = 10
+
+Statement: i ++ ) {
+Line: 27
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 2
+
+Statement: i < n ;
+Line: 26
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 3
+
+Statement: int val = sum - arr [ i ] ;
+Line: 28
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 3
+
+Statement: if ( s . contains ( val ) && val == ( int ) s . toArray ( ) [ s . size ( ) - 1 ] ) {
+Line: 29
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 3
+val = 14
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 33
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 3
+val = 14
+
+Statement: i ++ ) {
+Line: 27
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 3
+
+Statement: i < n ;
+Line: 26
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 4
+
+Statement: int val = sum - arr [ i ] ;
+Line: 28
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 4
+
+Statement: if ( s . contains ( val ) && val == ( int ) s . toArray ( ) [ s . size ( ) - 1 ] ) {
+Line: 29
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 4
+val = 11
+
+Statement: System . out . printf ( "Pair elements are %d and %d\n" , arr [ i ] , val ) ;
+Line: 30
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 4
+val = 11
+
+Statement: return true ;
+Line: 31
+arr = { 2, 11, 5, 1, 4, 7 }
+n = 6
+sum = 15
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+i = 4
+val = 11

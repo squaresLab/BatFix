@@ -1,0 +1,6 @@
+1;statement;n == 0 or n == 1;conditional
+2;statement;return n;statement
+3;statement;return max(f_gold(n // 2) + f_gold(n // 3) + f_gold(n // 4), n);statement
+0;1;2;
+1;
+2;

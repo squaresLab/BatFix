@@ -1,0 +1,20 @@
+1;statement;transpose = [[0] * n] * n;statement
+2;statement;range(n);conditional
+3;statement;range(n);conditional
+4;statement;transpose[i][j] = mat[j][i];statement
+5;statement;flip = 0;statement
+6;statement;range(n);conditional
+7;statement;range(n);conditional
+8;statement;transpose[i][j] != mat[i][j];conditional
+9;statement;flip += 1;statement
+10;statement;return int(flip / 2);statement
+0;1;
+1;2;4;
+2;3;1;
+3;2;
+4;5;
+5;6;9;
+6;7;5;
+7;8;6;
+8;6;
+9;

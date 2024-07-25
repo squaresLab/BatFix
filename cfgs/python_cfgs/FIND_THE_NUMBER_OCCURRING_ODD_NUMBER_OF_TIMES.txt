@@ -1,0 +1,16 @@
+1;statement;range(0, arr_size);conditional
+2;statement;count = 0;statement
+3;statement;range(0, arr_size);conditional
+4;statement;arr[i] == arr[j];conditional
+5;statement;count += 1;statement
+6;statement;count % 2 != 0;conditional
+7;statement;return arr[i];statement
+8;statement;return -1;statement
+0;1;7;
+1;2;
+2;3;5;
+3;4;2;
+4;2;
+5;6;0;
+6;
+7;

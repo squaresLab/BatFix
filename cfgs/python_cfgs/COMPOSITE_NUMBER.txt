@@ -1,0 +1,24 @@
+1;statement;n <= 1;conditional
+2;statement;return False;statement
+3;statement;n <= 3;conditional
+4;statement;return False;statement
+5;statement;n % 2 == 0 or n % 3 == 0;conditional
+6;statement;return True;statement
+7;statement;i = 5;statement
+8;statement;i * i <= n;conditional
+9;statement;n % i == 0 or n % (i + 2) == 0;conditional
+10;statement;return True;statement
+11;statement;i = i + 6;statement
+12;statement;return False;statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;6;
+5;
+6;7;
+7;8;11;
+8;9;10;
+9;
+10;7;
+11;

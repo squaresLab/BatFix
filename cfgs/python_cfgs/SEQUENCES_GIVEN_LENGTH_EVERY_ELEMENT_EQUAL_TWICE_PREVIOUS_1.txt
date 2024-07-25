@@ -1,0 +1,22 @@
+1;statement;T = [[0 for i in range(n + 1)] for i in range(m + 1)];statement
+2;statement;range(m + 1);conditional
+3;statement;range(n + 1);conditional
+4;statement;i == 0 or j == 0;conditional
+5;statement;T[i][j] = 0;statement
+6;statement;i < j;conditional
+7;statement;T[i][j] = 0;statement
+8;statement;j == 1;conditional
+9;statement;T[i][j] = i;statement
+10;statement;T[i][j] = T[i - 1][j] + T[i // 2][j - 1];statement
+11;statement;return T[m][n];statement
+0;1;
+1;2;10;
+2;3;1;
+3;4;5;
+4;2;
+5;6;7;
+6;2;
+7;8;9;
+8;2;
+9;2;
+10;

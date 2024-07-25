@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;boolean[] arr = new boolean[foo_1 + 1];14;
+3;conditional;foo_1 <= foo_2;15;
+4;statement;foo_1[foo_2] = true;15;
+5;conditional;foo_1 <= foo_2;16;
+6;statement;foo_1[foo_2] = true;16;
+7;statement;int result = 0;17;
+8;statement;int i = fun_1(foo_1, foo_2);18;
+9;conditional;foo_1 <= foo_2;19;
+10;conditional;foo_1[foo_2];21;
+11;conditional;(foo_1 + foo_2) <= foo_3;22;
+12;statement;foo_1[foo_2 + foo_3] = true;22;
+13;conditional;(foo_1 + foo_2) <= foo_3;23;
+14;statement;foo_1[foo_2 + foo_3] = true;23;
+15;statement;result++;24;
+16;statement;i++;20;
+17;statement;return foo_1;27;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;5;
+3;5;
+4;6;7;
+5;7;
+6;8;
+7;9;
+8;10;17;
+9;11;16;
+10;12;13;
+11;13;
+12;14;15;
+13;15;
+14;16;
+15;9;
+16;18;
+17;

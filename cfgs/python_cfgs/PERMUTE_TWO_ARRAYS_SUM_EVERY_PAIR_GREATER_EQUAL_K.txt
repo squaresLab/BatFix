@@ -1,0 +1,12 @@
+1;statement;a.sort(reverse=True);statement
+2;statement;b.sort();statement
+3;statement;range(n);conditional
+4;statement;a[i] + b[i] < k;conditional
+5;statement;return False;statement
+6;statement;return True;statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;
+5;

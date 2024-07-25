@@ -1,0 +1,36 @@
+1;statement;ans = -float('inf');statement
+2;statement;maxval = 1;statement
+3;statement;minval = 1;statement
+4;statement;range(0, n);conditional
+5;statement;arr[i] > 0;conditional
+6;statement;maxval = maxval * arr[i];statement
+7;statement;minval = min(1, minval * arr[i]);statement
+8;statement;arr[i] == 0;conditional
+9;statement;minval = 1;statement
+10;statement;maxval = 0;statement
+11;statement;arr[i] < 0;conditional
+12;statement;prevMax = maxval;statement
+13;statement;maxval = minval * arr[i];statement
+14;statement;minval = prevMax * arr[i];statement
+15;statement;ans = max(ans, maxval);statement
+16;statement;maxval <= 0;conditional
+17;statement;maxval = 1;statement
+18;statement;return ans;statement
+0;1;
+1;2;
+2;3;
+3;4;17;
+4;6;7;
+5;6;
+6;15;
+7;9;10;
+8;9;
+9;15;
+10;13;15;
+11;12;
+12;13;
+13;15;
+14;15;
+15;16;3;
+16;3;
+17;

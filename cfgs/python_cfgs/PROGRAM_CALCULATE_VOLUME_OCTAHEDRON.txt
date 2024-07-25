@@ -1,0 +1,2 @@
+1;statement;return side * side * side * (math.sqrt(2) / 3);statement
+0;

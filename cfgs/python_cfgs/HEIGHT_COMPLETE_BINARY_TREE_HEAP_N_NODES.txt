@@ -1,0 +1,2 @@
+1;statement;return math.ceil(math.log2(N + 1)) - 1;statement
+0;

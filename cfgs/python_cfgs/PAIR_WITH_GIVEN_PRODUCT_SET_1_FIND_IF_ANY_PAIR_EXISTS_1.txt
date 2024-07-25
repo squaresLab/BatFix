@@ -1,0 +1,24 @@
+1;statement;n < 2;conditional
+2;statement;return False;statement
+3;statement;s = set();statement
+4;statement;range(0, n);conditional
+5;statement;arr[i] == 0;conditional
+6;statement;x == 0;conditional
+7;statement;return True;statement
+8;statement;x % arr[i] == 0;conditional
+9;statement;x // arr[i] in s;conditional
+10;statement;return True;statement
+11;statement;s.add(arr[i]);statement
+12;statement;return False;statement
+0;1;2;
+1;
+2;3;
+3;4;11;
+4;5;7;
+5;6;3;
+6;
+7;8;3;
+8;9;10;
+9;
+10;3;
+11;

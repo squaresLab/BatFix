@@ -1,0 +1,28 @@
+1;statement;n = len(s);statement
+2;statement;c1 = 0;statement
+3;statement;c2 = 0;statement
+4;statement;C = 0;statement
+5;statement;range(n);conditional
+6;statement;s[i] == 'a';conditional
+7;statement;c1 += 1;statement
+8;statement;s[i] == 'b';conditional
+9;statement;s[i] == 'b';conditional
+10;statement;c2 += 1;statement
+11;statement;C += c1;statement
+12;statement;c2 += 1;statement
+13;statement;C += c1;statement
+14;statement;return C * K + K * (K - 1) / 2 * c1 * c2;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;13;
+5;6;8;
+6;8;
+7;
+8;12;4;12;4;
+9;10;
+10;
+11;12;
+12;4;4;
+13;

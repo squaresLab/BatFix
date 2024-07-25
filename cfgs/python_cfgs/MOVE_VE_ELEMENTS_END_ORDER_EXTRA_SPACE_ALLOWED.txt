@@ -1,0 +1,28 @@
+1;statement;temp = [0 for k in range(n)];statement
+2;statement;j = 0;statement
+3;statement;range(n);conditional
+4;statement;arr[i] >= 0;conditional
+5;statement;temp[j] = arr[i];statement
+6;statement;j += 1;statement
+7;statement;j == n or j == 0;conditional
+8;statement;return;statement
+9;statement;range(n);conditional
+10;statement;arr[i] < 0;conditional
+11;statement;temp[j] = arr[i];statement
+12;statement;j += 1;statement
+13;statement;range(n);statement
+14;statement;arr[k] = temp[k];statement
+0;1;
+1;2;
+2;3;6;
+3;5;2;
+4;5;
+5;2;
+6;7;8;
+7;
+8;9;12;
+9;11;8;
+10;11;
+11;8;
+12;13;
+13;12;

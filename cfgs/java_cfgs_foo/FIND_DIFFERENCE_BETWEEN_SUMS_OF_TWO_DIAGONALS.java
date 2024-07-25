@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int d1 = 0;14;
+3;statement;int d2 = 0;14;
+4;statement;int i = 0;15;
+5;conditional;foo_1 < foo_2;16;
+6;statement;int j = 0;18;
+7;conditional;foo_1 < foo_2;19;
+8;conditional;foo_1 == foo_2;21;
+9;statement;d1 += foo_1[foo_2][foo_3];21;
+10;conditional;foo_1 == ((foo_2 - foo_3) - 1);22;
+11;statement;d2 += foo_1[foo_2][foo_3];22;
+12;statement;j++;20;
+13;statement;i++;17;
+14;statement;return fun_1(foo_1 - foo_2);25;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;14;
+5;7;
+6;8;13;
+7;9;10;
+8;10;
+9;11;12;
+10;12;
+11;7;
+12;5;
+13;15;
+14;

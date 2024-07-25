@@ -1,0 +1,2 @@
+1;statement;return num - divisor * (num // divisor);statement
+0;

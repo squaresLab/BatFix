@@ -1,0 +1,16 @@
+1;statement;N <= 6;conditional
+2;statement;return N;statement
+3;statement;screen = [0] * N;statement
+4;statement;range(1, 7);conditional
+5;statement;screen[n - 1] = n;statement
+6;statement;range(7, N + 1);conditional
+7;statement;screen[n - 1] = max(2 * screen[n - 4], max(3 * screen[n - 5], 4 * screen[n - 6]));statement
+8;statement;return screen[N - 1];statement
+0;1;2;
+1;
+2;3;
+3;4;5;
+4;3;
+5;6;7;
+6;5;
+7;

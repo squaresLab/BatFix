@@ -1,0 +1,30 @@
+1;statement;um = dict();statement
+2;statement;curr_sum = 0;statement
+3;statement;range(n);conditional
+4;statement;curr_sum += -1 if arr[i] == 0 else arr[i];statement
+5;statement;um.get(curr_sum);conditional
+6;statement;um[curr_sum] += 1;statement
+7;statement;um[curr_sum] = 1;statement
+8;statement;count = 0;statement
+9;statement;um;conditional
+10;statement;um[itr] > 1;conditional
+11;statement;count += um[itr] * int(um[itr] - 1) / 2;statement
+12;statement;um.get(0);conditional
+13;statement;count += um[0];statement
+14;statement;return int(count);statement
+15;statement;return int(count);statement
+0;1;
+1;2;
+2;4;7;
+3;4;
+4;5;6;
+5;2;
+6;2;
+7;8;
+8;9;11;
+9;10;8;
+10;8;
+11;12;14;
+12;14;
+13;
+14;

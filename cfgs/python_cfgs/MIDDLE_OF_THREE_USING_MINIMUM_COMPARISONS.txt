@@ -1,0 +1,10 @@
+1;statement;a < b and b < c or (c < b and b < a);conditional
+2;statement;return b;statement
+3;statement;b < a and a < c or (c < a and a < b);conditional
+4;statement;return a;statement
+5;statement;return c;statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;

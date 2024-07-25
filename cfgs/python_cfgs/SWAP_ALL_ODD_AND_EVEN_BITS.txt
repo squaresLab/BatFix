@@ -1,0 +1,10 @@
+1;statement;even_bits = x & 2863311530;statement
+2;statement;odd_bits = x & 1431655765;statement
+3;statement;even_bits >>= 1;statement
+4;statement;odd_bits <<= 1;statement
+5;statement;return even_bits | odd_bits;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;

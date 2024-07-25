@@ -1,0 +1,16 @@
+1;statement;count = 0;statement
+2;statement;us = set();statement
+3;statement;range(m);conditional
+4;statement;us.add(arr1[i]);statement
+5;statement;range(n);conditional
+6;statement;x - arr2[j] in us;conditional
+7;statement;count += 1;statement
+8;statement;return count;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;7;
+5;6;4;
+6;4;
+7;

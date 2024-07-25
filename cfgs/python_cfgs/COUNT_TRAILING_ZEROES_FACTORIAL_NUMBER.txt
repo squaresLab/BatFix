@@ -1,0 +1,12 @@
+1;statement;count = 0;statement
+2;statement;i = 5;statement
+3;statement;n / i >= 1;conditional
+4;statement;count += int(n / i);statement
+5;statement;i *= 5;statement
+6;statement;return int(count);statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

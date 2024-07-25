@@ -1,0 +1,44 @@
+1;statement;n == 1;conditional
+2;statement;return arr[0];statement
+3;statement;dec = [0 for i in range(n + 1)];statement
+4;statement;inc = [0 for i in range(n + 1)];statement
+5;statement;dec[0] = inc[0] = arr[0];statement
+6;statement;flag = 0;statement
+7;statement;range(1, n);conditional
+8;statement;range(i);conditional
+9;statement;arr[j] > arr[i];conditional
+10;statement;dec[i] = max(dec[i], inc[j] + arr[i]);statement
+11;statement;flag = 1;statement
+12;statement;arr[j] < arr[i] and flag == 1;conditional
+13;statement;inc[i] = max(inc[i], dec[j] + arr[i]);statement
+14;statement;result = -2147483648;statement
+15;statement;range(n);conditional
+16;statement;result < inc[i];conditional
+17;statement;result = inc[i];statement
+18;statement;result < dec[i];conditional
+19;statement;result < dec[i];conditional
+20;statement;result = dec[i];statement
+21;statement;result = dec[i];statement
+22;statement;return result;statement
+0;1;5;
+1;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;13;
+7;8;6;
+8;10;11;
+9;10;
+10;7;
+11;12;7;
+12;7;
+13;14;
+14;15;21;
+15;16;18;
+16;18;
+17;
+18;20;14;20;14;
+19;
+20;14;14;
+21;

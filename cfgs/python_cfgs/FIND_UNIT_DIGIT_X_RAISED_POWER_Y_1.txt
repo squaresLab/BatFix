@@ -1,0 +1,10 @@
+1;statement;x = x % 10;statement
+2;statement;y != 0;conditional
+3;statement;y = y % 4 + 4;statement
+4;statement;return int(math.pow(x, y)) % 10;statement
+5;statement;return int(math.pow(x, y)) % 10;statement
+0;1;
+1;2;4;
+2;4;
+3;
+4;

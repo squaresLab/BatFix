@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;String res = "";14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;res = foo_1 + ((char) ('a' + foo_2));17;
+6;statement;i++;17;
+7;statement;int count = 0;18;
+8;statement;int i = 0;19;
+9;conditional;foo_1 < (foo_2 - foo_3);20;
+10;statement;res = foo_1 + ((char) ('a' + foo_2));22;
+11;statement;count++;23;
+12;conditional;foo_1 == foo_2;24;
+13;statement;count = 0;24;
+14;statement;i++;21;
+15;statement;return foo_1;26;
+16;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;7;
+4;6;
+5;4;
+6;8;
+7;9;
+8;10;15;
+9;11;
+10;12;
+11;13;14;
+12;14;
+13;9;
+14;16;
+15;

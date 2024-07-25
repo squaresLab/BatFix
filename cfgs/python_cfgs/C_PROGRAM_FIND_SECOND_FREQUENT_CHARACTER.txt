@@ -1,0 +1,24 @@
+1;statement;NO_OF_CHARS = 256;statement
+2;statement;count = [0] * NO_OF_CHARS;statement
+3;statement;range(len(str));conditional
+4;statement;count[ord(str[i])] += 1;statement
+5;statement;(first, second) = (0, 0);statement
+6;statement;range(NO_OF_CHARS);conditional
+7;statement;count[i] > count[first];conditional
+8;statement;second = first;statement
+9;statement;first = i;statement
+10;statement;count[i] > count[second] and count[i] != count[first];conditional
+11;statement;second = i;statement
+12;statement;return chr(second);statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;
+5;6;11;
+6;8;9;
+7;8;
+8;5;
+9;10;5;
+10;5;
+11;

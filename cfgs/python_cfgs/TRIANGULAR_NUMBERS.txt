@@ -1,0 +1,18 @@
+1;statement;num < 0;conditional
+2;statement;return False;statement
+3;statement;(sum, n) = (0, 1);statement
+4;statement;sum <= num;conditional
+5;statement;sum = sum + n;statement
+6;statement;sum == num;conditional
+7;statement;return True;statement
+8;statement;n += 1;statement
+9;statement;return False;statement
+0;1;2;
+1;
+2;3;
+3;5;8;
+4;5;
+5;6;7;
+6;
+7;3;
+8;

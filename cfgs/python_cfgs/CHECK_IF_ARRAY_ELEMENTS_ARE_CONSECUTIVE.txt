@@ -1,0 +1,24 @@
+1;statement;n < 1;conditional
+2;statement;return False;statement
+3;statement;Min = min(arr);statement
+4;statement;Max = max(arr);statement
+5;statement;Max - Min + 1 == n;conditional
+6;statement;visited = [False for i in range(n)];statement
+7;statement;range(n);conditional
+8;statement;visited[arr[i] - Min] != False;conditional
+9;statement;return False;statement
+10;statement;visited[arr[i] - Min] = True;statement
+11;statement;return True;statement
+12;statement;return False;statement
+0;1;4;
+1;
+2;3;
+3;4;
+4;5;11;
+5;6;
+6;7;10;
+7;8;9;
+8;
+9;6;
+10;
+11;

@@ -1,0 +1,56 @@
+1;statement;n == 1;conditional
+2;statement;return a[0];statement
+3;statement;max_neg = float('-inf');statement
+4;statement;min_pos = float('inf');statement
+5;statement;count_neg = 0;statement
+6;statement;count_zero = 0;statement
+7;statement;prod = 1;statement
+8;statement;range(0, n);conditional
+9;statement;a[i] == 0;conditional
+10;statement;count_zero = count_zero + 1;statement
+11;statement;a[i] < 0;conditional
+12;statement;count_neg = count_neg + 1;statement
+13;statement;max_neg = max(max_neg, a[i]);statement
+14;statement;a[i] > 0;conditional
+15;statement;a[i] > 0;conditional
+16;statement;min_pos = min(min_pos, a[i]);statement
+17;statement;min_pos = min(min_pos, a[i]);statement
+18;statement;prod = prod * a[i];statement
+19;statement;prod = prod * a[i];statement
+20;statement;prod = prod * a[i];statement
+21;statement;count_zero == n or (count_neg == 0 and count_zero > 0);conditional
+22;statement;return 0;statement
+23;statement;count_neg == 0;conditional
+24;statement;return min_pos;statement
+25;statement;count_neg & 1 == 0 and count_neg != 0;conditional
+26;statement;prod = int(prod / max_neg);statement
+27;statement;return prod;statement
+28;statement;return prod;statement
+0;1;6;
+1;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;
+7;8;20;
+8;9;10;
+9;7;
+10;12;14;
+11;12;
+12;14;
+13;
+14;16;19;16;19;
+15;
+16;19;19;
+17;
+18;
+19;7;7;7;
+20;21;22;
+21;
+22;23;24;
+23;
+24;25;27;
+25;27;
+26;
+27;

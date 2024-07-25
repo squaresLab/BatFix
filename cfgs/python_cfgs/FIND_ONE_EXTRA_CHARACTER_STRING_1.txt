@@ -1,0 +1,12 @@
+1;statement;res = 0;statement
+2;statement;range(0, len(strA));conditional
+3;statement;res = res ^ ord(strA[i]);statement
+4;statement;range(0, len(strB));conditional
+5;statement;res = res ^ ord(strB[i]);statement
+6;statement;return chr(res);statement
+0;1;
+1;2;3;
+2;1;
+3;4;5;
+4;3;
+5;

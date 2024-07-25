@@ -1,0 +1,18 @@
+1;statement;ans = 0;statement
+2;statement;maxele = max(arr);statement
+3;statement;range(2, maxele + 1);conditional
+4;statement;count = 0;statement
+5;statement;range(n);conditional
+6;statement;arr[j] % i == 0;conditional
+7;statement;count += 1;statement
+8;statement;ans = max(ans, count);statement
+9;statement;return ans;statement
+0;1;
+1;2;
+2;3;8;
+3;4;
+4;5;7;
+5;6;4;
+6;4;
+7;2;
+8;

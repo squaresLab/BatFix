@@ -1,0 +1,30 @@
+1;statement;arr.sort();statement
+2;statement;dep.sort();statement
+3;statement;plat_needed = 1;statement
+4;statement;result = 1;statement
+5;statement;i = 1;statement
+6;statement;j = 0;statement
+7;statement;i < n and j < n;conditional
+8;statement;arr[i] < dep[j];conditional
+9;statement;plat_needed += 1;statement
+10;statement;i += 1;statement
+11;statement;plat_needed > result;conditional
+12;statement;result = plat_needed;statement
+13;statement;plat_needed -= 1;statement
+14;statement;j += 1;statement
+15;statement;return result;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;14;
+7;10;13;
+8;9;
+9;10;
+10;11;6;
+11;6;
+12;13;
+13;6;
+14;

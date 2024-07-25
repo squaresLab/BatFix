@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;List<Integer> finalSequence = new ArrayList<Integer>();35;
+3;statement;fun_1(foo_1, foo_2);36;
+4;statement;int i = 0;37;
+5;conditional;foo_1 < (foo_2 / 2);38;
+6;statement;fun_1(foo_2[foo_3]);40;
+7;statement;fun_1(foo_2[(foo_3 - foo_4) - 1]);41;
+8;statement;++i;39;
+9;statement;int MaximumSum = 0;43;
+10;statement;int i = 0;44;
+11;conditional;foo_1 < (foo_2 - 1);45;
+12;statement;MaximumSum = foo_1 + fun_1(fun_2(foo_3) - fun_3(foo_5 + 1));47;
+13;statement;++i;46;
+14;statement;MaximumSum = foo_1 + fun_1(fun_2(foo_3 - 1) - fun_3(0));49;
+15;statement;return foo_1;50;
+16;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;9;
+5;7;
+6;8;
+7;5;
+8;10;
+9;11;
+10;12;14;
+11;13;
+12;11;
+13;15;
+14;16;
+15;

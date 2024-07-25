@@ -1,0 +1,8 @@
+1;statement;ans = 0;statement
+2;statement;range(1, N + 1);conditional
+3;statement;ans += i % K;statement
+4;statement;return ans;statement
+0;1;
+1;2;3;
+2;1;
+3;

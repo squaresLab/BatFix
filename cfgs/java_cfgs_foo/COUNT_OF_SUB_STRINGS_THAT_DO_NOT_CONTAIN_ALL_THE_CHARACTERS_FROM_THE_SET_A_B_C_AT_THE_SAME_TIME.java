@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int ans = (foo_1 * (foo_2 + 1)) / 2;14;
+3;statement;int a_index = 0;15;
+4;statement;int b_index = 0;16;
+5;statement;int c_index = 0;17;
+6;statement;int i = 0;18;
+7;conditional;foo_1 < foo_2;19;
+8;conditional;foo_1[foo_2] == 'a';21;
+9;statement;a_index = foo_1 + 1;22;
+10;statement;ans -= fun_1(foo_1, foo_2);23;
+11;conditional;foo_1[foo_2] == 'b';25;
+12;statement;b_index = foo_1 + 1;26;
+13;statement;ans -= fun_1(foo_1, foo_2);27;
+14;statement;c_index = foo_1 + 1;30;
+15;statement;ans -= fun_1(foo_1, foo_2);31;
+16;statement;i++;20;
+17;statement;return foo_1;34;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;8;17;
+7;9;11;
+8;10;
+9;16;
+10;12;14;
+11;13;
+12;16;
+13;15;
+14;16;
+15;7;
+16;18;
+17;

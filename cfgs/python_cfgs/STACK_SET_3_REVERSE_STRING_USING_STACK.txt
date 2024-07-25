@@ -1,0 +1,4 @@
+1;statement;string = string[::-1];statement
+2;statement;return string;statement
+0;1;
+1;

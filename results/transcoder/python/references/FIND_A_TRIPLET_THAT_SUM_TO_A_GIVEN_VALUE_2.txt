@@ -1,0 +1,4 @@
+Triplet is1, 21, 2
+Triplet is 1, 15, 8Triplet is20, -4, 4
+Triplet is 20, 72, -72Triplet is 1, 1, 1Triplet is18, 4, 8
+Triplet is 18, 60, -48#Results: 9, 10

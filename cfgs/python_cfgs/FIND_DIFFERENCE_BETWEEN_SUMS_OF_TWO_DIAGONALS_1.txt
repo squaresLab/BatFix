@@ -1,0 +1,12 @@
+1;statement;d1 = 0;statement
+2;statement;d2 = 0;statement
+3;statement;range(0, n);conditional
+4;statement;d1 = d1 + arr[i][i];statement
+5;statement;d2 = d2 + arr[i][n - i - 1];statement
+6;statement;return abs(d1 - d2);statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

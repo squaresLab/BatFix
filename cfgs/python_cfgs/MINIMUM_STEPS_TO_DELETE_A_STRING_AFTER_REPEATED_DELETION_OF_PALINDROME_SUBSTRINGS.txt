@@ -1,0 +1,40 @@
+1;statement;N = len(str);statement
+2;statement;dp = [[0 for x in range(N + 1)] for y in range(N + 1)];statement
+3;statement;range(1, N + 1);conditional
+4;statement;i = 0;statement
+5;statement;j = l - 1;statement
+6;statement;j < N;conditional
+7;statement;l == 1;conditional
+8;statement;dp[i][j] = 1;statement
+9;statement;dp[i][j] = 1 + dp[i + 1][j];statement
+10;statement;str[i] == str[i + 1];conditional
+11;statement;dp[i][j] = min(1 + dp[i + 2][j], dp[i][j]);statement
+12;statement;range(i + 2, j + 1);conditional
+13;statement;range(i + 2, j + 1);conditional
+14;statement;str[i] == str[K];conditional
+15;statement;str[i] == str[K];conditional
+16;statement;dp[i][j] = min(dp[i + 1][K - 1] + dp[K + 1][j], dp[i][j]);statement
+17;statement;dp[i][j] = min(dp[i + 1][K - 1] + dp[K + 1][j], dp[i][j]);statement
+18;statement;i += 1;statement
+19;statement;j += 1;statement
+20;statement;return dp[0][N - 1];statement
+0;1;
+1;2;
+2;4;19;
+3;4;
+4;5;
+5;6;2;
+6;7;9;
+7;18;
+8;9;
+9;10;12;
+10;12;
+11;
+12;14;18;14;18;
+13;
+14;16;12;16;12;
+15;
+16;12;12;
+17;18;
+18;5;
+19;

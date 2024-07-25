@@ -1,0 +1,24 @@
+1;statement;oneSeen = False;statement
+2;statement;i = 0;statement
+3;statement;n = len(s);statement
+4;statement;i < n;conditional
+5;statement;s[i] == c;conditional
+6;statement;oneSeen == True;conditional
+7;statement;return False;statement
+8;statement;i < n and s[i] == c;conditional
+9;statement;i = i + 1;statement
+10;statement;oneSeen = True;statement
+11;statement;i = i + 1;statement
+12;statement;return True;statement
+0;1;
+1;2;
+2;3;
+3;4;11;
+4;5;10;
+5;6;7;
+6;
+7;8;9;
+8;7;
+9;3;
+10;3;
+11;

@@ -1,0 +1,16 @@
+1;statement;y == 0;conditional
+2;statement;return 1;statement
+3;statement;temp = f_gold(x, int(y / 2));statement
+4;statement;y % 2 == 0;conditional
+5;statement;return temp * temp;statement
+6;statement;y > 0;conditional
+7;statement;return x * temp * temp;statement
+8;statement;return temp * temp / x;statement
+0;1;3;
+1;
+2;3;
+3;4;5;
+4;
+5;6;7;
+6;
+7;

@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;String reverseAlphabet = "zyxwvutsrqponmlkjihgfedcba";9;
+3;statement;int l = fun_1();10;
+4;statement;String answer = "";11;
+5;statement;int i = 0;12;
+6;conditional;foo_1 < foo_2;13;
+7;statement;answer = foo_1 + fun_1(foo_3);15;
+8;statement;i++;14;
+9;statement;int i = foo_1;16;
+10;conditional;foo_1 < foo_2;17;
+11;statement;answer = foo_1 + fun_1(fun_2(foo_4) - 'a');19;
+12;statement;i++;18;
+13;statement;return foo_1;20;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;9;
+6;8;
+7;6;
+8;10;
+9;11;13;
+10;12;
+11;10;
+12;14;
+13;

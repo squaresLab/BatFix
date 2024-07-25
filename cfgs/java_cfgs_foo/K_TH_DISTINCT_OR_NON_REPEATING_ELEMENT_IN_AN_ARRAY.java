@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int dist_count = 0;14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;int j;18;
+6;statement;j = 0;19;
+7;conditional;foo_1 < foo_2;20;
+8;conditional;(foo_1 != foo_2) && (foo_3[foo_4] == foo_5[foo_6]);21;
+9;statement;break;21;
+10;statement;j++;21;
+11;conditional;foo_1 == foo_2;22;
+12;statement;dist_count++;22;
+13;conditional;foo_1 == foo_2;23;
+14;statement;return foo_1[foo_2];23;
+15;exit;;;
+16;statement;i++;17;
+17;statement;return -1;25;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;17;
+4;6;
+5;7;
+6;8;11;
+7;9;10;
+8;11;
+9;7;
+10;12;13;
+11;13;
+12;14;16;
+13;15;
+14;
+15;4;
+16;15;

@@ -1,0 +1,34 @@
+1;statement;i = len(str) - 1;statement
+2;statement;start = end = i + 1;statement
+3;statement;result = '';statement
+4;statement;i >= 0;conditional
+5;statement;str[i] == ' ';conditional
+6;statement;start = i + 1;statement
+7;statement;start != end;conditional
+8;statement;result += str[start];statement
+9;statement;start += 1;statement
+10;statement;result += ' ';statement
+11;statement;end = i;statement
+12;statement;i -= 1;statement
+13;statement;start = 0;statement
+14;statement;start != end;conditional
+15;statement;result += str[start];statement
+16;statement;start += 1;statement
+17;statement;return result;statement
+0;1;
+1;2;
+2;3;
+3;4;12;
+4;5;11;
+5;6;
+6;8;10;
+7;8;
+8;6;
+9;10;
+10;11;
+11;3;
+12;13;
+13;15;16;
+14;15;
+15;13;
+16;

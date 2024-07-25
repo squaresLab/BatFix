@@ -1,0 +1,22 @@
+1;statement;aCount = 0;statement
+2;statement;bCount = 0;statement
+3;statement;cCount = 0;statement
+4;statement;range(len(s));conditional
+5;statement;s[i] == 'a';conditional
+6;statement;aCount = 1 + 2 * aCount;statement
+7;statement;s[i] == 'b';conditional
+8;statement;bCount = aCount + 2 * bCount;statement
+9;statement;s[i] == 'c';conditional
+10;statement;cCount = bCount + 2 * cCount;statement
+11;statement;return cCount;statement
+0;1;
+1;2;
+2;3;
+3;4;10;
+4;5;6;
+5;3;
+6;7;8;
+7;3;
+8;9;3;
+9;3;
+10;

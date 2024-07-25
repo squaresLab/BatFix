@@ -1,0 +1,20 @@
+1;statement;arr.sort();statement
+2;statement;i = 0;statement
+3;statement;j = n - 1;statement
+4;statement;i < j;conditional
+5;statement;print(arr[j], end=' ');statement
+6;statement;j -= 1;statement
+7;statement;print(arr[i], end=' ');statement
+8;statement;i += 1;statement
+9;statement;n % 2 != 0;statement
+10;statement;print(arr[i]);statement
+0;1;
+1;2;
+2;3;
+3;7;8;
+4;5;
+5;6;
+6;7;
+7;3;
+8;9;
+9;

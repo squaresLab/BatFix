@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;HashMap<Integer, Integer> hash = new HashMap<>();14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;conditional;fun_1(foo_2[foo_3]);18;
+6;statement;fun_1(foo_2[foo_3], 1 + fun_2(foo_5[foo_6]));19;
+7;statement;fun_1(foo_2[foo_3], 1);20;
+8;conditional;fun_1(foo_2[foo_3]);21;
+9;statement;fun_1(foo_2[foo_3], 1 + fun_2(foo_5[foo_6]));22;
+10;statement;fun_1(foo_2[foo_3], 1);24;
+11;statement;i++;17;
+12;statement;int sum = 0;26;
+13;statement;Map.Entry entry;27;
+14;conditional;fun_1();27;
+15;conditional;fun_1(fun_3().fun_2()) == 1;28;
+16;statement;sum += fun_1(fun_3().fun_2());29;
+17;statement;return foo_1;31;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;12;
+4;6;7;
+5;8;
+6;8;
+7;9;10;
+8;11;
+9;11;
+10;4;
+11;13;
+12;14;
+13;15;17;
+14;16;14;
+15;14;
+16;18;
+17;

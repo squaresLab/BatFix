@@ -1,0 +1,10 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'NUMBER_TRIANGLES_N_MOVES_1.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: double ans = 2 * (pow(3, n)) - 1;
+Line: 11
+n = 78
+
+Statement: return ans;
+Line: 12
+n = 78
+ans = 3.2846406536521314E37

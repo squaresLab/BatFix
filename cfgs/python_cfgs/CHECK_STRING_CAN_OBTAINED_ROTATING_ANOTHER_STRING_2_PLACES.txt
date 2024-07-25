@@ -1,0 +1,16 @@
+1;statement;len(str1) != len(str2);conditional
+2;statement;return False;statement
+3;statement;clock_rot = '';statement
+4;statement;anticlock_rot = '';statement
+5;statement;l = len(str2);statement
+6;statement;anticlock_rot = anticlock_rot + str2[l - 2:] + str2[0:l - 2];statement
+7;statement;clock_rot = clock_rot + str2[2:] + str2[0:2];statement
+8;statement;return str1 == clock_rot or str1 == anticlock_rot;statement
+0;1;7;
+1;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;
+7;

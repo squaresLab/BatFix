@@ -1,0 +1,32 @@
+1;statement;arr_size < 3;conditional
+2;statement;print(' Invalid Input ');statement
+3;statement;return;statement
+4;statement;first = arr[0];statement
+5;statement;range(1, arr_size);conditional
+6;statement;arr[i] > first;conditional
+7;statement;first = arr[i];statement
+8;statement;second = -sys.maxsize;statement
+9;statement;range(0, arr_size);conditional
+10;statement;arr[i] > second and arr[i] < first;conditional
+11;statement;second = arr[i];statement
+12;statement;third = -sys.maxsize;statement
+13;statement;range(0, arr_size);conditional
+14;statement;arr[i] > third and arr[i] < second;conditional
+15;statement;third = arr[i];statement
+16;statement;print('The Third Largest', 'element is', third);statement
+0;2;3;
+1;2;
+2;
+3;4;
+4;5;7;
+5;6;4;
+6;4;
+7;8;
+8;9;11;
+9;10;8;
+10;8;
+11;12;
+12;13;15;
+13;14;12;
+14;12;
+15;

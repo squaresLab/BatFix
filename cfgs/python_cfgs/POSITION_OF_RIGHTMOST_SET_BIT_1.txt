@@ -1,0 +1,12 @@
+1;statement;position = 1;statement
+2;statement;m = 1;statement
+3;statement;not n & m;conditional
+4;statement;m = m << 1;statement
+5;statement;position += 1;statement
+6;statement;return position;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

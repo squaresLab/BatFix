@@ -1,0 +1,8 @@
+1;statement;sum = a * a + b * b + c * c;statement
+2;statement;d * d == sum;conditional
+3;statement;return True;statement
+4;statement;return False;statement
+0;1;
+1;2;3;
+2;
+3;

@@ -1,0 +1,20 @@
+1;statement;s = set();statement
+2;statement;range(n);conditional
+3;statement;s.add(mat[r][j]);statement
+4;statement;range(m);statement
+5;statement;i == r;conditional
+6;statement;range(n);conditional
+7;statement;mat[i][j] not in s;conditional
+8;statement;j = j - 2;statement
+9;statement;j + 1 != n;conditional
+10;statement;print(i);statement
+0;1;
+1;2;3;
+2;1;
+3;4;
+4;5;3;
+5;6;8;
+6;7;5;
+7;8;
+8;9;3;
+9;3;

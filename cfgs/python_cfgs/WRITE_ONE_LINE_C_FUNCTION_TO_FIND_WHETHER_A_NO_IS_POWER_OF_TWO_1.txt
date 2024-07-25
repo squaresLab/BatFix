@@ -1,0 +1,2 @@
+1;statement;return x and (not x & x - 1);statement
+0;

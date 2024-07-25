@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;HashMap<Integer, Integer> hash = new HashMap<Integer, Integer>();33;
+3;statement;int i = 0;34;
+4;conditional;foo_1 < foo_2;35;
+5;conditional;fun_1(foo_2[foo_3]);37;
+6;statement;fun_1(foo_2[foo_3], fun_2(foo_5[foo_6]) + 1);38;
+7;statement;fun_1(foo_2[foo_3], 1);40;
+8;statement;i++;36;
+9;statement;int max_count = 0;41;
+10;statement;Set<Integer> s = fun_1();42;
+11;statement;int i;43;
+12;conditional;foo_1;43;
+13;conditional;foo_1 < fun_1(foo_3);44;
+14;statement;max_count = fun_1(foo_2);45;
+15;statement;return foo_1 - foo_2;46;
+16;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;9;
+4;6;7;
+5;8;
+6;8;
+7;4;
+8;10;
+9;11;
+10;12;
+11;13;15;
+12;14;12;
+13;12;
+14;16;
+15;

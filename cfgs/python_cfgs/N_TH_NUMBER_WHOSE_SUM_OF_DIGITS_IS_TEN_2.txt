@@ -1,0 +1,8 @@
+1;statement;nthElement = 19 + (n - 1) * 9;statement
+2;statement;outliersCount = int(math.log10(nthElement)) - 1;statement
+3;statement;nthElement += 9 * outliersCount;statement
+4;statement;return nthElement;statement
+0;1;
+1;2;
+2;3;
+3;

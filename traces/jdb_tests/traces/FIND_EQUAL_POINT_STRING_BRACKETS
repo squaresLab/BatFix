@@ -1,0 +1,652 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'FIND_EQUAL_POINT_STRING_BRACKETS.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int len = str . length ( ) ;
+Line: 14
+str = "(())))("
+
+Statement: int open [ ] = new int [ len + 1 ] ;
+Line: 15
+str = "(())))("
+len = 7
+
+Statement: int close [ ] = new int [ len + 1 ] ;
+Line: 16
+str = "(())))("
+len = 7
+open = { 0, 0, 0, 0, 0, 0, 0, 0 }
+
+Statement: int index = - 1 ;
+Line: 17
+str = "(())))("
+len = 7
+open = { 0, 0, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+
+Statement: open [ 0 ] = 0 ;
+Line: 18
+str = "(())))("
+len = 7
+open = { 0, 0, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+
+Statement: close [ len ] = 0 ;
+Line: 19
+str = "(())))("
+len = 7
+open = { 0, 0, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+
+Statement: if ( str . charAt ( 0 ) == '(' ) open [ 1 ] = 1 ;
+Line: 20
+str = "(())))("
+len = 7
+open = { 0, 0, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+
+Statement: if ( str . charAt ( len - 1 ) == ')' ) close [ len - 1 ] = 1 ;
+Line: 21
+str = "(())))("
+len = 7
+open = { 0, 1, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+
+Statement: for ( int i = 1 ;
+Line: 22
+str = "(())))("
+len = 7
+open = { 0, 1, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+
+Statement: i < len ;
+Line: 23
+str = "(())))("
+len = 7
+open = { 0, 1, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 1
+
+Statement: if ( str . charAt ( i ) == '(' ) open [ i + 1 ] = open [ i ] + 1 ;
+Line: 25
+str = "(())))("
+len = 7
+open = { 0, 1, 0, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 1
+
+Statement: i ++ ) {
+Line: 24
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 1
+
+Statement: i < len ;
+Line: 23
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 2
+
+Statement: if ( str . charAt ( i ) == '(' ) open [ i + 1 ] = open [ i ] + 1 ;
+Line: 25
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 2
+
+Statement: else open [ i + 1 ] = open [ i ] ;
+Line: 26
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 0, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 2
+
+Statement: i ++ ) {
+Line: 24
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 2
+
+Statement: i < len ;
+Line: 23
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 3
+
+Statement: if ( str . charAt ( i ) == '(' ) open [ i + 1 ] = open [ i ] + 1 ;
+Line: 25
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 3
+
+Statement: else open [ i + 1 ] = open [ i ] ;
+Line: 26
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 0, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 3
+
+Statement: i ++ ) {
+Line: 24
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 3
+
+Statement: i < len ;
+Line: 23
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 4
+
+Statement: if ( str . charAt ( i ) == '(' ) open [ i + 1 ] = open [ i ] + 1 ;
+Line: 25
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 4
+
+Statement: else open [ i + 1 ] = open [ i ] ;
+Line: 26
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 0, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 4
+
+Statement: i ++ ) {
+Line: 24
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 4
+
+Statement: i < len ;
+Line: 23
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 5
+
+Statement: if ( str . charAt ( i ) == '(' ) open [ i + 1 ] = open [ i ] + 1 ;
+Line: 25
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 5
+
+Statement: else open [ i + 1 ] = open [ i ] ;
+Line: 26
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 0, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 5
+
+Statement: i ++ ) {
+Line: 24
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 5
+
+Statement: i < len ;
+Line: 23
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 6
+
+Statement: if ( str . charAt ( i ) == '(' ) open [ i + 1 ] = open [ i ] + 1 ;
+Line: 25
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 0 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 6
+
+Statement: i ++ ) {
+Line: 24
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 6
+
+Statement: i < len ;
+Line: 23
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 7
+
+Statement: for ( int i = len - 2 ;
+Line: 28
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+
+Statement: i >= 0 ;
+Line: 29
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 5
+
+Statement: if ( str . charAt ( i ) == ')' ) close [ i ] = close [ i + 1 ] + 1 ;
+Line: 31
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 0, 0, 0 }
+index = -1
+i = 5
+
+Statement: i -- ) {
+Line: 30
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 1, 0, 0 }
+index = -1
+i = 5
+
+Statement: i >= 0 ;
+Line: 29
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 1, 0, 0 }
+index = -1
+i = 4
+
+Statement: if ( str . charAt ( i ) == ')' ) close [ i ] = close [ i + 1 ] + 1 ;
+Line: 31
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 0, 1, 0, 0 }
+index = -1
+i = 4
+
+Statement: i -- ) {
+Line: 30
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 2, 1, 0, 0 }
+index = -1
+i = 4
+
+Statement: i >= 0 ;
+Line: 29
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 2, 1, 0, 0 }
+index = -1
+i = 3
+
+Statement: if ( str . charAt ( i ) == ')' ) close [ i ] = close [ i + 1 ] + 1 ;
+Line: 31
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 0, 2, 1, 0, 0 }
+index = -1
+i = 3
+
+Statement: i -- ) {
+Line: 30
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 3, 2, 1, 0, 0 }
+index = -1
+i = 3
+
+Statement: i >= 0 ;
+Line: 29
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 3, 2, 1, 0, 0 }
+index = -1
+i = 2
+
+Statement: if ( str . charAt ( i ) == ')' ) close [ i ] = close [ i + 1 ] + 1 ;
+Line: 31
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 0, 3, 2, 1, 0, 0 }
+index = -1
+i = 2
+
+Statement: i -- ) {
+Line: 30
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 2
+
+Statement: i >= 0 ;
+Line: 29
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 1
+
+Statement: if ( str . charAt ( i ) == ')' ) close [ i ] = close [ i + 1 ] + 1 ;
+Line: 31
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 1
+
+Statement: else close [ i ] = close [ i + 1 ] ;
+Line: 32
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 0, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 1
+
+Statement: i -- ) {
+Line: 30
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 1
+
+Statement: i >= 0 ;
+Line: 29
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 0
+
+Statement: if ( str . charAt ( i ) == ')' ) close [ i ] = close [ i + 1 ] + 1 ;
+Line: 31
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 0
+
+Statement: else close [ i ] = close [ i + 1 ] ;
+Line: 32
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 0, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 0
+
+Statement: i -- ) {
+Line: 30
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 0
+
+Statement: i >= 0 ;
+Line: 29
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = -1
+
+Statement: if ( open [ len ] == 0 ) return len ;
+Line: 34
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+
+Statement: if ( close [ 0 ] == 0 ) return 0 ;
+Line: 35
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+
+Statement: for ( int i = 0 ;
+Line: 36
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 0
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 0
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 1
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 1
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 2
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 2
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 3
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 3
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 4
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = -1
+i = 4
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4
+i = 5
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4
+i = 5
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4
+i = 6
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4
+i = 6
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4
+i = 7
+
+Statement: i ++ ) if ( open [ i ] == close [ i ] ) index = i ;
+Line: 38
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4
+i = 7
+
+Statement: i <= len ;
+Line: 37
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4
+i = 8
+
+Statement: return index ;
+Line: 39
+str = "(())))("
+len = 7
+open = { 0, 1, 2, 2, 2, 2, 2, 3 }
+close = { 4, 4, 4, 3, 2, 1, 0, 0 }
+index = 4

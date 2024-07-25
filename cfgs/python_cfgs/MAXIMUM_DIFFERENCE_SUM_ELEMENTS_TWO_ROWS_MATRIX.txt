@@ -1,0 +1,32 @@
+1;statement;rowSum = [0] * m;statement
+2;statement;range(0, m);conditional
+3;statement;sum = 0;statement
+4;statement;range(0, n);conditional
+5;statement;sum += mat[i][j];statement
+6;statement;rowSum[i] = sum;statement
+7;statement;max_diff = rowSum[1] - rowSum[0];statement
+8;statement;min_element = rowSum[0];statement
+9;statement;range(1, m);conditional
+10;statement;rowSum[i] - min_element > max_diff;conditional
+11;statement;max_diff = rowSum[i] - min_element;statement
+12;statement;rowSum[i] < min_element;conditional
+13;statement;rowSum[i] < min_element;conditional
+14;statement;min_element = rowSum[i];statement
+15;statement;min_element = rowSum[i];statement
+16;statement;return max_diff;statement
+0;1;
+1;2;7;
+2;3;
+3;4;5;
+4;3;
+5;1;
+6;7;
+7;8;
+8;9;15;
+9;10;12;
+10;12;
+11;
+12;14;8;14;8;
+13;
+14;8;8;
+15;

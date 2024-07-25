@@ -1,0 +1,16 @@
+1;statement;n < 0;conditional
+2;statement;return 0;statement
+3;statement;n <= 1;conditional
+4;statement;return 1;statement
+5;statement;digits = 0;statement
+6;statement;range(2, n + 1);conditional
+7;statement;digits += math.log10(i);statement
+8;statement;return math.floor(digits) + 1;statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;
+5;6;7;
+6;5;
+7;

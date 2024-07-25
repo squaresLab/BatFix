@@ -1,0 +1,10 @@
+1;statement;n == 0;conditional
+2;statement;return a;statement
+3;statement;n == 1;conditional
+4;statement;return b;statement
+5;statement;return f_gold(n - 1, b, a + b);statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;

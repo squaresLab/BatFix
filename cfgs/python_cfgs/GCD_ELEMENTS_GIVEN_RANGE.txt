@@ -1,0 +1,2 @@
+1;statement;return n if n == m else 1;statement
+0;

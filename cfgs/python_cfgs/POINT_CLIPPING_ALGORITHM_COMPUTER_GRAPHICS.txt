@@ -1,0 +1,26 @@
+1;statement;print('Point inside the viewing pane:');statement
+2;statement;range(n);conditional
+3;statement;XY[i][0] >= Xmin and XY[i][0] <= Xmax;conditional
+4;statement;XY[i][1] >= Ymin and XY[i][1] <= Ymax;conditional
+5;statement;print('[', XY[i][0], ', ', XY[i][1], ']', sep='', end='');statement
+6;statement;print('\n\nPoint outside the viewing pane:');statement
+7;statement;range(n);statement
+8;statement;XY[i][0] < Xmin or XY[i][0] > Xmax;conditional
+9;statement;print('[', XY[i][0], ', ', XY[i][1], ']', sep='', end='');statement
+10;statement;XY[i][1] < Ymin or XY[i][1] > Ymax;conditional
+11;statement;XY[i][1] < Ymin or XY[i][1] > Ymax;conditional
+12;statement;print('[', XY[i][0], ', ', XY[i][1], ']', sep='', end='');statement
+13;statement;print('[', XY[i][0], ', ', XY[i][1], ']', sep='', end='');statement
+0;1;
+1;2;5;
+2;3;1;
+3;4;1;
+4;1;
+5;6;
+6;7;
+7;8;10;
+8;10;
+9;
+10;12;6;12;6;
+11;
+12;6;6;

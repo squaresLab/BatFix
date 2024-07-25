@@ -1,0 +1,18 @@
+1;statement;result = '';statement
+2;statement;v = True;statement
+3;statement;range(len(str));conditional
+4;statement;str[i] == ' ';conditional
+5;statement;v = True;statement
+6;statement;str[i] != ' ' and v == True;conditional
+7;statement;result += str[i];statement
+8;statement;v = False;statement
+9;statement;return result;statement
+0;1;
+1;2;
+2;3;8;
+3;4;5;
+4;2;
+5;7;2;
+6;7;
+7;2;
+8;

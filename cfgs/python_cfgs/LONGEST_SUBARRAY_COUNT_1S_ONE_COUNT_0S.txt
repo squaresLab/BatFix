@@ -1,0 +1,56 @@
+1;statement;um = {i: 0 for i in range(10)};statement
+2;statement;sum = 0;statement
+3;statement;maxLen = 0;statement
+4;statement;range(n);conditional
+5;statement;arr[i] == 0;conditional
+6;statement;sum += -1;statement
+7;statement;sum += 1;statement
+8;statement;sum == 1;conditional
+9;statement;sum == 1;conditional
+10;statement;maxLen = i + 1;statement
+11;statement;maxLen = i + 1;statement
+12;statement;sum not in um;conditional
+13;statement;sum not in um;conditional
+14;statement;um[sum] = i;statement
+15;statement;um[sum] = i;statement
+16;statement;sum - 1 in um;conditional
+17;statement;sum - 1 in um;conditional
+18;statement;sum - 1 in um;conditional
+19;statement;sum - 1 in um;conditional
+20;statement;maxLen < i - um[sum - 1];conditional
+21;statement;maxLen < i - um[sum - 1];conditional
+22;statement;maxLen < i - um[sum - 1];conditional
+23;statement;maxLen < i - um[sum - 1];conditional
+24;statement;maxLen = i - um[sum - 1];statement
+25;statement;maxLen = i - um[sum - 1];statement
+26;statement;maxLen = i - um[sum - 1];statement
+27;statement;maxLen = i - um[sum - 1];statement
+28;statement;return maxLen;statement
+0;1;
+1;2;
+2;3;
+3;4;27;
+4;5;6;
+5;8;
+6;8;
+7;
+8;10;12;10;12;
+9;
+10;18;18;
+11;
+12;14;18;14;18;
+13;
+14;18;18;
+15;
+16;
+17;
+18;22;3;22;3;22;3;22;3;
+19;
+20;
+21;
+22;26;3;26;3;26;3;26;3;
+23;
+24;
+25;
+26;3;3;3;3;
+27;

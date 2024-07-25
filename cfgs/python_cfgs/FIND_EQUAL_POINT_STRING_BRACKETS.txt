@@ -1,0 +1,120 @@
+1;statement;l = len(str);statement
+2;statement;open = [None] * (l + 1);statement
+3;statement;close = [None] * (l + 1);statement
+4;statement;index = -1;statement
+5;statement;open[0] = 0;statement
+6;statement;close[l] = 0;statement
+7;statement;str[0] == '(';conditional
+8;statement;open[1] = 1;statement
+9;statement;str[l - 1] == ')';conditional
+10;statement;str[l - 1] == ')';conditional
+11;statement;close[l - 1] = 1;statement
+12;statement;close[l - 1] = 1;statement
+13;statement;range(1, l);conditional
+14;statement;range(1, l);conditional
+15;statement;range(1, l);conditional
+16;statement;str[i] == '(';conditional
+17;statement;str[i] == '(';conditional
+18;statement;str[i] == '(';conditional
+19;statement;open[i + 1] = open[i] + 1;statement
+20;statement;open[i + 1] = open[i] + 1;statement
+21;statement;open[i + 1] = open[i] + 1;statement
+22;statement;open[i + 1] = open[i];statement
+23;statement;open[i + 1] = open[i];statement
+24;statement;open[i + 1] = open[i];statement
+25;statement;range(l - 2, -1, -1);conditional
+26;statement;range(l - 2, -1, -1);conditional
+27;statement;range(l - 2, -1, -1);conditional
+28;statement;str[i] == ')';conditional
+29;statement;str[i] == ')';conditional
+30;statement;str[i] == ')';conditional
+31;statement;close[i] = close[i + 1] + 1;statement
+32;statement;close[i] = close[i + 1] + 1;statement
+33;statement;close[i] = close[i + 1] + 1;statement
+34;statement;close[i] = close[i + 1];statement
+35;statement;close[i] = close[i + 1];statement
+36;statement;close[i] = close[i + 1];statement
+37;statement;open[l] == 0;conditional
+38;statement;open[l] == 0;conditional
+39;statement;open[l] == 0;conditional
+40;statement;return len;statement
+41;statement;return len;statement
+42;statement;return len;statement
+43;statement;close[0] == 0;conditional
+44;statement;close[0] == 0;conditional
+45;statement;close[0] == 0;conditional
+46;statement;return 0;statement
+47;statement;return 0;statement
+48;statement;return 0;statement
+49;statement;range(l + 1);conditional
+50;statement;range(l + 1);conditional
+51;statement;range(l + 1);conditional
+52;statement;open[i] == close[i];conditional
+53;statement;open[i] == close[i];conditional
+54;statement;open[i] == close[i];conditional
+55;statement;index = i;statement
+56;statement;index = i;statement
+57;statement;index = i;statement
+58;statement;return index;statement
+59;statement;return index;statement
+60;statement;return index;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;9;
+7;9;
+8;
+9;11;14;11;14;
+10;
+11;14;14;
+12;
+13;
+14;17;26;17;26;17;26;
+15;
+16;
+17;20;23;20;23;20;23;
+18;
+19;
+20;14;14;14;
+21;
+22;
+23;14;14;14;
+24;
+25;
+26;29;38;29;38;29;38;
+27;
+28;
+29;32;35;32;35;32;35;
+30;
+31;
+32;26;26;26;
+33;
+34;
+35;26;26;26;
+36;
+37;
+38;41;44;41;44;41;44;
+39;
+40;
+41;
+42;
+43;
+44;47;50;47;50;47;50;
+45;
+46;
+47;
+48;
+49;
+50;53;59;53;59;53;59;
+51;
+52;
+53;56;50;56;50;56;50;
+54;
+55;
+56;50;50;50;
+57;
+58;
+59;

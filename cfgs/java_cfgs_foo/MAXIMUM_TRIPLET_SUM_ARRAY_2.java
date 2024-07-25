@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int maxA = -100000000;14;
+3;statement;int maxB = -100000000;14;
+4;statement;int maxC = -100000000;15;
+5;statement;int i = 0;16;
+6;conditional;foo_1 < foo_2;17;
+7;conditional;foo_1[foo_2] > foo_3;19;
+8;statement;maxC = foo_1;20;
+9;statement;maxB = foo_1;21;
+10;statement;maxA = foo_1[foo_2];22;
+11;conditional;foo_1[foo_2] > foo_3;24;
+12;statement;maxC = foo_1;25;
+13;statement;maxB = foo_1[foo_2];26;
+14;conditional;foo_1[foo_2] > foo_3;28;
+15;statement;maxC = foo_1[foo_2];28;
+16;statement;i++;18;
+17;statement;return (foo_1 + foo_2) + foo_3;30;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;17;
+6;8;11;
+7;9;
+8;10;
+9;16;
+10;12;14;
+11;13;
+12;16;
+13;15;16;
+14;16;
+15;6;
+16;18;
+17;

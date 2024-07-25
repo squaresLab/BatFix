@@ -1,0 +1,8 @@
+1;statement;deg_sum = sum(degree);statement
+2;statement;2 * (n - 1) == deg_sum;conditional
+3;statement;return True;statement
+4;statement;return False;statement
+0;1;
+1;2;3;
+2;
+3;

@@ -1,0 +1,22 @@
+1;statement;positive = 0;statement
+2;statement;negative = 1;statement
+3;statement;True;statement
+4;statement;positive < size and a[positive] >= 0;conditional
+5;statement;positive = positive + 2;statement
+6;statement;negative < size and a[negative] <= 0;conditional
+7;statement;negative = negative + 2;statement
+8;statement;positive < size and negative < size;statement
+9;statement;temp = a[positive];statement
+10;statement;a[positive] = a[negative];statement
+11;statement;a[negative] = temp;statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;6;7;
+6;5;
+7;10;
+8;9;
+9;10;
+10;2;

@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;int[] leftMax = new int[foo_1];14;
+3;statement;foo_1[0] = Integer.MIN_VALUE;15;
+4;statement;int i = 1;16;
+5;conditional;foo_1 < foo_2;17;
+6;statement;foo_1[foo_2] = fun_1(foo_3[foo_4 - 1], foo_5[foo_6 - 1]);19;
+7;statement;i++;18;
+8;statement;int rightMin = Integer.MAX_VALUE;20;
+9;statement;int i = foo_1 - 1;21;
+10;conditional;foo_1 >= 0;22;
+11;conditional;(foo_1[foo_2] < foo_3[foo_4]) && (foo_5 > foo_6[foo_7]);24;
+12;statement;return foo_1;25;
+13;exit;;;
+14;statement;rightMin = fun_1(foo_1, foo_2[foo_3]);26;
+15;statement;i--;23;
+16;statement;return -1;28;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;8;
+5;7;
+6;5;
+7;9;
+8;10;
+9;11;16;
+10;12;14;
+11;13;
+12;
+13;15;
+14;10;
+15;13;

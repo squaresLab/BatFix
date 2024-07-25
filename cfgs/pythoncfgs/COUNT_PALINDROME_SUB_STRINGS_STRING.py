@@ -1,0 +1,38 @@
+Nodes
+1;statement;foo_1 = [[0 for foo_2 in fun_1(foo_3)] for foo_4 in fun_2(foo_5)];8;
+2;statement;foo_1 = [[false for foo_2 in fun_1(foo_3)] for foo_4 in fun_2(foo_5)];9;
+3;conditional;fun_1(foo_1);10;
+4;conditional;fun_1(foo_1 - 1);12;
+5;conditional;foo < foo;16;
+6;statement;return foo_1[0][foo_2 - 1];25;
+7;conditional;fun_1(foo_1 - foo_2);17;
+8;statement;foo_1 = foo_2 + foo_3;18;
+9;conditional;foo_1[foo_2] == foo_3[foo_4] and foo_5[foo_6 + 1][foo_7 - 1];19;
+10;conditional;foo_1[foo_2][foo_3] == true;21;
+11;statement;foo_1[foo_2][foo_3] = foo_4[foo_5][foo_6 - 1] + foo_7[foo_8 + 1][foo_9] - foo_10[foo_11 + 1][foo_12 - 1];24;
+12;statement;foo_1[foo_2][foo_3] = foo_4[foo_5][foo_6 - 1] + foo_7[foo_8 + 1][foo_9] + 1 - foo_10[foo_11 + 1][foo_12 - 1];22;
+13;statement;foo_1[foo_2][foo_3] = true;20;
+14;conditional;foo_1[foo_2] == foo_3[foo_4 + 1];13;
+15;statement;foo_1[foo_2][foo_3 + 1] = true;14;
+16;statement;foo_1[foo_2][foo_3 + 1] = 1;15;
+17;statement;foo_1[foo_2][foo_3] = true;11;
+18;exit;;
+Edges
+0;2;
+1;3;
+2;4;17;
+3;5;14;
+4;6;7;
+5;18;
+6;5;8;
+7;9;
+8;10;13;
+9;11;12;
+10;7;
+11;7;
+12;10;
+13;4;15;
+14;16;
+15;4;
+16;3;
+17;

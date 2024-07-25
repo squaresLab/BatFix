@@ -1,0 +1,18 @@
+1;statement;count = 0;statement
+2;statement;i = 0;statement
+3;statement;j = m - 1;statement
+4;statement;j >= 0 and i < n;conditional
+5;statement;M[i][j] < 0;conditional
+6;statement;count += j + 1;statement
+7;statement;i += 1;statement
+8;statement;j -= 1;statement
+9;statement;return count;statement
+0;1;
+1;2;
+2;3;
+3;4;8;
+4;6;7;
+5;6;
+6;3;
+7;3;
+8;

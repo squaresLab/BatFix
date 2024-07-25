@@ -1,0 +1,76 @@
+1;statement;arr = [False for i in range(n + 2)];statement
+2;statement;x <= n;conditional
+3;statement;arr[x] = True;statement
+4;statement;y <= n;conditional
+5;statement;y <= n;conditional
+6;statement;arr[y] = True;statement
+7;statement;arr[y] = True;statement
+8;statement;result = 0;statement
+9;statement;result = 0;statement
+10;statement;result = 0;statement
+11;statement;range(min(x, y), n + 1);conditional
+12;statement;range(min(x, y), n + 1);conditional
+13;statement;range(min(x, y), n + 1);conditional
+14;statement;arr[i];conditional
+15;statement;arr[i];conditional
+16;statement;arr[i];conditional
+17;statement;i + x <= n;conditional
+18;statement;i + x <= n;conditional
+19;statement;i + x <= n;conditional
+20;statement;arr[i + x] = True;statement
+21;statement;arr[i + x] = True;statement
+22;statement;arr[i + x] = True;statement
+23;statement;i + y <= n;conditional
+24;statement;i + y <= n;conditional
+25;statement;i + y <= n;conditional
+26;statement;i + y <= n;conditional
+27;statement;arr[i + y] = True;statement
+28;statement;arr[i + y] = True;statement
+29;statement;arr[i + y] = True;statement
+30;statement;arr[i + y] = True;statement
+31;statement;result = result + 1;statement
+32;statement;result = result + 1;statement
+33;statement;result = result + 1;statement
+34;statement;result = result + 1;statement
+35;statement;result = result + 1;statement
+36;statement;return result;statement
+37;statement;return result;statement
+38;statement;return result;statement
+0;1;
+1;2;4;
+2;4;
+3;
+4;6;9;6;9;
+5;
+6;9;9;
+7;
+8;
+9;12;12;12;
+10;
+11;
+12;15;37;15;37;15;37;
+13;
+14;
+15;18;12;18;12;18;12;
+16;
+17;
+18;21;25;21;25;21;25;
+19;
+20;
+21;25;25;25;
+22;
+23;
+24;
+25;29;34;29;34;29;34;29;34;
+26;
+27;
+28;
+29;34;34;34;34;
+30;
+31;
+32;
+33;
+34;12;12;12;12;12;
+35;
+36;
+37;

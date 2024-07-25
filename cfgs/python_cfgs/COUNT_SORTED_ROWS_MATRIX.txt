@@ -1,0 +1,36 @@
+1;statement;result = 0;statement
+2;statement;range(r);conditional
+3;statement;j = 0;statement
+4;statement;range(c - 1);conditional
+5;statement;mat[i][j + 1] <= mat[i][j];conditional
+6;statement;j == c - 2;conditional
+7;statement;j == c - 2;conditional
+8;statement;result += 1;statement
+9;statement;result += 1;statement
+10;statement;range(0, r);conditional
+11;statement;j = 0;statement
+12;statement;range(c - 1, 0, -1);conditional
+13;statement;mat[i][j - 1] <= mat[i][j];conditional
+14;statement;c > 1 and j == 1;conditional
+15;statement;c > 1 and j == 1;conditional
+16;statement;result += 1;statement
+17;statement;result += 1;statement
+18;statement;return result;statement
+0;1;
+1;2;9;
+2;3;
+3;4;6;
+4;6;3;
+5;
+6;8;1;8;1;
+7;
+8;1;1;
+9;10;17;
+10;11;
+11;12;14;
+12;14;11;
+13;
+14;16;9;16;9;
+15;
+16;9;9;
+17;

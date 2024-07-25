@@ -1,0 +1,24 @@
+1;statement;principal = 0;statement
+2;statement;secondary = 0;statement
+3;statement;range(0, n);conditional
+4;statement;range(0, n);conditional
+5;statement;i == j;conditional
+6;statement;principal += mat[i][j];statement
+7;statement;i + j == n - 1;conditional
+8;statement;i + j == n - 1;conditional
+9;statement;secondary += mat[i][j];statement
+10;statement;secondary += mat[i][j];statement
+11;statement;print('Principal Diagonal:', principal);statement
+12;statement;print('Secondary Diagonal:', secondary);statement
+0;1;
+1;2;
+2;3;11;
+3;4;2;
+4;5;7;
+5;7;
+6;
+7;9;3;9;3;
+8;
+9;3;3;
+10;11;
+11;

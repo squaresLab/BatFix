@@ -1,0 +1,14 @@
+1;statement;x1 = a[0];statement
+2;statement;x2 = 1;statement
+3;statement;range(1, n);conditional
+4;statement;x1 = x1 ^ a[i];statement
+5;statement;range(2, n + 2);conditional
+6;statement;x2 = x2 ^ i;statement
+7;statement;return x1 ^ x2;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;6;
+5;4;
+6;

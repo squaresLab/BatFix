@@ -1,0 +1,327 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'REPLACE_CHARACTER_C1_C2_C2_C1_STRING_S.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int l = s . length ( ) ;
+Line: 14
+s = "IZTSMw j"
+c1 = W
+c2 = k
+
+Statement: char [ ] arr = s . toCharArray ( ) ;
+Line: 15
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+
+Statement: for ( int i = 0 ;
+Line: 16
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 0
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 0
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 0
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 0
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 1
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 1
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 1
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 1
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 2
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 2
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 2
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 2
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 3
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 3
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 3
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 3
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 4
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 4
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 4
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 4
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 5
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 5
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 5
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 5
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 6
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 6
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 6
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 6
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 7
+
+Statement: if ( arr [ i ] == c1 ) arr [ i ] = c2 ;
+Line: 19
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 7
+
+Statement: else if ( arr [ i ] == c2 ) arr [ i ] = c1 ;
+Line: 20
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 7
+
+Statement: i ++ ) {
+Line: 18
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 7
+
+Statement: i < l ;
+Line: 17
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }
+i = 8
+
+Statement: return String . valueOf ( arr ) ;
+Line: 22
+s = "IZTSMw j"
+c1 = W
+c2 = k
+l = 8
+arr = { I, Z, T, S, M, w,  , j }

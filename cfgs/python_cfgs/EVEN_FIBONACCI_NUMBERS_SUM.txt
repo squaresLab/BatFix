@@ -1,0 +1,26 @@
+1;statement;limit < 2;conditional
+2;statement;return 0;statement
+3;statement;ef1 = 0;statement
+4;statement;ef2 = 2;statement
+5;statement;sm = ef1 + ef2;statement
+6;statement;ef2 <= limit;conditional
+7;statement;ef3 = 4 * ef2 + ef1;statement
+8;statement;ef3 > limit;conditional
+9;statement;ef1 = ef2;statement
+10;statement;ef2 = ef3;statement
+11;statement;sm = sm + ef2;statement
+12;statement;return sm;statement
+13;statement;return sm;statement
+0;1;4;
+1;
+2;3;
+3;4;
+4;5;
+5;7;12;
+6;7;
+7;10;12;
+8;9;
+9;10;
+10;5;
+11;
+12;

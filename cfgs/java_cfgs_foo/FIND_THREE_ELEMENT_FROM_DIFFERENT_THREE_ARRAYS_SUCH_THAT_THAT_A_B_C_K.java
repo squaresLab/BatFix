@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;int i = 0;14;
+3;conditional;foo_1 < foo_2;15;
+4;statement;int j = 0;16;
+5;conditional;foo_1 < foo_2;17;
+6;statement;int k = 0;18;
+7;conditional;foo_1 < foo_2;19;
+8;conditional;((foo_1[foo_2] + foo_3[foo_4]) + foo_5[foo_6]) == foo_7;20;
+9;statement;return true;20;
+10;exit;;;
+11;statement;k++;20;
+12;statement;j++;18;
+13;statement;i++;16;
+14;statement;return false;21;
+Edges
+0;2;
+1;3;
+2;4;14;
+3;5;
+4;6;13;
+5;7;
+6;8;12;
+7;9;11;
+8;10;
+9;
+10;7;
+11;5;
+12;3;
+13;10;

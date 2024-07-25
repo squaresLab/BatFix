@@ -1,0 +1,12 @@
+1;statement;x == 1;conditional
+2;statement;return y == 1;statement
+3;statement;pow = 1;statement
+4;statement;pow < y;conditional
+5;statement;pow = pow * x;statement
+6;statement;return pow == y;statement
+0;1;2;
+1;
+2;3;
+3;4;5;
+4;3;
+5;

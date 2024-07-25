@@ -1,0 +1,373 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'SUM_AREA_RECTANGLES_POSSIBLE_ARRAY.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: Arrays . sort ( a ) ;
+Line: 14
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+
+Statement: int sum = 0 ;
+Line: 15
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+
+Statement: boolean flag = false ;
+Line: 16
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+
+Statement: int len = 0 ;
+Line: 17
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+
+Statement: for ( int i = 0 ;
+Line: 18
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 0
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 0
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 0
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 0
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 1
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 1
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 1
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 1
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 2
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 2
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 2
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 2
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 3
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 3
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 3
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 3
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 4
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 4
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 4
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 4
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 5
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 5
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 5
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 5
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 6
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 6
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 6
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 6
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 7
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 7
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 7
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 7
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 8
+
+Statement: if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ! flag ) {
+Line: 21
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 8
+
+Statement: else if ( ( a [ i ] == a [ i + 1 ] || a [ i ] - a [ i + 1 ] == 1 ) && ( flag ) ) {
+Line: 26
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 8
+
+Statement: i ++ ) {
+Line: 20
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 8
+
+Statement: i < n ;
+Line: 19
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0
+i = 9
+
+Statement: return sum ;
+Line: 32
+a = { 3, 11, 14, 15, 22, 33, 64, 81, 82, 95 }
+n = 9
+sum = 0
+flag = false
+len = 0

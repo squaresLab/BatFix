@@ -1,0 +1,34 @@
+1;statement;res = 1;statement
+2;statement;n % 2 == 0;conditional
+3;statement;n = n // 2;statement
+4;statement;range(3, int(math.sqrt(n) + 1));conditional
+5;statement;count = 0;statement
+6;statement;curr_sum = 1;statement
+7;statement;curr_term = 1;statement
+8;statement;n % i == 0;conditional
+9;statement;count += 1;statement
+10;statement;n = n // i;statement
+11;statement;curr_term *= i;statement
+12;statement;curr_sum += curr_term;statement
+13;statement;res *= curr_sum;statement
+14;statement;n >= 2;conditional
+15;statement;res *= 1 + n;statement
+16;statement;return res;statement
+17;statement;return res;statement
+0;1;
+1;2;3;
+2;1;
+3;6;13;
+4;5;
+5;6;
+6;7;
+7;11;12;
+8;9;
+9;10;
+10;11;
+11;7;
+12;3;
+13;14;16;
+14;16;
+15;
+16;

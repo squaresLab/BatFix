@@ -1,0 +1,2 @@
+1;statement;return (n - 1) * min(a);statement
+0;

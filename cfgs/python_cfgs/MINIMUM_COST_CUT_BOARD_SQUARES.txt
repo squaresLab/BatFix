@@ -1,0 +1,52 @@
+1;statement;res = 0;statement
+2;statement;X.sort(reverse=True);statement
+3;statement;Y.sort(reverse=True);statement
+4;statement;hzntl = 1;statement
+5;statement;vert = 1;statement
+6;statement;i = 0;statement
+7;statement;j = 0;statement
+8;statement;i < m and j < n;conditional
+9;statement;X[i] > Y[j];conditional
+10;statement;res += X[i] * vert;statement
+11;statement;hzntl += 1;statement
+12;statement;i += 1;statement
+13;statement;res += Y[j] * hzntl;statement
+14;statement;vert += 1;statement
+15;statement;j += 1;statement
+16;statement;total = 0;statement
+17;statement;i < m;conditional
+18;statement;total += X[i];statement
+19;statement;i += 1;statement
+20;statement;res += total * vert;statement
+21;statement;total = 0;statement
+22;statement;j < n;conditional
+23;statement;total += Y[j];statement
+24;statement;j += 1;statement
+25;statement;res += total * hzntl;statement
+26;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;
+7;8;15;
+8;11;14;
+9;10;
+10;11;
+11;7;
+12;13;
+13;14;
+14;7;
+15;16;
+16;18;20;
+17;18;
+18;16;
+19;20;
+20;21;
+21;23;25;
+22;23;
+23;21;
+24;25;
+25;

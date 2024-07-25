@@ -1,0 +1,20 @@
+1;statement;prevPrev = 1;statement
+2;statement;prev = 2;statement
+3;statement;curr = 3;statement
+4;statement;n > 0;conditional
+5;statement;prevPrev = prev;statement
+6;statement;prev = curr;statement
+7;statement;curr = prevPrev + prev;statement
+8;statement;n = n - (curr - prev - 1);statement
+9;statement;n = n + (curr - prev - 1);statement
+10;statement;return prev + n;statement
+0;1;
+1;2;
+2;3;
+3;7;9;
+4;5;
+5;6;
+6;7;
+7;3;
+8;9;
+9;

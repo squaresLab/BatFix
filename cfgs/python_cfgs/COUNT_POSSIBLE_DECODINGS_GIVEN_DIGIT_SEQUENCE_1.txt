@@ -1,0 +1,24 @@
+1;statement;count = [0] * (n + 1);statement
+2;statement;count[0] = 1;statement
+3;statement;count[1] = 1;statement
+4;statement;range(2, n + 1);conditional
+5;statement;count[i] = 0;statement
+6;statement;digits[i - 1] > '0';conditional
+7;statement;count[i] = count[i - 1];statement
+8;statement;digits[i - 2] == '1' or (digits[i - 2] == '2' and digits[i - 1] < '7');conditional
+9;statement;digits[i - 2] == '1' or (digits[i - 2] == '2' and digits[i - 1] < '7');conditional
+10;statement;count[i] += count[i - 2];statement
+11;statement;count[i] += count[i - 2];statement
+12;statement;return count[n];statement
+0;1;
+1;2;
+2;3;
+3;5;11;
+4;5;
+5;6;8;
+6;8;
+7;
+8;10;3;10;3;
+9;
+10;3;3;
+11;

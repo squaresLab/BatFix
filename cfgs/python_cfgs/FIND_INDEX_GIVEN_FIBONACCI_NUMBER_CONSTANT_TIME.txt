@@ -1,0 +1,24 @@
+1;statement;n <= 1;conditional
+2;statement;return n;statement
+3;statement;a = 0;statement
+4;statement;b = 1;statement
+5;statement;c = 1;statement
+6;statement;res = 1;statement
+7;statement;c < n;conditional
+8;statement;c = a + b;statement
+9;statement;res = res + 1;statement
+10;statement;a = b;statement
+11;statement;b = c;statement
+12;statement;return res;statement
+0;1;5;
+1;
+2;3;
+3;4;
+4;5;
+5;6;
+6;10;11;
+7;8;
+8;9;
+9;10;
+10;6;
+11;

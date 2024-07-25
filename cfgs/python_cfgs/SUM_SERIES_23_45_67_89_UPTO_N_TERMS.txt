@@ -1,0 +1,26 @@
+1;statement;i = 1;statement
+2;statement;res = 0.0;statement
+3;statement;sign = True;statement
+4;statement;n > 0;conditional
+5;statement;n = n - 1;statement
+6;statement;sign;conditional
+7;statement;sign = False;statement
+8;statement;res = res + (i + 1) / (i + 2);statement
+9;statement;i = i + 2;statement
+10;statement;sign = True;statement
+11;statement;res = res - (i + 1) / (i + 2);statement
+12;statement;i = i + 2;statement
+13;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;5;12;
+4;5;
+5;8;11;
+6;7;
+7;8;
+8;3;
+9;10;
+10;11;
+11;3;
+12;

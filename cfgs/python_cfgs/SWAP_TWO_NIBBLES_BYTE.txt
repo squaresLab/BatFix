@@ -1,0 +1,2 @@
+1;statement;return (x & 15) << 4 | (x & 240) >> 4;statement
+0;

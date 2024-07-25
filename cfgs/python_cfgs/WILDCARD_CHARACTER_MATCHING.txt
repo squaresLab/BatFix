@@ -1,0 +1,18 @@
+1;statement;len(first) == 0 and len(second) == 0;conditional
+2;statement;return True;statement
+3;statement;len(first) > 1 and first[0] == '*' and (len(second) == 0);conditional
+4;statement;return False;statement
+5;statement;len(first) > 1 and first[0] == '?' or (len(first) != 0 and len(second) != 0 and (first[0] == second[0]));conditional
+6;statement;return f_gold(first[1:], second[1:]);statement
+7;statement;len(first) != 0 and first[0] == '*';conditional
+8;statement;return f_gold(first[1:], second) or f_gold(first, second[1:]);statement
+9;statement;return False;statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;5;6;
+5;
+6;7;8;
+7;
+8;

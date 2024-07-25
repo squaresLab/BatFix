@@ -1,0 +1,28 @@
+1;statement;num < 0;conditional
+2;statement;return False;statement
+3;statement;c = -2 * num;statement
+4;statement;(b, a) = (1, 1);statement
+5;statement;d = b * b - 4 * a * c;statement
+6;statement;d < 0;conditional
+7;statement;return False;statement
+8;statement;root1 = (-b + math.sqrt(d)) / (2 * a);statement
+9;statement;root2 = (-b - math.sqrt(d)) / (2 * a);statement
+10;statement;root1 > 0 and math.floor(root1) == root1;conditional
+11;statement;return True;statement
+12;statement;root2 > 0 and math.floor(root2) == root2;conditional
+13;statement;return True;statement
+14;statement;return False;statement
+0;1;5;
+1;
+2;3;
+3;4;
+4;5;
+5;6;9;
+6;
+7;8;
+8;9;
+9;10;11;
+10;
+11;12;13;
+12;
+13;

@@ -1,0 +1,84 @@
+1;statement;len(str1) > len(str2);conditional
+2;statement;t = str1;statement
+3;statement;str1 = str2;statement
+4;statement;str2 = t;statement
+5;statement;str = '';statement
+6;statement;n1 = len(str1);statement
+7;statement;n2 = len(str2);statement
+8;statement;str1 = str1[::-1];statement
+9;statement;str2 = str2[::-1];statement
+10;statement;carry = 0;statement
+11;statement;str = '';statement
+12;statement;n1 = len(str1);statement
+13;statement;n2 = len(str2);statement
+14;statement;str1 = str1[::-1];statement
+15;statement;str2 = str2[::-1];statement
+16;statement;carry = 0;statement
+17;statement;range(n1);conditional
+18;statement;range(n1);conditional
+19;statement;sum = ord(str1[i]) - 48 + (ord(str2[i]) - 48 + carry);statement
+20;statement;str += chr(sum % 10 + 48);statement
+21;statement;carry = int(sum / 10);statement
+22;statement;sum = ord(str1[i]) - 48 + (ord(str2[i]) - 48 + carry);statement
+23;statement;str += chr(sum % 10 + 48);statement
+24;statement;carry = int(sum / 10);statement
+25;statement;range(n1, n2);conditional
+26;statement;range(n1, n2);conditional
+27;statement;sum = ord(str2[i]) - 48 + carry;statement
+28;statement;str += chr(sum % 10 + 48);statement
+29;statement;carry = int(sum / 10);statement
+30;statement;sum = ord(str2[i]) - 48 + carry;statement
+31;statement;str += chr(sum % 10 + 48);statement
+32;statement;carry = int(sum / 10);statement
+33;statement;carry;conditional
+34;statement;carry;conditional
+35;statement;str += chr(carry + 48);statement
+36;statement;str += chr(carry + 48);statement
+37;statement;str = str[::-1];statement
+38;statement;return str;statement
+39;statement;str = str[::-1];statement
+40;statement;return str;statement
+41;statement;str = str[::-1];statement
+42;statement;return str;statement
+0;3;15;
+1;2;
+2;3;
+3;15;
+4;5;
+5;6;
+6;7;
+7;8;
+8;9;
+9;
+10;11;
+11;12;
+12;13;
+13;14;
+14;15;
+15;17;17;
+16;
+17;23;25;23;25;
+18;19;
+19;20;
+20;
+21;22;
+22;23;
+23;17;17;
+24;
+25;31;33;31;33;
+26;27;
+27;28;
+28;
+29;30;
+30;31;
+31;25;25;
+32;
+33;35;41;35;41;
+34;
+35;41;41;
+36;37;
+37;
+38;39;
+39;
+40;41;
+41;

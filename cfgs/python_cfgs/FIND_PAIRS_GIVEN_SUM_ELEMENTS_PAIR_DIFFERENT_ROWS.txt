@@ -1,0 +1,28 @@
+1;statement;range(n);conditional
+2;statement;mat[i].sort();statement
+3;statement;range(n - 1);statement
+4;statement;range(i + 1, n);conditional
+5;statement;left = 0;statement
+6;statement;right = n - 1;statement
+7;statement;left < n and right >= 0;conditional
+8;statement;mat[i][left] + mat[j][right] == sum;conditional
+9;statement;print('(', mat[i][left], ', ', mat[j][right], '), ', end=' ');statement
+10;statement;left += 1;statement
+11;statement;right -= 1;statement
+12;statement;mat[i][left] + mat[j][right] < sum;conditional
+13;statement;left += 1;statement
+14;statement;right -= 1;statement
+0;1;2;
+1;0;
+2;3;
+3;5;2;
+4;5;
+5;6;
+6;7;3;
+7;10;11;
+8;9;
+9;10;
+10;6;
+11;12;13;
+12;6;
+13;6;

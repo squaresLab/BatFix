@@ -1,0 +1,233 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'BREAKING_NUMBER_FIRST_PART_INTEGRAL_DIVISION_SECOND_POWER_10.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int len = N . length ( ) ;
+Line: 14
+N = "ZCoQhuM"
+
+Statement: int l = ( len ) / 2 ;
+Line: 15
+N = "ZCoQhuM"
+len = 7
+
+Statement: int count = 0 ;
+Line: 16
+N = "ZCoQhuM"
+len = 7
+l = 3
+
+Statement: for ( int i = 1 ;
+Line: 17
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+
+Statement: i <= l ;
+Line: 18
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 1
+
+Statement: String s = N . substring ( 0 , i ) ;
+Line: 20
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 1
+
+Statement: int l1 = s . length ( ) ;
+Line: 21
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 1
+s = "Z"
+
+Statement: String t = N . substring ( i , l1 + i ) ;
+Line: 22
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 1
+s = "Z"
+l1 = 1
+
+Statement: if ( s . charAt ( 0 ) == '0' || t . charAt ( 0 ) == '0' ) continue ;
+Line: 23
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 1
+s = "Z"
+l1 = 1
+t = "C"
+
+Statement: if ( s . compareTo ( t ) == 0 ) count ++ ;
+Line: 24
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 1
+s = "Z"
+l1 = 1
+t = "C"
+
+Statement: i ++ ) {
+Line: 19
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 1
+
+Statement: i <= l ;
+Line: 18
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 2
+
+Statement: String s = N . substring ( 0 , i ) ;
+Line: 20
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 2
+
+Statement: int l1 = s . length ( ) ;
+Line: 21
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 2
+s = "ZC"
+
+Statement: String t = N . substring ( i , l1 + i ) ;
+Line: 22
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 2
+s = "ZC"
+l1 = 2
+
+Statement: if ( s . charAt ( 0 ) == '0' || t . charAt ( 0 ) == '0' ) continue ;
+Line: 23
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 2
+s = "ZC"
+l1 = 2
+t = "oQ"
+
+Statement: if ( s . compareTo ( t ) == 0 ) count ++ ;
+Line: 24
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 2
+s = "ZC"
+l1 = 2
+t = "oQ"
+
+Statement: i ++ ) {
+Line: 19
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 2
+
+Statement: i <= l ;
+Line: 18
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 3
+
+Statement: String s = N . substring ( 0 , i ) ;
+Line: 20
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 3
+
+Statement: int l1 = s . length ( ) ;
+Line: 21
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 3
+s = "ZCo"
+
+Statement: String t = N . substring ( i , l1 + i ) ;
+Line: 22
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 3
+s = "ZCo"
+l1 = 3
+
+Statement: if ( s . charAt ( 0 ) == '0' || t . charAt ( 0 ) == '0' ) continue ;
+Line: 23
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 3
+s = "ZCo"
+l1 = 3
+t = "Qhu"
+
+Statement: if ( s . compareTo ( t ) == 0 ) count ++ ;
+Line: 24
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 3
+s = "ZCo"
+l1 = 3
+t = "Qhu"
+
+Statement: i ++ ) {
+Line: 19
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 3
+
+Statement: i <= l ;
+Line: 18
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0
+i = 4
+
+Statement: return count ;
+Line: 26
+N = "ZCoQhuM"
+len = 7
+l = 3
+count = 0

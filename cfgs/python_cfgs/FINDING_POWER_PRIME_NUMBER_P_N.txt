@@ -1,0 +1,12 @@
+1;statement;ans = 0;statement
+2;statement;temp = p;statement
+3;statement;temp <= n;conditional
+4;statement;ans += n / temp;statement
+5;statement;temp = temp * p;statement
+6;statement;return ans;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

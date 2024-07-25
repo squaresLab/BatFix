@@ -1,0 +1,14 @@
+1;statement;cur = int(k * (k - 1) + 1);statement
+2;statement;sum = 0;statement
+3;statement;k;conditional
+4;statement;sum += cur;statement
+5;statement;cur += 2;statement
+6;statement;k = k - 1;statement
+7;statement;return sum;statement
+0;1;
+1;2;
+2;5;6;
+3;4;
+4;5;
+5;2;
+6;

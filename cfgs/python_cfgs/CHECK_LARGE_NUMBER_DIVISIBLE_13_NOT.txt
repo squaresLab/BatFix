@@ -1,0 +1,70 @@
+1;statement;length = len(num);statement
+2;statement;length == 1 and num[0] == '0';conditional
+3;statement;return True;statement
+4;statement;length % 3 == 1;conditional
+5;statement;num = str(num) + '00';statement
+6;statement;length += 2;statement
+7;statement;length % 3 == 2;conditional
+8;statement;num = str(num) + '0';statement
+9;statement;length += 1;statement
+10;statement;sum = 0;statement
+11;statement;p = 1;statement
+12;statement;sum = 0;statement
+13;statement;p = 1;statement
+14;statement;range(length - 1, -1, -1);conditional
+15;statement;range(length - 1, -1, -1);conditional
+16;statement;group = 0;statement
+17;statement;group += ord(num[i]) - ord('0');statement
+18;statement;i -= 1;statement
+19;statement;group += (ord(num[i]) - ord('0')) * 10;statement
+20;statement;i -= 1;statement
+21;statement;group += (ord(num[i]) - ord('0')) * 100;statement
+22;statement;sum = sum + group * p;statement
+23;statement;p *= -1;statement
+24;statement;group = 0;statement
+25;statement;group += ord(num[i]) - ord('0');statement
+26;statement;i -= 1;statement
+27;statement;group += (ord(num[i]) - ord('0')) * 10;statement
+28;statement;i -= 1;statement
+29;statement;group += (ord(num[i]) - ord('0')) * 100;statement
+30;statement;sum = sum + group * p;statement
+31;statement;p *= -1;statement
+32;statement;sum = abs(sum);statement
+33;statement;return sum % 13 == 0;statement
+34;statement;sum = abs(sum);statement
+35;statement;return sum % 13 == 0;statement
+0;1;
+1;2;3;
+2;
+3;5;6;
+4;5;
+5;12;
+6;8;12;
+7;8;
+8;12;
+9;10;
+10;
+11;12;
+12;14;14;
+13;
+14;30;34;30;34;
+15;16;
+16;17;
+17;18;
+18;19;
+19;20;
+20;21;
+21;22;
+22;
+23;24;
+24;25;
+25;26;
+26;27;
+27;28;
+28;29;
+29;30;
+30;14;14;
+31;32;
+32;
+33;34;
+34;

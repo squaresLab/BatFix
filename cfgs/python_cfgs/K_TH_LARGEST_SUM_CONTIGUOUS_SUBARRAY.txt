@@ -1,0 +1,32 @@
+1;statement;sum = [];statement
+2;statement;sum.append(0);statement
+3;statement;sum.append(arr[0]);statement
+4;statement;range(2, n + 1);conditional
+5;statement;sum.append(sum[i - 1] + arr[i - 1]);statement
+6;statement;Q = [];statement
+7;statement;heapq.heapify(Q);statement
+8;statement;range(1, n + 1);conditional
+9;statement;range(i, n + 1);conditional
+10;statement;x = sum[j] - sum[i - 1];statement
+11;statement;len(Q) < k;conditional
+12;statement;heapq.heappush(Q, x);statement
+13;statement;Q[0] < x;conditional
+14;statement;heapq.heappop(Q);statement
+15;statement;heapq.heappush(Q, x);statement
+16;statement;return Q[0];statement
+0;1;
+1;2;
+2;3;
+3;4;6;
+4;3;
+5;6;
+6;7;
+7;8;15;
+8;10;7;
+9;10;
+10;11;12;
+11;8;
+12;14;8;
+13;14;
+14;8;
+15;

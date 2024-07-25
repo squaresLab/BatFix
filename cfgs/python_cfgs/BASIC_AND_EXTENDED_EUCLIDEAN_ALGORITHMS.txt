@@ -1,0 +1,6 @@
+1;statement;a == 0;conditional
+2;statement;return b;statement
+3;statement;return f_gold(b % a, a);statement
+0;1;2;
+1;
+2;

@@ -1,0 +1,26 @@
+1;statement;count = 0;statement
+2;statement;arr.sort();statement
+3;statement;l = 0;statement
+4;statement;r = 0;statement
+5;statement;r < n;conditional
+6;statement;arr[r] - arr[l] == k;conditional
+7;statement;count += 1;statement
+8;statement;l += 1;statement
+9;statement;r += 1;statement
+10;statement;arr[r] - arr[l] > k;conditional
+11;statement;l += 1;statement
+12;statement;r += 1;statement
+13;statement;return count;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;12;
+5;8;9;
+6;7;
+7;8;
+8;4;
+9;10;11;
+10;4;
+11;4;
+12;

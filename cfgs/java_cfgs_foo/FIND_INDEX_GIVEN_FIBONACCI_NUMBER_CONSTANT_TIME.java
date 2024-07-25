@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 <= 1;14;
+3;statement;return foo_1;14;
+4;exit;;;
+5;statement;int a = 0;15;
+6;statement;int b = 1;15;
+7;statement;int c = 1;15;
+8;statement;int res = 1;16;
+9;conditional;foo_1 < foo_2;17;
+10;statement;c = foo_1 + foo_2;18;
+11;statement;res++;19;
+12;statement;a = foo_1;20;
+13;statement;b = foo_1;21;
+14;statement;return foo_1;23;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;
+8;14;10;
+9;11;
+10;12;
+11;13;
+12;9;
+13;4;

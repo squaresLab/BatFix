@@ -1,0 +1,22 @@
+1;statement;num // 10 == 0;conditional
+2;statement;return True;statement
+3;statement;num != 0;conditional
+4;statement;num // 10 == 0;conditional
+5;statement;return True;statement
+6;statement;digit1 = num % 10;statement
+7;statement;digit2 = num // 10 % 10;statement
+8;statement;abs(digit2 - digit1) > 1;conditional
+9;statement;return False;statement
+10;statement;num = num // 10;statement
+11;statement;return True;statement
+0;1;2;
+1;
+2;3;10;
+3;4;7;
+4;
+5;6;
+6;7;
+7;8;9;
+8;
+9;2;
+10;

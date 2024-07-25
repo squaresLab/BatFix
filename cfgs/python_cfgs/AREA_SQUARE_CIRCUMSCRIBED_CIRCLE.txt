@@ -1,0 +1,2 @@
+1;statement;return 2 * r * r;statement
+0;

@@ -1,0 +1,8 @@
+1;statement;sum = 0;statement
+2;statement;range(n);conditional
+3;statement;sum = sum + (1 << row);statement
+4;statement;return sum;statement
+0;1;
+1;2;3;
+2;1;
+3;

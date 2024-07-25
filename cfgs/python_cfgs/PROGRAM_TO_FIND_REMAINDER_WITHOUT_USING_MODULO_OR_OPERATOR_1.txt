@@ -1,0 +1,52 @@
+1;statement;divisor == 0;conditional
+2;statement;return False;statement
+3;statement;divisor < 0;conditional
+4;statement;divisor = -divisor;statement
+5;statement;num < 0;conditional
+6;statement;num < 0;conditional
+7;statement;num = -num;statement
+8;statement;num = -num;statement
+9;statement;i = 1;statement
+10;statement;product = 0;statement
+11;statement;i = 1;statement
+12;statement;product = 0;statement
+13;statement;i = 1;statement
+14;statement;product = 0;statement
+15;statement;product <= num;conditional
+16;statement;product <= num;conditional
+17;statement;product <= num;conditional
+18;statement;product = divisor * i;statement
+19;statement;i += 1;statement
+20;statement;product = divisor * i;statement
+21;statement;i += 1;statement
+22;statement;product = divisor * i;statement
+23;statement;i += 1;statement
+24;statement;return num - (product - divisor);statement
+25;statement;return num - (product - divisor);statement
+26;statement;return num - (product - divisor);statement
+0;1;2;
+1;
+2;3;5;
+3;5;
+4;
+5;7;13;7;13;
+6;
+7;13;13;
+8;9;
+9;
+10;11;
+11;
+12;13;
+13;16;16;16;
+14;
+15;
+16;22;25;22;25;22;25;
+17;18;
+18;
+19;20;
+20;
+21;22;
+22;16;16;16;
+23;
+24;
+25;

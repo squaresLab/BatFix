@@ -1,0 +1,24 @@
+1;statement;count_map = {};statement
+2;statement;range(0, n);conditional
+3;statement;arr[i] in count_map.keys();conditional
+4;statement;count_map[arr[i]] += 1;statement
+5;statement;count_map[arr[i]] = 1;statement
+6;statement;i += 1;statement
+7;statement;i += 1;statement
+8;statement;range(0, n);conditional
+9;statement;count_map[arr[i]] == k;conditional
+10;statement;return arr[i];statement
+11;statement;i += 1;statement
+12;statement;return -1;statement
+0;1;
+1;2;7;
+2;3;4;
+3;6;
+4;6;
+5;
+6;1;1;
+7;8;11;
+8;9;10;
+9;
+10;7;
+11;

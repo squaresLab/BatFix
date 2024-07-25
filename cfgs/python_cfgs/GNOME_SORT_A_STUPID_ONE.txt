@@ -1,0 +1,26 @@
+1;statement;index = 0;statement
+2;statement;index < n;conditional
+3;statement;index == 0;conditional
+4;statement;index = index + 1;statement
+5;statement;arr[index] >= arr[index - 1];conditional
+6;statement;arr[index] >= arr[index - 1];conditional
+7;statement;index = index + 1;statement
+8;statement;index = index + 1;statement
+9;statement;(arr[index], arr[index - 1]) = (arr[index - 1], arr[index]);statement
+10;statement;index = index - 1;statement
+11;statement;(arr[index], arr[index - 1]) = (arr[index - 1], arr[index]);statement
+12;statement;index = index - 1;statement
+13;statement;return arr;statement
+0;1;
+1;2;12;
+2;3;5;
+3;5;
+4;
+5;7;11;7;11;
+6;
+7;1;1;
+8;9;
+9;
+10;11;
+11;1;1;
+12;

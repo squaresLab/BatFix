@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;int[][][] dp = new int[foo_1 + 1][foo_2 + 1][2];14;
+3;statement;foo_1[1][0][0] = 1;15;
+4;statement;foo_1[1][0][1] = 1;16;
+5;statement;int i = 2;17;
+6;conditional;foo_1 <= foo_2;18;
+7;statement;int j = 0;20;
+8;conditional;(foo_1 < foo_2) && (foo_3 < (foo_4 + 1));21;
+9;statement;foo_1[foo_2][foo_3][0] = foo_4[foo_5 - 1][foo_6][0] + foo_7[foo_8 - 1][foo_9][1];23;
+10;statement;foo_1[foo_2][foo_3][1] = foo_4[foo_5 - 1][foo_6][0];24;
+11;conditional;(foo_1 - 1) >= 0;25;
+12;statement;foo_1[foo_2][foo_3][1] += foo_4[foo_5 - 1][foo_6 - 1][1];26;
+13;statement;j++;22;
+14;statement;i++;19;
+15;statement;return foo_1[foo_2][foo_3][0] + foo_4[foo_5][foo_6][1];30;
+16;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;15;
+6;8;
+7;9;14;
+8;10;
+9;11;
+10;12;13;
+11;13;
+12;8;
+13;6;
+14;16;
+15;

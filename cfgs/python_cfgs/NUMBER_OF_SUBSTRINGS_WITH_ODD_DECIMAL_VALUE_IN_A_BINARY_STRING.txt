@@ -1,0 +1,44 @@
+1;statement;n = len(s);statement
+2;statement;auxArr = [0 for i in range(n)];statement
+3;statement;s[0] == '1';conditional
+4;statement;auxArr[0] = 1;statement
+5;statement;range(0, n);conditional
+6;statement;range(0, n);conditional
+7;statement;s[i] == '1';conditional
+8;statement;s[i] == '1';conditional
+9;statement;auxArr[i] = auxArr[i - 1] + 1;statement
+10;statement;auxArr[i] = auxArr[i - 1] + 1;statement
+11;statement;auxArr[i] = auxArr[i - 1];statement
+12;statement;auxArr[i] = auxArr[i - 1];statement
+13;statement;count = 0;statement
+14;statement;count = 0;statement
+15;statement;range(n - 1, -1, -1);conditional
+16;statement;range(n - 1, -1, -1);conditional
+17;statement;s[i] == '1';conditional
+18;statement;s[i] == '1';conditional
+19;statement;count += auxArr[i];statement
+20;statement;count += auxArr[i];statement
+21;statement;return count;statement
+22;statement;return count;statement
+0;1;
+1;2;
+2;3;5;
+3;5;
+4;
+5;7;13;7;13;
+6;
+7;9;11;9;11;
+8;
+9;5;5;
+10;
+11;5;5;
+12;
+13;15;15;
+14;
+15;17;21;17;21;
+16;
+17;19;15;19;15;
+18;
+19;15;15;
+20;
+21;

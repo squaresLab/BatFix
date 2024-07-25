@@ -1,0 +1,12 @@
+1;statement;n >= p;conditional
+2;statement;return 0;statement
+3;statement;result = 1;statement
+4;statement;range(1, n + 1);conditional
+5;statement;result = result * i % p;statement
+6;statement;return result;statement
+0;1;2;
+1;
+2;3;
+3;4;5;
+4;3;
+5;

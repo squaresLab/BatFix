@@ -1,0 +1,24 @@
+1;statement;prime = [0] * (n + 1);statement
+2;statement;sum = 0;statement
+3;statement;max = int(n / 2);statement
+4;statement;range(2, max + 1);conditional
+5;statement;prime[p] == 0;conditional
+6;statement;range(p * 2, n + 1, p);conditional
+7;statement;prime[i] = p;statement
+8;statement;range(2, n + 1);conditional
+9;statement;prime[p];conditional
+10;statement;sum += prime[p];statement
+11;statement;sum += p;statement
+12;statement;return sum;statement
+0;1;
+1;2;
+2;3;
+3;4;7;
+4;5;3;
+5;6;3;
+6;5;
+7;8;11;
+8;9;10;
+9;7;
+10;7;
+11;

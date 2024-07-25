@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 == 0;14;
+3;statement;return 1;14;
+4;exit;;;
+5;statement;int answer = foo_1;15;
+6;statement;int increment = foo_1;16;
+7;statement;int i;17;
+8;statement;int j;17;
+9;statement;i = 1;18;
+10;conditional;foo_1 < foo_2;19;
+11;statement;j = 1;21;
+12;conditional;foo_1 < foo_2;22;
+13;statement;answer += foo_1;24;
+14;statement;j++;23;
+15;statement;increment = foo_1;26;
+16;statement;i++;20;
+17;statement;return foo_1;28;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;
+7;9;
+8;10;
+9;11;17;
+10;12;
+11;13;15;
+12;14;
+13;12;
+14;16;
+15;10;
+16;4;

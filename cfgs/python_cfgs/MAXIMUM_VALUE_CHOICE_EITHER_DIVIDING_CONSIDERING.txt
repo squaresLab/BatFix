@@ -1,0 +1,16 @@
+1;statement;res = list();statement
+2;statement;res.append(0);statement
+3;statement;res.append(1);statement
+4;statement;i = 2;statement
+5;statement;i < n + 1;conditional
+6;statement;res.append(max(i, res[int(i / 2)] + res[int(i / 3)] + res[int(i / 4)] + res[int(i / 5)]));statement
+7;statement;i = i + 1;statement
+8;statement;return res[n];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;6;7;
+5;6;
+6;4;
+7;

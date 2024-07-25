@@ -1,0 +1,24 @@
+1;statement;X < arr[0];conditional
+2;statement;return 0;statement
+3;statement;X > arr[n - 1];conditional
+4;statement;return n;statement
+5;statement;lowerPnt = 0;statement
+6;statement;i = 1;statement
+7;statement;i < n and arr[i] < X;conditional
+8;statement;lowerPnt = i;statement
+9;statement;i = i * 2;statement
+10;statement;lowerPnt < n and arr[lowerPnt] < X;conditional
+11;statement;lowerPnt += 1;statement
+12;statement;return lowerPnt;statement
+0;1;2;
+1;
+2;3;5;
+3;
+4;5;
+5;6;
+6;8;9;
+7;8;
+8;6;
+9;10;11;
+10;9;
+11;

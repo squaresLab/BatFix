@@ -1,0 +1,28 @@
+1;statement;found = False;statement
+2;statement;S.sort();statement
+3;statement;range(n - 1, -1, -1);conditional
+4;statement;range(0, n);conditional
+5;statement;i == j;conditional
+6;statement;range(j + 1, n);conditional
+7;statement;i == k;conditional
+8;statement;range(k + 1, n);conditional
+9;statement;i == l;conditional
+10;statement;S[i] == S[j] + S[k] + S[l];conditional
+11;statement;found = True;statement
+12;statement;return S[i];statement
+13;statement;found == False;statement
+14;statement;return -1;statement
+0;1;
+1;2;
+2;3;12;
+3;4;2;
+4;5;3;
+5;6;3;
+6;7;5;
+7;8;5;
+8;9;7;
+9;11;7;
+10;11;
+11;
+12;13;
+13;

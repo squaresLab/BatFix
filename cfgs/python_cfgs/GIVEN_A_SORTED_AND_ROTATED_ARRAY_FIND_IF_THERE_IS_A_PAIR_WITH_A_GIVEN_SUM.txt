@@ -1,0 +1,40 @@
+1;statement;range(0, n - 1);conditional
+2;statement;arr[i] > arr[i + 1];conditional
+3;statement;l = (i + 1) % n;statement
+4;statement;r = i;statement
+5;statement;l = (i + 1) % n;statement
+6;statement;r = i;statement
+7;statement;l != r;conditional
+8;statement;l != r;conditional
+9;statement;arr[l] + arr[r] == x;conditional
+10;statement;arr[l] + arr[r] == x;conditional
+11;statement;return True;statement
+12;statement;return True;statement
+13;statement;arr[l] + arr[r] < x;conditional
+14;statement;arr[l] + arr[r] < x;conditional
+15;statement;l = (l + 1) % n;statement
+16;statement;l = (l + 1) % n;statement
+17;statement;r = (n + r - 1) % n;statement
+18;statement;r = (n + r - 1) % n;statement
+19;statement;return False;statement
+20;statement;return False;statement
+0;1;5;
+1;5;0;
+2;3;
+3;
+4;5;
+5;7;7;
+6;
+7;9;19;9;19;
+8;
+9;11;13;11;13;
+10;
+11;
+12;
+13;15;17;15;17;
+14;
+15;7;7;
+16;
+17;7;7;
+18;
+19;

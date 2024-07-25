@@ -1,0 +1,16 @@
+1;statement;row_sum = 0;statement
+2;statement;col_sum = 0;statement
+3;statement;range(n);conditional
+4;statement;row_sum += mat[n // 2][i];statement
+5;statement;print('Sum of middle row = ', row_sum);statement
+6;statement;range(n);conditional
+7;statement;col_sum += mat[i][n // 2];statement
+8;statement;print('Sum of middle column = ', col_sum);statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;
+5;6;7;
+6;5;
+7;

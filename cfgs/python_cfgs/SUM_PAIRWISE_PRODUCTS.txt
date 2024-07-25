@@ -1,0 +1,10 @@
+1;statement;sm = 0;statement
+2;statement;range(1, n + 1);conditional
+3;statement;range(i, n + 1);conditional
+4;statement;sm = sm + i * j;statement
+5;statement;return sm;statement
+0;1;
+1;2;4;
+2;3;1;
+3;2;
+4;

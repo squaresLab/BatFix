@@ -1,0 +1,24 @@
+1;statement;N = len(str);statement
+2;statement;cps = [[0 for i in range(N + 2)] for j in range(N + 2)];statement
+3;statement;range(N);conditional
+4;statement;cps[i][i] = 1;statement
+5;statement;range(2, N + 1);conditional
+6;statement;range(N);conditional
+7;statement;k = L + i - 1;statement
+8;statement;k < N;conditional
+9;statement;str[i] == str[k];conditional
+10;statement;cps[i][k] = cps[i][k - 1] + cps[i + 1][k] + 1;statement
+11;statement;cps[i][k] = cps[i][k - 1] + cps[i + 1][k] - cps[i + 1][k - 1];statement
+12;statement;return cps[0][N - 1];statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;11;
+5;7;4;
+6;7;
+7;8;5;
+8;9;10;
+9;5;
+10;5;
+11;

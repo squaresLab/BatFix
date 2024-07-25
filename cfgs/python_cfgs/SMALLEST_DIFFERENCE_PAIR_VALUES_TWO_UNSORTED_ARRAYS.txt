@@ -1,0 +1,30 @@
+1;statement;A.sort();statement
+2;statement;B.sort();statement
+3;statement;a = 0;statement
+4;statement;b = 0;statement
+5;statement;result = sys.maxsize;statement
+6;statement;a < m and b < n;conditional
+7;statement;abs(A[a] - B[b]) < result;conditional
+8;statement;result = abs(A[a] - B[b]);statement
+9;statement;A[a] < B[b];conditional
+10;statement;A[a] < B[b];conditional
+11;statement;a += 1;statement
+12;statement;a += 1;statement
+13;statement;b += 1;statement
+14;statement;b += 1;statement
+15;statement;return result;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;14;
+6;7;9;
+7;9;
+8;
+9;11;13;11;13;
+10;
+11;5;5;
+12;
+13;5;5;
+14;

@@ -1,0 +1,16 @@
+1;statement;count = 0;statement
+2;statement;range(n);conditional
+3;statement;arr[i] != 0;conditional
+4;statement;arr[count] = arr[i];statement
+5;statement;count += 1;statement
+6;statement;count < n;statement
+7;statement;arr[count] = 0;statement
+8;statement;count += 1;statement
+0;1;
+1;2;5;
+2;4;1;
+3;4;
+4;1;
+5;7;
+6;7;
+7;5;

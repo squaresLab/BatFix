@@ -1,0 +1,16 @@
+1;statement;dp = [0 for _ in range(n + 1)];statement
+2;statement;range(1, n + 1);conditional
+3;statement;i <= 3;conditional
+4;statement;dp[i] = 1;statement
+5;statement;i == 4;conditional
+6;statement;dp[i] = 2;statement
+7;statement;dp[i] = dp[i - 1] + dp[i - 4];statement
+8;statement;return dp[n];statement
+0;1;
+1;2;7;
+2;3;4;
+3;1;
+4;5;6;
+5;1;
+6;1;
+7;

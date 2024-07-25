@@ -1,0 +1,22 @@
+1;statement;x = 0;statement
+2;statement;res = 0;statement
+3;statement;yCount = 0;statement
+4;statement;yCount * yCount < n;conditional
+5;statement;yCount = yCount + 1;statement
+6;statement;yCount != 0;conditional
+7;statement;res = res + yCount;statement
+8;statement;x = x + 1;statement
+9;statement;yCount != 0 and x * x + (yCount - 1) * (yCount - 1) >= n;conditional
+10;statement;yCount = yCount - 1;statement
+11;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;7;10;
+6;7;
+7;8;
+8;9;5;
+9;8;
+10;

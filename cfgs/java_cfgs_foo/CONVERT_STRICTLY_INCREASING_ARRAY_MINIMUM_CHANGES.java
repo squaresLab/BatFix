@@ -1,0 +1,38 @@
+Nodes
+1;special;;;
+2;statement;int[] LIS = new int[foo_1];14;
+3;statement;int len = 0;15;
+4;statement;int i = 0;16;
+5;conditional;foo_1 < foo_2;17;
+6;statement;foo_1[foo_2] = 1;18;
+7;statement;i++;18;
+8;statement;int i = 1;19;
+9;conditional;foo_1 < foo_2;20;
+10;statement;int j = 0;22;
+11;conditional;foo_1 < foo_2;23;
+12;conditional;(foo_1[foo_2] > foo_3[foo_4]) && ((foo_5 - foo_6) <= (foo_7[foo_8] - foo_9[foo_10]));25;
+13;statement;foo_1[foo_2] = fun_1(foo_3[foo_4], foo_5[foo_6] + 1);25;
+14;statement;j++;24;
+15;statement;len = fun_1(foo_1, foo_2[foo_3]);27;
+16;statement;i++;21;
+17;statement;return foo_1 - foo_2;29;
+18;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;8;
+5;7;
+6;5;
+7;9;
+8;10;17;
+9;11;
+10;12;15;
+11;13;14;
+12;14;
+13;11;
+14;16;
+15;9;
+16;18;
+17;

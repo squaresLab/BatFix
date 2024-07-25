@@ -1,0 +1,12 @@
+1;statement;range(0, n1);conditional
+2;statement;range(0, n2);conditional
+3;statement;range(0, n3);conditional
+4;statement;a1[i] + a2[j] + a3[k] == sum;conditional
+5;statement;return True;statement
+6;statement;return False;statement
+0;1;5;
+1;2;0;
+2;3;1;
+3;4;2;
+4;
+5;

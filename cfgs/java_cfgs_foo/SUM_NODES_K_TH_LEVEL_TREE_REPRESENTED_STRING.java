@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int level = -1;14;
+3;statement;int sum = 0;15;
+4;statement;int n = fun_1();16;
+5;statement;int i = 0;17;
+6;conditional;foo_1 < foo_2;18;
+7;conditional;fun_1(foo_2) == '(';20;
+8;statement;level++;20;
+9;conditional;fun_1(foo_2) == ')';21;
+10;statement;level--;21;
+11;conditional;foo_1 == foo_2;23;
+12;statement;sum += fun_1(foo_2) - '0';23;
+13;statement;i++;19;
+14;statement;return foo_1;26;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;14;
+6;8;9;
+7;13;
+8;10;11;
+9;13;
+10;12;13;
+11;13;
+12;6;
+13;15;
+14;

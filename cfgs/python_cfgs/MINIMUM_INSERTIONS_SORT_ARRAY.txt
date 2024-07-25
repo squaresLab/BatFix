@@ -1,0 +1,24 @@
+1;statement;lis = [0] * N;statement
+2;statement;range(N);conditional
+3;statement;lis[i] = 1;statement
+4;statement;range(1, N);conditional
+5;statement;range(i);conditional
+6;statement;arr[i] >= arr[j] and lis[i] < lis[j] + 1;conditional
+7;statement;lis[i] = lis[j] + 1;statement
+8;statement;max = 0;statement
+9;statement;range(N);conditional
+10;statement;max < lis[i];conditional
+11;statement;max = lis[i];statement
+12;statement;return N - max;statement
+0;1;
+1;2;3;
+2;1;
+3;4;7;
+4;5;3;
+5;6;4;
+6;4;
+7;8;
+8;9;11;
+9;10;8;
+10;8;
+11;

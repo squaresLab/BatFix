@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;conditional;fun_1() >= 3;14;
+3;statement;int d1 = ((int) (fun_1(fun_2() - 1)));15;
+4;conditional;(foo_1 % 2) != 0;16;
+5;statement;return false;16;
+6;exit;;;
+7;statement;int d2 = ((int) (fun_1(fun_2() - 2)));17;
+8;statement;int sum = 0;18;
+9;statement;int i = 0;19;
+10;conditional;foo_1 < fun_1();20;
+11;statement;sum += fun_1(foo_2);21;
+12;statement;i++;21;
+13;statement;return ((foo_1 % 3) == 0) && ((((foo_2 * 10) + foo_3) % 4) == 0);22;
+14;statement;int number = fun_1(foo_1);25;
+15;statement;return (foo_1 % 12) == 0;26;
+Edges
+0;2;
+1;3;14;
+2;4;
+3;5;7;
+4;6;
+5;
+6;8;
+7;9;
+8;10;
+9;11;13;
+10;12;
+11;10;
+12;6;
+13;15;
+14;6;

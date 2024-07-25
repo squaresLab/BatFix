@@ -1,0 +1,6 @@
+1;statement;not y / x;conditional
+2;statement;return y if not y / z else z;statement
+3;statement;return x if not x / z else z;statement
+0;1;2;
+1;
+2;

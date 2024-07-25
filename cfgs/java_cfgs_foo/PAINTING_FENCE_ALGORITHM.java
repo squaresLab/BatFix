@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;statement;long total = foo_1;14;
+3;statement;int mod = 1000000007;15;
+4;statement;int same = 0;16;
+5;statement;int diff = foo_1;16;
+6;statement;int i = 2;17;
+7;conditional;foo_1 <= foo_2;18;
+8;statement;same = foo_1;20;
+9;statement;diff = ((int) (foo_1)) * (foo_2 - 1);21;
+10;statement;diff = foo_1 % foo_2;22;
+11;statement;total = (foo_1 + foo_2) % foo_3;23;
+12;statement;i++;19;
+13;statement;return foo_1;25;
+14;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;
+6;8;13;
+7;9;
+8;10;
+9;11;
+10;12;
+11;7;
+12;14;
+13;

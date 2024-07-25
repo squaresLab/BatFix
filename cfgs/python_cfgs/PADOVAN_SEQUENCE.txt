@@ -1,0 +1,14 @@
+1;statement;(pPrevPrev, pPrev, pCurr, pNext) = (1, 1, 1, 1);statement
+2;statement;range(3, n + 1);conditional
+3;statement;pNext = pPrevPrev + pPrev;statement
+4;statement;pPrevPrev = pPrev;statement
+5;statement;pPrev = pCurr;statement
+6;statement;pCurr = pNext;statement
+7;statement;return pNext;statement
+0;1;
+1;5;6;
+2;3;
+3;4;
+4;5;
+5;1;
+6;

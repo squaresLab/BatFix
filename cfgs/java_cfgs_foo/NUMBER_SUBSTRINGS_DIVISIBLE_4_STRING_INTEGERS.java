@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;int n = fun_1();14;
+3;statement;int count = 0;15;
+4;statement;int i = 0;16;
+5;conditional;foo_1 < foo_2;17;
+6;conditional;((fun_1(foo_2) == '4') || (fun_2(foo_4) == '8')) || (fun_3(foo_6) == '0');18;
+7;statement;count++;18;
+8;statement;++i;18;
+9;statement;int i = 0;19;
+10;conditional;foo_1 < (foo_2 - 1);20;
+11;statement;int h = ((fun_1(foo_2) - '0') * 10) + (fun_2(foo_4 + 1) - '0');22;
+12;conditional;(foo_1 % 4) == 0;23;
+13;statement;count = (foo_1 + foo_2) + 1;23;
+14;statement;++i;21;
+15;statement;return foo_1;25;
+16;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;9;
+5;7;8;
+6;8;
+7;5;
+8;10;
+9;11;15;
+10;12;
+11;13;14;
+12;14;
+13;10;
+14;16;
+15;

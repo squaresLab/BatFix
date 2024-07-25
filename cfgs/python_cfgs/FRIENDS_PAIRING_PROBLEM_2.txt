@@ -1,0 +1,16 @@
+1;statement;(a, b, c) = (1, 2, 0);statement
+2;statement;n <= 2;conditional
+3;statement;return n;statement
+4;statement;range(3, n + 1);conditional
+5;statement;c = b + (i - 1) * a;statement
+6;statement;a = b;statement
+7;statement;b = c;statement
+8;statement;return c;statement
+0;1;
+1;2;3;
+2;
+3;6;7;
+4;5;
+5;6;
+6;3;
+7;

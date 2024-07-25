@@ -1,0 +1,22 @@
+1;statement;n < 10;conditional
+2;statement;return n * (n + 1) / 2;statement
+3;statement;d = int(math.log10(n));statement
+4;statement;a = [0] * (d + 1);statement
+5;statement;a[0] = 0;statement
+6;statement;a[1] = 45;statement
+7;statement;range(2, d + 1);conditional
+8;statement;a[i] = a[i - 1] * 10 + 45 * int(math.ceil(math.pow(10, i - 1)));statement
+9;statement;p = int(math.ceil(math.pow(10, d)));statement
+10;statement;msd = n // p;statement
+11;statement;return int(msd * a[d] + msd * (msd - 1) // 2 * p + msd * (1 + n % p) + f_gold(n % p));statement
+0;1;5;
+1;
+2;3;
+3;4;
+4;5;
+5;6;
+6;7;10;
+7;6;
+8;9;
+9;10;
+10;

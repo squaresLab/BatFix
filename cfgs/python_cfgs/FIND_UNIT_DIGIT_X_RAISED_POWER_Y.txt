@@ -1,0 +1,8 @@
+1;statement;res = 1;statement
+2;statement;range(y);conditional
+3;statement;res = res * x % 10;statement
+4;statement;return res;statement
+0;1;
+1;2;3;
+2;1;
+3;

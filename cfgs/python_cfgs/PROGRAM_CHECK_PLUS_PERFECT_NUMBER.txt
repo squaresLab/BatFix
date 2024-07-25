@@ -1,0 +1,22 @@
+1;statement;temp = x;statement
+2;statement;n = 0;statement
+3;statement;x != 0;conditional
+4;statement;x = x // 10;statement
+5;statement;n = n + 1;statement
+6;statement;x = temp;statement
+7;statement;sm = 0;statement
+8;statement;x != 0;conditional
+9;statement;sm = sm + int(math.pow(x % 10, n));statement
+10;statement;x = x // 10;statement
+11;statement;return sm == temp;statement
+0;1;
+1;2;
+2;4;6;
+3;4;
+4;2;
+5;6;
+6;7;
+7;9;10;
+8;9;
+9;7;
+10;

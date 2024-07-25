@@ -1,0 +1,8 @@
+1;statement;AM = (a + b) / 2;statement
+2;statement;GM = math.sqrt(a * b);statement
+3;statement;HM = GM * GM / AM;statement
+4;statement;return HM;statement
+0;1;
+1;2;
+2;3;
+3;

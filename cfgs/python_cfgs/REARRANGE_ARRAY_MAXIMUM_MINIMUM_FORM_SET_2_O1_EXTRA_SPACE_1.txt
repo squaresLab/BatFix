@@ -1,0 +1,16 @@
+1;statement;max_ele = arr[n - 1];statement
+2;statement;min_ele = arr[0];statement
+3;statement;range(n);statement
+4;statement;i % 2 == 0;conditional
+5;statement;arr[i] = max_ele;statement
+6;statement;max_ele -= 1;statement
+7;statement;arr[i] = min_ele;statement
+8;statement;min_ele += 1;statement
+0;1;
+1;2;
+2;3;
+3;5;7;
+4;5;
+5;2;
+6;7;
+7;2;

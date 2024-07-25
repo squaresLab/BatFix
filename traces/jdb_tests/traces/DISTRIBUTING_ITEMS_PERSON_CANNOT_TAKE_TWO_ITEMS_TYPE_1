@@ -1,0 +1,196 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'DISTRIBUTING_ITEMS_PERSON_CANNOT_TAKE_TWO_ITEMS_TYPE_1.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: HashMap < Integer , Integer > hash = new HashMap < > ( ) ;
+Line: 14
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+
+Statement: for ( int i = 0 ;
+Line: 15
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: null     entrySet: null     size: 0     modCount: 0     threshold: 0     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+
+Statement: i < n ;
+Line: 16
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: null     entrySet: null     size: 0     modCount: 0     threshold: 0     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 0
+
+Statement: if ( ! hash . containsKey ( arr [ i ] ) ) hash . put ( arr [ i ] , 0 ) ;
+Line: 18
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: null     entrySet: null     size: 0     modCount: 0     threshold: 0     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 0
+
+Statement: hash . put ( arr [ i ] , hash . get ( arr [ i ] ) + 1 ) ;
+Line: 19
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 0
+
+Statement: i ++ ) {
+Line: 17
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 0
+
+Statement: i < n ;
+Line: 16
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 1
+
+Statement: if ( ! hash . containsKey ( arr [ i ] ) ) hash . put ( arr [ i ] , 0 ) ;
+Line: 18
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 1
+
+Statement: hash . put ( arr [ i ] , hash . get ( arr [ i ] ) + 1 ) ;
+Line: 19
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 1
+
+Statement: i ++ ) {
+Line: 17
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 1
+
+Statement: i < n ;
+Line: 16
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 2
+
+Statement: if ( ! hash . containsKey ( arr [ i ] ) ) hash . put ( arr [ i ] , 0 ) ;
+Line: 18
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 1     modCount: 1     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 2
+
+Statement: hash . put ( arr [ i ] , hash . get ( arr [ i ] ) + 1 ) ;
+Line: 19
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 2     modCount: 2     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 2
+
+Statement: i ++ ) {
+Line: 17
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 2     modCount: 2     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 2
+
+Statement: i < n ;
+Line: 16
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 2     modCount: 2     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 3
+
+Statement: if ( ! hash . containsKey ( arr [ i ] ) ) hash . put ( arr [ i ] , 0 ) ;
+Line: 18
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 2     modCount: 2     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 3
+
+Statement: hash . put ( arr [ i ] , hash . get ( arr [ i ] ) + 1 ) ;
+Line: 19
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 3
+
+Statement: i ++ ) {
+Line: 17
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 3
+
+Statement: i < n ;
+Line: 16
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 4
+
+Statement: if ( ! hash . containsKey ( arr [ i ] ) ) hash . put ( arr [ i ] , 0 ) ;
+Line: 18
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 4
+
+Statement: hash . put ( arr [ i ] , hash . get ( arr [ i ] ) + 1 ) ;
+Line: 19
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 4
+
+Statement: i ++ ) {
+Line: 17
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 4
+
+Statement: i < n ;
+Line: 16
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+i = 5
+
+Statement: for ( Map . Entry x : hash . entrySet ( ) ) if ( ( int ) x . getValue ( ) > 2 * k ) return false ;
+Line: 21
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: null     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }
+
+Statement: return true ;
+Line: 22
+arr = { 1, 1, 2, 3, 1 }
+n = 5
+k = 2
+hash = {     serialVersionUID: 362498820763181265     DEFAULT_INITIAL_CAPACITY: 16     MAXIMUM_CAPACITY: 1073741824     DEFAULT_LOAD_FACTOR: 0.75     TREEIFY_THRESHOLD: 8     UNTREEIFY_THRESHOLD: 6     MIN_TREEIFY_CAPACITY: 64     table: instance of java.util.HashMap$Node[16] (id=429)     entrySet: instance of java.util.HashMap$EntrySet(id=430)     size: 3     modCount: 3     threshold: 12     loadFactor: 0.75     java.util.AbstractMap.keySet: null     java.util.AbstractMap.values: null }

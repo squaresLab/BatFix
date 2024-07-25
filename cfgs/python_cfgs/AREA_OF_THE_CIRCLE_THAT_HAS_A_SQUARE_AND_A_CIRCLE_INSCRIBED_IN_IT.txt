@@ -1,0 +1,4 @@
+1;statement;area = math.pi * a * a / 4;statement
+2;statement;return area;statement
+0;1;
+1;

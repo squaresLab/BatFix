@@ -1,0 +1,10 @@
+1;statement;n = len(str);statement
+2;statement;cl = len(corner);statement
+3;statement;n < cl;conditional
+4;statement;return False;statement
+5;statement;return str[:cl] == corner and str[n - cl:] == corner;statement
+0;1;
+1;2;
+2;3;4;
+3;
+4;

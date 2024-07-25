@@ -1,0 +1,1013 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'MINIMUM_INSERTIONS_TO_FORM_A_PALINDROME_WITH_PERMUTATIONS_ALLOWED.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int n = str . length ( ) ;
+Line: 9
+str = "geeksforgeeks"
+
+Statement: int res = 0 ;
+Line: 10
+str = "geeksforgeeks"
+n = 13
+
+Statement: int [ ] count = new int [ 26 ] ;
+Line: 11
+str = "geeksforgeeks"
+n = 13
+res = 0
+
+Statement: for ( int i = 0 ;
+Line: 12
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 0
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 0
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 0
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 1
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 1
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 1
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 2
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 2
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 2
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 3
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 3
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 3
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 4
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+i = 4
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 4
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 5
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 5
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 5
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 6
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 6
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 6
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 7
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 7
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 7
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 8
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 8
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 8
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 9
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 9
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 3, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 9
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 3, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 10
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 3, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 10
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 10
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 11
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 11
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 11
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 12
+
+Statement: count [ str . charAt ( i ) - 'a' ] ++ ;
+Line: 15
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 }
+i = 12
+
+Statement: i ++ )
+Line: 14
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 12
+
+Statement: i < n ;
+Line: 13
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 13
+
+Statement: for ( int i = 0 ;
+Line: 16
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 0
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 0
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 0
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 1
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 1
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 1
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 2
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 2
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 2
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 3
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 3
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 3
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 4
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 4
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 4
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 5
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 5
+
+Statement: res ++ ;
+Line: 20
+str = "geeksforgeeks"
+n = 13
+res = 0
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 5
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 5
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 6
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 6
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 6
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 7
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 7
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 7
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 8
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 8
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 8
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 9
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 9
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 9
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 10
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 10
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 10
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 11
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 11
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 11
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 12
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 12
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 12
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 13
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 13
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 13
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 14
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 14
+
+Statement: res ++ ;
+Line: 20
+str = "geeksforgeeks"
+n = 13
+res = 1
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 14
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 14
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 15
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 15
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 15
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 16
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 16
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 16
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 17
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 17
+
+Statement: res ++ ;
+Line: 20
+str = "geeksforgeeks"
+n = 13
+res = 2
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 17
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 17
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 18
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 18
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 18
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 19
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 19
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 19
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 20
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 20
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 20
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 21
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 21
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 21
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 22
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 22
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 22
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 23
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 23
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 23
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 24
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 24
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 24
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 25
+
+Statement: if ( count [ i ] % 2 == 1 )
+Line: 19
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 25
+
+Statement: i ++ ) {
+Line: 18
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 25
+
+Statement: i < 26 ;
+Line: 17
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }
+i = 26
+
+Statement: return ( res == 0 ) ? 0 : res - 1 ;
+Line: 22
+str = "geeksforgeeks"
+n = 13
+res = 3
+count = { 0, 0, 0, 0, 4, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0 }

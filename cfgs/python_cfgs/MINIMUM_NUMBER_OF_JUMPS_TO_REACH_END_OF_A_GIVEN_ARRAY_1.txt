@@ -1,0 +1,20 @@
+1;statement;jumps = [0 for i in range(n)];statement
+2;statement;n == 0 or arr[0] == 0;conditional
+3;statement;return float('inf');statement
+4;statement;jumps[0] = 0;statement
+5;statement;range(1, n);conditional
+6;statement;jumps[i] = float('inf');statement
+7;statement;range(i);conditional
+8;statement;i <= j + arr[j] and jumps[j] != float('inf');conditional
+9;statement;jumps[i] = min(jumps[i], jumps[j] + 1);statement
+10;statement;return jumps[n - 1];statement
+0;1;
+1;2;3;
+2;
+3;4;
+4;5;9;
+5;6;
+6;7;4;
+7;8;6;
+8;4;
+9;

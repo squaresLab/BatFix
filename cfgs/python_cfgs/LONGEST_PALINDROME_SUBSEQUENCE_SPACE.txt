@@ -1,0 +1,28 @@
+1;statement;n = len(s);statement
+2;statement;a = [0] * n;statement
+3;statement;range(n - 1, -1, -1);conditional
+4;statement;back_up = 0;statement
+5;statement;range(i, n);conditional
+6;statement;j == i;conditional
+7;statement;a[j] = 1;statement
+8;statement;s[i] == s[j];conditional
+9;statement;temp = a[j];statement
+10;statement;a[j] = back_up + 2;statement
+11;statement;back_up = temp;statement
+12;statement;back_up = a[j];statement
+13;statement;a[j] = max(a[j - 1], a[j]);statement
+14;statement;return a[n - 1];statement
+0;1;
+1;2;
+2;3;13;
+3;4;
+4;5;2;
+5;6;7;
+6;4;
+7;10;12;
+8;9;
+9;10;
+10;4;
+11;12;
+12;4;
+13;

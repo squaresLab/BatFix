@@ -1,0 +1,968 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'FORM_SMALLEST_NUMBER_USING_ONE_SWAP_OPERATION.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: char [ ] num = str . toCharArray ( ) ;
+Line: 14
+str = "ncYltuhSxEfG"
+
+Statement: int n = str . length ( ) ;
+Line: 15
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+
+Statement: int [ ] rightMin = new int [ n ] ;
+Line: 16
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+
+Statement: rightMin [ n - 1 ] = - 1 ;
+Line: 17
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+
+Statement: int right = n - 1 ;
+Line: 18
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1 }
+
+Statement: for ( int i = n - 2 ;
+Line: 19
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1 }
+right = 11
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1 }
+right = 11
+i = 10
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1 }
+right = 11
+i = 10
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, -1 }
+right = 11
+i = 10
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, -1 }
+right = 11
+i = 9
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, -1 }
+right = 11
+i = 9
+
+Statement: rightMin [ i ] = - 1 ;
+Line: 24
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, -1 }
+right = 11
+i = 9
+
+Statement: right = i ;
+Line: 25
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, -1 }
+right = 11
+i = 9
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, -1 }
+right = 9
+i = 9
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, -1 }
+right = 9
+i = 8
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, -1 }
+right = 9
+i = 8
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 9, -1, 11, -1 }
+right = 9
+i = 8
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 9, -1, 11, -1 }
+right = 9
+i = 7
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 0, 9, -1, 11, -1 }
+right = 9
+i = 7
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 9, 9, -1, 11, -1 }
+right = 9
+i = 7
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 9, 9, -1, 11, -1 }
+right = 9
+i = 6
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 0, 9, 9, -1, 11, -1 }
+right = 9
+i = 6
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 6
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 5
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 0, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 5
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 5
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 4
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 0, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 4
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 4
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 3
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 0, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 3
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 3
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 2
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 0, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 2
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 2
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 1
+
+Statement: if ( num [ i ] > num [ right ] ) rightMin [ i ] = right ;
+Line: 22
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 0, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 1
+
+Statement: i -- ) {
+Line: 21
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 1
+
+Statement: i >= 1 ;
+Line: 20
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+i = 0
+
+Statement: int small = - 1 ;
+Line: 28
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+
+Statement: for ( int i = 1 ;
+Line: 29
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = -1
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = -1
+i = 1
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = -1
+i = 1
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = -1
+i = 1
+
+Statement: if ( num [ i ] < num [ 0 ] ) small = i ;
+Line: 33
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = -1
+i = 1
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 1
+i = 1
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 1
+i = 2
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 1
+i = 2
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 1
+i = 2
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 1
+i = 2
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 2
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 3
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 3
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 3
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 3
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 3
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 4
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 4
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 4
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 4
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 4
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 5
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 5
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 5
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 5
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 5
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 6
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 6
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 6
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 6
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 6
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 7
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 7
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 7
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 2
+i = 7
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 7
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 8
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 8
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 8
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 8
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 8
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 9
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 9
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 9
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 7
+i = 9
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 9
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 10
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 10
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 10
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 10
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 10
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 11
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 11
+
+Statement: if ( small == - 1 ) {
+Line: 32
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 11
+
+Statement: else if ( num [ i ] < num [ small ] ) small = i ;
+Line: 35
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 11
+
+Statement: i ++ ) if ( num [ i ] != '0' ) {
+Line: 31
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 11
+
+Statement: i < n ;
+Line: 30
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+i = 12
+
+Statement: if ( small != - 1 ) {
+Line: 37
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+
+Statement: temp = num [ 0 ] ;
+Line: 39
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+
+Statement: num [ 0 ] = num [ small ] ;
+Line: 40
+str = "ncYltuhSxEfG"
+num = { n, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+temp = n
+
+Statement: num [ small ] = temp ;
+Line: 41
+str = "ncYltuhSxEfG"
+num = { E, c, Y, l, t, u, h, S, x, E, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+temp = n
+
+Statement: }
+Line: 42
+str = "ncYltuhSxEfG"
+num = { E, c, Y, l, t, u, h, S, x, n, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9
+
+Statement: return ( new String ( num ) ) ;
+Line: 56
+str = "ncYltuhSxEfG"
+num = { E, c, Y, l, t, u, h, S, x, n, f, G }
+n = 12
+rightMin = { 0, 9, 9, 9, 9, 9, 9, 9, 9, -1, 11, -1 }
+right = 9
+small = 9

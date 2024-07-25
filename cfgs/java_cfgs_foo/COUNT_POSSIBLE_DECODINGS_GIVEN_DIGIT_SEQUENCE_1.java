@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;int[] count = new int[foo_1 + 1];14;
+3;statement;foo_1[0] = 1;15;
+4;statement;foo_1[1] = 1;16;
+5;conditional;foo_1[0] == '0';17;
+6;statement;return 0;17;
+7;exit;;;
+8;statement;int i = 2;18;
+9;conditional;foo_1 <= foo_2;19;
+10;statement;foo_1[foo_2] = 0;21;
+11;conditional;foo_1[foo_2 - 1] > '0';22;
+12;statement;foo_1[foo_2] = foo_3[foo_4 - 1];22;
+13;conditional;(foo_1[foo_2 - 2] == '1') || ((foo_3[foo_4 - 2] == '2') && (foo_5[foo_6 - 1] < '7'));23;
+14;statement;foo_1[foo_2] += foo_3[foo_4 - 2];23;
+15;statement;i++;20;
+16;statement;return foo_1[foo_2];25;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;8;
+5;7;
+6;
+7;9;
+8;10;16;
+9;11;
+10;12;13;
+11;13;
+12;14;15;
+13;15;
+14;9;
+15;7;

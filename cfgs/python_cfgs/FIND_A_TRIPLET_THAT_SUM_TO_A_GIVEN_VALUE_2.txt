@@ -1,0 +1,18 @@
+1;statement;range(0, arr_size - 1);conditional
+2;statement;s = set();statement
+3;statement;curr_sum = sum - A[i];statement
+4;statement;range(i + 1, arr_size);conditional
+5;statement;curr_sum - A[j] in s;conditional
+6;statement;print('Triplet is', A[i], ', ', A[j], ', ', curr_sum - A[j]);statement
+7;statement;return True;statement
+8;statement;s.add(A[j]);statement
+9;statement;return False;statement
+0;2;8;
+1;2;
+2;3;
+3;4;0;
+4;6;7;
+5;6;
+6;
+7;3;
+8;

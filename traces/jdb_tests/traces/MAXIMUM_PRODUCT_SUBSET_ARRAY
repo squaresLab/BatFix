@@ -1,0 +1,171 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'MAXIMUM_PRODUCT_SUBSET_ARRAY.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: if ( n == 1 ) {
+Line: 14
+a = { 22, 62, 97 }
+n = 2
+
+Statement: int max_neg = Integer . MIN_VALUE ;
+Line: 17
+a = { 22, 62, 97 }
+n = 2
+
+Statement: int count_neg = 0 , count_zero = 0 ;
+Line: 18
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+
+Statement: int prod = 1 ;
+Line: 19
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+
+Statement: for ( int i = 0 ;
+Line: 20
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1
+
+Statement: i < n ;
+Line: 21
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1
+i = 0
+
+Statement: if ( a [ i ] == 0 ) {
+Line: 23
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1
+i = 0
+
+Statement: if ( a [ i ] < 0 ) {
+Line: 27
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1
+i = 0
+
+Statement: prod = prod * a [ i ] ;
+Line: 31
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1
+i = 0
+
+Statement: i ++ ) {
+Line: 22
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 22
+i = 0
+
+Statement: i < n ;
+Line: 21
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 22
+i = 1
+
+Statement: if ( a [ i ] == 0 ) {
+Line: 23
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 22
+i = 1
+
+Statement: if ( a [ i ] < 0 ) {
+Line: 27
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 22
+i = 1
+
+Statement: prod = prod * a [ i ] ;
+Line: 31
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 22
+i = 1
+
+Statement: i ++ ) {
+Line: 22
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1364
+i = 1
+
+Statement: i < n ;
+Line: 21
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1364
+i = 2
+
+Statement: if ( count_zero == n ) {
+Line: 33
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1364
+
+Statement: if ( count_neg % 2 == 1 ) {
+Line: 36
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1364
+
+Statement: return prod ;
+Line: 42
+a = { 22, 62, 97 }
+n = 2
+max_neg = -2147483648
+count_neg = 0
+count_zero = 0
+prod = 1364

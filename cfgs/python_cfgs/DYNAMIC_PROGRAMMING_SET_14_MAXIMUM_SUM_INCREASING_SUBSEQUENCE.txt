@@ -1,0 +1,24 @@
+1;statement;max = 0;statement
+2;statement;msis = [0 for x in range(n)];statement
+3;statement;range(n);conditional
+4;statement;msis[i] = arr[i];statement
+5;statement;range(1, n);conditional
+6;statement;range(i);conditional
+7;statement;arr[i] > arr[j] and msis[i] < msis[j] + arr[i];conditional
+8;statement;msis[i] = msis[j] + arr[i];statement
+9;statement;range(n);conditional
+10;statement;max < msis[i];conditional
+11;statement;max = msis[i];statement
+12;statement;return max;statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;8;
+5;6;4;
+6;7;5;
+7;5;
+8;9;11;
+9;10;8;
+10;8;
+11;

@@ -1,0 +1,26 @@
+1;statement;m = len(X);statement
+2;statement;n = len(Y);statement
+3;statement;L = [[0 for i in range(n + 1)] for j in range(2)];statement
+4;statement;bi = bool;statement
+5;statement;range(m);conditional
+6;statement;bi = i & 1;statement
+7;statement;range(n + 1);conditional
+8;statement;i == 0 or j == 0;conditional
+9;statement;L[bi][j] = 0;statement
+10;statement;X[i] == Y[j - 1];conditional
+11;statement;L[bi][j] = L[1 - bi][j - 1] + 1;statement
+12;statement;L[bi][j] = max(L[1 - bi][j], L[bi][j - 1]);statement
+13;statement;return L[bi][n];statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;12;
+5;6;
+6;7;4;
+7;8;9;
+8;6;
+9;10;11;
+10;6;
+11;6;
+12;

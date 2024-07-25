@@ -1,0 +1,40 @@
+1;statement;table = [0] * m;statement
+2;statement;range(m);conditional
+3;statement;table[j] = 0;statement
+4;statement;range(n);conditional
+5;statement;current = 0;statement
+6;statement;range(m);conditional
+7;statement;arr1[i] == arr2[j];conditional
+8;statement;current + 1 > table[j];conditional
+9;statement;table[j] = current + 1;statement
+10;statement;arr1[i] > arr2[j];conditional
+11;statement;arr1[i] > arr2[j];conditional
+12;statement;table[j] > current;conditional
+13;statement;table[j] > current;conditional
+14;statement;current = table[j];statement
+15;statement;current = table[j];statement
+16;statement;result = 0;statement
+17;statement;range(m);conditional
+18;statement;table[i] > result;conditional
+19;statement;result = table[i];statement
+20;statement;return result;statement
+0;1;
+1;2;3;
+2;1;
+3;4;15;
+4;5;
+5;6;3;
+6;7;10;
+7;8;10;
+8;10;
+9;
+10;12;5;12;5;
+11;
+12;14;5;14;5;
+13;
+14;5;5;
+15;16;
+16;17;19;
+17;18;16;
+18;16;
+19;

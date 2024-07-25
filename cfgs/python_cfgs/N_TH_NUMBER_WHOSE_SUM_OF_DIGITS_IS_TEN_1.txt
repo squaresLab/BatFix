@@ -1,0 +1,34 @@
+1;statement;count = 0;statement
+2;statement;curr = 19;statement
+3;statement;True;conditional
+4;statement;sum = 0;statement
+5;statement;x = curr;statement
+6;statement;x > 0;conditional
+7;statement;sum = sum + x % 10;statement
+8;statement;x = int(x / 10);statement
+9;statement;sum == 10;conditional
+10;statement;count += 1;statement
+11;statement;count == n;conditional
+12;statement;count == n;conditional
+13;statement;return curr;statement
+14;statement;return curr;statement
+15;statement;curr += 9;statement
+16;statement;curr += 9;statement
+17;statement;return -1;statement
+0;1;
+1;2;
+2;4;16;
+3;4;
+4;5;
+5;7;8;
+6;7;
+7;5;
+8;9;11;
+9;11;
+10;
+11;13;15;13;15;
+12;
+13;
+14;
+15;2;2;
+16;

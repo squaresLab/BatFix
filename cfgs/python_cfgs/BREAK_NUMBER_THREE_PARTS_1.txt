@@ -1,0 +1,6 @@
+1;statement;count = 0;statement
+2;statement;count = (n + 1) * (n + 2) // 2;statement
+3;statement;return count;statement
+0;1;
+1;2;
+2;

@@ -1,0 +1,189 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'SPACE_OPTIMIZED_DP_SOLUTION_0_1_KNAPSACK_PROBLEM_1.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int [ ] dp = new int [ W + 1 ];
+Line: 13
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+
+Statement: Arrays . fill ( dp, 0 );
+Line: 14
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+
+Statement: for ( int i = 0;
+Line: 15
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+
+Statement: i < n;
+Line: 16
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 0
+
+Statement: for ( int j = W;
+Line: 18
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 0
+
+Statement: j >= wt [ i ];
+Line: 19
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 0
+j = 2
+
+Statement: i ++ )
+Line: 17
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 0
+
+Statement: i < n;
+Line: 16
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 1
+
+Statement: for ( int j = W;
+Line: 18
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 1
+
+Statement: j >= wt [ i ];
+Line: 19
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 1
+j = 2
+
+Statement: i ++ )
+Line: 17
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 1
+
+Statement: i < n;
+Line: 16
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 2
+
+Statement: for ( int j = W;
+Line: 18
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 2
+
+Statement: j >= wt [ i ];
+Line: 19
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 2
+j = 2
+
+Statement: i ++ )
+Line: 17
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 2
+
+Statement: i < n;
+Line: 16
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 3
+
+Statement: for ( int j = W;
+Line: 18
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 3
+
+Statement: j >= wt [ i ];
+Line: 19
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 3
+j = 2
+
+Statement: i ++ )
+Line: 17
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 3
+
+Statement: i < n;
+Line: 16
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }
+i = 4
+
+Statement: return dp [ W ];
+Line: 22
+val = { 11, 25, 72, 90, 95 }
+wt = { 10, 28, 50, 60, 66 }
+n = 4
+W = 2
+dp = { 0, 0, 0 }

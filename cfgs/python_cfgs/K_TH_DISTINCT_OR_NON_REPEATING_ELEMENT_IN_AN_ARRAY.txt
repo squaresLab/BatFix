@@ -1,0 +1,34 @@
+1;statement;dist_count = 0;statement
+2;statement;range(n);conditional
+3;statement;j = 0;statement
+4;statement;j < n;conditional
+5;statement;i != j and arr[j] == arr[i];conditional
+6;statement;j += 1;statement
+7;statement;j == n;conditional
+8;statement;j == n;conditional
+9;statement;dist_count += 1;statement
+10;statement;dist_count += 1;statement
+11;statement;dist_count == k;conditional
+12;statement;dist_count == k;conditional
+13;statement;dist_count == k;conditional
+14;statement;return arr[i];statement
+15;statement;return arr[i];statement
+16;statement;return arr[i];statement
+17;statement;return -1;statement
+0;1;
+1;2;16;
+2;3;
+3;4;7;
+4;5;7;
+5;3;
+6;
+7;9;12;9;12;
+8;
+9;12;12;
+10;
+11;
+12;15;1;15;1;15;1;
+13;
+14;
+15;
+16;

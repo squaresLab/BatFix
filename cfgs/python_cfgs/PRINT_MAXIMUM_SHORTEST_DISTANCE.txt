@@ -1,0 +1,26 @@
+1;statement;b = dict();statement
+2;statement;range(n);conditional
+3;statement;x = a[i];statement
+4;statement;d = min(1 + i, n - i);statement
+5;statement;x not in b.keys();conditional
+6;statement;b[x] = d;statement
+7;statement;b[x] = min(d, b[x]);statement
+8;statement;ans = 10 ** 9;statement
+9;statement;range(n);conditional
+10;statement;x = a[i];statement
+11;statement;x != k - x and k - x in b.keys();conditional
+12;statement;ans = min(max(b[x], b[k - x]), ans);statement
+13;statement;return ans;statement
+0;1;
+1;4;7;
+2;3;
+3;4;
+4;5;6;
+5;1;
+6;1;
+7;8;
+8;10;12;
+9;10;
+10;11;8;
+11;8;
+12;

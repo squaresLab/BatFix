@@ -1,0 +1,18 @@
+1;statement;max = 0;statement
+2;statement;min = 0;statement
+3;statement;arr.sort();statement
+4;statement;j = n - 1;statement
+5;statement;range(m);conditional
+6;statement;min += arr[i];statement
+7;statement;max += arr[j];statement
+8;statement;j = j - 1;statement
+9;statement;return max - min;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;7;8;
+5;6;
+6;7;
+7;4;
+8;

@@ -1,0 +1,22 @@
+1;statement;zero = 0;statement
+2;statement;two = 0;statement
+3;statement;range(n);conditional
+4;statement;a[i] == 0;conditional
+5;statement;zero += 1;statement
+6;statement;a[i] == 2;conditional
+7;statement;a[i] == 2;conditional
+8;statement;two += 1;statement
+9;statement;two += 1;statement
+10;statement;cnt = zero * (zero - 1) // 2 + two * (two - 1) // 2;statement
+11;statement;return cnt;statement
+0;1;
+1;2;
+2;3;10;
+3;4;6;
+4;6;
+5;
+6;8;2;8;2;
+7;
+8;2;2;
+9;10;
+10;

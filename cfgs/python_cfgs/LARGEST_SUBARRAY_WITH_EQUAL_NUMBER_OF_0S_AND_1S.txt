@@ -1,0 +1,28 @@
+1;statement;sum = 0;statement
+2;statement;maxsize = -1;statement
+3;statement;range(0, n - 1);conditional
+4;statement;sum = -1 if arr[i] == 0 else 1;statement
+5;statement;range(i + 1, n);conditional
+6;statement;sum = sum + -1 if arr[j] == 0 else sum + 1;statement
+7;statement;sum == 0 and maxsize < j - i + 1;conditional
+8;statement;maxsize = j - i + 1;statement
+9;statement;startindex = i;statement
+10;statement;maxsize == -1;conditional
+11;statement;print('No such subarray');statement
+12;statement;print(startindex, 'to', startindex + maxsize - 1);statement
+13;statement;return maxsize;statement
+14;statement;return maxsize;statement
+0;1;
+1;2;
+2;3;9;
+3;4;
+4;6;2;
+5;6;
+6;8;4;
+7;8;
+8;4;
+9;10;11;
+10;13;
+11;13;
+12;
+13;

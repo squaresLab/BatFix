@@ -1,0 +1,34 @@
+1;statement;max_count = 0;statement
+2;statement;max_index = 0;statement
+3;statement;prev_zero = -1;statement
+4;statement;prev_prev_zero = -1;statement
+5;statement;range(n);conditional
+6;statement;arr[curr] == 0;conditional
+7;statement;curr - prev_prev_zero > max_count;conditional
+8;statement;max_count = curr - prev_prev_zero;statement
+9;statement;max_index = prev_zero;statement
+10;statement;prev_prev_zero = prev_zero;statement
+11;statement;prev_zero = curr;statement
+12;statement;prev_prev_zero = prev_zero;statement
+13;statement;prev_zero = curr;statement
+14;statement;n - prev_prev_zero > max_count;conditional
+15;statement;max_index = prev_zero;statement
+16;statement;return max_index;statement
+17;statement;return max_index;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;13;
+5;6;4;
+6;8;12;
+7;8;
+8;12;
+9;10;
+10;
+11;12;
+12;4;4;
+13;14;16;
+14;16;
+15;
+16;

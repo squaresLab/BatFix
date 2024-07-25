@@ -1,0 +1,2 @@
+1;statement;return n % 2 == 0;statement
+0;

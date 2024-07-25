@@ -1,0 +1,24 @@
+1;statement;l = len(st);statement
+2;statement;arr = [0] * l;statement
+3;statement;range(0, l);conditional
+4;statement;range(i, l);conditional
+5;statement;range(j, l);conditional
+6;statement;arr[i] % 8 == 0;conditional
+7;statement;return True;statement
+8;statement;(arr[i] * 10 + arr[j]) % 8 == 0 and i != j;conditional
+9;statement;return True;statement
+10;statement;(arr[i] * 100 + arr[j] * 10 + arr[k]) % 8 == 0 and i != j and (j != k) and (i != k);conditional
+11;statement;return True;statement
+12;statement;return False;statement
+0;1;
+1;2;
+2;3;11;
+3;4;2;
+4;5;3;
+5;6;7;
+6;
+7;8;9;
+8;
+9;10;4;
+10;
+11;

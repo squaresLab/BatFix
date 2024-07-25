@@ -1,0 +1,6 @@
+Pair elements are 4 and 11
+Pair elements are1and0
+Pair elements are1and0
+Pair elements are 1 and 0
+Pair elements are 0 and 0
+#Results: 7, 10

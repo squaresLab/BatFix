@@ -1,0 +1,12 @@
+1;statement;arr = sorted(arr);statement
+2;statement;diff = 10 ** 20;statement
+3;statement;range(n - 1);conditional
+4;statement;arr[i + 1] - arr[i] < diff;conditional
+5;statement;diff = arr[i + 1] - arr[i];statement
+6;statement;return diff;statement
+0;1;
+1;2;
+2;3;5;
+3;4;2;
+4;2;
+5;

@@ -1,0 +1,26 @@
+1;statement;res = -sys.maxsize - 1;statement
+2;statement;range(n);conditional
+3;statement;prefix_sum = arr[i];statement
+4;statement;range(i);conditional
+5;statement;prefix_sum += arr[j];statement
+6;statement;suffix_sum = arr[i];statement
+7;statement;j = n - 1;statement
+8;statement;j > i;conditional
+9;statement;suffix_sum += arr[j];statement
+10;statement;j -= 1;statement
+11;statement;prefix_sum == suffix_sum;conditional
+12;statement;res = max(res, prefix_sum);statement
+13;statement;return res;statement
+0;1;
+1;2;12;
+2;3;
+3;4;6;
+4;3;
+5;6;
+6;7;
+7;9;10;
+8;9;
+9;7;
+10;11;1;
+11;1;
+12;

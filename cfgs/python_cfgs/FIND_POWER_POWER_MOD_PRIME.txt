@@ -1,0 +1,6 @@
+1;statement;res = pow(B, C, M - 1);statement
+2;statement;ans = pow(A, res, M);statement
+3;statement;return ans;statement
+0;1;
+1;2;
+2;

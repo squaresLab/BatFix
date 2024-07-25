@@ -1,0 +1,10 @@
+1;statement;n == 0 or n == 9;conditional
+2;statement;return True;statement
+3;statement;n < 9;conditional
+4;statement;return False;statement
+5;statement;return f_gold(int(n >> 3) - int(n & 7));statement
+0;1;2;
+1;
+2;3;4;
+3;
+4;

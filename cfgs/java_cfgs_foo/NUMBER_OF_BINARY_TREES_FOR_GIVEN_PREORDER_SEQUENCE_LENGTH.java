@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;statement;int[] BT = new int[foo_1 + 1];14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 <= foo_2;16;
+5;statement;foo_1[foo_2] = 0;17;
+6;statement;i++;17;
+7;statement;foo_1[0] = foo_2[1] = 1;18;
+8;statement;int i = 2;19;
+9;conditional;foo_1 <= foo_2;20;
+10;statement;int j = 0;21;
+11;conditional;foo_1 < foo_2;22;
+12;statement;foo_1[foo_2] += foo_3[foo_4] * foo_5[(foo_6 - foo_7) - 1];23;
+13;statement;j++;23;
+14;statement;++i;21;
+15;statement;return foo_1[foo_2];24;
+16;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;7;
+4;6;
+5;4;
+6;8;
+7;9;
+8;10;15;
+9;11;
+10;12;14;
+11;13;
+12;11;
+13;9;
+14;16;
+15;

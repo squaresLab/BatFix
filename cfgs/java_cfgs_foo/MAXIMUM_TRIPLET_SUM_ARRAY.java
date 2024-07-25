@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int sum = -1000000;14;
+3;statement;int i = 0;15;
+4;conditional;foo_1 < foo_2;16;
+5;statement;int j = foo_1 + 1;17;
+6;conditional;foo_1 < foo_2;18;
+7;statement;int k = foo_1 + 1;19;
+8;conditional;foo_1 < foo_2;20;
+9;conditional;foo_1 < ((foo_2[foo_3] + foo_4[foo_5]) + foo_6[foo_7]);21;
+10;statement;sum = (foo_1[foo_2] + foo_3[foo_4]) + foo_5[foo_6];21;
+11;statement;k++;21;
+12;statement;j++;19;
+13;statement;i++;17;
+14;statement;return foo_1;22;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;14;
+4;6;
+5;7;13;
+6;8;
+7;9;12;
+8;10;11;
+9;11;
+10;8;
+11;6;
+12;4;
+13;15;
+14;

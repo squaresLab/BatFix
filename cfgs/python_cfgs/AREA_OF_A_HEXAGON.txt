@@ -1,0 +1,2 @@
+1;statement;return 3 * math.sqrt(3) * (s * s) / 2;statement
+0;

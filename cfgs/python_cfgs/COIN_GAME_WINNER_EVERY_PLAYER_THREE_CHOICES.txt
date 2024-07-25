@@ -1,0 +1,24 @@
+1;statement;dp = [0 for i in range(n + 1)];statement
+2;statement;dp[0] = False;statement
+3;statement;dp[1] = True;statement
+4;statement;range(2, n + 1);conditional
+5;statement;i - 1 >= 0 and (not dp[i - 1]);conditional
+6;statement;dp[i] = True;statement
+7;statement;i - x >= 0 and (not dp[i - x]);conditional
+8;statement;dp[i] = True;statement
+9;statement;i - y >= 0 and (not dp[i - y]);conditional
+10;statement;dp[i] = True;statement
+11;statement;dp[i] = False;statement
+12;statement;return dp[n];statement
+0;1;
+1;2;
+2;3;
+3;4;11;
+4;5;6;
+5;3;
+6;7;8;
+7;3;
+8;9;10;
+9;3;
+10;3;
+11;

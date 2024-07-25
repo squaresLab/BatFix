@@ -1,0 +1,1765 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'SUBARRAYS_DISTINCT_ELEMENTS.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: Set < Integer > s = new HashSet < > ( ) ;
+Line: 14
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+
+Statement: int j = 0 , ans = 0 ;
+Line: 15
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+
+Statement: for ( int i = 0 ;
+Line: 16
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 0
+ans = 0
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 0
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 0
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 0
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 0
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 1
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 1
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 1
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 2
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 2
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 2
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 3
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 3
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 3
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 4
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 4
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 4
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 5
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 5
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 5
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 6
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 6
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 6
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 7
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 7
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 7
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 8
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 8
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 8
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 9
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 9
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 9
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 10
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 10
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 10
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 11
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 11
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 11
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 12
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 12
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 12
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 13
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 13
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 13
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 14
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 14
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 14
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 15
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 15
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 15
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 16
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 16
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 16
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 17
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 17
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 17
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 18
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 18
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 18
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 19
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 19
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 19
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 20
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 20
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 20
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 21
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 21
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 21
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 22
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 22
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 22
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 23
+ans = 0
+i = 0
+
+Statement: s . add ( arr [ i ] ) ;
+Line: 20
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 23
+ans = 0
+i = 0
+
+Statement: j ++ ;
+Line: 21
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 23
+ans = 0
+i = 0
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 0
+i = 0
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 0
+i = 0
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 300
+i = 0
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 300
+i = 0
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 300
+i = 1
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 300
+i = 1
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 300
+i = 1
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 576
+i = 1
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 576
+i = 1
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 576
+i = 2
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 576
+i = 2
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 576
+i = 2
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 829
+i = 2
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 829
+i = 2
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 829
+i = 3
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 829
+i = 3
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 829
+i = 3
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1060
+i = 3
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1060
+i = 3
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1060
+i = 4
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1060
+i = 4
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1060
+i = 4
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1270
+i = 4
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1270
+i = 4
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1270
+i = 5
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1270
+i = 5
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1270
+i = 5
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1460
+i = 5
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1460
+i = 5
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1460
+i = 6
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1460
+i = 6
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1460
+i = 6
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1631
+i = 6
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1631
+i = 6
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1631
+i = 7
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1631
+i = 7
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1631
+i = 7
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1784
+i = 7
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1784
+i = 7
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1784
+i = 8
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1784
+i = 8
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1784
+i = 8
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1920
+i = 8
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1920
+i = 8
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1920
+i = 9
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1920
+i = 9
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 1920
+i = 9
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2040
+i = 9
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2040
+i = 9
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2040
+i = 10
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2040
+i = 10
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2040
+i = 10
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2145
+i = 10
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2145
+i = 10
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2145
+i = 11
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2145
+i = 11
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2145
+i = 11
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2236
+i = 11
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2236
+i = 11
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2236
+i = 12
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2236
+i = 12
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2236
+i = 12
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2314
+i = 12
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2314
+i = 12
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2314
+i = 13
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2314
+i = 13
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2314
+i = 13
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2380
+i = 13
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2380
+i = 13
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2380
+i = 14
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2380
+i = 14
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2380
+i = 14
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2435
+i = 14
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2435
+i = 14
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2435
+i = 15
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2435
+i = 15
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2435
+i = 15
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2480
+i = 15
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2480
+i = 15
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2480
+i = 16
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2480
+i = 16
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2480
+i = 16
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2516
+i = 16
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2516
+i = 16
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2516
+i = 17
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2516
+i = 17
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2516
+i = 17
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2544
+i = 17
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2544
+i = 17
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2544
+i = 18
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2544
+i = 18
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2544
+i = 18
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2565
+i = 18
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2565
+i = 18
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2565
+i = 19
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2565
+i = 19
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2565
+i = 19
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2580
+i = 19
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2580
+i = 19
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2580
+i = 20
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2580
+i = 20
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2580
+i = 20
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2590
+i = 20
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2590
+i = 20
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2590
+i = 21
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2590
+i = 21
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2590
+i = 21
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2596
+i = 21
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2596
+i = 21
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2596
+i = 22
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2596
+i = 22
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2596
+i = 22
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2599
+i = 22
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2599
+i = 22
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2599
+i = 23
+
+Statement: while ( j < n && ! s . contains ( arr [ j ] ) ) {
+Line: 19
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2599
+i = 23
+
+Statement: ans += ( ( j - i ) * ( j - i + 1 ) ) / 2 ;
+Line: 23
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2599
+i = 23
+
+Statement: s . remove ( arr [ i ] ) ;
+Line: 24
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2600
+i = 23
+
+Statement: i ++ ) {
+Line: 18
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2600
+i = 23
+
+Statement: i < n ;
+Line: 17
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2600
+i = 24
+
+Statement: return ans ;
+Line: 26
+arr = { 3, 4, 5, 6, 12, 15, 16, 17, 20, 20, 22, 24, 24, 27, 28, 34, 37, 39, 39, 41, 43, 49, 49, 51, 55, 62, 63, 67, 71, 74, 74, 74, 77, 84, 84, 89, 89, 97, 99 }
+n = 24
+s = {     serialVersionUID: -5024744406713321676     map: instance of java.util.HashMap(id=429)     PRESENT: instance of java.lang.Object(id=430) }
+j = 24
+ans = 2600

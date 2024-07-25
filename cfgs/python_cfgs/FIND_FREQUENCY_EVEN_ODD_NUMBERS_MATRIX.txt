@@ -1,0 +1,18 @@
+1;statement;even = 0;statement
+2;statement;odd = 0;statement
+3;statement;range(m);conditional
+4;statement;range(n);conditional
+5;statement;ar[i][j] % 2 == 0;conditional
+6;statement;even += 1;statement
+7;statement;odd += 1;statement
+8;statement;print(' Frequency of odd number =', odd);statement
+9;statement;print(' Frequency of even number =', even);statement
+0;1;
+1;2;
+2;3;8;
+3;4;2;
+4;5;6;
+5;3;
+6;3;
+7;8;
+8;

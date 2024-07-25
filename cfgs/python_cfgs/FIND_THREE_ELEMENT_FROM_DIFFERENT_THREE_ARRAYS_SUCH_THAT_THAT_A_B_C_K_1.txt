@@ -1,0 +1,16 @@
+1;statement;s = set();statement
+2;statement;range(n1);conditional
+3;statement;s.add(a1[i]);statement
+4;statement;range(n2);conditional
+5;statement;range(n3);conditional
+6;statement;sum - a2[i] - a3[j] in s;conditional
+7;statement;return True;statement
+8;statement;return False;statement
+0;1;
+1;2;3;
+2;1;
+3;4;7;
+4;5;3;
+5;6;4;
+6;
+7;

@@ -1,0 +1,26 @@
+1;statement;n = len(str);statement
+2;statement;L = [[0 for x in range(n)] for x in range(n)];statement
+3;statement;range(n);conditional
+4;statement;L[i][i] = 1;statement
+5;statement;range(2, n + 1);conditional
+6;statement;range(n - cl + 1);conditional
+7;statement;j = i + cl - 1;statement
+8;statement;str[i] == str[j] and cl == 2;conditional
+9;statement;L[i][j] = 2;statement
+10;statement;str[i] == str[j];conditional
+11;statement;L[i][j] = L[i + 1][j - 1] + 2;statement
+12;statement;L[i][j] = max(L[i][j - 1], L[i + 1][j]);statement
+13;statement;return L[0][n - 1];statement
+0;1;
+1;2;
+2;3;4;
+3;2;
+4;5;12;
+5;7;4;
+6;7;
+7;8;9;
+8;5;
+9;10;11;
+10;5;
+11;5;
+12;

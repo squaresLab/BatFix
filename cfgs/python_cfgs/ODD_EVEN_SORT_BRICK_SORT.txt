@@ -1,0 +1,26 @@
+1;statement;isSorted = 0;statement
+2;statement;isSorted == 0;conditional
+3;statement;isSorted = 1;statement
+4;statement;temp = 0;statement
+5;statement;range(1, n - 1, 2);conditional
+6;statement;arr[i] > arr[i + 1];conditional
+7;statement;(arr[i], arr[i + 1]) = (arr[i + 1], arr[i]);statement
+8;statement;isSorted = 0;statement
+9;statement;range(0, n - 1, 2);conditional
+10;statement;arr[i] > arr[i + 1];conditional
+11;statement;(arr[i], arr[i + 1]) = (arr[i + 1], arr[i]);statement
+12;statement;isSorted = 0;statement
+13;statement;return;statement
+0;1;
+1;3;12;
+2;3;
+3;4;
+4;5;8;
+5;7;4;
+6;7;
+7;4;
+8;9;1;
+9;11;8;
+10;11;
+11;8;
+12;

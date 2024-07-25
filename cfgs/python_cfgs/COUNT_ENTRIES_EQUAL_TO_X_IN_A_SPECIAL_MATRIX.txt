@@ -1,0 +1,12 @@
+1;statement;cnt = 0;statement
+2;statement;range(1, n + 1);conditional
+3;statement;i <= x;conditional
+4;statement;x // i <= n and x % i == 0;conditional
+5;statement;cnt += 1;statement
+6;statement;return cnt;statement
+0;1;
+1;2;5;
+2;3;1;
+3;4;1;
+4;1;
+5;

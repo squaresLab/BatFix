@@ -1,0 +1,125 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'FIND_THE_ELEMENT_BEFORE_WHICH_ALL_THE_ELEMENTS_ARE_SMALLER_THAN_IT_AND_AFTER_WHICH_ALL_ARE_GREATER_THAN_IT.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: int [ ] leftMax = new int [ n ] ;
+Line: 14
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+
+Statement: leftMax [ 0 ] = Integer . MIN_VALUE ;
+Line: 15
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { 0, 0, 0, 0 }
+
+Statement: for ( int i = 1 ;
+Line: 16
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 0, 0, 0 }
+
+Statement: i < n ;
+Line: 17
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 0, 0, 0 }
+i = 1
+
+Statement: leftMax [ i ] = Math . max ( leftMax [ i - 1 ] , arr [ i - 1 ] ) ;
+Line: 19
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 0, 0, 0 }
+i = 1
+
+Statement: i ++ )
+Line: 18
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 0, 0 }
+i = 1
+
+Statement: i < n ;
+Line: 17
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 0, 0 }
+i = 2
+
+Statement: leftMax [ i ] = Math . max ( leftMax [ i - 1 ] , arr [ i - 1 ] ) ;
+Line: 19
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 0, 0 }
+i = 2
+
+Statement: i ++ )
+Line: 18
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 0 }
+i = 2
+
+Statement: i < n ;
+Line: 17
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 0 }
+i = 3
+
+Statement: leftMax [ i ] = Math . max ( leftMax [ i - 1 ] , arr [ i - 1 ] ) ;
+Line: 19
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 0 }
+i = 3
+
+Statement: i ++ )
+Line: 18
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 30 }
+i = 3
+
+Statement: i < n ;
+Line: 17
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 30 }
+i = 4
+
+Statement: int rightMin = Integer . MAX_VALUE ;
+Line: 20
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 30 }
+
+Statement: for ( int i = n - 1 ;
+Line: 21
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 30 }
+rightMin = 2147483647
+
+Statement: i >= 0 ;
+Line: 22
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 30 }
+rightMin = 2147483647
+i = 3
+
+Statement: if ( leftMax [ i ] < arr [ i ] && rightMin > arr [ i ] )
+Line: 24
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 30 }
+rightMin = 2147483647
+i = 3
+
+Statement: return i ;
+Line: 25
+arr = { 4, 24, 30, 33, 56, 67, 87, 90 }
+n = 4
+leftMax = { -2147483648, 4, 24, 30 }
+rightMin = 2147483647
+i = 3

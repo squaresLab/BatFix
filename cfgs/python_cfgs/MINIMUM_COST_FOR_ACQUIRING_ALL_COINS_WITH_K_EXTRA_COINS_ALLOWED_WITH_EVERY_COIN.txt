@@ -1,0 +1,12 @@
+1;statement;coin.sort();statement
+2;statement;coins_needed = math.ceil(1.0 * n // (k + 1));statement
+3;statement;ans = 0;statement
+4;statement;range(coins_needed - 1 + 1);conditional
+5;statement;ans += coin[i];statement
+6;statement;return ans;statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;

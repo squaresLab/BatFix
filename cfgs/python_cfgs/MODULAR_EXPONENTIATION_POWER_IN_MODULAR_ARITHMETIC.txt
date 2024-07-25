@@ -1,0 +1,20 @@
+1;statement;res = 1;statement
+2;statement;x = x % p;statement
+3;statement;y > 0;conditional
+4;statement;y & 1 == 1;conditional
+5;statement;res = res * x % p;statement
+6;statement;y = y >> 1;statement
+7;statement;x = x * x % p;statement
+8;statement;y = y >> 1;statement
+9;statement;x = x * x % p;statement
+10;statement;return res;statement
+0;1;
+1;2;
+2;3;9;
+3;4;8;
+4;8;
+5;6;
+6;
+7;8;
+8;2;2;
+9;

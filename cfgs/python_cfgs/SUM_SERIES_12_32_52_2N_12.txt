@@ -1,0 +1,8 @@
+1;statement;sum = 0;statement
+2;statement;range(1, n + 1);conditional
+3;statement;sum = sum + (2 * i - 1) * (2 * i - 1);statement
+4;statement;return sum;statement
+0;1;
+1;2;3;
+2;1;
+3;

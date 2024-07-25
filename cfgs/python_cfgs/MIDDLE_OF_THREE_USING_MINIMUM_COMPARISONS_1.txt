@@ -1,0 +1,22 @@
+1;statement;a > b;conditional
+2;statement;b > c;conditional
+3;statement;return b;statement
+4;statement;a > c;conditional
+5;statement;return c;statement
+6;statement;return a;statement
+7;statement;a > c;conditional
+8;statement;return a;statement
+9;statement;b > c;conditional
+10;statement;return c;statement
+11;statement;return b;statement
+0;1;6;
+1;2;3;
+2;
+3;4;5;
+4;
+5;
+6;7;8;
+7;
+8;9;10;
+9;
+10;

@@ -1,0 +1,46 @@
+1;statement;mp = dict();statement
+2;statement;Sum = 0;statement
+3;statement;count = 0;statement
+4;statement;range(n);conditional
+5;statement;arr[i] == 0;conditional
+6;statement;arr[i] = -1;statement
+7;statement;Sum += arr[i];statement
+8;statement;Sum == 0;conditional
+9;statement;Sum += arr[i];statement
+10;statement;Sum == 0;conditional
+11;statement;count += 1;statement
+12;statement;count += 1;statement
+13;statement;Sum in mp.keys();conditional
+14;statement;Sum in mp.keys();conditional
+15;statement;Sum in mp.keys();conditional
+16;statement;count += mp[Sum];statement
+17;statement;count += mp[Sum];statement
+18;statement;count += mp[Sum];statement
+19;statement;mp[Sum] = mp.get(Sum, 0) + 1;statement
+20;statement;mp[Sum] = mp.get(Sum, 0) + 1;statement
+21;statement;mp[Sum] = mp.get(Sum, 0) + 1;statement
+22;statement;mp[Sum] = mp.get(Sum, 0) + 1;statement
+23;statement;return count;statement
+0;1;
+1;2;
+2;3;
+3;4;22;
+4;5;9;
+5;9;
+6;7;
+7;
+8;9;
+9;11;14;11;14;
+10;
+11;14;14;
+12;
+13;
+14;17;21;17;21;17;21;
+15;
+16;
+17;21;21;21;
+18;
+19;
+20;
+21;3;3;3;3;
+22;

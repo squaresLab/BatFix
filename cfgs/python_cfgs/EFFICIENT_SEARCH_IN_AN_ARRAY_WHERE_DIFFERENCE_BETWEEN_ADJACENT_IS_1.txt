@@ -1,0 +1,12 @@
+1;statement;i = 0;statement
+2;statement;i <= n - 1;conditional
+3;statement;arr[i] == x;conditional
+4;statement;return i;statement
+5;statement;i += abs(arr[i] - x);statement
+6;statement;return -1;statement
+0;1;
+1;2;5;
+2;3;4;
+3;
+4;1;
+5;

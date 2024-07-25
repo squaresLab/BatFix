@@ -1,0 +1,36 @@
+Nodes
+1;conditional;foo_1 > foo_2;8;
+2;statement;foo_1 = [false for foo_2 in fun_1(foo_3)];10;
+3;conditional;fun_1(foo_1);11;
+4;statement;return foo_1[0];23;
+5;conditional;foo_1[0];12;
+6;statement;foo_1 = [false for foo_2 in fun_1(foo_3)];14;
+7;conditional;fun_1(foo_1);15;
+8;conditional;fun_1(foo_1);19;
+9;statement;foo_1[foo_2[foo_3] % foo_4] = true;22;
+10;conditional;foo_1[foo_2];20;
+11;statement;foo_1[foo_2] = true;21;
+12;conditional;foo_1[foo_2] == true;16;
+13;conditional;foo_1[(foo_2 + foo_3[foo_4]) % foo_5] == false;17;
+14;statement;foo_1[(foo_2 + foo_3[foo_4]) % foo_5] = true;18;
+15;statement;return true;13;
+16;statement;return true;9;
+17;exit;;
+Edges
+0;2;16;
+1;3;
+2;4;5;
+3;17;
+4;6;15;
+5;7;
+6;8;12;
+7;9;10;
+8;3;
+9;8;11;
+10;8;
+11;7;13;
+12;7;14;
+13;7;
+14;17;
+15;17;
+16;

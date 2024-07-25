@@ -1,0 +1,30 @@
+Nodes
+1;special;;;
+2;conditional;(fun_1() + fun_2()) < foo_3;14;
+3;statement;return true;14;
+4;exit;;;
+5;statement;int commonLength = 0;15;
+6;statement;int i = 0;16;
+7;conditional;foo_1 < fun_1(fun_2(), fun_3());17;
+8;conditional;foo_1 == foo_2;19;
+9;statement;commonLength++;19;
+10;statement;break;20;
+11;statement;i++;18;
+12;conditional;((((foo_1 - fun_1()) - fun_2()) + (2 * foo_4)) % 2) == 0;22;
+13;statement;return true;22;
+14;statement;return false;23;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;12;
+7;9;10;
+8;11;
+9;12;
+10;7;
+11;13;14;
+12;4;
+13;4;

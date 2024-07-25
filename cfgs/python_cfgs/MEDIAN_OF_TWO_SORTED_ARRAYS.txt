@@ -1,0 +1,42 @@
+1;statement;i = 0;statement
+2;statement;j = 0;statement
+3;statement;m1 = -1;statement
+4;statement;m2 = -1;statement
+5;statement;count = 0;statement
+6;statement;count < n + 1;conditional
+7;statement;count += 1;statement
+8;statement;i == n;conditional
+9;statement;m1 = m2;statement
+10;statement;m2 = ar2[0];statement
+11;statement;j == n;conditional
+12;statement;m1 = m2;statement
+13;statement;m2 = ar1[0];statement
+14;statement;ar1[i] < ar2[j];conditional
+15;statement;m1 = m2;statement
+16;statement;m2 = ar1[i];statement
+17;statement;i += 1;statement
+18;statement;m1 = m2;statement
+19;statement;m2 = ar2[j];statement
+20;statement;j += 1;statement
+21;statement;return (m1 + m2) / 2;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;7;20;
+6;7;
+7;9;10;
+8;9;
+9;20;
+10;12;13;
+11;12;
+12;20;
+13;16;19;
+14;15;
+15;16;
+16;5;
+17;18;
+18;19;
+19;5;
+20;

@@ -1,0 +1,16 @@
+1;statement;n >= capacity;conditional
+2;statement;return n;statement
+3;statement;i = n - 1;statement
+4;statement;i >= 0 and arr[i] > key;conditional
+5;statement;arr[i + 1] = arr[i];statement
+6;statement;i -= 1;statement
+7;statement;arr[i + 1] = key;statement
+8;statement;return n + 1;statement
+0;1;2;
+1;
+2;3;
+3;5;7;
+4;5;
+5;3;
+6;7;
+7;

@@ -1,0 +1,8 @@
+1;statement;S = 0;statement
+2;statement;range(1, n + 1);conditional
+3;statement;S += i * i - (i - 1) * (i - 1);statement
+4;statement;return S;statement
+0;1;
+1;2;3;
+2;1;
+3;

@@ -1,0 +1,32 @@
+1;statement;evenArr = [];statement
+2;statement;oddArr = [];statement
+3;statement;range(n);conditional
+4;statement;i % 2 == 0;conditional
+5;statement;evenArr.append(arr[i]);statement
+6;statement;oddArr.append(arr[i]);statement
+7;statement;evenArr = sorted(evenArr);statement
+8;statement;oddArr = sorted(oddArr);statement
+9;statement;oddArr = oddArr[::-1];statement
+10;statement;i = 0;statement
+11;statement;range(len(evenArr));conditional
+12;statement;arr[i] = evenArr[j];statement
+13;statement;i += 1;statement
+14;statement;range(len(oddArr));statement
+15;statement;arr[i] = oddArr[j];statement
+16;statement;i += 1;statement
+0;1;
+1;2;
+2;3;9;
+3;4;5;
+4;2;
+5;2;
+6;7;
+7;8;
+8;9;
+9;10;
+10;12;13;
+11;12;
+12;10;
+13;15;
+14;15;
+15;13;

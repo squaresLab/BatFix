@@ -1,0 +1,18 @@
+1;statement;sum = 0;statement
+2;statement;ans = 0;statement
+3;statement;range(0, N);conditional
+4;statement;range(i + 1, N);conditional
+5;statement;range(j + 1, N);conditional
+6;statement;sum = A[i] + A[j] + A[k];statement
+7;statement;sum % M == 0;conditional
+8;statement;ans = ans + 1;statement
+9;statement;return ans;statement
+0;1;
+1;2;
+2;3;8;
+3;4;2;
+4;6;3;
+5;6;
+6;7;4;
+7;4;
+8;

@@ -1,0 +1,12 @@
+1;statement;m < n;conditional
+2;statement;return 0;statement
+3;statement;n == 0;conditional
+4;statement;return 1;statement
+5;statement;res = f_gold(m - 1, n) + f_gold(m // 2, n - 1);statement
+6;statement;return res;statement
+0;1;2;
+1;
+2;3;5;
+3;
+4;5;
+5;

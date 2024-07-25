@@ -1,0 +1,6 @@
+1;statement;num >= divisor;conditional
+2;statement;num -= divisor;statement
+3;statement;return num;statement
+0;1;2;
+1;0;
+2;

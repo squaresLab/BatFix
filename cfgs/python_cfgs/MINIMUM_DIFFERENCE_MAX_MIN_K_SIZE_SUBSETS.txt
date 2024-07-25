@@ -1,0 +1,12 @@
+1;statement;arr.sort();statement
+2;statement;res = 2147483647;statement
+3;statement;range(N - K + 1);conditional
+4;statement;curSeqDiff = arr[i + K - 1] - arr[i];statement
+5;statement;res = min(res, curSeqDiff);statement
+6;statement;return res;statement
+0;1;
+1;2;
+2;4;5;
+3;4;
+4;2;
+5;

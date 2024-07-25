@@ -1,0 +1,487 @@
+CompletedProcess(args=['javac', '-g', '--module-path', '/Users/anon/Documents/Dev.nosync/JavaControlFlow/Data/javafx-sdk-17.0.0.1/lib', '--add-modules=javafx.base', 'SUM_TWO_LARGE_NUMBERS.java'], returncode=0, stdout=b'', stderr=b'')
+
+Statement: if ( str1 . length ( ) > str2 . length ( ) ) {
+Line: 14
+str1 = "VkfzrPG"
+str2 = "rKZ"
+
+Statement: String t = str1 ;
+Line: 15
+str1 = "VkfzrPG"
+str2 = "rKZ"
+
+Statement: str1 = str2 ;
+Line: 16
+str1 = "VkfzrPG"
+str2 = "rKZ"
+t = "VkfzrPG"
+
+Statement: str2 = t ;
+Line: 17
+str1 = "rKZ"
+str2 = "rKZ"
+t = "VkfzrPG"
+
+Statement: String str = "" ;
+Line: 19
+str1 = "rKZ"
+str2 = "VkfzrPG"
+
+Statement: int n1 = str1 . length ( ) , n2 = str2 . length ( ) ;
+Line: 20
+str1 = "rKZ"
+str2 = "VkfzrPG"
+str = ""
+
+Statement: str1 = new StringBuilder ( str1 ) . reverse ( ) . toString ( ) ;
+Line: 21
+str1 = "rKZ"
+str2 = "VkfzrPG"
+str = ""
+n1 = 3
+n2 = 7
+
+Statement: str2 = new StringBuilder ( str2 ) . reverse ( ) . toString ( ) ;
+Line: 22
+str1 = "ZKr"
+str2 = "VkfzrPG"
+str = ""
+n1 = 3
+n2 = 7
+
+Statement: int carry = 0 ;
+Line: 23
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = ""
+n1 = 3
+n2 = 7
+
+Statement: for ( int i = 0 ;
+Line: 24
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = ""
+n1 = 3
+n2 = 7
+carry = 0
+
+Statement: i < n1 ;
+Line: 25
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = ""
+n1 = 3
+n2 = 7
+carry = 0
+i = 0
+
+Statement: int sum = ( ( int ) ( str1 . charAt ( i ) - '0' ) + ( int ) ( str2 . charAt ( i ) - '0' ) + carry ) ;
+Line: 27
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = ""
+n1 = 3
+n2 = 7
+carry = 0
+i = 0
+
+Statement: str += ( char ) ( sum % 10 + '0' ) ;
+Line: 28
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = ""
+n1 = 3
+n2 = 7
+carry = 0
+i = 0
+sum = 65
+
+Statement: carry = sum / 10 ;
+Line: 29
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5"
+n1 = 3
+n2 = 7
+carry = 0
+i = 0
+sum = 65
+
+Statement: i ++ ) {
+Line: 26
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5"
+n1 = 3
+n2 = 7
+carry = 6
+i = 0
+
+Statement: i < n1 ;
+Line: 25
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5"
+n1 = 3
+n2 = 7
+carry = 6
+i = 1
+
+Statement: int sum = ( ( int ) ( str1 . charAt ( i ) - '0' ) + ( int ) ( str2 . charAt ( i ) - '0' ) + carry ) ;
+Line: 27
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5"
+n1 = 3
+n2 = 7
+carry = 6
+i = 1
+
+Statement: str += ( char ) ( sum % 10 + '0' ) ;
+Line: 28
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5"
+n1 = 3
+n2 = 7
+carry = 6
+i = 1
+sum = 65
+
+Statement: carry = sum / 10 ;
+Line: 29
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55"
+n1 = 3
+n2 = 7
+carry = 6
+i = 1
+sum = 65
+
+Statement: i ++ ) {
+Line: 26
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55"
+n1 = 3
+n2 = 7
+carry = 6
+i = 1
+
+Statement: i < n1 ;
+Line: 25
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55"
+n1 = 3
+n2 = 7
+carry = 6
+i = 2
+
+Statement: int sum = ( ( int ) ( str1 . charAt ( i ) - '0' ) + ( int ) ( str2 . charAt ( i ) - '0' ) + carry ) ;
+Line: 27
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55"
+n1 = 3
+n2 = 7
+carry = 6
+i = 2
+
+Statement: str += ( char ) ( sum % 10 + '0' ) ;
+Line: 28
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55"
+n1 = 3
+n2 = 7
+carry = 6
+i = 2
+sum = 138
+
+Statement: carry = sum / 10 ;
+Line: 29
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558"
+n1 = 3
+n2 = 7
+carry = 6
+i = 2
+sum = 138
+
+Statement: i ++ ) {
+Line: 26
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558"
+n1 = 3
+n2 = 7
+carry = 13
+i = 2
+
+Statement: i < n1 ;
+Line: 25
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558"
+n1 = 3
+n2 = 7
+carry = 13
+i = 3
+
+Statement: for ( int i = n1 ;
+Line: 31
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558"
+n1 = 3
+n2 = 7
+carry = 13
+
+Statement: i < n2 ;
+Line: 32
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558"
+n1 = 3
+n2 = 7
+carry = 13
+i = 3
+
+Statement: int sum = ( ( int ) ( str2 . charAt ( i ) - '0' ) + carry ) ;
+Line: 34
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558"
+n1 = 3
+n2 = 7
+carry = 13
+i = 3
+
+Statement: str += ( char ) ( sum % 10 + '0' ) ;
+Line: 35
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558"
+n1 = 3
+n2 = 7
+carry = 13
+i = 3
+sum = 87
+
+Statement: carry = sum / 10 ;
+Line: 36
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587"
+n1 = 3
+n2 = 7
+carry = 13
+i = 3
+sum = 87
+
+Statement: i ++ ) {
+Line: 33
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587"
+n1 = 3
+n2 = 7
+carry = 8
+i = 3
+
+Statement: i < n2 ;
+Line: 32
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587"
+n1 = 3
+n2 = 7
+carry = 8
+i = 4
+
+Statement: int sum = ( ( int ) ( str2 . charAt ( i ) - '0' ) + carry ) ;
+Line: 34
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587"
+n1 = 3
+n2 = 7
+carry = 8
+i = 4
+
+Statement: str += ( char ) ( sum % 10 + '0' ) ;
+Line: 35
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587"
+n1 = 3
+n2 = 7
+carry = 8
+i = 4
+sum = 62
+
+Statement: carry = sum / 10 ;
+Line: 36
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55872"
+n1 = 3
+n2 = 7
+carry = 8
+i = 4
+sum = 62
+
+Statement: i ++ ) {
+Line: 33
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55872"
+n1 = 3
+n2 = 7
+carry = 6
+i = 4
+
+Statement: i < n2 ;
+Line: 32
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55872"
+n1 = 3
+n2 = 7
+carry = 6
+i = 5
+
+Statement: int sum = ( ( int ) ( str2 . charAt ( i ) - '0' ) + carry ) ;
+Line: 34
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55872"
+n1 = 3
+n2 = 7
+carry = 6
+i = 5
+
+Statement: str += ( char ) ( sum % 10 + '0' ) ;
+Line: 35
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55872"
+n1 = 3
+n2 = 7
+carry = 6
+i = 5
+sum = 65
+
+Statement: carry = sum / 10 ;
+Line: 36
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558725"
+n1 = 3
+n2 = 7
+carry = 6
+i = 5
+sum = 65
+
+Statement: i ++ ) {
+Line: 33
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558725"
+n1 = 3
+n2 = 7
+carry = 6
+i = 5
+
+Statement: i < n2 ;
+Line: 32
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558725"
+n1 = 3
+n2 = 7
+carry = 6
+i = 6
+
+Statement: int sum = ( ( int ) ( str2 . charAt ( i ) - '0' ) + carry ) ;
+Line: 34
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558725"
+n1 = 3
+n2 = 7
+carry = 6
+i = 6
+
+Statement: str += ( char ) ( sum % 10 + '0' ) ;
+Line: 35
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "558725"
+n1 = 3
+n2 = 7
+carry = 6
+i = 6
+sum = 44
+
+Statement: carry = sum / 10 ;
+Line: 36
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587254"
+n1 = 3
+n2 = 7
+carry = 6
+i = 6
+sum = 44
+
+Statement: i ++ ) {
+Line: 33
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587254"
+n1 = 3
+n2 = 7
+carry = 4
+i = 6
+
+Statement: i < n2 ;
+Line: 32
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587254"
+n1 = 3
+n2 = 7
+carry = 4
+i = 7
+
+Statement: if ( carry > 0 ) str += ( char ) ( carry + '0' ) ;
+Line: 38
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "5587254"
+n1 = 3
+n2 = 7
+carry = 4
+
+Statement: str = new StringBuilder ( str ) . reverse ( ) . toString ( ) ;
+Line: 39
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "55872544"
+n1 = 3
+n2 = 7
+carry = 4
+
+Statement: return str ;
+Line: 40
+str1 = "ZKr"
+str2 = "GPrzfkV"
+str = "44527855"
+n1 = 3
+n2 = 7
+carry = 4

@@ -1,0 +1,2 @@
+1;statement;return -~x;statement
+0;

@@ -1,0 +1,34 @@
+1;statement;n = len(s);statement
+2;statement;lps = [0] * n;statement
+3;statement;l = 0;statement
+4;statement;i = 1;statement
+5;statement;i < n;conditional
+6;statement;s[i] == s[l];conditional
+7;statement;l = l + 1;statement
+8;statement;lps[i] = l;statement
+9;statement;i = i + 1;statement
+10;statement;l != 0;conditional
+11;statement;l = lps[l - 1];statement
+12;statement;lps[i] = 0;statement
+13;statement;i = i + 1;statement
+14;statement;res = lps[n - 1];statement
+15;statement;res > n / 2;conditional
+16;statement;return n // 2;statement
+17;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;14;
+5;8;9;
+6;7;
+7;8;
+8;4;
+9;10;12;
+10;4;
+11;12;
+12;4;
+13;14;
+14;15;16;
+15;
+16;

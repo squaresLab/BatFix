@@ -1,0 +1,36 @@
+1;statement;n = len(str);statement
+2;statement;LCSRe = [[0 for x in range(n + 1)] for y in range(n + 1)];statement
+3;statement;res = '';statement
+4;statement;res_length = 0;statement
+5;statement;index = 0;statement
+6;statement;range(1, n + 1);conditional
+7;statement;range(i + 1, n + 1);conditional
+8;statement;str[i - 1] == str[j - 1] and LCSRe[i - 1][j - 1] < j - i;conditional
+9;statement;LCSRe[i][j] = LCSRe[i - 1][j - 1] + 1;statement
+10;statement;LCSRe[i][j] > res_length;conditional
+11;statement;res_length = LCSRe[i][j];statement
+12;statement;index = max(i, index);statement
+13;statement;LCSRe[i][j] = 0;statement
+14;statement;res_length > 0;conditional
+15;statement;range(index - res_length + 1, index + 1);conditional
+16;statement;res = res + str[i - 1];statement
+17;statement;return res;statement
+18;statement;return res;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;13;
+6;7;5;
+7;9;12;
+8;9;
+9;11;6;
+10;11;
+11;6;
+12;6;
+13;14;17;
+14;15;17;
+15;14;
+16;
+17;

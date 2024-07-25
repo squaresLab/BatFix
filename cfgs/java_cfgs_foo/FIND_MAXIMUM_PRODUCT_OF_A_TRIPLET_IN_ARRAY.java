@@ -1,0 +1,34 @@
+Nodes
+1;special;;;
+2;conditional;foo_1 < 3;14;
+3;statement;return -1;14;
+4;exit;;;
+5;statement;int max_product = Integer.MIN_VALUE;15;
+6;statement;int i = 0;16;
+7;conditional;foo_1 < (foo_2 - 2);17;
+8;statement;int j = foo_1 + 1;18;
+9;conditional;foo_1 < (foo_2 - 1);19;
+10;statement;int k = foo_1 + 1;20;
+11;conditional;foo_1 < foo_2;21;
+12;statement;max_product = fun_1(foo_1, (foo_2[foo_3] * foo_4[foo_5]) * foo_6[foo_7]);22;
+13;statement;k++;22;
+14;statement;j++;20;
+15;statement;i++;18;
+16;statement;return foo_1;23;
+Edges
+0;2;
+1;3;5;
+2;4;
+3;
+4;6;
+5;7;
+6;8;16;
+7;9;
+8;10;15;
+9;11;
+10;12;14;
+11;13;
+12;11;
+13;9;
+14;7;
+15;4;

@@ -1,0 +1,38 @@
+1;statement;n = len(str1);statement
+2;statement;C = [0] * (n + 1);statement
+3;statement;P = [[False for x in range(n + 1)] for y in range(n + 1)];statement
+4;statement;range(n);conditional
+5;statement;P[i][i] = True;statement
+6;statement;range(2, n + 1);conditional
+7;statement;range(n - L + 1);conditional
+8;statement;j = i + L - 1;statement
+9;statement;L == 2;conditional
+10;statement;P[i][j] = str1[i] == str1[j];statement
+11;statement;P[i][j] = str1[i] == str1[j] and P[i + 1][j - 1];statement
+12;statement;range(n);conditional
+13;statement;P[0][i] == True;conditional
+14;statement;C[i] = 0;statement
+15;statement;C[i] = sys.maxsize;statement
+16;statement;range(i);conditional
+17;statement;P[j + 1][i] == True and 1 + C[j] < C[i];conditional
+18;statement;C[i] = 1 + C[j];statement
+19;statement;return C[n - 1];statement
+0;1;
+1;2;
+2;3;
+3;4;5;
+4;3;
+5;6;11;
+6;8;5;
+7;8;
+8;9;10;
+9;6;
+10;6;
+11;12;18;
+12;13;14;
+13;11;
+14;15;
+15;16;11;
+16;17;15;
+17;15;
+18;

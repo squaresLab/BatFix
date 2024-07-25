@@ -1,0 +1,32 @@
+1;statement;boxes.sort();statement
+2;statement;ans = 1;statement
+3;statement;prev_width = boxes[0];statement
+4;statement;prev_count = 1;statement
+5;statement;curr_count = 0;statement
+6;statement;curr_width = 0;statement
+7;statement;range(1, n);conditional
+8;statement;curr_width += boxes[i];statement
+9;statement;curr_count += 1;statement
+10;statement;curr_width > prev_width and curr_count > prev_count;conditional
+11;statement;prev_width = curr_width;statement
+12;statement;prev_count = curr_count;statement
+13;statement;curr_count = 0;statement
+14;statement;curr_width = 0;statement
+15;statement;ans += 1;statement
+16;statement;return ans;statement
+0;1;
+1;2;
+2;3;
+3;4;
+4;5;
+5;6;
+6;9;15;
+7;8;
+8;9;
+9;14;6;
+10;11;
+11;12;
+12;13;
+13;14;
+14;6;
+15;

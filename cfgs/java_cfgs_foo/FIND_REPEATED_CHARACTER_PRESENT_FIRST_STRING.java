@@ -1,0 +1,36 @@
+Nodes
+1;special;;;
+2;statement;int p = -1;14;
+3;statement;int i;14;
+4;statement;int j;14;
+5;statement;i = 0;15;
+6;conditional;foo_1 < fun_1();16;
+7;statement;j = foo_1 + 1;18;
+8;conditional;foo_1 < fun_1();19;
+9;conditional;fun_1(foo_2) == fun_2(foo_4);21;
+10;statement;p = foo_1;22;
+11;statement;break;23;
+12;statement;j++;20;
+13;conditional;foo_1 != (-1);26;
+14;statement;break;26;
+15;statement;i++;17;
+16;statement;return foo_1;28;
+17;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;16;
+6;8;
+7;9;13;
+8;10;12;
+9;11;
+10;13;
+11;8;
+12;14;15;
+13;16;
+14;6;
+15;17;
+16;

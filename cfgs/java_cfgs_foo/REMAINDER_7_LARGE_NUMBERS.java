@@ -1,0 +1,32 @@
+Nodes
+1;special;;;
+2;statement;int[] series = new int[]{ 1, 3, 2, -1, -3, -2 };14;
+3;statement;int series_index = 0;16;
+4;statement;int result = 0;17;
+5;statement;int i = fun_1() - 1;18;
+6;conditional;foo_1 >= 0;19;
+7;statement;int digit = fun_1(foo_2) - '0';21;
+8;statement;result += foo_1 * foo_2[foo_3];22;
+9;statement;series_index = (foo_1 + 1) % 6;23;
+10;statement;result %= 7;24;
+11;statement;i--;20;
+12;conditional;foo_1 < 0;26;
+13;statement;result = (foo_1 + 7) % 7;26;
+14;statement;return foo_1;27;
+15;exit;;;
+Edges
+0;2;
+1;3;
+2;4;
+3;5;
+4;6;
+5;7;12;
+6;8;
+7;9;
+8;10;
+9;11;
+10;6;
+11;13;14;
+12;14;
+13;15;
+14;
