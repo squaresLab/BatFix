@@ -1,6 +1,6 @@
-# BatFix
+# BatFix - TOSEM24
 
-## Note: This replication package is a work in progress. If you need help running the tool, please open an issue
+### Note: This replication package is a work in progress. If you need help running the tool, please open an issue
 
 
 The src contains the code to run BatFix, including CMAKE with all dependencies
