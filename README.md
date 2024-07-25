@@ -1,5 +1,7 @@
 # BatFix
 
+## Note: This replication package is a work in progress. If you need help running the tool, please open an issue
+
 
 The src contains the code to run BatFix, including CMAKE with all dependencies
 necessary to run the code. We will provide a docker container and more precise
