@@ -16,7 +16,8 @@ and sample inputs. (2) Control flow of the oracle program, (3) Execution trace o
 the oracle program in a failing test case:
 
 Example usage:
-```./Gen
+```bash
+./Gen
   -f {buggy transpiled program}
   -g {control flow graph of the source program}
   -t {execution trace on a failing test case on the source program}
