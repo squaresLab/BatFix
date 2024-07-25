@@ -4,7 +4,7 @@
 
 
 The src contains the code to run BatFix, including CMAKE with all dependencies
-necessary to run the code. We will provide a docker container and more precise
+necessary to run the code. We will eventually provide a docker container and more precise
 instructions on how to use BatFix and replicate our results.
 
 To run BatFix compile the code:
@@ -16,11 +16,11 @@ and sample inputs. (2) Control flow of the oracle program, (3) Execution trace o
 the oracle program in a failing test case:
 
 Example usage:
-* ./Gen
+```./Gen
   -f {buggy transpiled program}
   -g {control flow graph of the source program}
   -t {execution trace on a failing test case on the source program}
-
+```
 ### CFG file format
 
 
