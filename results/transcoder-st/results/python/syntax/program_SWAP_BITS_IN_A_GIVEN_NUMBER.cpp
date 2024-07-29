@@ -658,7 +658,7 @@ int f_filled(int x, int p1, int p2, int n) {
     if(env_var_0 == 622) { x = x >> x & (1 << p2) - 1; }
     if(env_var_0 == 623) { x = x >> x & (1 << set1) - 1; }
     if(env_var_0 == 624) { x = x >> x & (1 << x) - 1; }
-    
+
     int result;
     return result;
 }
@@ -681,4 +681,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

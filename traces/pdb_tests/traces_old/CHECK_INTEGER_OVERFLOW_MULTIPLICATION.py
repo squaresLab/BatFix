@@ -38,4 +38,3 @@ a = 37
 b = 80
 result = 2960
 __return__ = False
-

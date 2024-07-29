@@ -43,7 +43,7 @@ int f_gold ( string str ) {
       }
       return maxlen;
     }
-    
+
 
 int foo;
 int f_filled(std::string str) {
@@ -72,4 +72,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -76,7 +76,7 @@ int f_filled(std::string s) {
 
 
 
-  
+
 
 int main() {
     int n_success = 0;
@@ -91,4 +91,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

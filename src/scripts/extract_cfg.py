@@ -5,6 +5,7 @@ from queue import Queue
 import _ast
 from typing import Any, List, Tuple
 
+
 def extract_cfg(filename) -> Any:
     """
     Extracts the CFG from the given file.
@@ -17,7 +18,6 @@ def extract_cfg(filename) -> Any:
 
     f_gold = cfg.functioncfgs["f_gold"]
     return f_gold
-
 
 
 # not sure about this
@@ -33,9 +33,12 @@ class RewriteFor(ast.NodeTransformer):
         if self.found_range:
             pass
 
-
     def visit_Call(self, node: ast.Call):
-        if isinstance(node.func, ast.Name) and node.func.id == "range" and len(node.args) == 2:
+        if (
+            isinstance(node.func, ast.Name)
+            and node.func.id == "range"
+            and len(node.args) == 2
+        ):
             # Currently only only forward ranges with 2 arguments
             self.init = node.args[0]
             self.cond = node.args[1]
@@ -52,9 +55,9 @@ class RewriteName(ast.NodeTransformer):
 
         if isinstance(node.value, bool):
             if node.value:
-                return ast.Name(id=f'true')
+                return ast.Name(id=f"true")
             else:
-                return ast.Name(id=f'false')
+                return ast.Name(id=f"false")
 
         return node
 
@@ -65,24 +68,31 @@ class RewriteName(ast.NodeTransformer):
         # If the iteration is through a range, we replace the range call with a C++
         # equivalent integer comparison with two placeholders
 
-        if isinstance(node.func, ast.Name) and node.func.id == "range" and len(node.args) <= 3:
+        if (
+            isinstance(node.func, ast.Name)
+            and node.func.id == "range"
+            and len(node.args) <= 3
+        ):
             # Currently only only forward ranges with 2 arguments
             call = node
             self.generic_visit(node)
-            arg = ast.Name(id=f'foo', ctx=node.func.ctx)
+            arg = ast.Name(id=f"foo", ctx=node.func.ctx)
             node = ast.Compare(left=arg, ops=[ast.Lt()], comparators=[arg])
 
             # Create assign node
-            node = [ast.Assign(targets=[arg], value=call.args[0], lineno=0, col_offset=0), node]
+            node = [
+                ast.Assign(targets=[arg], value=call.args[0], lineno=0, col_offset=0),
+                node,
+            ]
         else:
             self.generic_visit(node)
-            node.func = ast.Name(id=f'fun_{self.f_id}', ctx=None)#node.func.ctx)
+            node.func = ast.Name(id=f"fun_{self.f_id}", ctx=None)  # node.func.ctx)
 
         return node
 
     def visit_Name(self, node) -> _ast.Name:
         self.i += 1
-        return ast.Name(id=f'foo_{self.i}', ctx=node.ctx)
+        return ast.Name(id=f"foo_{self.i}", ctx=node.ctx)
 
 
 class Node:
@@ -120,7 +130,7 @@ def extract_nodes(cfg) -> Tuple[List[str], dict]:
             data = None
             rw = RewriteName()
             if isinstance(stmt, ast.While):
-                data = (ast.unparse(rw.visit(stmt.test)))
+                data = ast.unparse(rw.visit(stmt.test))
             if isinstance(stmt, ast.For):
                 assgn, iter = rw.visit(stmt.iter)
 
@@ -132,9 +142,9 @@ def extract_nodes(cfg) -> Tuple[List[str], dict]:
 
                 data = ast.unparse(iter)
             elif isinstance(stmt, ast.If):
-                data = (ast.unparse(rw.visit(stmt.test)))
+                data = ast.unparse(rw.visit(stmt.test))
             else:
-                data = (ast.unparse(rw.visit(stmt)))
+                data = ast.unparse(rw.visit(stmt))
             node = Node(data, count, stmt.lineno)
             lst_node.append(node)
             last_node.next = [node]
@@ -165,7 +175,6 @@ def extract_nodes(cfg) -> Tuple[List[str], dict]:
     return nodes, edges
 
 
-
 def generate_cfg(filename) -> str:
     """
     Generates the CFG for the given file.
@@ -174,15 +183,15 @@ def generate_cfg(filename) -> str:
     :return: The CFG.
     """
 
-    output = ''
+    output = ""
     nodes, edges = extract_nodes(extract_cfg(filename))
 
     output += "Nodes\n"
     output += "1;special;;;\n"
     for i in range(1, len(nodes)):
-        if edges[i+1] == []:
+        if edges[i + 1] == []:
             output += f"{i+1};statement;{nodes[i]};\n"
-        elif len(edges[i+1]) > 1:
+        elif len(edges[i + 1]) > 1:
             output += f"{i+1};conditional;{nodes[i]};\n"
         else:
             output += f"{i+1};statement;{nodes[i]};\n"
@@ -191,10 +200,10 @@ def generate_cfg(filename) -> str:
 
     output += "Edges\n"
     for i in range(len(nodes)):
-        edges_str = ''
-        for j in edges[i+1]:
+        edges_str = ""
+        for j in edges[i + 1]:
             edges_str = f"{j};" + edges_str
-        if edges[i+1] == []:
+        if edges[i + 1] == []:
             edges_str = f"{len(nodes)+1};" + edges_str
         output += f"{i};" + edges_str + "\n"
     output += f"{len(nodes)};"
@@ -203,24 +212,23 @@ def generate_cfg(filename) -> str:
 
 
 def test() -> float:
-    x : int = 0
+    x: int = 0
     y = 0.2
 
     return x + y
 
 
 if __name__ == "__main__":
-    abs_path = '/Users/anon/Documents/Dev.nosync/Java2CPP/ground_truths/geeks_for_geeks_successful_test_scripts/python/'
+    abs_path = "/Users/anon/Documents/Dev.nosync/Java2CPP/ground_truths/geeks_for_geeks_successful_test_scripts/python/"
     python_progs = [abs_path + f for f in listdir(abs_path)]
 
     for prog in python_progs:
-        f_name = prog[len(abs_path):]
-        if f_name != 'CHECK_ARRAY_REPRESENTS_INORDER_BINARY_SEARCH_TREE_NOT.py':
+        f_name = prog[len(abs_path) :]
+        if f_name != "CHECK_ARRAY_REPRESENTS_INORDER_BINARY_SEARCH_TREE_NOT.py":
             continue
         output = generate_cfg(prog)
         print(output)
-        #with open("/Users/anon/Documents/Dev.nosync/Java2CPP/pythoncfgs/" + f_name, "a+") as f:
+        # with open("/Users/anon/Documents/Dev.nosync/Java2CPP/pythoncfgs/" + f_name, "a+") as f:
         #    f.write(output)
         #    print(output)
-        #print()
-
+        # print()

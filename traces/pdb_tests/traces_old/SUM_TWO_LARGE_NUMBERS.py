@@ -31,14 +31,14 @@ Line: 3
 str1 = rKZ
 str2 = VkfzrPG
 t = VkfzrPG
-str = 
+str =
 
 Statement: n2 = len ( str2 ) ;
 Line: 4
 str1 = rKZ
 str2 = VkfzrPG
 t = VkfzrPG
-str = 
+str =
 n1 = 3
 
 Statement: str1 = str1 [ : : - 1 ] ;
@@ -46,7 +46,7 @@ Line: 5
 str1 = rKZ
 str2 = VkfzrPG
 t = VkfzrPG
-str = 
+str =
 n1 = 3
 n2 = 7
 
@@ -55,7 +55,7 @@ Line: 6
 str1 = ZKr
 str2 = VkfzrPG
 t = VkfzrPG
-str = 
+str =
 n1 = 3
 n2 = 7
 
@@ -64,7 +64,7 @@ Line: 7
 str1 = ZKr
 str2 = GPrzfkV
 t = VkfzrPG
-str = 
+str =
 n1 = 3
 n2 = 7
 
@@ -73,7 +73,7 @@ Line: 8
 str1 = ZKr
 str2 = GPrzfkV
 t = VkfzrPG
-str = 
+str =
 n1 = 3
 n2 = 7
 carry = 0
@@ -83,7 +83,7 @@ Line: 9
 str1 = ZKr
 str2 = GPrzfkV
 t = VkfzrPG
-str = 
+str =
 n1 = 3
 n2 = 7
 carry = 0
@@ -94,7 +94,7 @@ Line: 0
 str1 = ZKr
 str2 = GPrzfkV
 t = VkfzrPG
-str = 
+str =
 n1 = 3
 n2 = 7
 carry = 0
@@ -485,4 +485,3 @@ carry = 4
 i = 6
 sum = 44
 __return__ = 44527855
-

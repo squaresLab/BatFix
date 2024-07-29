@@ -55,4 +55,3 @@ num = 6
 digit1 = 7
 digit2 = 6
 __return__ = True
-

@@ -36,7 +36,7 @@ int f_gold ( int A ) {
     }
     return dpArray [ n ];
   }
-  
+
 
 int foo;
 int env_var_0 = atoi(getenv("env_var_0"));
@@ -109,7 +109,7 @@ int f_filled(int A) {
 
 
 
-  
+
 
 int main() {
     int n_success = 0;
@@ -124,4 +124,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

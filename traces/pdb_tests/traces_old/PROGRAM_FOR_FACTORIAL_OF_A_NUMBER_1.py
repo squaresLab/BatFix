@@ -454,4 +454,3 @@ Statement: return 1 if ( n == 1 or n == 0 ) else n * f_gold ( n - 1 ) ;
 Line: 8
 n = 1
 __return__ = 1
-

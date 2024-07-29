@@ -58,7 +58,7 @@ int f_filled ( int n ) {
         if(env_var_0 == 12) { n = [[0 for n in toupper( n )] for n in isupper( n )]; }
         if(env_var_0 == 13) { n = [[0 for n in toupper( n )] for n in n]; }
         if(env_var_0 == 14) { n = [[0 for n in toupper( n )] for n in toupper( n )]; }
-        
+
         memset( C,  0, sizeof( C ));
         memset( C,  0, sizeof( C ));
         for ( int i = 0; i < n + 1; i++ ) {
@@ -92,4 +92,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

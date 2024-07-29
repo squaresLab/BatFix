@@ -76,7 +76,7 @@ string f_filled ( string num1 , string num2 ) {
   if(env_var_0 == 17) { int len1 = num2.rend(); }
   if(env_var_0 == 18) { int len1 = num2.reserve(); }
   if(env_var_0 == 19) { int len1 = num2.size(); }
-  
+
   int len2 = num2 . length ( ) ;
   if ( len1 == 0 || len2 == 0 )
     return "0" ;
@@ -128,4 +128,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -27,4 +27,4 @@ int findMaxGCD ( int arr [ ] , int n ) {
     }
     return 0 ;
   }
-  
+

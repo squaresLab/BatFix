@@ -32,13 +32,13 @@ int f_gold ( int n, int k, int a [ ] ) {
 
 int f_filled ( int n, int k, vector < int > a ) {
         sort ( a . begin ( ), a . end ( ), greater < int > ( ) );
-        
+
         int f_filled = 0;
-        
+
         for ( int i = 0; i < n; i += k ) {
             f_filled += ( 2 * a [ i ] );
         }
-        
+
         return f_filled;
     }
 

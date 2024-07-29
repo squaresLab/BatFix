@@ -43,7 +43,7 @@ int f_gold ( int arr [ ], int n ) {
     }
     return d;
   }
-  
+
 
 int f_filled ( int arr [ ] , int n ) {
   map < int , pair < int , int >> mp ;

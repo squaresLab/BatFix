@@ -45,7 +45,7 @@ int f_filled ( int dist ) {
     return count [ dist ] ;
     ;
   }
-  
+
 
 int main() {
     int n_success = 0;

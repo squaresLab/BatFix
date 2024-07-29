@@ -58,4 +58,3 @@ Statement: return 0
 Line: 9
 n = 0
 __return__ = 0
-

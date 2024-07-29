@@ -32,7 +32,7 @@ int f_gold ( int arr [ ], int n ) {
     i ++ ) if ( arr [ i ] == arr [ i + 1 ] ) dimension [ j ++ ] = arr [ i ++ ];
     return ( dimension [ 0 ] * dimension [ 1 ] );
   }
-  
+
 
 int f_filled ( Integer arr [ ], int n ) {
   sort ( arr, arr + n, cmp );
@@ -43,7 +43,7 @@ int f_filled ( Integer arr [ ], int n ) {
     i ++ ) if ( arr [ i ] == arr [ i + 1 ] ) dimension [ j ++ ] = arr [ i ++ ];
     return ( dimension [ 0 ] * dimension [ 1 ] );
   }
-  
+
 
 
 static // f_filled_inner(int   param0 [ ], int param1)

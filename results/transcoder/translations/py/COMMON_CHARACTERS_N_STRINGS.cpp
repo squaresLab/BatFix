@@ -29,4 +29,4 @@ void commonCharacters ( string strings [ ] , int n ) {
         }
       }
     }
-    
+

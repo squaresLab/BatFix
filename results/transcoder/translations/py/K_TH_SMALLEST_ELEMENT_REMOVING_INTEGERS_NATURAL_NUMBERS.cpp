@@ -15,4 +15,4 @@ int ksmallest ( int arr [ ] , int n , int k ) {
     }
     return 0 ;
   }
-  
+

@@ -66,7 +66,7 @@ public : int longestSubseqWithDiffOne ( int arr [ ] , int n ) {
     }
     return result ;
   }
-  
+
 
 int main() {
     int n_success = 0;

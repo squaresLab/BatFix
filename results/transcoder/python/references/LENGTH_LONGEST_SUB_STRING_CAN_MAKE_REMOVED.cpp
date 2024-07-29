@@ -41,7 +41,7 @@ int f_gold ( string str ) {
       }
       return maxlen;
     }
-    
+
 
 public : int longestNull ( string S ) {
   vector < pair < string , int >> arr ;

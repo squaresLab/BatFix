@@ -8249,7 +8249,7 @@ int f_filled ( int set [ ] , int n ) {
     if(env_var_0 == 8189) { set[n] = [[0 for set[n] in toupper( set[n] )] for set[n] in set]; }
     if(env_var_0 == 8190) { set[n] = [[0 for set[n] in toupper( set[n] )] for set[n] in toupper( n )]; }
     if(env_var_0 == 8191) { set[n] = [[0 for set[n] in toupper( set[n] )] for set[n] in toupper( set[n] )]; }
-    
+
     memset( L,  0, sizeof( L ));
     memset( L,  0, sizeof( L ));
     int llap = 2 ;
@@ -8294,4 +8294,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

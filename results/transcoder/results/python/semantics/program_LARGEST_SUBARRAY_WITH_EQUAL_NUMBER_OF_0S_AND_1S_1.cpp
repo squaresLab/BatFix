@@ -58,7 +58,7 @@ int f_filled ( int arr [ ] , int n ) {
   if(env_var_0 == 1) { arr+n = {}; }
   if(env_var_0 == 2) { arr[n] = {}; }
   if(env_var_0 == 3) { n = {}; }
-  
+
   int currSum = 0 ;
   int f_filled = 0 ;
   int endingIndex = - 1 ;
@@ -118,4 +118,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -1007,4 +1007,3 @@ i = 19
 min_price = 9
 result = 80
 __return__ = 80
-

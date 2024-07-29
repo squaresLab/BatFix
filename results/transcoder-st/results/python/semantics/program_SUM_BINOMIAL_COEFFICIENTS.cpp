@@ -43,7 +43,7 @@ int foo;
 int env_var_0 = atoi(getenv("env_var_0"));
 int f_filled ( int n ) {
   if(env_var_0 == 0) { n = [[0] * (n + 2) for n in foo < foo]; }
-  
+
   memset( C,  0, sizeof( C ));
   memset( C,  0, sizeof( C ));
   for ( int i = 0 ;
@@ -77,4 +77,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

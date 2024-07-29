@@ -6,36 +6,26 @@
 #
 import math
 
-def f_gold ( n ) :
-    l = math.sqrt ( n )
+
+def f_gold(n):
+    l = math.sqrt(n)
     sq = l * l
-    if ( sq == n ) :
+    if sq == n:
         return l * 4
-    else :
+    else:
         row = n / l
-        perimeter = 2 * ( l + row )
-        if ( n % l != 0 ) :
+        perimeter = 2 * (l + row)
+        if n % l != 0:
             perimeter += 2
         return perimeter
 
 
-#TOFILL
+# TOFILL
 
-if __name__ == '__main__':
-    param = [
-    (45,),
-    (80,),
-    (54,),
-    (48,),
-    (83,),
-    (68,),
-    (32,),
-    (20,),
-    (68,),
-    (66,)
-        ]
+if __name__ == "__main__":
+    param = [(45,), (80,), (54,), (48,), (83,), (68,), (32,), (20,), (68,), (66,)]
     n_success = 0
     for i, parameters_set in enumerate(param):
         if f_gold(*parameters_set) == f_gold(*parameters_set):
-            n_success+=1
+            n_success += 1
     print("#Results: %i, %i" % (n_success, len(param)))

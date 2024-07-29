@@ -503,7 +503,7 @@ bool f_filled ( int * arr , int n ) {
   if(env_var_0 == 459) { toupper( arr[n] ); }
   if(env_var_0 == 460) { toupper( max1 ); }
   if(env_var_0 == 461) { toupper( n ); }
-   
+
  auto min1 ;
   if(env_var_1 == 0) { = *std::max_element( arr+max1,arr ); }
   if(env_var_1 == 1) { = *std::max_element( arr+max1,arr+max1 ); }
@@ -1775,7 +1775,7 @@ bool f_filled ( int * arr , int n ) {
   if(env_var_1 == 1267) { toupper( max1 ); }
   if(env_var_1 == 1268) { toupper( min1 ); }
   if(env_var_1 == 1269) { toupper( n ); }
-   
+
   int m = max1 - min1 + 1 ;
   if ( ( m > n ) || ( m < 0 ) ) return false ;
   bool visited [ m ] ;
@@ -1806,4 +1806,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

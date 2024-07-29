@@ -36,7 +36,7 @@ int f_gold ( int arr [ ], int n ) {
     res += c [ 0 ] * c [ 1 ] * c [ 2 ];
     return res;
   }
-  
+
 
 int foo;
 int f_filled(int arr[], int n) {
@@ -55,7 +55,7 @@ int f_filled(int arr[], int n) {
     return res;
 }
 
-  
+
 
 int main() {
     int n_success = 0;
@@ -71,4 +71,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

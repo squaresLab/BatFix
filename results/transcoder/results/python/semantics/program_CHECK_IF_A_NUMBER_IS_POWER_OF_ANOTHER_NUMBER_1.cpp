@@ -597,7 +597,7 @@ int f_filled ( double x , double y ) {
   if(env_var_0 == 564) { / toupper( y ); }
   if(env_var_0 == 565) { / x; }
   if(env_var_0 == 566) { / y; }
-   
+
   ;
   double res2 = log ( y ) / log ( x ) ;
   ;
@@ -619,4 +619,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

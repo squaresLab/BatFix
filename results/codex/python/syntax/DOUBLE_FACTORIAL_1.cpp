@@ -33,20 +33,20 @@ unsigned int f_gold ( unsigned int n ) {
 
 int f_filled ( int n ) {
     int res = 1;
-    
+
     for ( int i = n; i >= 0; i -= 2 ) {
         if ( i == 0 or i == 1 ) {
             return res;
-            
+
         }
-        
+
         else {
             res *= i;
-            
+
         }
-        
-    
-    
+
+
+
     }
 
 int main() {

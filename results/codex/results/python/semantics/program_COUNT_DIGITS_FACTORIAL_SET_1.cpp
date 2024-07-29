@@ -36,19 +36,19 @@ int f_filled ( int n ) {
         if ( n < 0 ) {
             return 0;
         }
-        
+
         int _res_key_if_0;
         if(env_var_0 == 0) { _res_key_if_0 = n <= 1; }
         if ( _res_key_if_0 ) {
             return 1;
         }
-        
+
         int digits = 0;
-        
+
         for ( foo i <= n; i++ ) {
             digits += log10 ( i );
         }
-        
+
         return floor ( digits ) + 1;
     }
 
@@ -65,4 +65,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

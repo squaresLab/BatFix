@@ -36,7 +36,7 @@ bool f_filled ( string str ) {
   if(env_var_0 == 0) { str = 0; }
   if(env_var_0 == 1) { str.begin() = 0; }
   if(env_var_0 == 2) { str.end() = 0; }
-  
+
   ;
   int j = str . length ( ) - 1 ;
   ;
@@ -62,4 +62,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

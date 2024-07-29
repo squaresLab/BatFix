@@ -41,7 +41,7 @@ int f_gold ( string str ) {
       }
       return maxlen;
     }
-    
+
 
 public : int f_filled ( string S ) {
   vector < pair < string , int >> arr ;

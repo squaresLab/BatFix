@@ -139,7 +139,7 @@ string f_filled ( string num1, string num2 ) {
   if(env_var_0 == 51) { i = toupper( num2[len2] ) - 1; }
   if(env_var_0 == 52) { i = toupper( result ) - 1; }
   if(env_var_0 == 53) { i = toupper( result[i] ) - 1; }
-   
+
   while ( i >= 0 && result [ i ] == 0 ) i --;
   if ( i == - 1 ) return "0";
   string s = "";
@@ -162,4 +162,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

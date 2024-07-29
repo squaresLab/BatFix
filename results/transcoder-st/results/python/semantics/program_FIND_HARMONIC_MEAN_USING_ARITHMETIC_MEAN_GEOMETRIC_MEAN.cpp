@@ -659,7 +659,7 @@ double f_filled ( double a , double b ) {
   if(env_var_0 == 622) { * b / HM; }
   if(env_var_0 == 623) { * b / a; }
   if(env_var_0 == 624) { * b / b; }
-   
+
   return HM ;
 }
 
@@ -678,4 +678,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

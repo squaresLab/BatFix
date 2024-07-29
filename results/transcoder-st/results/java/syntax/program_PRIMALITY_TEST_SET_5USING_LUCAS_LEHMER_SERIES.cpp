@@ -40,7 +40,7 @@ bool f_filled ( int p ) {
   if(env_var_0 == 0) { le nextval = 4 % checkNumber; }
   if(env_var_0 == 1) { le nextval = 4 % nextval; }
   if(env_var_0 == 2) { le nextval = 4 % p; }
-   
+
   for ( int i = 1 ;
   i < p - 1 ;
   i ++ ) {
@@ -127,4 +127,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

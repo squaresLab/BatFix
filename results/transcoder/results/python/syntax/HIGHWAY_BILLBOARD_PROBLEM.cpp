@@ -59,7 +59,7 @@ int f_filled(int m, int *x, int *revenue, int n, int t) {
     }
 }
 
-  
+
 
 int main() {
     int n_success = 0;
@@ -78,4 +78,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

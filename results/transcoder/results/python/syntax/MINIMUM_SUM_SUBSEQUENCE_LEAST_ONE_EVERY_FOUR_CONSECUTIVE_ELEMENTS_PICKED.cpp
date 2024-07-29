@@ -49,7 +49,7 @@ int foo;
         return min(min(arr[0], arr[1]), min(arr[2], arr[3]));
 }
 
-  
+
 
 int main() {
     int n_success = 0;
@@ -65,4 +65,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -1,6 +1,7 @@
 import os
 import openai
 import os
+
 openai.organization = "org-NGeM7xd8YkcTE8569zCd785t"
 openai.api_key = "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"
 import tqdm
@@ -15,22 +16,20 @@ def translate(code, path):
 
     ### C++"""
 
-
     response = openai.Completion.create(
-      model="code-davinci-002",
-      prompt=prompt,
-      temperature=0,
-      max_tokens=1000,
-      top_p=1.0,
-      frequency_penalty=0.0,
-      presence_penalty=0.0,
-      stop=["###"]
+        model="code-davinci-002",
+        prompt=prompt,
+        temperature=0,
+        max_tokens=1000,
+        top_p=1.0,
+        frequency_penalty=0.0,
+        presence_penalty=0.0,
+        stop=["###"],
     )
 
     with open(path, "a+") as f2:
         for res in response["choices"]:
             f2.write(res["text"].strip())
-
 
 
 dest = "/Users/anon/PycharmProjects/SBFL_CPP/playground/java_codex"
@@ -51,5 +50,3 @@ for file in tqdm.tqdm(files):
             break
         except:
             time.sleep(60)
-
-

@@ -45,7 +45,7 @@ bool f_gold ( string num ) {
 
 bool f_filled ( string num ) {
     int n = num.length();
-    
+
     if ( n == 0 || num [ 0 ] == '0' ) {
         return true;
     }

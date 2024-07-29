@@ -43,7 +43,7 @@ int f_filled ( int arr [ ] , int n ) {
   if(env_var_0 == 1) { arr+n = []; }
   if(env_var_0 == 2) { arr[n] = []; }
   if(env_var_0 == 3) { n = []; }
-  
+
   memset( mls, , sizeof( mls ));
   int max = 0 ;
   for ( int i = 0 ;
@@ -72,4 +72,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

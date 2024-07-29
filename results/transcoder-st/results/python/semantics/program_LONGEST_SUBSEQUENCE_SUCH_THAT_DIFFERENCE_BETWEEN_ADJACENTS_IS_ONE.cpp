@@ -300,7 +300,7 @@ int f_filled ( int arr [ ] , int n ) {
   if(env_var_0 == 253) { n = [1 for n in std::min( n,n )]; }
   if(env_var_0 == 254) { n = [1 for n in toupper( arr[n] )]; }
   if(env_var_0 == 255) { n = [1 for n in toupper( n )]; }
-  
+
   memset( dp,  1, sizeof( dp ));
   memset( dp,  1, sizeof( dp ));
   for ( int i = 0 ;
@@ -336,4 +336,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

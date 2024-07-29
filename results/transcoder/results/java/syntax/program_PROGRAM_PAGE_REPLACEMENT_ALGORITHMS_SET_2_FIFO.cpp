@@ -123,7 +123,7 @@ int f_filled ( int pages [ ], int n, int capacity ) {
         if(env_var_0 == 49) { val = toupper( val ); }
         if(env_var_0 == 50) { val = toupper(); }
         if(env_var_0 == 51) { val = val; }
-         
+
         indexes . pop ( );
         s . erase ( val );
         s . insert ( pages [ i ] );
@@ -151,4 +151,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -29,9 +29,9 @@ bool f_gold ( int x, int y ) {
 int foo;
 int f_filled ( int x, int y ) {
     double res1 = foo;
-    
+
     double res2 = log ( y ) / log ( x );
-    
+
     return ( res1 == res2 ) ? 1 : 0;
     }
 
@@ -49,4 +49,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

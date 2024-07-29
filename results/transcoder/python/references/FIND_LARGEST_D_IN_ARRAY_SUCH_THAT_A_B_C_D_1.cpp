@@ -43,7 +43,7 @@ int f_gold ( int arr [ ], int n ) {
     }
     return d;
   }
-  
+
 
 public : int findFourElements ( int arr [ ] , int n ) {
   map < pair < int , int > , pair < int , int >> mp ;

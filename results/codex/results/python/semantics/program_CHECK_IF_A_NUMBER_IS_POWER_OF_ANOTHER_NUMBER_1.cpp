@@ -759,10 +759,10 @@ int f_filled ( int x, int y ) {
     if(env_var_0 == 726) { / toupper( y ); }
     if(env_var_0 == 727) { / x; }
     if(env_var_0 == 728) { / y; }
-     
-    
+
+
     double res2 = log ( y ) / log ( x );
-    
+
     return ( res1 == res2 ) ? 1 : 0;
     }
 
@@ -780,4 +780,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

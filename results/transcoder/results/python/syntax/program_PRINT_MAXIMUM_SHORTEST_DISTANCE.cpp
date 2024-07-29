@@ -62,7 +62,7 @@ int f_filled(vector<int> a, int n, int k) {
     if(env_var_0 == 6) { d() = 10 ** 9; }
     if(env_var_0 == 7) { 10 ** 9; }
     if(env_var_0 == 8) { 10 ** 9; }
-     
+
     for (int i = 0; i < n; i++) {
         int x = a[i];
         if ((x != (k - x) && (k - x) < b.size()) || (x < 0))
@@ -91,4 +91,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

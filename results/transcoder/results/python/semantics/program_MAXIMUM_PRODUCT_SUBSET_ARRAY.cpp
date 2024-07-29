@@ -66,7 +66,7 @@ int f_filled ( int a [ ] , int n ) {
   if(env_var_0 == 10) { countZero = 1; }
   if(env_var_0 == 11) { maxNeg = 1; }
   if(env_var_0 == 12) { n = 1; }
-  
+
   for ( foo
   i < n ;
   i ++ ) {
@@ -103,4 +103,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

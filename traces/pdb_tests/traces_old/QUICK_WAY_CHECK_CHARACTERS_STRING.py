@@ -1,20 +1,19 @@
 Statement: n = len ( s )
 Line: 8
-s = 
+s =
 
 Statement: for i in range ( 1 , n ) :
 Line: 9
-s = 
+s =
 n = 0
 
 Statement: return True
 Line: 2
-s = 
+s =
 n = 0
 
 Statement: return True
 Line: 2
-s = 
+s =
 n = 0
 __return__ = True
-

@@ -10,4 +10,3 @@ Statement: return ( n % 29 == 0 )
 Line: 2
 n = 29
 __return__ = True
-

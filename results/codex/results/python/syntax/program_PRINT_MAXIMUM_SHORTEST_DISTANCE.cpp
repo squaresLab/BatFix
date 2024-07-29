@@ -68,7 +68,7 @@ int f_filled ( int a [ ] , int n, int k ) {
     if(env_var_0 == 10) { d() = 10 ** 9; }
     if(env_var_0 == 11) { 10 ** 9; }
     if(env_var_0 == 12) { 10 ** 9; }
-     
+
     for ( int i = 0 ; i < n ; i ++ ) {
         int x = a [ i ] ;
         if ( ( x != ( k - x ) ) && ( b . find ( k - x ) != b . end ( ) ) ) {
@@ -93,4 +93,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

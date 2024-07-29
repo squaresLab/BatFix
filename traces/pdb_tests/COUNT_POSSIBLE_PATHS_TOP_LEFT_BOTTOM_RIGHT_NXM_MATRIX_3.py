@@ -5,14 +5,13 @@
 # LICENSE file in the root directory of this source tree.
 #
 
-def numberOfPaths ( m , n ) :
+
+def numberOfPaths(m, n):
     path = 1
-    for i in range ( n , ( m + n - 1 ) ) :
+    for i in range(n, (m + n - 1)):
         path *= i
-        path //= ( i - n + 1 )
+        path //= i - n + 1
     return path
 
 
-
-#TOFILL
-
+# TOFILL

@@ -22,4 +22,3 @@ s1 = { 'v' }
 s2 = { 'v' }
 index = 0
 __return__ = None
-

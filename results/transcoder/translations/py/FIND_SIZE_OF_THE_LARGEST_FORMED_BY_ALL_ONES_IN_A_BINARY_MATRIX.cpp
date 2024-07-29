@@ -38,4 +38,4 @@ int findLargestPlus ( int mat [ ] [ N ] ) {
     j ++ ) {
       int l = min ( min ( top [ i ] [ j ] , bottom [ i ] [ j ] ) , min ( left [ i ] [ j ] , right [ i ] [ j ] ) ) ;
       if ( ( l > n ) && ( l < n ) ) n = l ;
-      
+

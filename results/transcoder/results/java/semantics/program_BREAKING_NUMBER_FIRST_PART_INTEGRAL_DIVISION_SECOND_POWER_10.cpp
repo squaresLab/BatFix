@@ -126,7 +126,7 @@ int f_filled ( string N ) {
     if(env_var_0 == 67) { int l1 = s[i]; }
     if(env_var_0 == 68) { int l1 = s[l]; }
     if(env_var_0 == 69) { int l1 = s[len]; }
-    
+
     string t = N . substr ( i, l1 + i );
     if ( s [ 0 ] == '0' || t [ 0 ] == '0' ) continue;
     if ( s == t ) count ++;
@@ -148,4 +148,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

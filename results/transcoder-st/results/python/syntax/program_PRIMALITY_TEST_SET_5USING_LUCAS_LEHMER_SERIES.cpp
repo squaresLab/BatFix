@@ -37,7 +37,7 @@ bool f_filled ( int p ) {
   if(env_var_0 == 1) { kNumber = 2 ** p - 1; }
   if(env_var_0 == 2) { 2 ** checkNumber - 1; }
   if(env_var_0 == 3) { 2 ** p - 1; }
-   
+
   int nextval = 4 % checkNumber ;
   for ( int i = 1 ;
   i <= p - 1 ;
@@ -60,4 +60,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

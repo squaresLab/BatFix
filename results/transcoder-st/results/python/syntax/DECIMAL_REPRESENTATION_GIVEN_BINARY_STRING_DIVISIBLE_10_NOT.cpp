@@ -43,5 +43,3 @@ int foo;
 bool f_filled(std::string bin) {
     int n = bin.length();
 }
-
-

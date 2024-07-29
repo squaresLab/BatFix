@@ -43,7 +43,7 @@ int f_gold ( int arr [ ], int n ) {
       }
     }
   }
-  
+
 
 int f_filled ( int arr [ ] , int n ) {
   int high = 0 ;

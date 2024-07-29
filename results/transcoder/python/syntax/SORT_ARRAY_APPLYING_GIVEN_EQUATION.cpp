@@ -93,7 +93,7 @@ void f_filled ( int arr [ ] , int n , int A , int B , int C ) {
     i < n ;
     i ++ ) arr [ i ] = new_arr [ i ] ;
   }
-  
+
 
 int main() {
     int n_success = 0;

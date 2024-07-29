@@ -54,5 +54,3 @@ bool f_filled(int arr[], int n, int m) {
         foo;
     }
 }
-
-

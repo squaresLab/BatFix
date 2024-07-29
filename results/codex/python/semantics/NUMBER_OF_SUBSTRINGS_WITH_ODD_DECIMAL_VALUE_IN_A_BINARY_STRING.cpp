@@ -37,7 +37,7 @@ int f_gold ( string s ) {
     i -- ) if ( s [ i ] == '1' ) count += auxArr [ i ];
     return count;
   }
-  
+
 
 int f_filled ( string s ) {
         int n = s.length ( ) ;

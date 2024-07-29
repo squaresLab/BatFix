@@ -24,4 +24,4 @@ int count9s ( string number ) {
     }
     return result ;
   }
-  
+

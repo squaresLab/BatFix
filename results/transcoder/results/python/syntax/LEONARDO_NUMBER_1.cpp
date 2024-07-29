@@ -91,5 +91,3 @@ int f_filled(int n) {
     ;
     dp[28] = 1;
 }
-
-

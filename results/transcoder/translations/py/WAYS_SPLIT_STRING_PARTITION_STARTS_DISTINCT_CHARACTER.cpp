@@ -20,4 +20,4 @@ public : int countWays ( string s ) {
     }
     return ans ;
   }
-  
+

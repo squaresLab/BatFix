@@ -34,7 +34,7 @@ int f_gold ( int m, int n ) {
     }
     return dp [ n - 1 ];
   }
-  
+
 
 int f_filled ( int p , int q ) {
   int dp [ q ] ;

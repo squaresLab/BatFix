@@ -67,7 +67,7 @@ int f_filled ( int n ) {
   if(env_var_0 == 21) { n = [[0 for n in toupper( n )] for n in n]; }
   if(env_var_0 == 22) { n = [[0 for n in toupper( n )] for n in std::max()]; }
   if(env_var_0 == 23) { n = [[0 for n in toupper( n )] for n in toupper( n )]; }
-  
+
   memset( C,  0, sizeof( C ));
   memset( C,  0, sizeof( C ));
   for ( int y = 0 ;
@@ -108,4 +108,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

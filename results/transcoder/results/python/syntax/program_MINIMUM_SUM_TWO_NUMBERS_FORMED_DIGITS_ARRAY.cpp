@@ -40,7 +40,7 @@ int f_filled ( int arr [ ] , int n ) {
   if(env_var_0 == 1) { arr+n = 0; }
   if(env_var_0 == 2) { arr[n] = 0; }
   if(env_var_0 == 3) { n = 0; }
-  
+
   ;
   int b = 0 ;
   for ( int i = 0 ;
@@ -67,4 +67,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

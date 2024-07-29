@@ -53,4 +53,3 @@ clock_rot = "onamaz"
 anticlock_rot = "amazon"
 l = 6
 __return__ = True
-

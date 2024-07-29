@@ -69,7 +69,7 @@ int f_filled ( int m , int * x , int * revenue , int n , int t ) {
       maxRev [ i ] = maxRev [ i - 1 ] ;
     }
   }
-  
+
 
 int main() {
     int n_success = 0;

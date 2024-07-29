@@ -30,7 +30,7 @@ long long int f_gold ( int n ) {
 int f_filled ( int n ) {
     int sum = 0;
     sum = 1 << n;
-    
+
     return ( sum - 1 )
     }
 

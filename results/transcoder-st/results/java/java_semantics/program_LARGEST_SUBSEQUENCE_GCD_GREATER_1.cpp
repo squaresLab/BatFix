@@ -153,7 +153,7 @@ int f_filled ( int arr [ ] , int n ) {
   if(env_var_0 == 108) {  maxele = toupper( arr[n] ); }
   if(env_var_0 == 109) {  maxele = toupper( maxele ); }
   if(env_var_0 == 110) {  maxele = toupper( n ); }
-   
+
   for ( int i = 2 ;
   i <= maxele ;
   ++ i ) {
@@ -183,4 +183,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

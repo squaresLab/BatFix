@@ -38,5 +38,3 @@ int f_gold ( int N ) {
 int foo;
 int f_filled(int N) {
 }
-
-

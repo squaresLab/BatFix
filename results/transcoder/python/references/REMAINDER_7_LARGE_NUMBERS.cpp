@@ -35,7 +35,7 @@ int f_gold ( string num ) {
     if ( result < 0 ) result = ( result + 7 ) % 7;
     return result;
   }
-  
+
 
 int f_filled ( string num ) {
   static int series [ ] = {
@@ -55,7 +55,7 @@ int f_filled ( string num ) {
     if ( ( result < 0 ) || ( result > 7 ) ) result = ( result + 7 ) % 7 ;
     return result ;
   }
-  
+
 
 int main() {
     int n_success = 0;

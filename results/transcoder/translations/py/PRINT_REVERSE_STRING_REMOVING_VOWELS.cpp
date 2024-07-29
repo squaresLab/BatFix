@@ -12,4 +12,4 @@ void replaceOriginal ( char * s , int n ) {
     }
     printf ( "\n" ) ;
   }
-  
+

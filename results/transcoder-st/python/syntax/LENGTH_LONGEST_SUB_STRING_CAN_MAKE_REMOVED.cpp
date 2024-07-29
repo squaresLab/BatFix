@@ -41,7 +41,7 @@ int f_gold ( string str ) {
       }
       return maxlen;
     }
-    
+
 
 int f_filled ( string S ) {
   string :: size_type pos = S . find ( '@' ) ;

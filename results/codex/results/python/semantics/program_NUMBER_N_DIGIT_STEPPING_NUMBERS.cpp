@@ -49,7 +49,7 @@ int env_var_0 = atoi(getenv("env_var_0"));
 int f_filled ( int n ) {
         int dp [ n + 1 ] [ 10 ];
         memset( dp,  0, sizeof( dp ));
-        
+
         int _res_key_if_0;
         if(env_var_0 == 0) { _res_key_if_0 = dp == 1; }
         if(env_var_0 == 1) { _res_key_if_0 = dp[n] == 1; }
@@ -57,33 +57,33 @@ int f_filled ( int n ) {
         if ( _res_key_if_0 ) {
             return 10;
         }
-        
+
         for ( int j = 0; j < 10; j++ ) {
             dp [ 1 ] [ j ] = 1;
         }
-        
+
         for ( int i = 2; i < n + 1; i++ ) {
             for ( int j = 0; j < 10; j++ ) {
                 if ( j == 0 ) {
                     dp [ i ] [ j ] = dp [ i - 1 ] [ j + 1 ];
                 }
-                
+
                 else if ( j == 9 ) {
                     dp [ i ] [ j ] = dp [ i - 1 ] [ j - 1 ];
                 }
-                
+
                 else {
                     dp [ i ] [ j ] = ( dp [ i - 1 ] [ j - 1 ] + dp [ i - 1 ] [ j + 1 ] );
                 }
             }
         }
-        
+
         int sum = 0;
-        
+
         for ( int j = 1; j < 10; j++ ) {
             sum = sum + dp [ n ] [ j ];
         }
-        
+
         return sum;
     }
 
@@ -100,4 +100,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

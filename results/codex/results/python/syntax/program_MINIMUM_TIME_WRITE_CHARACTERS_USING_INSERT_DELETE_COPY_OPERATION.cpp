@@ -60,7 +60,7 @@ int f_filled(int N, int insrt, int remov, int cpy) {
     if(env_var_0 == 13) { remov = [0] * (cpy + 1); }
     if(env_var_0 == 14) { remov = [0] * (insrt + 1); }
     if(env_var_0 == 15) { remov = [0] * (remov + 1); }
-    
+
     for (int i = 1; i <= N; i++) {
         if (i % 2 == 0) {
         } else {
@@ -86,4 +86,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

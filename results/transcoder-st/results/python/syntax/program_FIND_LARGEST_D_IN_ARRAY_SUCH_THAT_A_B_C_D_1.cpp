@@ -43,7 +43,7 @@ int f_gold ( int arr [ ], int n ) {
     }
     return d;
   }
-  
+
 
 int foo;
 int env_var_0 = atoi(getenv("env_var_0"));
@@ -69,7 +69,7 @@ int f_filled ( int arr [ ] , int n ) {
   if(env_var_0 == 7) { egin() = -10 ** 9; }
   if(env_var_0 == 8) { nd() = -10 ** 9; }
   if(env_var_0 == 9) { -10 ** 9; }
-   
+
   for ( int i = 0 ;
   i < n - 1 ;
   i ++ ) {
@@ -103,4 +103,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

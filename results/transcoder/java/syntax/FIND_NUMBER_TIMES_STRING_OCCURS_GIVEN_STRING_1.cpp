@@ -48,7 +48,7 @@ int f_gold ( string a, string b ) {
     }
     return lookup [ m ] [ n ];
   }
-  
+
 
 int f_filled ( string a, string b ) {
   int m = a . size ( );

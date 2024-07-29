@@ -22,4 +22,4 @@ void printRotatedString ( string str ) {
       cout << * temp << endl ;
     }
   }
-  
+

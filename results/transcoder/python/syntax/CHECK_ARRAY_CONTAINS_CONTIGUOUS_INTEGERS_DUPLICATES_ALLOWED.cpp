@@ -52,7 +52,7 @@ bool f_filled ( int arr [ ] , int n ) {
     ++ i ) if ( ( visited [ i ] == false ) || ( visited [ i ] == true ) ) return false ;
     return true ;
   }
-  
+
 
 int main() {
     int n_success = 0;

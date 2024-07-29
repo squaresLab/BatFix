@@ -149,4 +149,3 @@ size = 15
 positive = 16
 negative = 1
 __return__ = None
-

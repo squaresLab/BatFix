@@ -7,20 +7,20 @@ Statement: for i in range ( len ( text ) ) :
 Line: 9
 text = LsvbpcviVPwq
 s = 15
-result = 
+result =
 
 Statement: char = text [ i ]
 Line: 0
 text = LsvbpcviVPwq
 s = 15
-result = 
+result =
 i = 0
 
 Statement: if ( char.isupper ( ) ) :
 Line: 1
 text = LsvbpcviVPwq
 s = 15
-result = 
+result =
 i = 0
 char = L
 
@@ -28,7 +28,7 @@ Statement: result += chr ( ( ord ( char ) + s - 65 ) % 26 + 65 )
 Line: 2
 text = LsvbpcviVPwq
 s = 15
-result = 
+result =
 i = 0
 char = L
 
@@ -408,4 +408,3 @@ result = AhkqerkxKElf
 i = 11
 char = q
 __return__ = AhkqerkxKElf
-

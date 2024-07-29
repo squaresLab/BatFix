@@ -71,7 +71,7 @@ std::string f_filled(std::string s1) {
     if(env_var_0 == 27) { [] s = toupper( s ); }
     if(env_var_0 == 28) { [] s = toupper( s1[n] ); }
     if(env_var_0 == 29) { [] s = toupper( s1[s] ); }
-     
+
     for (int i = 1; i < n; i++) {
         int _res_key_if_0;
         if(env_var_1 == 0) { _res_key_if_0 = *s1.data(); }
@@ -167,4 +167,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

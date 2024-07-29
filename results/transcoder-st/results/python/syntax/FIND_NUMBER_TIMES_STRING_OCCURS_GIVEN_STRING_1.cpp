@@ -44,7 +44,7 @@ int f_gold ( string a, string b ) {
     }
     return lookup [ m ] [ n ];
   }
-  
+
 
 int foo;
 int f_filled(std::string a, std::string b) {
@@ -87,4 +87,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -37,27 +37,27 @@ int f_gold ( int arr [ ], int N, int k ) {
 
 int f_filled ( int arr [ ], int N, int k ) {
         int maxSum = 0;
-        
+
         sort ( arr, arr + N );
-        
+
         int i = N - 1;
-        
+
         while ( i >= 0 ) {
             if ( arr [ i ] - arr [ i - 1 ] < k ) {
                 maxSum += arr [ i ];
-                
+
                 maxSum += arr [ i - 1 ];
-                
+
                 i -= 1;
-                
+
             }
-            
+
             i -= 1;
-            
+
         }
-        
+
         return maxSum;
-        
+
     }
 
 int main() {

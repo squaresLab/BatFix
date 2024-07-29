@@ -39,7 +39,7 @@ i = 1
 j = 2
 k = 3
 s1 = W
-s2 = 
+s2 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -48,8 +48,8 @@ i = 1
 j = 2
 k = 3
 s1 = W
-s2 = 
-s3 = 
+s2 =
+s3 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -58,8 +58,8 @@ i = 1
 j = 2
 k = 3
 s1 = W
-s2 = 
-s3 = 
+s2 =
+s3 =
 s4 = j
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
@@ -69,8 +69,8 @@ i = 1
 j = 2
 k = 3
 s1 = W
-s2 = 
-s3 = 
+s2 =
+s3 =
 s4 = j
 
 Statement: s1 = s [ 0 : i ]
@@ -80,8 +80,8 @@ i = 1
 j = 2
 k = 4
 s1 = W
-s2 = 
-s3 = 
+s2 =
+s3 =
 s4 = j
 
 Statement: s2 = s [ i : j - i ]
@@ -91,8 +91,8 @@ i = 1
 j = 2
 k = 4
 s1 = W
-s2 = 
-s3 = 
+s2 =
+s3 =
 s4 = j
 
 Statement: s3 = s [ j : k - j ]
@@ -102,8 +102,8 @@ i = 1
 j = 2
 k = 4
 s1 = W
-s2 = 
-s3 = 
+s2 =
+s3 =
 s4 = j
 
 Statement: s4 = s [ k : len ( s ) - k ]
@@ -113,8 +113,8 @@ i = 1
 j = 2
 k = 4
 s1 = W
-s2 = 
-s3 = 
+s2 =
+s3 =
 s4 = j
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
@@ -124,9 +124,9 @@ i = 1
 j = 2
 k = 4
 s1 = W
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -135,9 +135,9 @@ i = 1
 j = 2
 k = 4
 s1 = W
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -146,9 +146,9 @@ i = 1
 j = 2
 k = 5
 s1 = W
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -157,9 +157,9 @@ i = 1
 j = 2
 k = 5
 s1 = W
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -168,9 +168,9 @@ i = 1
 j = 2
 k = 5
 s1 = W
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -179,9 +179,9 @@ i = 1
 j = 2
 k = 5
 s1 = W
-s2 = 
+s2 =
 s3 = T
-s4 = 
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -190,9 +190,9 @@ i = 1
 j = 2
 k = 5
 s1 = W
-s2 = 
+s2 =
 s3 = T
-s4 = 
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -201,9 +201,9 @@ i = 1
 j = 2
 k = 5
 s1 = W
-s2 = 
+s2 =
 s3 = T
-s4 = 
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -212,9 +212,9 @@ i = 1
 j = 2
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = T
-s4 = 
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -223,9 +223,9 @@ i = 1
 j = 2
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = T
-s4 = 
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -234,9 +234,9 @@ i = 1
 j = 2
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = T
-s4 = 
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -245,9 +245,9 @@ i = 1
 j = 2
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -256,9 +256,9 @@ i = 1
 j = 2
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -267,9 +267,9 @@ i = 1
 j = 2
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -278,9 +278,9 @@ i = 1
 j = 2
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -289,9 +289,9 @@ i = 1
 j = 3
 k = 6
 s1 = W
-s2 = 
+s2 =
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -300,9 +300,9 @@ i = 1
 j = 3
 k = 4
 s1 = W
-s2 = 
+s2 =
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -311,9 +311,9 @@ i = 1
 j = 3
 k = 4
 s1 = W
-s2 = 
+s2 =
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -324,7 +324,7 @@ k = 4
 s1 = W
 s2 = K
 s3 = Tj
-s4 = 
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -334,8 +334,8 @@ j = 3
 k = 4
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -345,8 +345,8 @@ j = 3
 k = 4
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -356,8 +356,8 @@ j = 3
 k = 4
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -367,8 +367,8 @@ j = 3
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -378,8 +378,8 @@ j = 3
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -389,8 +389,8 @@ j = 3
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -400,8 +400,8 @@ j = 3
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -411,8 +411,8 @@ j = 3
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -422,8 +422,8 @@ j = 3
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -433,8 +433,8 @@ j = 3
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -444,8 +444,8 @@ j = 3
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -455,8 +455,8 @@ j = 3
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -466,8 +466,8 @@ j = 3
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -477,8 +477,8 @@ j = 3
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -488,8 +488,8 @@ j = 3
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -499,8 +499,8 @@ j = 3
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -510,8 +510,8 @@ j = 4
 k = 6
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -521,8 +521,8 @@ j = 4
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -532,8 +532,8 @@ j = 4
 k = 5
 s1 = W
 s2 = K
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -543,8 +543,8 @@ j = 4
 k = 5
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -554,8 +554,8 @@ j = 4
 k = 5
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -565,8 +565,8 @@ j = 4
 k = 5
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -576,8 +576,8 @@ j = 4
 k = 5
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -587,8 +587,8 @@ j = 4
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -598,8 +598,8 @@ j = 4
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -609,8 +609,8 @@ j = 4
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -620,8 +620,8 @@ j = 4
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -631,8 +631,8 @@ j = 4
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -642,8 +642,8 @@ j = 4
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -653,8 +653,8 @@ j = 4
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -664,8 +664,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -675,8 +675,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -686,8 +686,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KT
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -697,8 +697,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -708,8 +708,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -719,8 +719,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -730,8 +730,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -741,8 +741,8 @@ j = 5
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -752,8 +752,8 @@ j = 6
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -763,8 +763,8 @@ j = 6
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for i in range ( 1 , len ( s ) ) :
 Line: 0
@@ -774,8 +774,8 @@ j = 6
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -785,8 +785,8 @@ j = 6
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -796,8 +796,8 @@ j = 3
 k = 6
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -807,8 +807,8 @@ j = 3
 k = 4
 s1 = W
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -818,8 +818,8 @@ j = 3
 k = 4
 s1 = WK
 s2 = KTj
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -828,9 +828,9 @@ i = 2
 j = 3
 k = 4
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -839,9 +839,9 @@ i = 2
 j = 3
 k = 4
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -850,9 +850,9 @@ i = 2
 j = 3
 k = 4
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -861,9 +861,9 @@ i = 2
 j = 3
 k = 4
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -872,9 +872,9 @@ i = 2
 j = 3
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -883,9 +883,9 @@ i = 2
 j = 3
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -894,9 +894,9 @@ i = 2
 j = 3
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -905,9 +905,9 @@ i = 2
 j = 3
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -916,9 +916,9 @@ i = 2
 j = 3
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -927,9 +927,9 @@ i = 2
 j = 3
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -938,9 +938,9 @@ i = 2
 j = 3
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -949,9 +949,9 @@ i = 2
 j = 3
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -960,9 +960,9 @@ i = 2
 j = 3
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -971,9 +971,9 @@ i = 2
 j = 3
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -982,9 +982,9 @@ i = 2
 j = 3
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -993,9 +993,9 @@ i = 2
 j = 3
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1004,9 +1004,9 @@ i = 2
 j = 3
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1015,9 +1015,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -1026,9 +1026,9 @@ i = 2
 j = 4
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -1037,9 +1037,9 @@ i = 2
 j = 4
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -1048,9 +1048,9 @@ i = 2
 j = 4
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -1059,9 +1059,9 @@ i = 2
 j = 4
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -1070,9 +1070,9 @@ i = 2
 j = 4
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1081,9 +1081,9 @@ i = 2
 j = 4
 k = 5
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -1092,9 +1092,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -1103,9 +1103,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -1114,9 +1114,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -1125,9 +1125,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -1136,9 +1136,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1147,9 +1147,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1158,9 +1158,9 @@ i = 2
 j = 4
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1169,9 +1169,9 @@ i = 2
 j = 5
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -1180,9 +1180,9 @@ i = 2
 j = 5
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -1191,9 +1191,9 @@ i = 2
 j = 5
 k = 6
 s1 = WK
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -1203,8 +1203,8 @@ j = 5
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -1214,8 +1214,8 @@ j = 5
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -1225,8 +1225,8 @@ j = 5
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1236,8 +1236,8 @@ j = 5
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1247,8 +1247,8 @@ j = 5
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1258,8 +1258,8 @@ j = 6
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1269,8 +1269,8 @@ j = 6
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for i in range ( 1 , len ( s ) ) :
 Line: 0
@@ -1280,8 +1280,8 @@ j = 6
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1291,8 +1291,8 @@ j = 6
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1302,8 +1302,8 @@ j = 4
 k = 6
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -1313,8 +1313,8 @@ j = 4
 k = 5
 s1 = WK
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -1324,8 +1324,8 @@ j = 4
 k = 5
 s1 = WKT
 s2 = T
-s3 = 
-s4 = 
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -1334,9 +1334,9 @@ i = 3
 j = 4
 k = 5
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -1345,9 +1345,9 @@ i = 3
 j = 4
 k = 5
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -1356,9 +1356,9 @@ i = 3
 j = 4
 k = 5
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1367,9 +1367,9 @@ i = 3
 j = 4
 k = 5
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -1378,9 +1378,9 @@ i = 3
 j = 4
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -1389,9 +1389,9 @@ i = 3
 j = 4
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -1400,9 +1400,9 @@ i = 3
 j = 4
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -1411,9 +1411,9 @@ i = 3
 j = 4
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -1422,9 +1422,9 @@ i = 3
 j = 4
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1433,9 +1433,9 @@ i = 3
 j = 4
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1444,9 +1444,9 @@ i = 3
 j = 4
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1455,9 +1455,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -1466,9 +1466,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -1477,9 +1477,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -1488,9 +1488,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -1499,9 +1499,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -1510,9 +1510,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1521,9 +1521,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1532,9 +1532,9 @@ i = 3
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1543,9 +1543,9 @@ i = 3
 j = 6
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1554,9 +1554,9 @@ i = 3
 j = 6
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for i in range ( 1 , len ( s ) ) :
 Line: 0
@@ -1565,9 +1565,9 @@ i = 3
 j = 6
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1576,9 +1576,9 @@ i = 4
 j = 6
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1587,9 +1587,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s1 = s [ 0 : i ]
 Line: 3
@@ -1598,9 +1598,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKT
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s2 = s [ i : j - i ]
 Line: 4
@@ -1609,9 +1609,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s3 = s [ j : k - j ]
 Line: 5
@@ -1620,9 +1620,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: s4 = s [ k : len ( s ) - k ]
 Line: 6
@@ -1631,9 +1631,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: if ( s1 != s2 and s1 != s3 and s1 != s4 and s2 != s3 and s2 != s4 and s3 != s4 ) :
 Line: 7
@@ -1642,9 +1642,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1653,9 +1653,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1664,9 +1664,9 @@ i = 4
 j = 5
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1675,9 +1675,9 @@ i = 4
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1686,9 +1686,9 @@ i = 4
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for i in range ( 1 , len ( s ) ) :
 Line: 0
@@ -1697,9 +1697,9 @@ i = 4
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1708,9 +1708,9 @@ i = 5
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for k in range ( j + 1 , len ( s ) ) :
 Line: 2
@@ -1719,9 +1719,9 @@ i = 5
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1730,9 +1730,9 @@ i = 5
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for i in range ( 1 , len ( s ) ) :
 Line: 0
@@ -1741,9 +1741,9 @@ i = 5
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for j in range ( i + 1 , len ( s ) ) :
 Line: 1
@@ -1752,9 +1752,9 @@ i = 6
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: for i in range ( 1 , len ( s ) ) :
 Line: 0
@@ -1763,9 +1763,9 @@ i = 6
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: return False
 Line: 9
@@ -1774,9 +1774,9 @@ i = 6
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 
 Statement: return False
 Line: 9
@@ -1785,8 +1785,7 @@ i = 6
 j = 6
 k = 6
 s1 = WKTj
-s2 = 
-s3 = 
-s4 = 
+s2 =
+s3 =
+s4 =
 __return__ = False
-

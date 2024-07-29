@@ -606,7 +606,7 @@ arr = ['G', 'GO', 'GOi', 'O', 'Oi', 'i', 'q', 'qG', 'qGO', 'qGOi', 's', 'sq', 's
 index = 15
 i = 4
 j = 1
-res = 
+res =
 
 Statement: res += arr [ i ] ;
 Line: 9
@@ -617,7 +617,7 @@ arr = ['G', 'GO', 'GOi', 'O', 'Oi', 'i', 'q', 'qG', 'qGO', 'qGOi', 's', 'sq', 's
 index = 15
 i = 0
 j = 1
-res = 
+res =
 
 Statement: for i in range ( sub_count ) :
 Line: 8
@@ -960,4 +960,3 @@ i = 14
 j = 1
 res = GGOGOiOOiiqqGqGOqGOissqsqGsqGOsqGOi
 __return__ = GGOGOiOOiiqqGqGOqGOissqsqGsqGOsqGOi
-

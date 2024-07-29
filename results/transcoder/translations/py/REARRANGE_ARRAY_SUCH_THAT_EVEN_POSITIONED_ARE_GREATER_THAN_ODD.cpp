@@ -21,4 +21,4 @@ void assign ( int a [ ] , int n ) {
     i < n ;
     i ++ ) cout << ans [ i ] << " " ;
   }
-  
+

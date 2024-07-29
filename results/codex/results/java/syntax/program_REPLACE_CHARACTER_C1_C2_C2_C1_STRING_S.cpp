@@ -71,7 +71,7 @@ string f_filled ( string s, char c1, char c2 ) {
   if(env_var_0 == 31) { [] arr = toupper( l ); }
   if(env_var_0 == 32) { [] arr = toupper( s[arr] ); }
   if(env_var_0 == 33) { [] arr = toupper( s[l] ); }
-   
+
   for ( int i = 0;
   i < l;
   i ++ ) {
@@ -535,4 +535,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

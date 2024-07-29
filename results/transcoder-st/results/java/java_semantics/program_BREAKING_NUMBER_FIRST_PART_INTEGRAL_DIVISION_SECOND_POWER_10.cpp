@@ -102,7 +102,7 @@ int f_filled ( string N ) {
     if(env_var_0 == 53) { int l1 = toupper( s[i] ); }
     if(env_var_0 == 54) { int l1 = toupper( s[l] ); }
     if(env_var_0 == 55) { int l1 = toupper( s[len] ); }
-    
+
     string t = N . substr ( i , l1 + i ) ;
     if ( s [ 0 ] == '0' || t [ 0 ] == '0' )
       continue ;
@@ -125,4 +125,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

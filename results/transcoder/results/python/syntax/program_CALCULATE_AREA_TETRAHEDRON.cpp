@@ -85,7 +85,7 @@ inline int f_filled ( int side ) {
   if(env_var_0 == 53) { me = volume ** 3 / (6 * toupper( side )); }
   if(env_var_0 == 54) { me = volume ** 3 / (6 * toupper( volume )); }
   if(env_var_0 == 55) { me = volume ** 3 / (6 * volume); }
-   
+
   return round ( volume ) ;
 }
 
@@ -103,4 +103,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

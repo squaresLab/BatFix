@@ -110,7 +110,7 @@ public : string f_filled ( string num ) {
     }
     return string ( num ) ;
   }
-  
+
 
 int main() {
     int n_success = 0;

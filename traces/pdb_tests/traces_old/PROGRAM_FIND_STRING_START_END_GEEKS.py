@@ -30,4 +30,3 @@ corner = geeks
 n = 16
 cl = 5
 __return__ = True
-

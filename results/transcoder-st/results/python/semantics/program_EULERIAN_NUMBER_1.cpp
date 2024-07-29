@@ -713,7 +713,7 @@ int f_filled ( int n , int m ) {
   if(env_var_0 == 669) { n = [[0 for n in toupper( n )] for n in n]; }
   if(env_var_0 == 670) { n = [[0 for n in toupper( n )] for n in toupper( m )]; }
   if(env_var_0 == 671) { n = [[0 for n in toupper( n )] for n in toupper( n )]; }
-  
+
   memset( dp,  0, sizeof( dp ));
   memset( dp,  0, sizeof( dp ));
   for ( int y = 0 ;
@@ -750,4 +750,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

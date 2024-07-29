@@ -146,7 +146,7 @@ string f_filled ( string num1 , string num2 ) {
   if(env_var_0 == 87) { num2.end() = num2.swap( num1 ); }
   if(env_var_0 == 88) { num2.end() = num2.swap( num2 ); }
   if(env_var_0 == 89) { num2.end() = std::max(); }
-  
+
   int len2 = num2 . length ( ) ;
   if ( len1 == 0 || len2 == 0 ) return "0" ;
   vector < int > result ( len1 + len2 ) ;
@@ -196,4 +196,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -24,4 +24,3 @@ x1 = 6
 y1 = 0
 dis = 6
 __return__ = True
-

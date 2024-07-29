@@ -18,4 +18,3 @@ Statement: return True
 Line: 13
 n = 62
 __return__ = True
-

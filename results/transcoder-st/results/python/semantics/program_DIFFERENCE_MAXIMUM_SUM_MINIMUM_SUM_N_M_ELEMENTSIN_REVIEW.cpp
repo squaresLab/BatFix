@@ -42,7 +42,7 @@ int f_filled ( int * arr , int n , int m ) {
   if(env_var_0 == 4) { arr[n] = 0; }
   if(env_var_0 == 5) { m = 0; }
   if(env_var_0 == 6) { n = 0; }
-  
+
   ;
   int min = 0 ;
   sort ( arr , arr + m ) ;
@@ -73,4 +73,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

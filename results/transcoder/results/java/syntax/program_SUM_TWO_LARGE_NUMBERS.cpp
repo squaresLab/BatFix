@@ -37612,7 +37612,7 @@ string f_filled ( string str1, string str2 ) {
   if(env_var_0 == 37550) { str1 = new StringBuilder(str[n2]).toupper( str[n2] ).toupper( str2[n2] ); }
   if(env_var_0 == 37551) { str1 = new StringBuilder(str[n2]).toupper( str[n2] ).toupper( str[n1] ); }
   if(env_var_0 == 37552) { str1 = new StringBuilder(str[n2]).toupper( str[n2] ).toupper( str[n2] ); }
-  
+
   ;
   str2 = string ( str2 ) . foo ( ) . to_string ( );
   int carry = 0;
@@ -37650,4 +37650,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

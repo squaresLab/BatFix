@@ -28,7 +28,7 @@ int f_gold ( int A [ ], int n ) {
 
 int f_filled ( vector < int > A ) {
     int min_val = *min_element ( A.begin(), A.end() );
-    
+
     return min_val * ( A.size() - 1 );
     }
 

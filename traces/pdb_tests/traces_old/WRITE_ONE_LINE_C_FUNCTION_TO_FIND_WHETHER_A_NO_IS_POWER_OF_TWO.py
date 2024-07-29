@@ -14,4 +14,3 @@ Statement: return True
 Line: 4
 n = 1
 __return__ = True
-

@@ -3,12 +3,13 @@ import subprocess
 from os import listdir
 import time
 import re
-cmd = './cmake-build-debug/src/Gen -f {} -g {}'
 
-path = '/Users/anon/PycharmProjects/SBFL_CPP/playground/java/'
+cmd = "./cmake-build-debug/src/Gen -f {} -g {}"
+
+path = "/Users/anon/PycharmProjects/SBFL_CPP/playground/java/"
 benchmarks = [f for f in listdir(path)]
 
-cpps = list(filter(lambda x: x.endswith('.cpp'), benchmarks))
+cpps = list(filter(lambda x: x.endswith(".cpp"), benchmarks))
 
 
 def is_correct(file_name):

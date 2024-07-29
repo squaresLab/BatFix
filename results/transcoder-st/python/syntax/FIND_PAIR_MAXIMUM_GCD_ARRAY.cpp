@@ -42,7 +42,7 @@ int f_gold ( int arr [ ], int n ) {
     i >= 1;
     i -- ) if ( divisors [ i ] > 1 ) return i;
   }
-  
+
 
 int f_filled ( int arr [ ] , int n ) {
   int high = 0 ;

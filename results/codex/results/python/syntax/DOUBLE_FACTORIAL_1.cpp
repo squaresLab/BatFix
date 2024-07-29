@@ -42,5 +42,3 @@ int f_filled(int n) {
         }
     }
 }
-
-

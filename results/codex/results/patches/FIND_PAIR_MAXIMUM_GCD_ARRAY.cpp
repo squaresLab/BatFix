@@ -43,7 +43,7 @@ int f_gold ( int arr [ ], int n ) {
     i -- ) if ( divisors [ i ] > 1 ) return i;
     return 1;
   }
-  
+
 
 int foo;
 int f_filled(int arr[], int n) {
@@ -85,4 +85,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

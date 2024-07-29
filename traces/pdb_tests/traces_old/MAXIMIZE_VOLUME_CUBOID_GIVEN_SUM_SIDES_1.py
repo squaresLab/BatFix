@@ -32,4 +32,3 @@ length = 2
 breadth = 3.0
 height = 3.0
 __return__ = 18
-

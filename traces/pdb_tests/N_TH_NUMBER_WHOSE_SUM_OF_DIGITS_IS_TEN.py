@@ -6,38 +6,28 @@
 #
 import itertools
 
-def f_gold ( n ) :
+
+def f_gold(n):
     count = 0
-    for curr in itertools.count ( ) :
+    for curr in itertools.count():
         sum = 0
         x = curr
-        while ( x ) :
+        while x:
             sum = sum + x % 10
             x = x // 10
-        if ( sum == 10 ) :
+        if sum == 10:
             count = count + 1
-        if ( count == n ) :
+        if count == n:
             return curr
-    return - 1
+    return -1
 
 
-#TOFILL
+# TOFILL
 
-if __name__ == '__main__':
-    param = [
-    (37,),
-    (13,),
-    (51,),
-    (69,),
-    (76,),
-    (10,),
-    (97,),
-    (40,),
-    (69,),
-    (4,)
-        ]
+if __name__ == "__main__":
+    param = [(37,), (13,), (51,), (69,), (76,), (10,), (97,), (40,), (69,), (4,)]
     n_success = 0
     for i, parameters_set in enumerate(param):
         if f_gold(*parameters_set) == f_gold(*parameters_set):
-            n_success+=1
+            n_success += 1
     print("#Results: %i, %i" % (n_success, len(param)))

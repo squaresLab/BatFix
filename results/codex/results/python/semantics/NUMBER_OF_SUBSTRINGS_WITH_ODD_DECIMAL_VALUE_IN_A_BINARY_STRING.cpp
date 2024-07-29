@@ -37,7 +37,7 @@ int f_gold ( string s ) {
     i -- ) if ( s [ i ] == '1' ) count += auxArr [ i ];
     return count;
   }
-  
+
 
 int foo;
 int f_filled ( string s ) {
@@ -76,4 +76,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

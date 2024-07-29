@@ -390,7 +390,7 @@ string f_filled ( string str ) {
         if(env_var_0 == 340) { start] = str[start] = str.end() + 1; }
         if(env_var_0 == 341) { start] = str[start] = str[i] + 1; }
         if(env_var_0 == 342) { start] = str[start] = str[start] + 1; }
-         
+
         string result = "";
         while ( i >= 0 ) {
             if ( str[i] == ' ' ) {
@@ -870,4 +870,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

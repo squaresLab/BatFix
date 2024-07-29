@@ -24,7 +24,7 @@ int f_gold ( int a, int b, bool x ) {
     a, b };
     return ( arr [ x ] );
   }
-  
+
 
 int f_filled ( int a , int b , int x ) {
   int arr [ ] = {
@@ -32,7 +32,7 @@ int f_filled ( int a , int b , int x ) {
     ;
     return ( arr [ x ] ) ;
   }
-  
+
 
 int main() {
     int n_success = 0;

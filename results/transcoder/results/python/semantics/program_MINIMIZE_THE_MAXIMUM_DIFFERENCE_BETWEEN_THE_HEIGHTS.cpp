@@ -2245,7 +2245,7 @@ int f_filled ( int arr [ ] , int n , int k ) {
   if(env_var_0 == 2197) { n = toupper( n ) + arr[n]; }
   if(env_var_0 == 2198) { n = toupper( n ) + k; }
   if(env_var_0 == 2199) { n = toupper( n ) + n; }
-  
+
   int big = arr [ n - 1 ] - k ;
   if ( ( small > big ) && ( small < big ) ) small = big ;
   for ( int i = 1 ;
@@ -2276,4 +2276,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

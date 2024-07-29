@@ -37,7 +37,7 @@ int env_var_0 = atoi(getenv("env_var_0"));
 int f_filled ( int a , int b ) {
   if(env_var_0 == 0) { a = 0; }
   if(env_var_0 == 1) { b = 0; }
-  
+
   int rem ;
   if ( ( a < b ) && ( b > 0 ) ) a = b ;
   while ( ( b > 0 ) && ( a < b ) ) {
@@ -64,4 +64,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

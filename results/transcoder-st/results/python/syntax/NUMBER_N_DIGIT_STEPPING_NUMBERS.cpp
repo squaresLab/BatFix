@@ -97,5 +97,3 @@ int f_filled(int n) {
         dp[y][46] = 0;
     }
 }
-
-

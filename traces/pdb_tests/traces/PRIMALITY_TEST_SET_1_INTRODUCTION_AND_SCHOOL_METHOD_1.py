@@ -18,4 +18,3 @@ Statement: return False
 Line: 13
 n = 15
 __return__ = False
-

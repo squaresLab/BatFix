@@ -61,4 +61,3 @@ r2 = 4
 distSq = 3385
 radSumSq = 2916
 __return__ = -1
-

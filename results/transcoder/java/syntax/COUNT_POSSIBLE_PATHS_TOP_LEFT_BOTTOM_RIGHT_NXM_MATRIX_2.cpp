@@ -38,7 +38,7 @@ int f_gold ( int m, int n ) {
     }
     return dp [ n - 1 ];
   }
-  
+
 
 public : int f_filled ( int m, int n ) {
   vector < int > dp ( n, 1 );

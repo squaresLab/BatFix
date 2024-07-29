@@ -41,7 +41,7 @@ double f_gold ( vector < int > & A, int K ) {
     j ++ ) dp [ i ] = max ( dp [ i ], ( pre_sum [ j ] - pre_sum [ i ] ) / ( j - i ) + dp [ j ] );
     return dp [ 0 ];
   }
-  
+
 
 int foo;
 int f_filled(std::string A, int K) {
@@ -85,4 +85,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-
