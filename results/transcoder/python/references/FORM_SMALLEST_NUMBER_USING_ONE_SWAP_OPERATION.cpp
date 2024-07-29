@@ -110,7 +110,7 @@ public : string smallestNumber ( string num ) {
     }
     return string ( num ) ;
   }
-  
+
 
 int main() {
     int n_success = 0;

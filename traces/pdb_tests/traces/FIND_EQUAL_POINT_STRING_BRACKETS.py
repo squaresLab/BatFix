@@ -256,4 +256,3 @@ open = { 0, 1, 2, 2, 2, 2, 2, 3 }
 close = { None, None, None, None, None, None, None, 0 }
 index = -1
 i = 5
-

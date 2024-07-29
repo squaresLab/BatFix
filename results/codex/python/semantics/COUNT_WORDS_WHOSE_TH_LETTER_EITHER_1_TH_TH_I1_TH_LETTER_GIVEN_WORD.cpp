@@ -39,7 +39,7 @@ int f_gold ( char str [ ], int len ) {
 
 int f_filled ( string str, int l ) {
     int count = 1;
-    
+
     if ( l == 1 ) {
         return count;
     }

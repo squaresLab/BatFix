@@ -47,7 +47,7 @@ int f_gold ( int arr [ ], int n ) {
     }
     return d;
   }
-  
+
 
 int foo;
 bool Indexes;
@@ -91,4 +91,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

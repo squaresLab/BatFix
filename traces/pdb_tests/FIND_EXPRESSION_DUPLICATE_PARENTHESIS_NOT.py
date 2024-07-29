@@ -4,39 +4,39 @@
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 #
-def f_gold ( string ) :
-    Stack = [ ]
-    for ch in string :
-        if ch == ')' :
-            top = Stack.pop ( )
+def f_gold(string):
+    Stack = []
+    for ch in string:
+        if ch == ")":
+            top = Stack.pop()
             elementsInside = 0
-            while top != '(' :
+            while top != "(":
                 elementsInside += 1
-                top = Stack.pop ( )
-            if elementsInside < 1 :
+                top = Stack.pop()
+            if elementsInside < 1:
                 return True
-        else :
-            Stack.append ( ch )
+        else:
+            Stack.append(ch)
     return False
 
 
-#TOFILL
+# TOFILL
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     param = [
-    ("((a+b)+((c+d)))",),
-    ("(((a+(b)))+(c+d))",),
-    ("(((a+(b))+c+d))",),
-    ("((a+b)+(c+d))",),
-    ("(8582007)",),
-    ("((a+(b))+(c+d))",),
-    ("(PylsShEdKAE)",),
-    ('886980680541',),
-    ('001',),
-    ('jsVmFeOq',)
-        ]
+        ("((a+b)+((c+d)))",),
+        ("(((a+(b)))+(c+d))",),
+        ("(((a+(b))+c+d))",),
+        ("((a+b)+(c+d))",),
+        ("(8582007)",),
+        ("((a+(b))+(c+d))",),
+        ("(PylsShEdKAE)",),
+        ("886980680541",),
+        ("001",),
+        ("jsVmFeOq",),
+    ]
     n_success = 0
     for i, parameters_set in enumerate(param):
         if f_gold(*parameters_set) == f_gold(*parameters_set):
-            n_success+=1
+            n_success += 1
     print("#Results: %i, %i" % (n_success, len(param)))

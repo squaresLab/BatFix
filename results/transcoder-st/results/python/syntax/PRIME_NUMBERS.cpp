@@ -31,5 +31,3 @@ bool f_gold ( int n ) {
 int foo;
 bool f_filled(int n) {
 }
-
-

@@ -36,9 +36,9 @@ string f_filled ( int n ) {
         if ( n == 0 ) {
             return "0";
         }
-        
+
         string bin = "";
-        
+
         while ( n > 0 ) {
             int _res_key_if_0;
             if(env_var_0 == 0) { _res_key_if_0 = bin & 1 == 0; }
@@ -49,14 +49,14 @@ string f_filled ( int n ) {
             if ( _res_key_if_0 ) {
                 bin = '0' + bin;
             }
-            
+
             else {
                 bin = '1' + bin;
             }
-            
+
             n = n >> 1;
         }
-        
+
         return bin;
     }
 
@@ -73,4 +73,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

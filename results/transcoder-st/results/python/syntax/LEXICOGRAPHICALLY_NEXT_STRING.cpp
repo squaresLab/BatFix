@@ -32,5 +32,3 @@ string f_gold ( string s ) {
 int foo;
 std::string f_filled(std::string s) {
 }
-
-

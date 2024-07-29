@@ -33,4 +33,4 @@ int discreteLogarithm ( int a , int b , int m ) {
     }
     return - 1 ;
   }
-  
+

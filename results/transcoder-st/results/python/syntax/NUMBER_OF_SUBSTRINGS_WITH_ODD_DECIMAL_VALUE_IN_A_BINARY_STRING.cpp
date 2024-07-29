@@ -36,7 +36,7 @@ int f_gold ( string s ) {
     i -- ) if ( s [ i ] == '1' ) count += auxArr [ i ];
     return count;
   }
-  
+
 
 int foo;
 int f_filled(std::string s) {
@@ -45,10 +45,3 @@ int f_filled(std::string s) {
     auxArr[0] = 0;
     auxArr[1] = 0;
 }
-
-
-
-
-
-
-

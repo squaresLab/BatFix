@@ -33,5 +33,3 @@ bool f_gold ( int arr [ ], int n ) {
 int foo;
 bool f_filled(int *arr, int n) {
 }
-
-

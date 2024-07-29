@@ -43,7 +43,7 @@ int f_filled ( int arr [ ] , int n ) {
     it ++ ) res = max ( res , it -> first ) ;
     return res ;
   }
-  
+
 
 int main() {
     int n_success = 0;

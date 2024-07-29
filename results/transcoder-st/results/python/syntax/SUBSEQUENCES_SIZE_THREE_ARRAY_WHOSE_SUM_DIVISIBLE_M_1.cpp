@@ -46,7 +46,7 @@ int f_gold ( int A [ ], int N, int M ) {
     }
     return ans;
   }
-  
+
 
 int foo;
 int f_filled(int *A, int N, int M) {
@@ -96,4 +96,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

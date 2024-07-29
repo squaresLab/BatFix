@@ -45,7 +45,7 @@ int f_gold ( int arr [ ], int n ) {
     }
     return d;
   }
-  
+
 
 int f_filled ( int * arr , int n ) {
   unordered_map < int , indexes > map ;

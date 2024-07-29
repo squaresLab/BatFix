@@ -64,7 +64,7 @@ bool f_filled ( int arr [ ] , int n ) {
     }
     return true ;
   }
-  
+
 
 int main() {
     int n_success = 0;

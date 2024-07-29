@@ -27,14 +27,14 @@ int f_gold ( int a, int b, bool x ) {
   int arr [2] = { a, b };
     return ( arr [ x ] );
   }
-  
+
 
 int f_filled ( int a, int b, int x ) {
   int arr [ ] = {
     a, b };
     return ( arr [ x ] );
   }
-  
+
 
 
 static // f_filled_inner(int param0, int param1, bool param2)

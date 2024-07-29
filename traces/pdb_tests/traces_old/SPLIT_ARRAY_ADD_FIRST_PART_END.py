@@ -10,4 +10,3 @@ arr = [75]
 n = 0
 k = 0
 __return__ = None
-

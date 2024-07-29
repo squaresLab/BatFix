@@ -59,7 +59,7 @@ string f_filled ( string s ) {
     }
     returnres ;
   }
-  
+
 
 int main() {
     int n_success = 0;

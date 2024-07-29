@@ -25,4 +25,3 @@ num = 2
 result = 0
 i = 2
 __return__ = 1
-

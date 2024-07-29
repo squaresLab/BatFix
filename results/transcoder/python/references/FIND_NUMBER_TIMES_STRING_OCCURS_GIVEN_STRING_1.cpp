@@ -44,7 +44,7 @@ int f_gold ( string a, string b ) {
     }
     return lookup [ m ] [ n ];
   }
-  
+
 
 public : int count ( vector < int > a , vector < int > b ) {
   int m = a . size ( ) ;

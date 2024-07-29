@@ -43,7 +43,7 @@ int f_gold ( int arr [ ], int n ) {
     }
     return d;
   }
-  
+
 
 int foo;
  int env_var_1 = atoi(getenv("env_var_1"));
@@ -151,7 +151,7 @@ int f_filled(int arr[], int n) {
     if(env_var_1 == 7) { egin() = -10 ** 9; }
     if(env_var_1 == 8) { nd() = -10 ** 9; }
     if(env_var_1 == 9) { -10 ** 9; }
-     
+
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
             int absDiff = abs(arr[i] - arr[j]);
@@ -182,4 +182,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

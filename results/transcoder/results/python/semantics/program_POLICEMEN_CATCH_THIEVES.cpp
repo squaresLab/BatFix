@@ -69,7 +69,7 @@ int f_filled ( char * arr , int n , int k ) {
   if(env_var_0 == 16) { n = []; }
   if(env_var_0 == 17) { r = []; }
   if(env_var_0 == 18) { res = []; }
-  
+
   memset( thi, , sizeof( thi ));
   int pol [ n ] ;
   while ( i < n ) {
@@ -105,4 +105,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

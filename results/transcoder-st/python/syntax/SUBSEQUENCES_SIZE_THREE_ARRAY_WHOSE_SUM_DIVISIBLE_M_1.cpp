@@ -46,7 +46,7 @@ int f_gold ( int A [ ], int N, int M ) {
     }
     return ans;
   }
-  
+
 
 int f_filled ( int * A , int N , int M ) {
   int ans = 0 ;

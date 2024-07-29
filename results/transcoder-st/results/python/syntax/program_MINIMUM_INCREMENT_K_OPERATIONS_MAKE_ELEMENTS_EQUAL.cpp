@@ -1136,7 +1136,7 @@ int f_filled ( int * arr , int n , int k ) {
   if(env_var_0 == 1097) { toupper( k ); }
   if(env_var_0 == 1098) { toupper( max1 ); }
   if(env_var_0 == 1099) { toupper( n ); }
-   
+
   double res = 0 ;
   for ( int i = 0 ;
   i <= n ;
@@ -1163,4 +1163,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -46,4 +46,3 @@ Statement: return False
 Line: 1
 n = -3
 __return__ = False
-

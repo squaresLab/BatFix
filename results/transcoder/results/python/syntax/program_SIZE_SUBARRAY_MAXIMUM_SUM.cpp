@@ -93,7 +93,7 @@ int f_filled ( int a [ ] , int size ) {
   if(env_var_0 == 46) { e = -a[size] - 1; }
   if(env_var_0 == 47) { e = -max_so_far - 1; }
   if(env_var_0 == 48) { e = -size - 1; }
-   
+
   int max_ending_here = 0 ;
   int start = 0 ;
   int end = 0 ;
@@ -130,4 +130,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

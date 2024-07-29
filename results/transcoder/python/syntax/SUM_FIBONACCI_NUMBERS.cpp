@@ -49,7 +49,7 @@ public : int f_filled ( int n ) {
     }
     return sm ;
   }
-  
+
 
 int main() {
     int n_success = 0;

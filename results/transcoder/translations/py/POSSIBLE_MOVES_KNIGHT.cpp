@@ -19,4 +19,4 @@ int findPossibleMoves ( int mat [ ] [ 8 ] , int p , int q ) {
       }
       return count ;
     }
-    
+

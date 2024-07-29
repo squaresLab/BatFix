@@ -40,7 +40,7 @@ int f_filled(int a, int b, int k) {
         if(env_var_0 == 1) { b = 0; }
         if(env_var_0 == 2) { k = 0; }
         if(env_var_0 == 3) { p = 0; }
-        
+
         while (p > 0 && count < k) {
             int rem = p % 10;
             count = count + 1;
@@ -67,4 +67,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

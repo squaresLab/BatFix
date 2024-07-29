@@ -10,4 +10,4 @@ bool distributingBalls ( int k , int n , string & s ) {
     i ++ ) if ( ( a [ i ] > k ) && ( a [ i ] < n ) ) return false ;
     return true ;
   }
-  
+

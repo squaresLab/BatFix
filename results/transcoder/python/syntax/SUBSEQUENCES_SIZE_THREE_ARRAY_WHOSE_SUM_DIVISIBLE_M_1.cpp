@@ -46,7 +46,7 @@ int f_gold ( int A [ ], int N, int M ) {
     }
     return ans;
   }
-  
+
 
 public : int f_filled ( int A [ ] , int N , int M ) {
   int ans = 0 ;
@@ -75,7 +75,7 @@ public : int f_filled ( int A [ ] , int N , int M ) {
       return ans ;
     }
   }
-  
+
 
 int main() {
     int n_success = 0;

@@ -41,7 +41,7 @@ int f_gold ( string str ) {
       }
       return maxlen;
     }
-    
+
 
 int foo;
 int env_var_0 = atoi(getenv("env_var_0"));
@@ -12832,4 +12832,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

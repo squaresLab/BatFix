@@ -34,4 +34,3 @@ Statement: return n
 Line: 5
 n = 64
 __return__ = 64
-

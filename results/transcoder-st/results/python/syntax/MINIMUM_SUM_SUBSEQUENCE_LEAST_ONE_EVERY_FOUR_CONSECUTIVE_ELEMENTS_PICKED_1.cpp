@@ -36,5 +36,3 @@ int f_gold ( int ar [ ], int n ) {
 int foo;
 int f_filled(int ar[], int n) {
 }
-
-

@@ -2308,7 +2308,7 @@ string f_filled ( string s ) {
   if(env_var_0 == 2265) { s[n] = s[n] + toupper( n ); }
   if(env_var_0 == 2266) { s[n] = s[n] + toupper( s1[n] ); }
   if(env_var_0 == 2267) { s[n] = s[n] + toupper( s[n] ); }
-  
+
    ;
   int i = 1 ;
   while ( i < n ) {
@@ -7664,4 +7664,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -5,32 +5,32 @@ str = t a
 Statement: v = True
 Line: 9
 str = t a
-result = 
+result =
 
 Statement: for i in range ( len ( str ) ) :
 Line: 0
 str = t a
-result = 
+result =
 v = True
 
 Statement: if ( str [ i ] == ' ' ) :
 Line: 1
 str = t a
-result = 
+result =
 v = True
 i = 0
 
 Statement: elif ( str [ i ] != ' ' and v == True ) :
 Line: 3
 str = t a
-result = 
+result =
 v = True
 i = 0
 
 Statement: result += ( str [ i ] )
 Line: 4
 str = t a
-result = 
+result =
 v = True
 i = 0
 
@@ -118,4 +118,3 @@ result = ta
 v = False
 i = 2
 __return__ = ta
-

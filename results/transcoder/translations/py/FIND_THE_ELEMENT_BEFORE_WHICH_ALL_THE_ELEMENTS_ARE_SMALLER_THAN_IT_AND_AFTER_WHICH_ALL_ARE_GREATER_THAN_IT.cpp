@@ -15,4 +15,4 @@ int findElement ( int arr [ ] , int n ) {
     }
     return - 1 ;
   }
-  
+

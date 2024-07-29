@@ -39,25 +39,25 @@ int foo;
 int env_var_0 = atoi(getenv("env_var_0"));
 int f_filled ( int arr [ ], int N, int k ) {
         int maxSum = 0;
-        
+
         sort ( arr, arr + N );
-        
+
         int i = N - 1;
-        
+
         while ( i >= 0 ) {
             if ( arr [ i ] - arr [ i - 1 ] < k ) {
                 maxSum += arr [ i ];
-                
+
                 maxSum += arr [ i - 1 ];
-                
+
                 i -= 1;
-                
+
             }
-            
+
             i -= 1;
-            
+
         }
-        
+
         if(env_var_0 == 0) { N; }
         if(env_var_0 == 1) { arr; }
         if(env_var_0 == 2) { arr+N; }
@@ -72,7 +72,7 @@ int f_filled ( int arr [ ], int N, int k ) {
         if(env_var_0 == 11) { k; }
         if(env_var_0 == 12) { maxSum; }
         ;
-        
+
     }
 
 int main() {
@@ -90,4 +90,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

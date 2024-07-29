@@ -30,11 +30,11 @@ int f_gold ( string slots [ ], int n, int m ) {
     j ++ ) if ( slots [ i ] [ j ] == '1' ) counts [ j ] ++;
     return * max_element ( counts, counts + m );
   }
-  
+
 
 int f_filled ( vector < string > slots, int n, int m ) {
         vector < int > counts ( m, 0 );
-        
+
         for ( int i = 0; i < n; i++ ) {
             for ( int j = 0; j < m; j++ ) {
                 if ( slots [ i ] [ j ] == '1' ) {
@@ -42,7 +42,7 @@ int f_filled ( vector < string > slots, int n, int m ) {
                 }
             }
         }
-        
+
         return *max_element ( counts.begin(), counts.end() );
     }
 

@@ -38,7 +38,7 @@ int env_var_0 = atoi(getenv("env_var_0"));
 bool f_filled ( double num ) {
   if ( ( num < 0 ) || ( num > 1 ) ) return false ;
   if(env_var_0 == 0) { num = -2 * num; }
-  
+
   double b = 1 , a = 1 ;
   double d = ( b * b ) - ( 4 * a * c ) ;
   if ( ( d < 0 ) || ( d > 1 ) ) return false ;
@@ -63,4 +63,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -11,4 +11,4 @@ void reverseFibonacci ( int n ) {
     i >= 0 ;
     i -- ) cout << a [ i ] << " " ;
   }
-  
+

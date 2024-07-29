@@ -987,7 +987,7 @@ int f_filled(int arr[], int n, int k)
         if(env_var_0 == 947) {  toupper( k ); }
         if(env_var_0 == 948) {  toupper( max1 ); }
         if(env_var_0 == 949) {  toupper( n ); }
-         
+
         for (int i = 1; i < n; i++)
             if (arr[i] > max1)
                 max1 = arr[i];
@@ -1012,4 +1012,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

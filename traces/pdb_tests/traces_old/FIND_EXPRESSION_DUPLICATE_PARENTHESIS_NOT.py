@@ -532,4 +532,3 @@ ch = )
 top = (
 elementsInside = 0
 __return__ = True
-

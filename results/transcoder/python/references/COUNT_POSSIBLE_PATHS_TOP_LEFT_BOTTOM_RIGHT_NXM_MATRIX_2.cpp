@@ -34,7 +34,7 @@ int f_gold ( int m, int n ) {
     }
     return dp [ n - 1 ];
   }
-  
+
 
 public : int numberOfPaths ( int p , int q ) {
   vector < int > dp ( q , 1 ) ;

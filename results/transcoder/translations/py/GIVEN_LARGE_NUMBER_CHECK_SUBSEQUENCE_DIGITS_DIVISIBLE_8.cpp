@@ -23,4 +23,4 @@ bool isSubSeqDivisible ( string st ) {
     }
     return false ;
   }
-  
+

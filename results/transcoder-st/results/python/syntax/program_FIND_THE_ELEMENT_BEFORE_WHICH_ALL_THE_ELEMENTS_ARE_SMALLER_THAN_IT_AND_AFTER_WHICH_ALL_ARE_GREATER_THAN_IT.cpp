@@ -833,7 +833,7 @@ int f_filled(float *arr, int n) {
     if(env_var_1 == 381) { Min = toupper( leftMax[n] ); }
     if(env_var_1 == 382) { Min = toupper( n ); }
     if(env_var_1 == 383) { Min = toupper( rightMin ); }
-     
+
     for (int i = n - 1; i >= 0; i--) {
         if (leftMax[i] < arr[i] && rightMin > arr[i])
             return i;
@@ -862,4 +862,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

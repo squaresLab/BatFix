@@ -27,7 +27,7 @@ int f_gold ( int a, int b, bool x ) {
   int arr [2] = { a, b };
     return ( arr [ x ] );
   }
-  
+
 
 int foo;
 int f_filled ( int a, int b, int x ) {
@@ -35,7 +35,7 @@ int f_filled ( int a, int b, int x ) {
     a, b };
     return ( arr [ x ] );
   }
-  
+
 
 
 int f_filled_inner(int param0, int param1, bool param2)
@@ -58,4 +58,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

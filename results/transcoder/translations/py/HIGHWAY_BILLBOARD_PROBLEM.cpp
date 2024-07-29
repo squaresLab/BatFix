@@ -27,4 +27,4 @@ int maxRevenue ( int m , int * x , int * revenue , int n , int t ) {
       maxRev [ i ] = maxRev [ i - 1 ] ;
     }
   }
-  
+

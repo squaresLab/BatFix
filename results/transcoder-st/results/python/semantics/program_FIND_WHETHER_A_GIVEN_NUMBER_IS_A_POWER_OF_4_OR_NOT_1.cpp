@@ -36,7 +36,7 @@ int foo;
 int env_var_0 = atoi(getenv("env_var_0"));
 bool f_filled ( unsigned n ) {
   if(env_var_0 == 0) { n = 0; }
-  
+
   if ( ( n > 0 ) && ( ! ( n & ( n - 1 ) ) ) ) {
     while ( ( n > 1 ) ) {
       n >>= 1 ;
@@ -62,4 +62,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -160,4 +160,3 @@ checkNumber = 2047
 nextval = 1736
 i = 9
 __return__ = False
-

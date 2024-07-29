@@ -768,7 +768,7 @@ int f_filled ( int m , int n , int x ) {
   if(env_var_0 == 726) { x = [[0] * (x + 1) for x in toupper( n )]; }
   if(env_var_0 == 727) { x = [[0] * (x + 1) for x in toupper( x )]; }
   if(env_var_0 == 728) { x = [[0] * (x + 1) for x in x]; }
-  
+
   memset( table,  0, sizeof( table ));
   memset( table,  0, sizeof( table ));
   for ( int i = 0 ;
@@ -812,4 +812,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

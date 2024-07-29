@@ -70,5 +70,3 @@ int f_filled(int *stack1, int *stack2, int *stack3, int n1, int n2, int n3) {
         }
     return sum1 + sum2 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3 + sum3;
 }
-
-

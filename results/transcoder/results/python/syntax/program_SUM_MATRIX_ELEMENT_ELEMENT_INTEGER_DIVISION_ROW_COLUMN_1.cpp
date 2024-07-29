@@ -41,7 +41,7 @@ int foo;
  int env_var_0 = atoi(getenv("env_var_0"));
 int f_filled ( int n ) {
   if(env_var_0 == 0) { n = 0; }
-  
+
   ;
   int temp = 0 ;
   ;
@@ -76,4 +76,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

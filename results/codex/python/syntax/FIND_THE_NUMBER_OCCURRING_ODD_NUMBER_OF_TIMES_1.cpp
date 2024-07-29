@@ -41,7 +41,7 @@ int f_filled(int arr[], int size)
         unordered_map<int, int> Hash;
         for (int i = 0; i < size; i++)
             Hash[arr[i]] = Hash.get(arr[i], 0) + 1;
-        
+
         for (auto i : Hash)
             if (Hash[i] % 2 != 0)
                 return i;

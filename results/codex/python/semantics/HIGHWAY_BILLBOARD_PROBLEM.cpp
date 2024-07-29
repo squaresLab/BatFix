@@ -43,7 +43,7 @@ int f_gold ( int m, int x [ ], int revenue [ ], int n, int t ) {
 int f_filled ( int m, int x [ ], int revenue [ ], int n, int t ) {
         int maxRev [ m + 1 ];
         int nxtbb = 0;
-        
+
         for ( int i = 1; i <= m; i++ ) {
             if ( nxtbb < n ) {
                 if ( x [ nxtbb ] != i ) {

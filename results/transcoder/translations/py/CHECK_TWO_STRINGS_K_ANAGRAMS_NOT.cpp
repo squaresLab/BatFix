@@ -19,4 +19,4 @@ bool arekAnagrams ( string str1 , string str2 , int k ) {
       i ++ ) if ( ( count1 [ i ] > count2 [ i ] ) && ( count1 [ i ] < count2 [ i ] ) ) count = count + abs ( count1 [ i ] - count2 [ i ] ) ;
       return ( count <= k ) ;
     }
-    
+

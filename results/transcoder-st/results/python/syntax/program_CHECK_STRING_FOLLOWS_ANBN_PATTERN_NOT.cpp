@@ -101,7 +101,7 @@ bool f_filled ( string str ) {
   if(env_var_1 == 25) { pper( str[j] ) != 'b'; }
   if(env_var_1 == 26) { pper( str[n] ) != 'b'; }
   if(env_var_1 == 27) { pper() != 'b'; }
-   
+
   j < n ;
   j ++ ) {
     if ( ( str [ j ] != 'b' ) && ( str [ j ] != 'a' ) ) return false ;
@@ -123,4 +123,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

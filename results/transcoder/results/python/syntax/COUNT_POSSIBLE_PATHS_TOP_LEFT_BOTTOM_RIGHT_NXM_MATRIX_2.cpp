@@ -34,7 +34,7 @@ int f_gold ( int m, int n ) {
     }
     return dp [ n - 1 ];
   }
-  
+
 
 int foo;
  int f_filled(int p, int q) {
@@ -68,4 +68,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

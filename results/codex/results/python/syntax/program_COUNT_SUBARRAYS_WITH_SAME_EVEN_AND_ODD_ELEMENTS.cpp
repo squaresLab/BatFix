@@ -56,7 +56,7 @@ int f_filled(int arr[], int n) {
     if(env_var_0 == 4) { arr[n] = 0; }
     if(env_var_0 == 5) { difference = 0; }
     if(env_var_0 == 6) { n = 0; }
-    
+
     int hash_positive;
     int hash_negative;
     for (int i = 0; i < n; i++) {
@@ -87,4 +87,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

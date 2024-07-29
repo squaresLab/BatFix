@@ -840,7 +840,7 @@ int f_filled(int arr[], int n) {
         if(env_var_0 == 789) {  toupper( it.first ); }
         if(env_var_0 == 790) {  toupper( it.second ); }
         if(env_var_0 == 791) {  toupper( n ); }
-         
+
         ans += (count * (count - 1)) / 2;
     }
     return ans;
@@ -862,4 +862,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

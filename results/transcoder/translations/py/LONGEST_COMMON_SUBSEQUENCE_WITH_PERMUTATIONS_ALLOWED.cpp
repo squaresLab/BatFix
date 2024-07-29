@@ -19,4 +19,4 @@ void longestString ( string str1 , string str2 ) {
       j ++ ) result = result + ( char ) ( ( char ) 'a' + i ) ;
       cout << result << endl ;
     }
-    
+

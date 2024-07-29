@@ -28,7 +28,7 @@ int f_gold ( int n ) {
     i ++ ) answer [ i ] = answer [ i - 1 ] * 3 + 2;
     return answer [ n ];
   }
-  
+
 
 public : int f_filled ( int n ) {
   int answer [ n + 1 ] ;

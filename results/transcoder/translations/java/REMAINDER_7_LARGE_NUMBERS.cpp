@@ -17,4 +17,4 @@ int remainder_with_7 ( string num ) {
     }
     return result ;
   }
-  
+

@@ -36,7 +36,7 @@ int f_gold ( int A ) {
     }
     return dpArray [ n ];
   }
-  
+
 
 int f_filled ( int A ) {
   int n = 2 * A ;
@@ -56,7 +56,7 @@ int f_filled ( int A ) {
     }
     return ( int ) dpArray [ n ] ;
   }
-  
+
 
 int main() {
     int n_success = 0;

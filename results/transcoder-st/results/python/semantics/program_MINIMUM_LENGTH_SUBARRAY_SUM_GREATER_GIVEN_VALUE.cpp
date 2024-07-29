@@ -43,7 +43,7 @@ int f_filled ( int arr [ ] , int n , int x ) {
   if(env_var_0 == 4) { arr[x] = 0; }
   if(env_var_0 == 5) { n = 0; }
   if(env_var_0 == 6) { x = 0; }
-  
+
   int minLen = n + 1 ;
   int start = 0 ;
   int end = 0 ;
@@ -75,4 +75,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

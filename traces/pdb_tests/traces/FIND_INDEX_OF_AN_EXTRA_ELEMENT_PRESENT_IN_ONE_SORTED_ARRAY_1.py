@@ -197,4 +197,3 @@ left = 0
 right = -1
 mid = 0
 __return__ = 0
-

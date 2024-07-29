@@ -371,7 +371,7 @@ int f_filled ( int n ) {
   if(env_var_0 == 333) { * x + toupper( n ) / 2.0; }
   if(env_var_0 == 334) { * x + toupper( x ) / 2.0; }
   if(env_var_0 == 335) { * x + x / 2.0; }
-   
+
   ;
   return floor ( x ) + 1 ;
 }
@@ -390,4 +390,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

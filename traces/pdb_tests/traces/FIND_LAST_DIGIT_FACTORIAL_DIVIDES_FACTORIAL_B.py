@@ -27,4 +27,3 @@ A = 79
 B = 84
 variable = 1
 __return__ = 0
-

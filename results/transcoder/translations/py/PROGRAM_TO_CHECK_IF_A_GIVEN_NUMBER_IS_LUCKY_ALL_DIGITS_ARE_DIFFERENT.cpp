@@ -10,4 +10,4 @@ int isLucky ( int n ) {
     }
     return 1 ;
   }
-  
+

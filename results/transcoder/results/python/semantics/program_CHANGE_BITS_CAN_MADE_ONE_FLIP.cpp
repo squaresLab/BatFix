@@ -32,7 +32,7 @@ bool f_filled ( string str ) {
   if(env_var_0 == 0) { str = 0; }
   if(env_var_0 == 1) { str.begin() = 0; }
   if(env_var_0 == 2) { str.end() = 0; }
-  
+
   int ones = 0 ;
   for ( foo
   i != str . length ( ) ;
@@ -63,4 +63,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -35,21 +35,21 @@ string f_filled ( int n ) {
         if ( n == 0 ) {
             return "0";
         }
-        
+
         string bin = "";
-        
+
         while ( n > 0 ) {
             if ( foo ) {
                 bin = '0' + bin;
             }
-            
+
             else {
                 bin = '1' + bin;
             }
-            
+
             n = n >> 1;
         }
-        
+
         return bin;
     }
 
@@ -66,4 +66,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

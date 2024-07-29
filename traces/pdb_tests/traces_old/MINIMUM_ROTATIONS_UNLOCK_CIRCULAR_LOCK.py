@@ -118,4 +118,3 @@ rotation = 8
 input_digit = 7
 code_digit = 4
 __return__ = 8
-

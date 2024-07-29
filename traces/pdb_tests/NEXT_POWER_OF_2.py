@@ -4,33 +4,22 @@
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 #
-def f_gold ( n ) :
-    count = 0 ;
-    if ( n and not ( n & ( n - 1 ) ) ) :
+def f_gold(n):
+    count = 0
+    if n and not (n & (n - 1)):
         return n
-    while ( n != 0 ) :
+    while n != 0:
         n >>= 1
         count += 1
-    return 1 << count ;
+    return 1 << count
 
 
-#TOFILL
+# TOFILL
 
-if __name__ == '__main__':
-    param = [
-    (74,),
-    (70,),
-    (85,),
-    (78,),
-    (71,),
-    (32,),
-    (97,),
-    (90,),
-    (64,),
-    (48,)
-        ]
+if __name__ == "__main__":
+    param = [(74,), (70,), (85,), (78,), (71,), (32,), (97,), (90,), (64,), (48,)]
     n_success = 0
     for i, parameters_set in enumerate(param):
         if f_gold(*parameters_set) == f_gold(*parameters_set):
-            n_success+=1
+            n_success += 1
     print("#Results: %i, %i" % (n_success, len(param)))

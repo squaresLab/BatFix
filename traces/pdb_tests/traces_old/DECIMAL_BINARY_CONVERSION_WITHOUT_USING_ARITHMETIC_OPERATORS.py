@@ -9,17 +9,17 @@ n = 35
 Statement: while ( n > 0 ) :
 Line: 1
 n = 35
-bin = 
+bin =
 
 Statement: if ( n & 1 == 0 ) :
 Line: 2
 n = 35
-bin = 
+bin =
 
 Statement: bin = '1' + bin ;
 Line: 5
 n = 35
-bin = 
+bin =
 
 Statement: n = n >> 1 ;
 Line: 6
@@ -141,4 +141,3 @@ Line: 7
 n = 0
 bin = 100011
 __return__ = 100011
-

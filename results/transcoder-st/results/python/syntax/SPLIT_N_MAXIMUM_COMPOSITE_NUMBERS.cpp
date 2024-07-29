@@ -41,5 +41,3 @@ int f_filled(int n) {
         return -1;
     int rem = n % 4;
 }
-
-

@@ -12,4 +12,4 @@ public : int minLexRotation ( string str_ ) {
     sort ( arr , arr + n ) ;
     return arr [ 0 ] ;
   }
-  
+

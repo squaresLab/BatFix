@@ -20,4 +20,4 @@ void recaman ( int n ) {
       cout << arr [ i ] << ", " ;
     }
   }
-  
+

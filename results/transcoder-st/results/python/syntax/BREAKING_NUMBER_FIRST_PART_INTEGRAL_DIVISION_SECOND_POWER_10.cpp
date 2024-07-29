@@ -47,5 +47,3 @@ int f_filled(std::string N) {
         std::string t = N.substr(i, l1 + i);
     }
 }
-
-

@@ -29,7 +29,7 @@ int f_gold ( string slots [ ], int n, int m ) {
     j ++ ) if ( slots [ i ] [ j ] == '1' ) counts [ j ] ++;
     return * max_element ( counts, counts + m );
   }
-  
+
 
 int f_filled ( string * slots , int n , int m ) {
   int counts [ m ] ;

@@ -37,7 +37,7 @@ int f_gold ( int A ) {
     }
     return dpArray [ n ];
   }
-  
+
 
 int foo;
 int f_filled ( int A ) {
@@ -67,4 +67,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -100,7 +100,7 @@ int f_filled ( int a , int b , int k ) {
   if(env_var_0 == 61) { p ** b; }
   if(env_var_0 == 62) { p ** k; }
   if(env_var_0 == 63) { p ** p; }
-   
+
   int count = 0 ;
   while ( ( p > 0 ) && ( count < k ) ) {
     int rem = p % 10 ;
@@ -129,4 +129,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

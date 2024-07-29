@@ -73,4 +73,3 @@ d = 9
 root1 = 1.0
 root2 = -2.0
 __return__ = True
-

@@ -46,7 +46,7 @@ int f_filled ( int n ) {
     }
     return 1 ;
   }
-  
+
 
 int main() {
     int n_success = 0;

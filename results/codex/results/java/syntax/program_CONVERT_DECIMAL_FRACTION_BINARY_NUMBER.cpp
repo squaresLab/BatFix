@@ -192,7 +192,7 @@ string f_filled ( double num, int k_prec ) {
   if(env_var_0 == 136) { binary = toupper( fractional ); }
   if(env_var_0 == 137) { binary = toupper( k_prec ); }
   if(env_var_0 == 138) { binary = toupper( num ); }
-  
+
   ;
   binary += ( '.' );
   while ( k_prec -- > 0 ) {
@@ -223,4 +223,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

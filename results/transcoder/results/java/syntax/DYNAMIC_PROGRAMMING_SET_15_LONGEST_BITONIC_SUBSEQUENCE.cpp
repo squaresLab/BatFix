@@ -125,5 +125,3 @@ int f_filled(int arr[], int n) {
     lis[67] = 1;
     lis[80] = 1;
 }
-
-

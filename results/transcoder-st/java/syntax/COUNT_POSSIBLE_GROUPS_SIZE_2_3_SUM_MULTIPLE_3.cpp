@@ -36,7 +36,7 @@ int f_gold ( int arr [ ], int n ) {
     res += c [ 0 ] * c [ 1 ] * c [ 2 ];
     return res;
   }
-  
+
 
 int f_filled ( int arr [ ] , int n ) {
   int c [ ] = {
@@ -57,7 +57,7 @@ int f_filled ( int arr [ ] , int n ) {
     res += c [ 0 ] * c [ 1 ] * c [ 2 ] ;
     return res ;
   }
-  
+
 
 int main() {
     int n_success = 0;

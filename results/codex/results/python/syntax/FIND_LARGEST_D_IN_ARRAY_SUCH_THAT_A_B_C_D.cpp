@@ -79,5 +79,3 @@ int f_filled(int S[], int n) {
         return -1;
     }
 }
-
-

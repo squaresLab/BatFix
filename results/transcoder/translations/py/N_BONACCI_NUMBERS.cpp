@@ -18,4 +18,4 @@ void bonacciSeries ( int n , int m ) {
       cout << a [ i ] << " " ;
     }
   }
-  
+

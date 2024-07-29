@@ -4,27 +4,16 @@
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 #
-def f_gold ( n ) :
-    return n & ( n - 1 )
+def f_gold(n):
+    return n & (n - 1)
 
 
-#TOFILL
+# TOFILL
 
-if __name__ == '__main__':
-    param = [
-    (9,),
-    (54,),
-    (60,),
-    (32,),
-    (41,),
-    (64,),
-    (4,),
-    (51,),
-    (57,),
-    (92,)
-        ]
+if __name__ == "__main__":
+    param = [(9,), (54,), (60,), (32,), (41,), (64,), (4,), (51,), (57,), (92,)]
     n_success = 0
     for i, parameters_set in enumerate(param):
         if f_gold(*parameters_set) == f_gold(*parameters_set):
-            n_success+=1
+            n_success += 1
     print("#Results: %i, %i" % (n_success, len(param)))

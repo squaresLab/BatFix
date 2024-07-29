@@ -54,7 +54,7 @@ int f_filled ( string s ) {
   if(env_var_0 == 2) { s.compare( s ); }
   if(env_var_0 == 3) { s.swap( s ); }
   if(env_var_0 == 4) { std::max(); }
-  
+
   int o = 0 ;
   int c = 0 ;
   for ( foo
@@ -92,4 +92,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

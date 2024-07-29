@@ -21,4 +21,3 @@ degree = [2, 3, 1, 1, 1]
 n = 5
 deg_sum = 8
 __return__ = True
-

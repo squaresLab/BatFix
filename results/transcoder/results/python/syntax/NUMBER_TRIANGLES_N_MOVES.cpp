@@ -28,7 +28,7 @@ int f_gold ( int n ) {
     i ++ ) answer [ i ] = answer [ i - 1 ] * 3 + 2;
     return answer [ n ];
   }
-  
+
 
 int foo;
  int f_filled(int n) {
@@ -65,4 +65,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

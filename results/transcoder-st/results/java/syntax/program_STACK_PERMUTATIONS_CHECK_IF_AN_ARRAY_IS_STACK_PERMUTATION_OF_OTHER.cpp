@@ -93,7 +93,7 @@ bool f_filled ( int ip [ ] , int op [ ] , int n ) {
     if(env_var_0 == 25) { ele = toupper( n ); }
     if(env_var_0 == 26) { ele = toupper( op[ele] ); }
     if(env_var_0 == 27) { ele = toupper( op[n] ); }
-     
+
     int _res_key_if_0;
     if(env_var_1 == 0) { _res_key_if_0 = ele == ele; }
     if(env_var_1 == 1) { _res_key_if_0 = ele == input; }
@@ -546,4 +546,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -435,5 +435,4 @@ strA = obfLA mmMYvghH
 strB = obfLA  mmMYvghH
 res = 32
 i = 14
-__return__ =  
-
+__return__ =

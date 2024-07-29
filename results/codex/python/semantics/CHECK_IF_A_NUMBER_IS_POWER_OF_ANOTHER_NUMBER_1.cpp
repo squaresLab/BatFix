@@ -28,9 +28,9 @@ bool f_gold ( int x, int y ) {
 
 int f_filled ( int x, int y ) {
     double res1 = log ( y ) / log ( x );
-    
+
     double res2 = log ( y ) / log ( x );
-    
+
     return ( res1 == res2 ) ? 1 : 0;
     }
 

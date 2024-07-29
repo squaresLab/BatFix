@@ -31,7 +31,7 @@ int f_gold ( string str ) {
     i ++ ) if ( count [ i ] % 2 == 1 ) res ++;
     return ( res == 0 ) ? 0 : res - 1;
   }
-  
+
 
 int f_filled(string str) {
         int n = str.length();

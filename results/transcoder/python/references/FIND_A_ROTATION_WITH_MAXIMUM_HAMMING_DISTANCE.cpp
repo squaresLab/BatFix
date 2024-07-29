@@ -71,7 +71,7 @@ public : int maxHamming ( int arr [ ] , int n ) {
     }
     return maxHam ;
   }
-  
+
 
 int main() {
     int n_success = 0;

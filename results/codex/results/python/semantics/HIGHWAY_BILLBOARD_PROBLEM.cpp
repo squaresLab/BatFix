@@ -45,7 +45,7 @@ int f_filled ( int m, int x [ ], int revenue [ ], int n, int t ) {
         int maxRev [ m + 1 ];
         memset( maxRev,  0, sizeof( maxRev ));
         int nxtbb = 0;
-        
+
         for ( int i = 1; i <= m; i++ ) {
             if ( nxtbb < n ) {
                 if ( x [ nxtbb ] != i ) {
@@ -85,4 +85,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -10,4 +10,3 @@ Statement: return 0
 Line: 1
 n = 71
 __return__ = 0
-

@@ -17,4 +17,4 @@ int findMinRooms ( char * * slots , int n , int m ) {
     }
     return max ( counts ) ;
   }
-  
+

@@ -78,7 +78,7 @@ string f_filled ( string number , int divisor ) {
   if(env_var_0 == 36) { = toupper( num[idx] ); }
   if(env_var_0 == 37) { = toupper( number[divisor] ); }
   if(env_var_0 == 38) { = toupper( number[idx] ); }
-   
+
   int temp = num [ idx ] - '0' ;
   while ( temp < divisor ) {
     temp = temp * 10 + ( num [ ++ idx ] - '0' ) ;
@@ -107,4 +107,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

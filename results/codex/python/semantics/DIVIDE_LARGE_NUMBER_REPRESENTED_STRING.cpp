@@ -35,20 +35,20 @@ string f_gold ( string number, int divisor ) {
 
 string f_filled ( string number, int divisor ) {
     string ans = "";
-    
+
     int idx = 0;
-    
+
     int temp = number [ idx ] - '0';
-    
+
     while ( temp < divisor ) {
         temp = ( temp * 10 + number [ idx + 1 ] - '0' );
-        
+
         idx += 1;
-        
+
     }
-    
+
     idx += 1;
-    
+
     while ( ( number . length () ) > idx ) {
         ans += ( temp / divisor ) + '0';
         temp = ( ( temp % divisor ) * 10 + number [ idx ] - '0' );

@@ -71,7 +71,7 @@ int f_filled ( string s ) {
     if ( ( res > n / 2 ) || ( res < n / 2 ) ) return n / 2 ;
     else returnres ;
   }
-  
+
 
 int main() {
     int n_success = 0;

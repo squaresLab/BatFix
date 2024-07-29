@@ -18,4 +18,4 @@ void printAllAPTriplets ( int arr [ ] , int n ) {
     s . push_back ( arr [ i ] ) ;
     ;
   }
-  
+

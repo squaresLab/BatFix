@@ -70,4 +70,3 @@ Statement: return n
 Line: 9
 n = 1
 __return__ = 1
-

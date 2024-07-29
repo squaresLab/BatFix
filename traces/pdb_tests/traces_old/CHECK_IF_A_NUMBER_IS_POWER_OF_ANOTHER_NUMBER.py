@@ -26,4 +26,3 @@ x = 57
 y = 1
 pow = 1
 __return__ = True
-

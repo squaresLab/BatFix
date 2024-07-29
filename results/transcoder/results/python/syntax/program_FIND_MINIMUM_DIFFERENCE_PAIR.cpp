@@ -41,7 +41,7 @@ int f_filled ( int arr [ ] , int n ) {
   if(env_var_0 == 4) { n] = 10 ** 20; }
   if(env_var_0 == 5) {  = 10 ** 20; }
   if(env_var_0 == 6) { 10 ** 20; }
-   
+
   for ( int i = 0 ;
   i < n - 1 ;
   i ++ ) {
@@ -71,4 +71,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

@@ -55,7 +55,7 @@ int f_filled ( int arr [ ] , int N ) {
     i ++ ) if ( ( max < lis [ i ] ) && ( lis [ i ] < lis [ j ] ) ) max = lis [ i ] ;
     return ( N - max ) ;
   }
-  
+
 
 int main() {
     int n_success = 0;

@@ -77,7 +77,7 @@ string f_filled(string num1, string num2) {
         if(env_var_0 == 18) { int len1 = num2.reserve(); }
         if(env_var_0 == 19) { int len1 = num2.size(); }
         if(env_var_0 == 20) { int len1 = toupper(); }
-        
+
         int len2 = num2.length();
         if (len1 == 0 || len2 == 0) return "0";
         int result[len1 + len2];
@@ -119,4 +119,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

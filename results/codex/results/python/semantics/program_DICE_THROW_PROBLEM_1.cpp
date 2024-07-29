@@ -6601,7 +6601,7 @@ int f_filled ( int f, int d, int s ) {
         if(env_var_0 == 6558) { s = [[0 for s in toupper( s )] for s in toupper( d )]; }
         if(env_var_0 == 6559) { s = [[0 for s in toupper( s )] for s in toupper( f )]; }
         if(env_var_0 == 6560) { s = [[0 for s in toupper( s )] for s in toupper( s )]; }
-        
+
         memset( mem,  0, sizeof( mem ));
         memset( mem,  0, sizeof( mem ));
         mem [ 0 ] [ 0 ] = 1 ;
@@ -6631,4 +6631,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

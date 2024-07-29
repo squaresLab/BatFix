@@ -200,7 +200,7 @@ double f_filled(int arr[], int n) {
     if(env_var_0 == 142) { oupper( ans ); }
     if(env_var_0 == 143) { oupper( arr[n] ); }
     if(env_var_0 == 144) { oupper( n ); }
-     
+
     double maxval = 1;
     double minval = 1;
     for (int i = 0; i <= n; i++) {
@@ -238,4 +238,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

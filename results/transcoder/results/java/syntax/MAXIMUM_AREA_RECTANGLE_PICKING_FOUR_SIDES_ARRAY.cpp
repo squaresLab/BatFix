@@ -33,7 +33,7 @@ int f_gold ( int arr [ ], int n ) {
     i ++ ) if ( arr [ i ] == arr [ i + 1 ] ) dimension [ j ++ ] = arr [ i ++ ];
     return ( dimension [ 0 ] * dimension [ 1 ] );
   }
-  
+
 
 int foo;
 int f_filled(Integer arr[], int n) {
@@ -47,7 +47,7 @@ int f_filled(Integer arr[], int n) {
 
 
 
-  
+
 
 
 int f_filled_inner(int   param0 [ ], int param1)
@@ -69,4 +69,3 @@ int main() {
     cout << "#Results:" << " " << n_success << ", " << param0.size();
     return 0;
 }
-

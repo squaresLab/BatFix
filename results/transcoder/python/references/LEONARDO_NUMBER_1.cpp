@@ -89,7 +89,7 @@ int f_filled ( int n ) {
   dp [ 27 ] = 1 ;
   ;
   dp [ 28 ] = 1 ;
-  
+
 
 int main() {
     int n_success = 0;

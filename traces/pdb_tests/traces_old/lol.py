@@ -16,23 +16,27 @@ from itertools import *
 io_pairs = [
     ((4, 2, 8, 0), 2048),
     ((11, 6, 9, 4), 35840),
-
 ]
+
 
 # Convenience functions for creating a constraint using a flag with identifier
 # 'i' that toggles whether the operator is used for operands x1 and x2.
 # Use is OPTIONAL.
 def mul(i, x1, x2):
-    return If(Bool(f'B{i}'), x1 * x2, BitVecVal(0,16))
+    return If(Bool(f"B{i}"), x1 * x2, BitVecVal(0, 16))
+
 
 def lor(i, x1, x2):
-    return If(Bool(f'B{i}'), x1 | x2, BitVecVal(0,16))
+    return If(Bool(f"B{i}"), x1 | x2, BitVecVal(0, 16))
+
 
 def shl(i, x1, x2):
-    return If(Bool(f'B{i}'), x1 << x2, BitVecVal(0,16))
+    return If(Bool(f"B{i}"), x1 << x2, BitVecVal(0, 16))
+
 
 def add(i, x1, x2):
-    return If(Bool(f'B{i}'), x1 + x2, BitVecVal(0,16))
+    return If(Bool(f"B{i}"), x1 + x2, BitVecVal(0, 16))
+
 
 # Your Synthesizer: construct a Z3 formula using input/output pairs.
 def formula(pairs):
@@ -54,7 +58,7 @@ def formula(pairs):
         line_vars = [BitVec(f"line{i}_{p}", 16) for i in range(4)]
         ops = [mul, lor, shl, add]
         res = {}
-        lines = [BitVecVal(0,16), BitVecVal(0,16), BitVecVal(0,16)]
+        lines = [BitVecVal(0, 16), BitVecVal(0, 16), BitVecVal(0, 16)]
 
         for k in range(3):
             start = count
@@ -72,7 +76,7 @@ def formula(pairs):
                             # print(Implies(Bool(f"B{count}"), x_used[j][k]))
                             count += 1
                 # print(lines[k])
-            s.append(sum([If(Bool(f'B{i}'), 1, 0) for i in range(start, count)]) == 1)
+            s.append(sum([If(Bool(f"B{i}"), 1, 0) for i in range(start, count)]) == 1)
             s.append(line_vars[k] == lines[k])
             x += [line_vars[k]]
 
@@ -94,9 +98,5 @@ def formula(pairs):
             print(res[x])
 
 
-
-
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     formula(io_pairs)

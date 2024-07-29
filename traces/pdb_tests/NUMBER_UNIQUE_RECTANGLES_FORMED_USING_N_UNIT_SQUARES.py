@@ -6,33 +6,23 @@
 #
 import math
 
-def f_gold ( n ) :
+
+def f_gold(n):
     ans = 0
-    for length in range ( 1 , int ( math.sqrt ( n ) ) + 1 ) :
+    for length in range(1, int(math.sqrt(n)) + 1):
         height = length
-        while ( height * length <= n ) :
+        while height * length <= n:
             ans += 1
             height += 1
     return ans
 
 
-#TOFILL
+# TOFILL
 
-if __name__ == '__main__':
-    param = [
-    (34,),
-    (49,),
-    (41,),
-    (17,),
-    (67,),
-    (38,),
-    (59,),
-    (64,),
-    (61,),
-    (58,)
-        ]
+if __name__ == "__main__":
+    param = [(34,), (49,), (41,), (17,), (67,), (38,), (59,), (64,), (61,), (58,)]
     n_success = 0
     for i, parameters_set in enumerate(param):
         if f_gold(*parameters_set) == f_gold(*parameters_set):
-            n_success+=1
+            n_success += 1
     print("#Results: %i, %i" % (n_success, len(param)))
