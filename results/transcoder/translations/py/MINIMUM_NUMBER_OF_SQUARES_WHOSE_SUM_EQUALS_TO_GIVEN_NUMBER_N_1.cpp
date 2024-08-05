@@ -17,4 +17,3 @@ int getMinSquares ( int n ) {
     }
     return dp [ n ] ;
   }
-

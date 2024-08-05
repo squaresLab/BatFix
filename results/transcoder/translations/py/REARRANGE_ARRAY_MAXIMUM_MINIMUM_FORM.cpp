@@ -23,4 +23,3 @@ void rearrange ( int arr [ ] , int n ) {
       arr [ i ] = temp [ i ] ;
     }
   }
-

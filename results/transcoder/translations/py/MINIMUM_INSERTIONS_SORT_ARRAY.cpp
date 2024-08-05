@@ -16,4 +16,3 @@ int minInsertionStepToSortArray ( int arr [ ] , int N ) {
     i ++ ) if ( ( max < lis [ i ] ) && ( lis [ i ] < lis [ j ] ) ) max = lis [ i ] ;
     return ( N - max ) ;
   }
-

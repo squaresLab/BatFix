@@ -18,4 +18,3 @@ bool checkCorrectOrNot ( const string & s ) {
     i ++ ) if ( count [ i ] != 0 ) return false ;
     return true ;
   }
-

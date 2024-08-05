@@ -16,4 +16,3 @@ void findMin ( int V ) {
     i < ans [ 0 ] ;
     i ++ ) cout << ans [ i ] << " " ;
   }
-

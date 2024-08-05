@@ -25,4 +25,3 @@ void binaryMedian ( vector < vector < int >> & m , int r , int d ) {
     cout << "Median is" << mi << endl ;
     return ;
   }
-

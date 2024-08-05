@@ -20,4 +20,3 @@ void sortByPattern ( string & str , string pat ) {
       }
     }
   }
-

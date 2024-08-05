@@ -26,4 +26,3 @@ int getNthUglyNo ( int n ) {
     }
     return ugly [ n - 1 ] ;
   }
-

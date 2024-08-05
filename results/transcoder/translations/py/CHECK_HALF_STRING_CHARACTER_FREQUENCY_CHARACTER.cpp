@@ -22,4 +22,3 @@ bool checkCorrectOrNot ( string s ) {
       i ++ ) if ( count1 [ i ] != count2 [ i ] ) return false ;
       return true ;
     }
-

@@ -10,4 +10,3 @@ void printRepeating ( int arr [ ] , int size ) {
       else count [ arr [ i ] ] = count [ arr [ i ] ] + 1 ;
     }
   }
-

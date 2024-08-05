@@ -11,4 +11,3 @@ void sequence ( int n ) {
       cout << f [ i ] << " " << endl ;
     }
   }
-

@@ -38,4 +38,3 @@ void printMaxOfMin ( int arr [ ] , int n ) {
     i < n ;
     i ++ ) cout << ans [ i ] << " " ;
   }
-

@@ -11,4 +11,3 @@ int subset ( int arr [ ] , int n ) {
     it ++ ) res = max ( res , it -> first ) ;
     return res ;
   }
-

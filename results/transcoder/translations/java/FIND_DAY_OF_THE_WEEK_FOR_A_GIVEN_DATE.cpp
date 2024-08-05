@@ -5,4 +5,3 @@ int dayofweek ( int d , int m , int y ) {
     y -= ( m < 3 ) ;
     return ( y + y / 4 - y / 100 + y / 400 + t [ m - 1 ] + d ) % 7 ;
   }
-

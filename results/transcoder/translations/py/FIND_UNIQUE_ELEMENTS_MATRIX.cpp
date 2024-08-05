@@ -37,4 +37,3 @@ void unique ( int * * mat , int n , int m ) {
       cout << "No unique element in the matrix" << endl ;
     }
   }
-

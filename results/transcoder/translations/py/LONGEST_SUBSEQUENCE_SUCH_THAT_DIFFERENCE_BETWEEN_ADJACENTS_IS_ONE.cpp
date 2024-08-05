@@ -23,4 +23,3 @@ public : int longestSubseqWithDiffOne ( int arr [ ] , int n ) {
     }
     return result ;
   }
-

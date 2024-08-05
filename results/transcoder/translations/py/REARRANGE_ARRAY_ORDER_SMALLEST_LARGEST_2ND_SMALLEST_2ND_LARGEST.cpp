@@ -18,4 +18,3 @@ void rearrangeArray ( int * arr , int n ) {
       arr [ i ] = tempArr [ i ] ;
     }
   }
-

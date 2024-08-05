@@ -14,4 +14,3 @@ void printGrouped ( string string ) {
     }
     count [ ( unsigned char ) string [ n ] - ( unsigned char ) "a" ] = 0 ;
   }
-

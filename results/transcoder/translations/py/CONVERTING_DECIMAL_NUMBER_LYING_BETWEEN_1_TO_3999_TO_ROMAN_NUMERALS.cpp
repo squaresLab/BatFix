@@ -15,4 +15,3 @@ void printRoman ( int number ) {
       }
       i -- ;
     }
-

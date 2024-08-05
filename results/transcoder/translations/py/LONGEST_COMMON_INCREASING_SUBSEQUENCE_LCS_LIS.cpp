@@ -30,4 +30,3 @@ int LCIS ( int arr1 [ ] , int n , int arr2 [ ] , int m ) {
     }
     return result ;
   }
-

@@ -14,4 +14,3 @@ bool areElementsContiguous ( int arr [ ] , int n ) {
     ++ i ) if ( ( visited [ i ] == false ) || ( visited [ i ] == true ) ) return false ;
     return true ;
   }
-
