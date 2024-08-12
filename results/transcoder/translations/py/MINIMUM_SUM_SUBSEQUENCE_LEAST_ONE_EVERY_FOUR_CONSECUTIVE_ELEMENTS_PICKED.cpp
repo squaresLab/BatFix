@@ -15,4 +15,3 @@ public : int minSum ( int arr [ ] , int n ) {
     i ++ ) dp [ i ] = arr [ i ] + min ( min ( dp [ i - 1 ] , dp [ i - 2 ] ) , min ( dp [ i - 3 ] , dp [ i - 4 ] ) ) ;
     return min ( min ( dp [ n - 1 ] , dp [ n - 2 ] ) , min ( dp [ n - 4 ] , dp [ n - 3 ] ) ) ;
   }
-

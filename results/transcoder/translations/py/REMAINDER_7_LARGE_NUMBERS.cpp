@@ -16,4 +16,3 @@ int remainderWith7 ( string num ) {
     if ( ( result < 0 ) || ( result > 7 ) ) result = ( result + 7 ) % 7 ;
     return result ;
   }
-

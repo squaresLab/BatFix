@@ -17,4 +17,3 @@ int findgroups ( int arr [ ] , int n ) {
     res += c [ 0 ] * c [ 1 ] * c [ 2 ] ;
     return res ;
   }
-

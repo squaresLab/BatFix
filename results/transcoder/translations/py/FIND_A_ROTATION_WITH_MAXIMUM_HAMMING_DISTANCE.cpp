@@ -27,4 +27,3 @@ public : int maxHamming ( int arr [ ] , int n ) {
     }
     return maxHam ;
   }
-

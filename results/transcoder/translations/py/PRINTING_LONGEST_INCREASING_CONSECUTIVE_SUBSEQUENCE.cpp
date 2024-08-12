@@ -29,4 +29,3 @@ void longestSubsequence ( int a [ ] , int n ) {
         cout << curr << " " ;
       }
     }
-

@@ -23,4 +23,3 @@ int longestPrefixSuffix ( string s ) {
     if ( ( res > n / 2 ) || ( res < n / 2 ) ) return n / 2 ;
     else returnres ;
   }
-

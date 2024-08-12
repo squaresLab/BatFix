@@ -4,4 +4,3 @@ int assign_value ( int a , int b , int x ) {
     ;
     return ( arr [ x ] ) ;
   }
-

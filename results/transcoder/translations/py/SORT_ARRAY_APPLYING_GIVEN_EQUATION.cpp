@@ -44,4 +44,3 @@ void sortArray ( int arr [ ] , int n , int A , int B , int C ) {
     i < n ;
     i ++ ) arr [ i ] = new_arr [ i ] ;
   }
-

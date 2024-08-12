@@ -37,4 +37,3 @@ int getMaxGold ( vector < vector < int >> gold , int m , int n ) {
     }
     return res ;
   }
-

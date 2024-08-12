@@ -17,4 +17,3 @@ int findPossibleMoves ( int mat [ ] [ 4 ] , int p , int q ) {
       }
       return count ;
     }
-

@@ -20,4 +20,3 @@ void printInSortedOrder ( int arr [ ] , int n ) {
     i < n ;
     i ++ ) cout << arr [ index [ i ] ] << " " ;
   }
-

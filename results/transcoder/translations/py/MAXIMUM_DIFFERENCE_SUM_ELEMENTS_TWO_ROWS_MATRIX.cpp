@@ -27,4 +27,3 @@ int maxRowDiff ( int * * mat , int m , int n ) {
     }
     return maxDiff ;
   }
-

@@ -14,4 +14,3 @@ bool canFormPalindrome ( string st ) {
     }
     return true ;
   }
-

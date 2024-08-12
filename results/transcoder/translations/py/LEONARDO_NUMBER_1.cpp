@@ -58,4 +58,3 @@ int leonardo ( int n ) {
   dp [ 27 ] = 1 ;
   ;
   dp [ 28 ] = 1 ;
-

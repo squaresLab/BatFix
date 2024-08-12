@@ -20,4 +20,3 @@ void findAndPrintUncommonChars ( string str1 , string str2 ) {
     i <= MAX_CHAR ;
     i ++ ) if ( ( present [ i ] == 1 || present [ i ] == 2 ) && ( present [ i ] == 0 ) ) cout << ( char ) ( i + ( int ) str1 [ i ] - ( int ) 'a' ) << " " ;
   }
-

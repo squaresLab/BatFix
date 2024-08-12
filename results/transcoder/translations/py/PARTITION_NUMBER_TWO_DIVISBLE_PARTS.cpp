@@ -38,4 +38,3 @@ void findDivision ( string str , int a , int b ) {
       }
       cout << "NO" << endl ;
     }
-

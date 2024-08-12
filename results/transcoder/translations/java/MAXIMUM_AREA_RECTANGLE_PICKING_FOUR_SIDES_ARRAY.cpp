@@ -8,4 +8,3 @@ int findArea ( Integer arr [ ] , int n ) {
     i ++ ) if ( arr [ i ] == arr [ i + 1 ] ) dimension [ j ++ ] = arr [ i ++ ] ;
     return ( dimension [ 0 ] * dimension [ 1 ] ) ;
   }
-

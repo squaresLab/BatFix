@@ -15,4 +15,3 @@ int findArea ( int arr [ ] , int n ) {
     }
     return ( dimension [ 0 ] * dimension [ 1 ] ) ;
   }
-

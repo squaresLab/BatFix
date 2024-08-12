@@ -91,4 +91,3 @@ void zodiac_sign ( int day , string month ) {
   else if ( month == "november" ) {
     if ( day < 22 ) {
     }
-

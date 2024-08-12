@@ -24,4 +24,3 @@ public : int minSwaps ( vector < int > arr ) {
     }
     return ans ;
   }
-

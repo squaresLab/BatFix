@@ -19,4 +19,3 @@ string lexicographicSubConcat ( string s ) {
     }
     returnres ;
   }
-

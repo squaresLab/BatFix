@@ -20,4 +20,3 @@ void countCurrency ( int amount ) {
       }
     }
   }
-
